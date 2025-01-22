@@ -31,7 +31,8 @@ async function createTables() {
                 flashcard_id UUID PRIMARY KEY,
                 type VARCHAR(10) NOT NULL,
                 content JSONB NOT NULL,
-                JLPT VARCHAR(10)
+                JLPT VARCHAR(10),
+                audio_url TEXT
             );
         `);
 
