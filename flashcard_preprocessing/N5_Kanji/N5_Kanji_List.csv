@@ -1,0 +1,81 @@
+JLPT,Kanji,Onyomi,Kunyomi,Meaning,Example Words
+N5,日,にち,ひ,day/sun/Japan,日本(にほん): Japan; 日曜日(にちようび): Sunday; 今日(きょう): today
+N5,一,いち,ひと,one,一人(ひとり): one person; 一月(いちがつ): January; 一日(ついたち): first day (of month)
+N5,国,こく,くに,country,国(くに): country; 外国(がいこく): foreign country; 中国(ちゅうごく): China
+N5,人,じん,ひと,person,人(ひと): person; 日本人(にほんじん): Japanese person; 二人(ふたり): two people
+N5,年,ねん,とし,year,今年(ことし): this year; 来年(らいねん): next year; 去年(きょねん): last year
+N5,大,だい,おお,large/big,大きい(おおきい): big; 大人(おとな): adult; 大学(だいがく): university
+N5,十,じゅう,と,ten,十日(とおか): tenth day; 十人(じゅうにん): ten people; 十分(じゅっぷん): ten minutes
+N5,二,に,ふた, two,二人(ふたり): two people; 二月(にがつ): February; 二時(にじ): two o’clock
+N5,本,ほん,もと,book/true/counter for long objects,本(ほん): book; 日本(にほん): Japan; 本屋(ほんや): bookstore
+N5,中,ちゅう,なか,inside/center,中国(ちゅうごく): China; 中学校(ちゅうがっこう): middle school; 真ん中(まんなか): center
+N5,長,ちょう,なが,long/chief,校長(こうちょう): principal; 社長(しゃちょう): company president; 長い(ながい): long
+N5,出,しゅつ,で,exit/leave,出る(でる): to exit; 出口(でぐち): exit; 出来る(できる): can do
+N5,三,さん,み,three,三日(みっか): third day; 三角(さんかく): triangle; 三人(さんにん): three people
+N5,時,じ,とき,time/hour,時間(じかん): time; 時計(とけい): clock; 何時(なんじ): what time
+N5,行,こう,い,go/execute,銀行(ぎんこう): bank; 行く(いく): to go; 旅行(りょこう): travel
+N5,見,けん,み,see,見る(みる): to see; 見せる(みせる): to show; 見える(みえる): to be visible
+N5,月,げつ,つき,moon/month,月曜日(げつようび): Monday; 一月(いちがつ): January; 今月(こんげつ): this month
+N5,分,ぶん,わ,minute/part,分かる(わかる): to understand; 分ける(わける): to divide; 一分(いっぷん): one minute
+N5,後,ご,のち,after/behind,午後(ごご): afternoon; 後ろ(うしろ): behind; 後(あと): after
+N5,前,ぜん,まえ,front/before,午前(ごぜん): morning (a.m.); 前(まえ): in front/before; 駅前(えきまえ): in front of station
+N5,生,せい,い,life/birth,学生(がくせい): student; 生まれる(うまれる): to be born; 生きる(いきる): to live
+N5,五,ご,いつ, five,五人(ごにん): five people; 五月(ごがつ): May; 五日(いつか): fifth day
+N5,間,かん,あいだ,interval/space,時間(じかん): time; 間(あいだ): interval; 一週間(いっしゅうかん): one week
+N5,上,じょう,うえ,up/above,上(うえ): above; 上がる(あがる): to go up; 上手(じょうず): skillful
+N5,東,とう,ひがし,east,東京(とうきょう): Tokyo; 東(ひがし): east; 東口(ひがしぐち): east exit
+N5,四,し,よ, four,四月(しがつ): April; 四時(よじ): four o’clock; 四人(よにん): four people
+N5,今,こん,いま,now/the present,今朝(けさ): this morning; 今日(きょう): today; 今週(こんしゅう): this week
+N5,金,きん,かね,gold/money,お金(おかね): money; 金曜日(きんようび): Friday; 金(きん): gold
+N5,九,きゅう,ここの, nine,九月(くがつ): September; 九人(きゅうにん): nine people; 九時(くじ): nine o’clock
+N5,入,にゅう,い,enter,入る(はいる): to enter; 入れる(いれる): to put in; 入口(いりぐち): entrance
+N5,学,がく,まな,study/learning,学生(がくせい): student; 学校(がっこう): school; 留学(りゅうがく): study abroad
+N5,高,こう,たか,high/expensive,高い(たかい): tall/expensive; 高校(こうこう): high school; 高校生(こうこうせい): high school student
+N5,円,えん,まる,circle/yen,円(えん): yen; 一円(いちえん): one yen; 円い(まるい): round
+N5,子,し,こ,child,子供(こども): child; 女の子(おんなのこ): girl; 小学生(しょうがくせい): elementary student
+N5,外,がい,そと,outside,外(そと): outside; 外国(がいこく): foreign country; 外食(がいしょく): eating out
+N5,八,はち,や, eight,八月(はちがつ): August; 八人(はちにん): eight people; 八日(ようか): eighth day
+N5,六,ろく,む, six,六月(ろくがつ): June; 六人(ろくにん): six people; 六時(ろくじ): six o’clock
+N5,下,か,した,down/under,下(した): below; 下がる(さがる): to go down; 下手(へた): unskillful
+N5,来,らい,くる,come/next,来る(くる): to come; 来月(らいげつ): next month; 来年(らいねん): next year
+N5,気,き,いき,spirit/air,元気(げんき): healthy; 天気(てんき): weather; 気分(きぶん): mood
+N5,小,しょう,ちい,small,小さい(ちいさい): small; 小学校(しょうがっこう): elementary school; 小学生(しょうがくせい): elementary student
+N5,七,しち,なな,seven,七月(しちがつ): July; 七人(しちにん): seven people; 七日(なのか): seventh day
+N5,山,さん,やま,mountain,山(やま): mountain; 火山(かざん): volcano; 富士山(ふじさん): Mt. Fuji
+N5,話,わ,はな,story/speak,話す(はなす): to speak; 電話(でんわ): telephone; 会話(かいわ): conversation
+N5,女,じょ,おんな,woman/female,女(おんな): woman; 女の子(おんなのこ): girl; 彼女(かのじょ): she/girlfriend
+N5,北,ほく,きた,north,北(きた): north; 北海道(ほっかいどう): Hokkaido; 北口(きたぐち): north exit
+N5,午,ご,う,noon,午前(ごぜん): a.m.; 午後(ごご): p.m.; 正午(しょうご): noon
+N5,百,ひゃく,もも,hundred,百(ひゃく): hundred; 百円(ひゃくえん): one hundred yen; 三百(さんびゃく): three hundred
+N5,書,しょ,か,write/book,書く(かく): to write; 辞書(じしょ): dictionary; 図書館(としょかん): library
+N5,先,せん,さき,before/previous,先生(せんせい): teacher; 先月(せんげつ): last month; 先(さき): ahead
+N5,名,めい,な,name/famous,名前(なまえ): name; 有名(ゆうめい): famous; 名(な): name
+N5,川,せん,かわ,river,川(かわ): river; 小川(おがわ): stream; 川口(かわぐち): rivermouth
+N5,千,せん,ち,thousand,千(せん): thousand; 千円(せんえん): one thousand yen; 三千(さんぜん): three thousand
+N5,水,すい,みず,water,水(みず): water; 水曜日(すいようび): Wednesday; 水道(すいどう): water supply
+N5,半,はん,なか,half,半分(はんぶん): half; 半年(はんとし): half a year; 一時半(いちじはん): 1:30
+N5,男,だん,おとこ,man/male,男(おとこ): man; 男の子(おとこのこ): boy; 男性(だんせい): male
+N5,西,せい,にし,west,西(にし): west; 西口(にしぐち): west exit; 西洋(せいよう): the West
+N5,電,でん,でん,electricity,電車(でんしゃ): train; 電気(でんき): electricity; 電話(でんわ): telephone
+N5,校,こう,–,school,高校(こうこう): high school; 小学校(しょうがっこう): elementary school; 中学校(ちゅうがっこう): middle school
+N5,語,ご,かたる,word/language,日本語(にほんご): Japanese; 英語(えいご): English; 中国語(ちゅうごくご): Chinese
+N5,土,ど,つち,soil/earth,土(つち): soil; 土曜日(どようび): Saturday; 土地(とち): land
+N5,木,ぼく,き,tree/wood,木(き): tree; 木曜日(もくようび): Thursday; 大木(たいぼく): big tree
+N5,聞,ぶん,き,hear/listen,聞く(きく): to listen; 新聞(しんぶん): newspaper; 聞こえる(きこえる): can be heard
+N5,食,しょく,たべ,eat/food,食べる(たべる): to eat; 食べ物(たべもの): food; 食堂(しょくどう): cafeteria
+N5,車,しゃ,くるま,car,車(くるま): car; 電車(でんしゃ): train; 自転車(じてんしゃ): bicycle
+N5,何,か,なに,what,何時(なんじ): what time; 何人(なんにん): how many people; 何か(なにか): something
+N5,南,なん,みなみ,south,南(みなみ): south; 南口(みなみぐち): south exit; 南国(なんごく): southern country
+N5,万,まん,–,ten thousand,万(まん): ten thousand; 一万(いちまん): ten thousand; 十万(じゅうまん): one hundred thousand
+N5,毎,まい,ごと,each/every,毎日(まいにち): every day; 毎週(まいしゅう): every week; 毎回(まいかい): every time
+N5,白,はく,しろ,white,白(しろ): white color; 白い(しろい): white; 真っ白(まっしろ): pure white
+N5,天,てん,あま,heaven/sky,天気(てんき): weather; 天国(てんごく): heaven; 天(てん): sky/heavens
+N5,母,ぼ,はは,mother,母(はは): mother; お母さん(おかあさん): mother; 母の日(ははのひ): Mother's Day
+N5,火,か,ひ,fire,火曜日(かようび): Tuesday; 火山(かざん): volcano; 火事(かじ): fire (accident)
+N5,右,う,みぎ,right,右(みぎ): right; 右側(みぎがわ): right side; 右手(みぎて): right hand
+N5,読,どく,よ,read,読む(よむ): to read; 読み方(よみかた): way of reading; 読書(どくしょ): reading
+N5,友,ゆう,とも,friend,友(とも): friend; 友達(ともだち): friend; 親友(しんゆう): best friend
+N5,左,さ,ひだり,left,左(ひだり): left; 左側(ひだりがわ): left side; 左手(ひだりて): left hand
+N5,休,きゅう,やす,rest,休む(やすむ): to rest; 休み(やすみ): holiday/break; 休日(きゅうじつ): holiday
+N5,父,ふ,ちち,father,父(ちち): father; お父さん(おとうさん): father; 父の日(ちちのひ): Father’s Day
+N5,雨,う,あめ,rain,雨(あめ): rain; 大雨(おおあめ): heavy rain; 梅雨(つゆ): rainy season

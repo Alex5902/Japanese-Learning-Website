@@ -1,6 +1,5 @@
-// registerUser.js
-const { Client } = require('pg');
-const bcrypt = require('bcrypt');
+const { Client } = require("pg");
+const bcrypt = require("bcrypt");
 
 // Create a new PostgreSQL client instance using environment variables
 const client = new Client({
@@ -11,8 +10,7 @@ const client = new Client({
   port: process.env.PGPORT || 5432,
 });
 
-// Lambda initialization: connect to the database outside the handler
-// to allow connection re-use across Lambda invocations
+// Lambda initialization: connect once, then reuse
 let isConnected = false;
 
 async function connectToDB() {
@@ -22,73 +20,71 @@ async function connectToDB() {
   }
 }
 
-/**
- * Handler for user registration.
- *
- * Expected Input:
- * {
- *   "email": "user@example.com",
- *   "username": "username",
- *   "password": "securepassword"
- * }
- *
- * Returns:
- * {
- *   "user_id": "uuid"
- * }
- */
 exports.handler = async (event) => {
   try {
-    // 1. Parse and validate incoming request data
-    const body = typeof event.body === 'string' ? JSON.parse(event.body) : event.body;
-    const { email, username, password } = body;
+    const body =
+      typeof event.body === "string" ? JSON.parse(event.body) : event.body;
+    const { username, email, password } = body;
 
     if (!email || !username || !password) {
       return {
         statusCode: 400,
-        body: JSON.stringify({ message: 'Email, username, and password are required.' }),
+        body: JSON.stringify({
+          message: "Email, username, and password are required.",
+        }),
       };
     }
 
-    // 2. Connect to the database (reuse connection if possible)
+    // Connect to the database
     await connectToDB();
 
-    // 3. Check if email or username already exists
+    // Check if email or username already exists
     const existingUserQuery = `
-      SELECT id FROM Users WHERE email = $1 OR username = $2 LIMIT 1
+      SELECT user_id
+      FROM Users
+      WHERE email = $1 OR username = $2
+      LIMIT 1;
     `;
-    const existingUserResult = await client.query(existingUserQuery, [email, username]);
+    const existingUserResult = await client.query(existingUserQuery, [
+      email,
+      username,
+    ]);
 
     if (existingUserResult.rowCount > 0) {
       return {
         statusCode: 409,
-        body: JSON.stringify({ message: 'Email or username already exists.' }),
+        body: JSON.stringify({
+          message: "Email or username already exists.",
+        }),
       };
     }
 
-    // 4. Hash the password using bcrypt
+    // Hash the password with bcrypt
     const hashedPassword = await bcrypt.hash(password, 10);
 
-    // 5. Insert new user into the database
+    // ✅ Ensure `user_id` is generated
     const insertUserQuery = `
-      INSERT INTO Users (email, username, password)
-      VALUES ($1, $2, $3)
-      RETURNING id
+      INSERT INTO Users (user_id, email, username, password_hash)
+      VALUES (gen_random_uuid(), $1, $2, $3)
+      RETURNING user_id;
     `;
-    const insertUserResult = await client.query(insertUserQuery, [email, username, hashedPassword]);
 
-    const userId = insertUserResult.rows[0].id;
+    const insertUserResult = await client.query(insertUserQuery, [
+      email,
+      username,
+      hashedPassword,
+    ]);
 
-    // 6. Return the user's ID
+    const userId = insertUserResult.rows[0].user_id;
     return {
       statusCode: 201,
       body: JSON.stringify({ user_id: userId }),
     };
   } catch (error) {
-    console.error('Error in RegisterUser function:', error);
+    console.error("Error in registerUser function:", error);
     return {
       statusCode: 500,
-      body: JSON.stringify({ message: 'Internal server error.' }),
+      body: JSON.stringify({ message: "Internal server error." }),
     };
   }
 };

@@ -1,0 +1,716 @@
+JLPT,Word,Reading,Meaning,Word Type,Example Sentence JP,Example Sentence EN
+N5,ああ,ああ,Ah! Oh!,Interjection,ああ、忘れてしまった！,"Ah, I forgot!"
+N5,会う,あう,"to meet, to see",Godan verb with 'u' ending,友達に会う。,I will meet my friend.
+N5,青,あお,blue,Noun,青が好きです。,I like blue.
+N5,青い,あおい,blue,I-adjective (keiyoushi),空は青いです。,The sky is blue.
+N5,赤,あか,red,Noun,赤が好きです。,I like red.
+N5,赤い,あかい,red,I-adjective (keiyoushi),りんごは赤いです。,The apple is red.
+N5,明るい,あかるい,bright; cheerful,I-adjective (keiyoushi),彼女は明るい性格です。,She has a bright personality.
+N5,どんな,どんな,what kind of; what sort of,Pre-noun adjectival (連体詞),あなたはどんな本が好きですか？,What kind of books do you like?
+N5,どうして,どうして,why; for what reason,Adverb (fukushi),どうして学校に行きませんか？,Why aren't you going to school?
+N5,どうやって,どうやって,how; in what way; by what means,Expression / Phrase,どうやって行きますか？,How do you go there?
+N5,いつも,いつも,always; usually; habitually,Adverb (fukushi),私はいつも朝ごはんを食べます。,I always eat breakfast.
+N5,一番,いちばん,the most; the best,Noun / Adverbial,彼はクラスで一番です。,He is the best in the class.
+N5,一緒に,いっしょに,together,Adverb (fukushi),友達と一緒に映画を見ました。,I watched a movie together with my friend.
+N5,まだ,まだ,still; not yet,Adverb (fukushi),私はまだ宿題をしていません。,I have not done my homework yet.
+N5,なる,なる,to become,Godan verb,彼は先生になります。,He will become a teacher.
+N5,とても,とても,very; extremely,Adverb (fukushi),このケーキはとてもおいしいです。,This cake is very delicious.
+N5,すぎる,すぎる,to exceed; to be too much,Ichidan verb,このケーキは甘すぎる。,This cake is too sweet.
+N5,秋,あき,autumn (season),Noun,秋はとても美しい季節です。,Autumn is a very beautiful season.
+N5,開く,あく,"to open, to become open",Godan verb with 'ku' ending,ドアが開く。,The door opens.
+N5,開ける,あける,to open (transitive verb),Ichidan verb,ドアを開ける。,I open the door.
+N5,上げる,あげる,"to raise, to lift",Ichidan verb,手を上げてください。,Please raise your hand.
+N5,朝,あさ,morning,Noun,私は朝ごはんを食べます。,I eat breakfast in the morning.
+N5,朝御飯,あさごはん,breakfast,Noun,私は毎朝朝御飯を食べます。,I eat breakfast every morning.
+N5,明後日,あさって,the day after tomorrow,Noun,明後日は友達と遊びます。,I will hang out with my friend the day after tomorrow.
+N5,足; 脚,あし,foot; leg,Noun,私の足が痛いです。,My foot hurts.
+N5,明日,あした,tomorrow,Noun,明日は学校に行きます。,I will go to school tomorrow.
+N5,あそこ,あそこ,"that place, over there",Pronoun,あそこに行きましょう。,Let's go over there.
+N5,遊ぶ,あそぶ,to play; to have fun,Godan verb with 'bu' ending,友達と公園で遊びます。,I will play in the park with my friends.
+N5,暖かい,あたたかい,warm,I-adjective (keiyoushi),今日は暖かいです。,Today is warm.
+N5,頭,あたま,head,Noun,私の頭が痛いです。,My head hurts.
+N5,新しい,あたらしい,new,I-adjective (keiyoushi),これは新しい本です。,This is a new book.
+N5,あちら,あちら,"that way (over there, polite)",Pronoun,あちらに行きましょう。,Let's go that way.
+N5,暑い,あつい,"hot (in reference to weather), warm",I-adjective (keiyoushi),今日はとても暑いです。,It is very hot today.
+N5,熱い,あつい,"hot (to the touch, objects)",I-adjective (keiyoushi),このお茶は熱いです。,This tea is hot.
+N5,厚い,あつい,"thick, deep",I-adjective (keiyoushi),この本は厚いです。,This book is thick.
+N5,あっち,あっち,over there,Pronoun,あっちに行きましょう。,Let's go over there.
+N5,後,あと,afterwards; later; in the future; the rest,Noun,授業の後で友達と遊びます。,I will play with my friends after class.
+N5,あなた,あなた,you,Pronoun,あなたは学生ですか？,Are you a student?
+N5,兄,あに,(my) older brother,Noun,私の兄は学生です。,My older brother is a student.
+N5,姉,あね,(my) older sister,Noun,私の姉は学生です。,My older sister is a student.
+N5,アパート,アパート,apartment (abbreviation for アパートメント),Noun,私はアパートに住んでいます。,I live in an apartment.
+N5,あの,あの,that over there; um...,Pre-noun adjectival (rentaishi),あの本は面白いです。,That book over there is interesting.
+N5,浴びる,あびる,"to bathe, to shower",Ichidan verb,毎朝シャワーを浴びます。,I take a shower every morning.
+N5,危ない,あぶない,"dangerous, risky",I-adjective (keiyoushi),この道は危ないです。,This road is dangerous.
+N5,甘い,あまい,sweet,I-adjective (keiyoushi),このケーキは甘いです。,This cake is sweet.
+N5,余り,あまり,not very; surplus,Noun,このケーキは余りがあるから、食べてみてください。,"There is some surplus cake, so please try it."
+N5,雨,あめ,rain,Noun,今日は雨が降っています。,It is raining today.
+N5,飴,あめ,(hard) candy; sweets,Noun,私は飴が好きです。,I like candy.
+N5,洗う,あらう,to wash,Godan verb with 'u' ending,私は手を洗います。,I wash my hands.
+N5,歩く,あるく,to walk,Godan verb with 'ku' ending,私は公園を歩く。,I walk in the park.
+N5,あれ,あれ,that one (over there),Pronoun,あれは私の本です。,That is my book.
+N5,いい; よい,いい; よい,good,I-adjective (keiyoushi),このりんごはいいです。,This apple is good.
+N5,いいえ,いいえ,no,Interjection,いいえ、私は行きません。,"No, I will not go."
+N5,言う,いう,to say,Godan verb with 'u' ending,彼は「こんにちは」と言った。,"He said, 'Hello.'"
+N5,家,いえ,"house, home",Noun,私の家は大きいです。,My house is big.
+N5,いかが,いかが,"how, in what way",Adverb (fukushi),お元気ですか？いかがですか？,How are you? How is it?
+N5,行く,いく; ゆく,to go,Godan verb - Iku/Yuku special class,私は学校に行く。,I go to school.
+N5,いくつ,いくつ,"how many, how old",Noun,あなたは今、いくつですか？,How old are you now?
+N5,いくら,いくら,"how much, how many",Noun,このリンゴはいくらですか？,How much is this apple?
+N5,池,いけ,"pond",Noun,公園に池があります。,There is a pond in the park.
+N5,医者,いしゃ,doctor; physician,Noun,私は医者になりたいです。,I want to become a doctor.
+N5,椅子,いす,chair,Noun,私は椅子に座ります。,I sit on the chair.
+N5,忙しい,いそがしい,"busy (people, days)",I-adjective (keiyoushi),今日はとても忙しいです。,Today is very busy.
+N5,痛い,いたい,hurt; painful; sore,I-adjective (keiyoushi),私の頭が痛いです。,My head hurts.
+N5,一,いち,one,Numeric,私は一つのリンゴを食べます。,I will eat one apple.
+N5,一日,いちにち,one day (duration),Noun,私は一日中勉強しました。,I studied for one whole day.
+N5,一番,いちばん,"best, number one",Noun,彼はクラスで一番です。,He is number one in the class.
+N5,いつ,いつ,when,Pronoun,いつ学校に行きますか？,When do you go to school?
+N5,五日,いつか,five days; the fifth day of the month,Noun,五日は私の誕生日です。,The fifth day is my birthday.
+N5,一緒,いっしょ,together,Noun,友達と一緒に遊びます。,I will play together with my friend.
+N5,五つ,いつつ,five (things),Noun,りんごが五つあります。,There are five apples.
+N5,いつも,いつも,"always, usually, every time",Adverb (fukushi),私はいつも朝ごはんを食べます。,I always eat breakfast.
+N5,犬,いぬ,dog,Noun,私の犬はとてもかわいいです。,My dog is very cute.
+N5,今,いま,now,Noun,今、勉強しています。,I am studying now.
+N5,意味,いみ,"meaning, significance",Noun,この言葉の意味は何ですか？,What is the meaning of this word?
+N5,妹,いもうと,younger sister,Noun,私の妹は学生です。,My younger sister is a student.
+N5,嫌,いや,"disagreeable, unpleasant",Na-adjective (keiyodoshi),この食べ物は嫌です。,This food is unpleasant.
+N5,入口,いりぐち,The correct meaning is 'entrance'.,Noun,この建物の入口はどこですか？,Where is the entrance of this building?
+N5,居る,いる,"(humble) to be (animate), to exist",Ichidan verb,猫が居る。,There is a cat.
+N5,要る,いる,to need,Godan verb with 'ru' ending,私は水が要る。,I need water.
+N5,入れる,いれる,to put in,Ichidan verb,私は箱に本を入れました。,I put the book in the box.
+N5,色,いろ,color,Noun,空は青い色です。,The sky is blue in color.
+N5,色々,いろいろ,various; different kinds,Adjective (na-adjective),色々な果物を食べました。,I ate various kinds of fruit.
+N5,上,うえ,"above, on top of",Noun,テーブルの上に本があります。,There is a book on the table.
+N5,後ろ,うしろ,"back, behind, rear",Noun,私の後ろに誰かいます。,There is someone behind me.
+N5,薄い,うすい,"thin, weak",I-adjective (keiyoushi),この本は薄いです。,This book is thin.
+N5,歌,うた,a song,Noun,私は歌が好きです。,I like songs.
+N5,歌う,うたう,to sing,Godan verb with 'u' ending,私は歌うのが好きです。,I like to sing.
+N5,うち,うち,home; house; my place,Noun,私のうちは大きいです。,My house is big.
+N5,生まれる,うまれる,to be born,Ichidan verb,私は日本で生まれました。,I was born in Japan.
+N5,海,うみ,"sea, ocean",Noun,私は海に行きます。,I will go to the sea.
+N5,売る,うる,to sell,Godan verb with 'ru' ending,私は本を売ります。,I will sell a book.
+N5,うるさい,うるさい,noisy; annoying,I-adjective (keiyoushi),この音はうるさいです。,This sound is noisy.
+N5,上着,うわぎ,"coat, jacket",Noun,今日は寒いので、上着を着ます。,"It's cold today, so I will wear a coat."
+N5,絵,え,a painting; a picture; a drawing,Noun,私は絵を描きます。,I will draw a picture.
+N5,映画,えいが,"movie, film",Noun,私は映画が好きです。,I like movies.
+N5,映画館,えいがかん,"movie theater, cinema",Noun,私は映画館に行きます。,I will go to the movie theater.
+N5,英語,えいご,English (language),Noun,私は英語を勉強しています。,I am studying English.
+N5,ええ,ええ,yes,Interjection,はい、ええ、わかりました。,"Yes, I understand."
+N5,駅,えき,station,Noun,私は駅に行きます。,I will go to the station.
+N5,エレベーター,エレベーター,elevator,Noun,エレベーターは二階にあります。,The elevator is on the second floor.
+N5,～円,～えん,Yen (the currency of Japan),Noun,このリンゴは三百円です。,This apple is 300 yen.
+N5,鉛筆,えんぴつ,pencil,Noun,私は鉛筆で絵を描きます。,I draw pictures with a pencil.
+N5,お～,お～,honorable ~ (used as an honorific prefix),Noun (prefix),お名前は何ですか？,What is your honorable name?
+N5,美味しい,おいしい,"delicious, tasty",I-adjective (keiyoushi),このケーキは美味しいです。,This cake is delicious.
+N5,多い,おおい,many; there are a lot,I-adjective (keiyoushi),りんごが多いです。,There are many apples.
+N5,大きい,おおきい,"big, large",I-adjective (keiyoushi),この犬は大きいです。,This dog is big.
+N5,大きな,おおきな,big,Pre-noun adjectival (rentaishi),大きな犬が公園にいます。,There is a big dog in the park.
+N5,大勢,おおぜい,a large number of people,Noun,公園に大勢の人がいます。,There are a large number of people in the park.
+N5,お母さん,おかあさん,mother,Noun,お母さんは料理が上手です。,My mother is good at cooking.
+N5,お菓子,おかし,"sweets, snacks, or confections",Noun,私はお菓子が好きです。,I like sweets.
+N5,お金,おかね,money,Noun,お金がありません。,I don't have money.
+N5,起きる,おきる,"to get up (e.g., from sleeping); to wake up",Ichidan verb,私は毎朝7時に起きる。,I get up at 7 o'clock every morning.
+N5,置く,おく,to put; to lay; to place,Godan verb with 'ku' ending,本をテーブルの上に置く。,I put the book on the table.
+N5,奥さん,おくさん,(someone else's) wife (honorific),Noun,彼の奥さんはとても優しいです。,His wife is very kind.
+N5,お酒,おさけ,sake; alcohol; alcoholic beverage,Noun,私はお酒が好きです。,I like alcohol.
+N5,お皿,おさら,"plate, dish",Noun,お皿にご飯を盛ります。,I will serve rice on the plate.
+N5,伯父; 叔父さん,おじさん,uncle,Noun,おじさんはとても優しいです。,My uncle is very kind.
+N5,おじいさん,おじいさん,"grandfather, elderly man",Noun,おじいさんは公園で散歩しています。,My grandfather is taking a walk in the park.
+N5,教える,おしえる,"to teach, to inform, to instruct",Ichidan verb,先生は私に日本語を教えています。,The teacher is teaching me Japanese.
+N5,押す,おす,"to push, to press",Godan verb with 'su' ending,ボタンを押してください。,Please press the button.
+N5,遅い,おそい,slow; late,I-adjective (keiyoushi),彼は遅いです。,He is slow.
+N5,お茶,おちゃ,(green) tea,Noun,私はお茶が好きです。,I like (green) tea.
+N5,お手洗い,おてあらい,"toilet, restroom, bathroom (a place to wash one's hands)",Noun,お手洗いはどこですか？,Where is the restroom?
+N5,お父さん,おとうさん,"father (informal, used by children)",Noun,お父さんは仕事に行きました。,My father went to work.
+N5,弟,おとうと,younger brother,Noun,私の弟はサッカーが好きです。,My younger brother likes soccer.
+N5,男,おとこ,"man, male",Noun,あの男は先生です。,That man is a teacher.
+N5,男の子,おとこのこ,boy,Noun,男の子が公園で遊んでいます。,The boy is playing in the park.
+N5,一昨日,おととい,the day before yesterday,Noun,一昨日、友達と映画を見ました。,"The day before yesterday, I watched a movie with my friend."
+N5,おととし,おととし,the year before last,Noun,おととし、私は日本に行きました。,"The year before last, I went to Japan."
+N5,大人,おとな,adult,Noun,彼は大人です。,He is an adult.
+N5,お腹,おなか,stomach,Noun,お腹がすいたので、食べ物をください。,"I'm hungry, so please give me food."
+N5,同じ,おなじ,"same, identical",Adjective (い-adjective),彼と私は同じです。,He and I are the same.
+N5,お兄さん,おにいさん,(someone else's) older brother,Noun,お兄さんは優しいです。,My older brother is kind.
+N5,お姉さん,おねえさん,older sister (polite),Noun,お姉さんは学生です。,My older sister is a student.
+N5,伯母さん; 叔母さん,おばさん,aunt (referring to one's father's or mother's sister),Noun,私の伯母さんは料理が上手です。,My aunt is good at cooking.
+N5,おばあさん,おばあさん,"grandmother, elderly woman",Noun,おばあさんは公園にいます。,The grandmother is in the park.
+N5,お風呂,おふろ,a bath,Noun,毎晩お風呂に入ります。,I take a bath every night.
+N5,お弁当,おべんとう,a boxed lunch,Noun,私はお弁当を持って学校に行きます。,I take a boxed lunch to school.
+N5,覚える,おぼえる,"to learn, to remember, to memorize",Ichidan verb,私は新しい単語を覚えます。,I will memorize new words.
+N5,おまわりさん,おまわりさん,friendly term for a policeman,Noun,おまわりさん、助けてください！,"Officer, please help me!"
+N5,重い,おもい,heavy; serious,I-adjective (keiyoushi),この荷物は重いです。,This luggage is heavy.
+N5,面白い,おもしろい,"interesting, fun",I-adjective (keiyoushi),この本は面白いです。,This book is interesting.
+N5,泳ぐ,およぐ,to swim,Godan verb with 'gu' ending,私は海で泳ぎます。,I swim in the sea.
+N5,降りる,おりる,to get off,Ichidan verb,バスを降りる。,I get off the bus.
+N5,終る,おわる,"to finish, to end",Godan verb,授業が終ると、友達と遊びます。,"When the class finishes, I play with my friends."
+N5,音楽,おんがく,Music,Noun,私は音楽が好きです。,I like music.
+N5,女,おんな,"woman, female",Noun,あの女の人は先生です。,That woman is a teacher.
+N5,女の子,おんなのこ,girl,Noun,女の子は公園で遊んでいます。,The girl is playing in the park.
+N5,～回,～かい,counter for occurrences (~ times),Counter,私は日本に三回行きました。,I went to Japan three times.
+N5,～階,～かい,counter for floors of a building,Noun,このビルは五階です。,This building has five floors.
+N5,外国,がいこく,foreign country; abroad,Noun,私は外国に行きたいです。,I want to go abroad.
+N5,外国人,がいこくじん,a person from another country,Noun,彼は外国人です。,He is a foreigner.
+N5,会社,かいしゃ,"company, corporation",Noun,私は会社に行きます。,I will go to the company.
+N5,階段,かいだん,stairs,Noun,階段を上がります。,I will go up the stairs.
+N5,買い物,かいもの,shopping,Noun,私は買い物に行きます。,I will go shopping.
+N5,買う,かう,to buy,Godan verb with 'u' ending,私は本を買います。,I will buy a book.
+N5,返す,かえす,to return something,Godan verb with 'su' ending,私は本を返します。,I will return the book.
+N5,帰る,かえる,"to go back, to go home, to return",Godan verb with 'ru' ending,学校から帰る。,I go home from school.
+N5,顔,かお,face (the front part of the head),Noun,彼は大きな顔を持っています。,He has a big face.
+N5,かかる,かかる,"it takes (amount of time, money) (v.i.)",Godan verb,この仕事は三時間かかります。,This job takes three hours.
+N5,鍵,かぎ,a key,Noun,私は鍵を探しています。,I am looking for my key.
+N5,書く,かく,to write,Godan verb with 'ku' ending,私は毎日日記を書きます。,I write in my diary every day.
+N5,学生,がくせい,A person who studies at a school or university; student.,Noun,私は学生です。,I am a student.
+N5,～か月,～かげつ,(number of) months,Counter,私は三か月日本語を勉強しています。,I have been studying Japanese for three months.
+N5,掛ける,かける,"to put on (e.g., glasses); to hang (e.g., on a wall)",Ichidan verb,彼は眼鏡を掛けています。,He is wearing glasses.
+N5,かける,かける,"to dial/call (e.g., phone); to hang (something) up; to sit down",Ichidan verb,電話をかけます。,I will make a phone call.
+N5,傘,かさ,"umbrella, parasol",Noun,雨が降るので、傘を持って行きます。,"It's going to rain, so I will take an umbrella."
+N5,貸す,かす,to lend,Godan verb with 'su' ending,友達に本を貸しました。,I lent a book to my friend.
+N5,風,かぜ,"wind, breeze",Noun,今日は風が強いです。,The wind is strong today.
+N5,風邪,かぜ,cold (illness),Noun,私は風邪をひいています。,I have a cold.
+N5,方,かた,way of doing; honorific form for person (人),Noun,あの方は先生です。,That person is a teacher.
+N5,家族,かぞく,family,Noun,私の家族はとても仲がいいです。,My family is very close.
+N5,片仮名,かたかな,katakana (a Japanese syllabary used for foreign words and names),Noun,カタカナは外国の言葉を書くときに使います。,Katakana is used to write foreign words.
+N5,～月,～がつ,month,Noun,私は四月に生まれました。,I was born in April.
+N5,学校,がっこう,a school,Noun,私は学校に行きます。,I go to school.
+N5,カップ,カップ,a cup,Noun,私はカップで水を飲みます。,I drink water from a cup.
+N5,家庭,かてい,home; family,Noun,私の家庭はとても大切です。,My family is very important.
+N5,角,かど,"corner (e.g., of a street or room)",Noun,公園の角で友達に会いました。,I met my friend at the corner of the park.
+N5,かばん,かばん,"bag, backpack",Noun,私は新しいかばんを買いました。,I bought a new bag.
+N5,花瓶,かびん,(flower) vase,Noun,テーブルの上に花瓶があります。,There is a vase on the table.
+N5,かぶる,かぶる,"to wear (a hat, etc.)",Godan verb with 'ru' ending,私は帽子をかぶります。,I will wear a hat.
+N5,紙,かみ,paper,Noun,私は紙を買いました。,I bought paper.
+N5,カメラ,カメラ,camera,Noun,私はカメラで写真を撮ります。,I take pictures with a camera.
+N5,火曜日,かようび,Tuesday,Noun,火曜日に学校に行きます。,I will go to school on Tuesday.
+N5,辛い,からい,spicy; hot (in taste),I-adjective (keiyoushi),このカレーは辛いです。,This curry is spicy.
+N5,体,からだ,body; health,Noun,私の体は元気です。,My body is healthy.
+N5,借りる,かりる,to borrow,Ichidan verb,私は友達から本を借りる。,I borrow a book from my friend.
+N5,軽い,かるい,"light, not heavy",I-adjective (keiyoushi),このバッグは軽いです。,This bag is light.
+N5,カレー,カレー,"curry (a popular dish in Japan, often served with rice)",Noun,私はカレーが好きです。,I like curry.
+N5,カレンダー,カレンダー,カレンダーは日付や予定を確認するためのものです。,Noun,私はカレンダーを見ます。,I look at the calendar.
+N5,～側,～がわ,~ side,Noun,私の家は川の側にあります。,My house is by the river.
+N5,可愛い,かわいい,"cute, adorable",I-adjective (keiyoushi),この犬は可愛いです。,This dog is cute.
+N5,漢字,かんじ,kanji; Chinese character,Noun,私は漢字を勉強しています。,I am studying kanji.
+N5,木,き,tree; wood,Noun,公園に大きな木があります。,There is a big tree in the park.
+N5,黄色,きいろ,yellow,Noun,黄色が好きです。,I like yellow.
+N5,黄色い,きいろい,yellow,I-adjective (keiyoushi),この花は黄色いです。,This flower is yellow.
+N5,消える,きえる,to disappear,Ichidan verb,星が消えた。,The star disappeared.
+N5,聞く,きく,"to hear, to listen, to ask",Godan verb with 'ku' ending,私は音楽を聞きます。,I listen to music.
+N5,北,きた,north,Noun,私は北に行きます。,I will go north.
+N5,ギター,ギター,a musical instrument with strings that is played by strumming or plucking,Noun,私はギターを弾きます。,I play the guitar.
+N5,汚い,きたない,"dirty, unclean, filthy",I-adjective (keiyoushi),この部屋は汚いです。,This room is dirty.
+N5,喫茶店,きっさてん,a place where you can drink coffee and tea; café,Noun,私は喫茶店でコーヒーを飲みます。,I drink coffee at the café.
+N5,切手,きって,postage stamps,Noun,切手を買いました。,I bought postage stamps.
+N5,切符,きっぷ,a ticket,Noun,駅で切符を買いました。,I bought a ticket at the station.
+N5,昨日,きのう,yesterday,Noun,私は昨日映画を見ました。,I watched a movie yesterday.
+N5,牛肉,ぎゅうにく,beef,Noun,私は牛肉が好きです。,I like beef.
+N5,牛乳,ぎゅうにゅう,milk,Noun,私は毎朝牛乳を飲みます。,I drink milk every morning.
+N5,今日,きょう,"today, this day",Noun,今日は学校に行きます。,I will go to school today.
+N5,教室,きょうしつ,A room where classes are held; classroom.,Noun,私は教室にいます。,I am in the classroom.
+N5,兄弟,きょうだい,siblings; brothers and sisters,Noun,私には兄弟が二人います。,I have two siblings.
+N5,去年,きょねん,last year,Noun,去年は日本に行きました。,I went to Japan last year.
+N5,嫌い,きらい,to dislike,Na-adjective (keiyodoshi),私は魚が嫌いです。,I dislike fish.
+N5,切る,きる,to cut; to hang up (a phone),Godan verb,私は紙を切ります。,I will cut the paper.
+N5,着る,きる,to put on (clothes above your waist); to wear,Ichidan verb,私はシャツを着る。,I put on a shirt.
+N5,綺麗,きれい,"pretty, clean, tidy",Na-adjective (けいようどうし),この部屋はとても綺麗です。,This room is very pretty/clean.
+N5,キロ; キログラム,キロ; キログラム,kilo (kilogram),Noun,りんごは1キロです。,The apple is 1 kilo.
+N5,キロ; キロメートル,キロ; キロメートル,キロメートルの略語で、距離の単位です。,Noun,東京から大阪までの距離は約500キロです。,The distance from Tokyo to Osaka is about 500 kilometers.
+N5,銀行,ぎんこう,a place where money is kept and managed; a financial institution,Noun,私は銀行に行きます。,I will go to the bank.
+N5,金曜日,きんようび,Friday,Noun,金曜日に友達と会います。,I will meet my friend on Friday.
+N5,薬,くすり,medicine,Noun,私は毎日薬を飲みます。,I take medicine every day.
+N5,下さい,ください,(with te-form verb) please do (something) for me,Expression,水をください。,Please give me water.
+N5,果物,くだもの,fruit,Noun,私は毎日果物を食べます。,I eat fruit every day.
+N5,口,くち,mouth,Noun,私の口が渇いています。,My mouth is dry.
+N5,靴,くつ,"shoes, footwear",Noun,私は新しい靴を買いました。,I bought new shoes.
+N5,靴下,くつした,socks,Noun,私は新しい靴下を買いました。,I bought new socks.
+N5,国,くに,country; place of origin,Noun,私の国は日本です。,My country is Japan.
+N5,曇り,くもり,"cloudiness, cloudy weather",Noun,今日は曇りです。,Today is cloudy.
+N5,曇る,くもる,"to become cloudy, to become dim",Godan verb with 'ru' ending,空が曇ると、雨が降るかもしれません。,"When the sky becomes cloudy, it might rain."
+N5,暗い,くらい,"dark, gloomy",I-adjective (keiyoushi),部屋が暗いです。,The room is dark.
+N5,クラス,クラス,a class,Noun,私は日本語のクラスに行きます。,I will go to Japanese class.
+N5,グラム,グラム,gram,Noun,りんごは２００グラムです。,The apple is 200 grams.
+N5,来る,くる,to come,Verb,友達が来る。,My friend is coming.
+N5,車,くるま,"car, vehicle",Noun,私は車を持っています。,I have a car.
+N5,黒,くろ,black,Noun,黒が好きです。,I like black.
+N5,黒い,くろい,black; dark,I-adjective (keiyoushi),彼の車は黒いです。,His car is black.
+N5,警官,けいかん,A police officer,Noun,警官は道を歩いています。,The police officer is walking on the road.
+N5,今朝,けさ,this morning,Noun,今朝、私はパンを食べました。,"This morning, I ate bread."
+N5,消す,けす,"to erase, to delete, to turn off (power)",Godan verb with 'su' ending,私は黒板を消します。,I will erase the blackboard.
+N5,結構,けっこう,quite; fairly; enough,Na-adjective (keiyodoshi),このケーキは結構おいしいです。,This cake is quite delicious.
+N5,結婚,けっこん (する),marriage (to get married),Noun (can also be used as a verb with する),彼は来年結婚します。,He will get married next year.
+N5,月曜日,げつようび,Monday,Noun,月曜日に学校に行きます。,I go to school on Monday.
+N5,玄関,げんかん,entrance (to a house or a building),Noun,玄関に靴を脱ぎます。,I take off my shoes at the entrance.
+N5,元気,げんき,"healthy, energetic",Na-adjective (keiyodoshi),私は元気です。,I am healthy/energetic.
+N5,～個,～こ,"counter for small items (e.g., fruits, cups)",Counter,りんごを三個買いました。,I bought three apples.
+N5,五,ご,five,Numeric,私は五つのリンゴを持っています。,I have five apples.
+N5,～語,～ご,language; word,Noun,日本語を勉強しています。,I am studying Japanese.
+N5,公園,こうえん,a park,Noun,公園で遊びます。,I will play in the park.
+N5,交差点,こうさてん,A place where two or more roads meet; an intersection.,Noun,あの交差点を右に曲がってください。,Please turn right at that intersection.
+N5,紅茶,こうちゃ,black tea,Noun,私は毎朝紅茶を飲みます。,I drink black tea every morning.
+N5,交番,こうばん,A small police station or police box where officers are stationed to assist the public.,Noun,交番で道を聞きました。,I asked for directions at the police box.
+N5,声,こえ,voice,Noun,彼女の声はとてもきれいです。,Her voice is very beautiful.
+N5,コート,コート,コートは、外で着る服の一種です。また、テニスなどのスポーツをする場所を指すこともあります。,Noun,今日は新しいコートを着て行きます。,I will wear my new coat today.
+N5,コーヒー,コーヒー,coffee,Noun,私は毎朝コーヒーを飲みます。,I drink coffee every morning.
+N5,ここ,ここ,"here, this place",Noun,ここにいます。,I am here.
+N5,午後,ごご,"afternoon, P.M.",Noun,私は午後に友達と会います。,I will meet my friend in the afternoon.
+N5,九日,ここのか,nine days; the ninth day of the month,Noun,今日は九日です。,Today is the ninth day.
+N5,九つ,ここのつ,nine (things),Noun,リンゴが九つあります。,There are nine apples.
+N5,午前,ごぜん,A.M. (before noon),Noun,私は午前に学校に行きます。,I go to school in the morning.
+N5,答える,こたえる,"to answer, to reply",Ichidan verb,先生の質問に答える。,I answer the teacher's question.
+N5,こちら,こちら,this way (polite); this person (polite),Pronoun,こちらに来てください。,Please come this way.
+N5,こっち,こっち,this direction; this side,Pronoun,こっちに来てください。,Please come this way.
+N5,コップ,コップ,a cup; a glass,Noun,水をコップに入れます。,I will put water in the glass.
+N5,今年,ことし,this year,Noun,今年はたくさん旅行をしたいです。,I want to travel a lot this year.
+N5,言葉,ことば,language; word; expression,Noun,日本語は美しい言葉です。,Japanese is a beautiful language.
+N5,子供,こども,child(ren),Noun,子供が公園で遊んでいます。,The child is playing in the park.
+N5,この,この,this (used before a noun to indicate something close to the speaker),Pre-noun adjectival (rentaishi),この本は面白いです。,This book is interesting.
+N5,御飯,ごはん,cooked rice; meal,Noun,私は毎日御飯を食べます。,I eat rice (a meal) every day.
+N5,コピーする,コピーする,to copy,Verb,私はこの資料をコピーします。,I will copy this document.
+N5,困る,こまる,"to be troubled, to have difficulty",Godan verb with 'ru' ending,お金がなくて困っています。,I am troubled because I have no money.
+N5,これ,これ,this one,Pronoun,これはペンです。,This is a pen.
+N5,今月,こんげつ,this month,Noun,今月は忙しいです。,This month is busy.
+N5,今週,こんしゅう,this week,Noun,今週はとても忙しいです。,This week is very busy.
+N5,こんな,こんな,"such, like this",Pre-noun adjectival (rentaishi),こんな本が好きです。,I like books like this.
+N5,今晩,こんばん,"tonight, this evening",Noun,今晩、友達と映画を見ます。,"Tonight, I will watch a movie with my friend."
+N5,さあ,さあ,"come now, well, let's see",Interjection,さあ、始めましょう！,"Well, let's get started!"
+N5,～歳,～さい,~ years old,Noun,彼は五歳です。,He is five years old.
+N5,財布,さいふ,a small bag used to carry money and cards,Noun,私は財布を持っています。,I have a wallet.
+N5,魚,さかな,fish,Noun,私は魚が好きです。,I like fish.
+N5,先,さき,the future; the previous part,Noun,先に行きます。,I will go ahead.
+N5,咲く,さく,to bloom,Godan verb with 'ku' ending,桜の花が咲く。,The cherry blossoms bloom.
+N5,作文,さくぶん,essay; composition,Noun,私は学校で作文を書きました。,I wrote an essay at school.
+N5,差す,さす,"to raise (stretch out) hands, to hold up (e.g., an umbrella)",Godan verb with 'su' ending,雨が降っているので、傘を差します。,"It's raining, so I will raise my umbrella."
+N5,～冊,～さつ,counter for books,Counter,私は本を三冊買いました。,I bought three books.
+N5,雑誌,ざっし,"magazine, journal",Noun,私は毎月雑誌を買います。,I buy a magazine every month.
+N5,砂糖,さとう,sugar,Noun,コーヒーに砂糖を入れます。,I put sugar in my coffee.
+N5,寒い,さむい,cold (in reference to weather),I-adjective (keiyoushi),今日は寒いです。,It is cold today.
+N5,さ来年,さらいねん,the year after next,Noun,さ来年に旅行に行きます。,I will go on a trip the year after next.
+N5,～さん,～さん,"Mr. ~, Ms. ~ (a polite suffix used after a person's name)",Noun,田中さんは学生です。,Mr. Tanaka is a student.
+N5,三,さん,three,Numeric,りんごが三つあります。,There are three apples.
+N5,散歩,さんぽ (する),"walk, stroll",Noun,毎朝散歩をします。,I take a walk every morning.
+N5,四,し,four,Numeric,私は四つリンゴを持っています。,I have four apples.
+N5,～時,～じ,~ o'clock (time),Noun,今は三時です。,It is three o'clock now.
+N5,塩,しお,salt,Noun,料理に塩を入れます。,I add salt to the cooking.
+N5,しかし,しかし,however; but,Conjunction,今日は雨が降っていますが、明日は晴れるでしょう。,"It is raining today, but it will probably be sunny tomorrow."
+N5,時間,じかん,time,Noun,今は時間があります。,I have time now.
+N5,～時間,～じかん,~ hours,Noun,私は三時間勉強しました。,I studied for three hours.
+N5,仕事,しごと,"work, job, occupation",Noun,私は仕事に行きます。,I am going to work.
+N5,辞書,じしょ,dictionary,Noun,私は辞書を使います。,I use a dictionary.
+N5,静か,しずか,"quiet, calm",Na-adjective (keiyodoshi),この部屋は静かです。,This room is quiet.
+N5,下,した,"under, below, beneath",Noun,猫はテーブルの下にいます。,The cat is under the table.
+N5,質問,しつもん,"question, inquiry",Noun,先生に質問があります。,I have a question for the teacher.
+N5,自転車,じてんしゃ,bicycle,Noun,私は自転車に乗ります。,I ride a bicycle.
+N5,自動車,じどうしゃ,automobile,Noun,私は自動車を運転します。,I drive a car.
+N5,死ぬ,しぬ,to die,Godan verb with 'nu' ending,彼は毎日運動しているので、元気に死なないでしょう。,"He exercises every day, so he probably won't die healthy."
+N5,字引,じびき,dictionary,Noun,私は字引を使って新しい言葉を調べます。,I use a dictionary to look up new words.
+N5,自分,じぶん,"myself, oneself",Pronoun,私は自分を信じています。,I believe in myself.
+N5,閉まる,しまる,"to close, to be closed",Godan verb with 'ru' ending,ドアが閉まる。,The door closes.
+N5,閉める,しめる,"to close, to shut",Ichidan verb,ドアを閉めてください。,Please close the door.
+N5,締める,しめる,"to tie, to fasten, to tighten",Ichidan verb,靴を締める。,I tie my shoes.
+N5,じゃ; じゃあ,じゃ; じゃあ,"well, then",Conjunction,じゃあ、行きましょう！,"Well then, let's go!"
+N5,写真,しゃしん,a picture; a photograph,Noun,私は友達の写真を撮りました。,I took a picture of my friend.
+N5,シャツ,シャツ,shirt,Noun,私は新しいシャツを買いました。,I bought a new shirt.
+N5,シャワー,シャワー,shower,Noun,毎朝シャワーを浴びます。,I take a shower every morning.
+N5,十,じゅう,ten,Numeric,私は十歳です。,I am ten years old.
+N5,～週間,～しゅうかん,~ weeks,Noun,私は毎週、英語の勉強をします。だから、三週間後にテストがあります。,"I study English every week. So, I have a test in three weeks."
+N5,授業,じゅぎょう,a class (in school),Noun,私は毎日授業を受けます。,I take classes every day.
+N5,宿題,しゅくだい,homework,Noun,私は毎日宿題をします。,I do homework every day.
+N5,上手,じょうず,"to be good at, skillful",Na-adjective (keiyodoshi),彼は日本語が上手です。,He is good at Japanese.
+N5,丈夫,じょうぶ,"strong, durable, sturdy",Na-adjective (keiyodoshi),このかばんは丈夫です。,This bag is strong.
+N5,醤油,しょうゆ,soy sauce,Noun,私は寿司に醤油をかけます。,I put soy sauce on sushi.
+N5,食堂,しょくどう,"cafeteria, dining hall",Noun,学校の食堂で昼ごはんを食べます。,I eat lunch in the school cafeteria.
+N5,知る,しる,to know,Godan verb with 'ru' ending,私は彼の名前を知っています。,I know his name.
+N5,白,しろ,white,Noun,白が好きです。,I like white.
+N5,白い,しろい,white,I-adjective (keiyoushi),この車は白いです。,This car is white.
+N5,～人,～じん,counter for people,Noun,日本人が二人います。,There are two Japanese people.
+N5,新聞,しんぶん,newspaper,Noun,私は毎朝新聞を読みます。,I read the newspaper every morning.
+N5,水曜日,すいようび,Wednesday,Noun,水曜日に学校があります。,I have school on Wednesday.
+N5,吸う,すう,"to breathe in, to suck",Godan verb with 'u' ending,私はストローでジュースを吸います。,I suck juice through a straw.
+N5,スカート,スカート,"a piece of clothing worn from the waist down, typically by women",Noun,彼女は新しいスカートを買いました。,She bought a new skirt.
+N5,好き,すき,"liking, fondness, love",Na-adjective,私はりんごが好きです。,I like apples.
+N5,少ない,すくない,a little; a few,I-adjective (keiyoushi),りんごが少ないです。,There are few apples.
+N5,すぐに,すぐに,"immediately, soon",Adverb (fukushi),私はすぐに行きます。,I will go immediately.
+N5,少し,すこし,"a little, a few",Adverb (fukushi),少しだけ待ってください。,Please wait a little.
+N5,涼しい,すずしい,"cool, refreshing (especially in reference to weather)",I-adjective (keiyoushi),今日は涼しいです。,It is cool today.
+N5,ストーブ,ストーブ,heater (a device for warming a room),Noun,冬にストーブを使います。,I use a heater in winter.
+N5,スプーン,スプーン,spoon,Noun,私はスプーンでご飯を食べます。,I eat rice with a spoon.
+N5,スポーツ,スポーツ,スポーツは体を動かす活動です。,Noun,私は毎週末にスポーツをします。,I play sports every weekend.
+N5,ズボン,ズボン,trousers,Noun,私は新しいズボンを買いました。,I bought new trousers.
+N5,住む,すむ,"to reside, to live in",Godan verb with 'mu' ending,私は東京に住んでいます。,I live in Tokyo.
+N5,する,する,"to do; to try; to wear small items (e.g., necktie, watch, etc.)",Suru verb,私は毎日運動をする。,I exercise every day.
+N5,座る,すわる,to sit,Godan verb,私は椅子に座ります。,I will sit on the chair.
+N5,背,せい,"(one's) height, stature",Noun,彼の背は高いです。,His height is tall.
+N5,生徒,せいと,student; pupil,Noun,彼は生徒です。,He is a student.
+N5,セーター,セーター,sweater,Noun,冬にセーターを着ます。,I wear a sweater in winter.
+N5,石鹸,せっけん,soap,Noun,私は石鹸で手を洗います。,I wash my hands with soap.
+N5,背広,せびろ,men's suit,Noun,彼は背広を着ています。,He is wearing a suit.
+N5,狭い,せまい,narrow; small; not spacious,I-adjective (keiyoushi),この部屋は狭いです。,This room is narrow.
+N5,ゼロ,ゼロ,zero,Noun,私の点数はゼロでした。,My score was zero.
+N5,千,せん,thousand,Noun,私は千円を持っています。,I have a thousand yen.
+N5,先月,せんげつ,last month,Noun,先月は友達と映画を見ました。,"Last month, I watched a movie with my friend."
+N5,先週,せんしゅう,last week,Noun,先週、友達と映画を見ました。,"Last week, I watched a movie with my friend."
+N5,先生,せんせい,teacher; professor,Noun,私の先生はとても優しいです。,My teacher is very kind.
+N5,洗濯,せんたく,"washing, laundry",Noun,私は毎週洗濯をします。,I do laundry every week.
+N5,全部,ぜんぶ,"all, everything",Noun,全部食べました。,I ate everything.
+N5,そう; そうです,そう; そうです,yes; that's right; it seems that way,Expression,そうですか？それはいいですね。,Is that so? That's nice.
+N5,掃除,そうじ (する),"cleaning, sweeping",Noun,毎週土曜日に掃除をします。,I clean every Saturday.
+N5,そうして; そして,そうして; そして,and; then,Conjunction,私はご飯を食べました。そして、テレビを見ました。,"I ate rice, and then I watched TV."
+N5,そこ,そこ,that place; there,Pronoun,そこに行きたいです。,I want to go there.
+N5,そちら,そちら,that place (near you),Pronoun,そちらに行きますか？,Are you going over there?
+N5,そっち,そっち,that way (over there),Pronoun,そっちに行きましょう。,Let's go that way.
+N5,外,そと,"outside, exterior",Noun,外で遊びましょう。,Let's play outside.
+N5,その,その,that (used before a noun),Pre-noun adjectival (rentaishi),その本は面白いです。,That book is interesting.
+N5,そば,そば,"near, close, beside; Japanese traditional buckwheat noodle",Noun,私はそばが好きです。,I like soba.
+N5,空,そら,sky,Noun,今日は空が青いです。,"Today, the sky is blue."
+N5,それ,それ,that one,Pronoun,それは私の本です。,That is my book.
+N5,それから,それから,"and then, after that",Expression,朝ごはんを食べました。それから、学校に行きました。,"I ate breakfast. And then, I went to school."
+N5,それでは,それでは,"Well then, in that case...",Conjunction,それでは、始めましょう。,"Well then, let's get started."
+N5,～台,～だい,counter for vehicles and machines,Noun,車が三台あります。,There are three cars.
+N5,大学,だいがく,college; university,Noun,私は大学に行きます。,I will go to university.
+N5,大使館,たいしかん,a place where a country's representatives work and help citizens,Noun,私は大使館に行きます。,I will go to the embassy.
+N5,大丈夫,だいじょうぶ,It's okay; No need to worry; Everything is fine.,Na-adjective,大丈夫ですか？,Are you okay?
+N5,大好き,だいすき,to like very much; to love,Na-adjective,私は猫が大好きです。,I really like cats.
+N5,大切,たいせつ,important,Na-adjective (keiyodoshi),この本は大切です。,This book is important.
+N5,台所,だいどころ,kitchen,Noun,私は台所で料理をします。,I cook in the kitchen.
+N5,大変,たいへん,"very; difficult, hard",Adjective (形容詞),この仕事は大変です。,This job is hard.
+N5,高い,たかい,"tall, high; expensive",I-adjective (keiyoushi),この山は高いです。,This mountain is tall.
+N5,沢山,たくさん,"many, a lot",Noun,りんごがたくさんあります。,There are a lot of apples.
+N5,タクシー,タクシー,taxi,Noun,タクシーに乗ります。,I will take a taxi.
+N5,出す,だす,to take (something) out; to submit (something),Godan verb with 'su' ending,私は宿題を出します。,I will submit my homework.
+N5,～たち,～たち,plural suffix used to indicate a group or multiple people,Noun,友達たちと公園に行きます。,I will go to the park with my friends.
+N5,立つ,たつ,to stand up,Godan verb with 'tsu' ending,彼は立つことができます。,He can stand up.
+N5,たて,たて,"length, height",Noun,この木はたてが高いです。,This tree has a great height.
+N5,建物,たてもの,building,Noun,あの建物は大きいです。,That building is big.
+N5,楽しい,たのしい,"enjoyable, fun",I-adjective (keiyoushi),この映画はとても楽しいです。,This movie is very fun.
+N5,頼む,たのむ,"to request, to ask for a favor",Godan verb with 'mu' ending,友達に手伝って頼む。,I ask my friend for help.
+N5,たばこ,たばこ,"tobacco, cigarettes",Noun,私はたばこを吸いません。,I do not smoke cigarettes.
+N5,多分,たぶん,"perhaps, probably, maybe",Adverb (fukushi),多分、明日は雨が降るでしょう。,Perhaps it will rain tomorrow.
+N5,食べ物,たべもの,food,Noun,私は毎日食べ物を買います。,I buy food every day.
+N5,食べる,たべる,to eat,Ichidan verb,私はりんごを食べる。,I eat an apple.
+N5,卵,たまご,egg,Noun,私は卵を食べます。,I eat an egg.
+N5,誰,だれ,who,Pronoun,あの人は誰ですか？,Who is that person?
+N5,誰か,だれか,someone,Pronoun,誰かが来ました。,Someone has come.
+N5,誕生日,たんじょうび,birthday,Noun,私の誕生日は四月です。,My birthday is in April.
+N5,段々,だんだん,"gradually, little by little",Adverb (fukushi),段々、寒くなってきました。,It is getting colder gradually.
+N5,小さい,ちいさい,"small, little",I-adjective (keiyoushi),この犬は小さいです。,This dog is small.
+N5,小さな,ちいさな,"small, little",Pre-noun adjectival (rentaishi),小さな犬がいます。,There is a small dog.
+N5,近い,ちかい,"near, close",I-adjective (keiyoushi),駅は近いです。,The station is close.
+N5,違う,ちがう,to be different; to differ; to be wrong,Godan verb with 'u' ending,これは違うよ。,This is different.
+N5,近く,ちかく,nearby; in the neighborhood,Noun,私の家の近くに公園があります。,There is a park near my house.
+N5,地下鉄,ちかてつ,a train that runs underground; subway,Noun,私は地下鉄で学校に行きます。,I go to school by subway.
+N5,地図,ちず,a map,Noun,私は地図を見ています。,I am looking at a map.
+N5,父,ちち,(my) father,Noun,私の父は先生です。,My father is a teacher.
+N5,茶色,ちゃいろ,brown,Noun,私の好きな色は茶色です。,My favorite color is brown.
+N5,茶碗,ちゃわん,bowl for rice,Noun,ご飯は茶碗に入っています。,The rice is in the bowl.
+N5,丁度,ちょうど,"just, right, exactly",Adverb (fukushi),今、丁度お昼ご飯を食べています。,I am just having lunch now.
+N5,ちょっと,ちょっと,a little; somewhat,Adverb (fukushi),ちょっと待ってください。,Please wait a little.
+N5,一日,ついたち,the first day of the month,Noun,一日は月の始まりです。,The first day of the month is the beginning of the month.
+N5,使う,つかう,to use,Godan verb with 'u' ending,私はペンを使います。,I use a pen.
+N5,疲れる,つかれる,to get tired; to become fatigued,Ichidan verb,私は仕事で疲れました。,I got tired from work.
+N5,次,つぎ,next,Noun,次の電車は何時ですか？,What time is the next train?
+N5,着く,つく,"to arrive at, to reach",Godan verb with 'ku' ending,学校に着く。,I arrive at school.
+N5,机,つくえ,desk,Noun,私は机の上に本があります。,I have a book on the desk.
+N5,作る,つくる,"to make, to create",Godan verb with 'ru' ending,私はケーキを作ります。,I will make a cake.
+N5,つける,つける,"to turn on (e.g., a light); to attach",Ichidan verb,電気をつけてください。,Please turn on the light.
+N5,勤める,つとめる,to work (for),Ichidan verb,彼は会社に勤めています。,He works for a company.
+N5,つまらない,つまらない,boring; dull; uninteresting,I-adjective (keiyoushi),この映画はつまらないです。,This movie is boring.
+N5,冷たい,つめたい,"cold (to the touch, such as objects or weather)",I-adjective (keiyoushi),この水は冷たいです。,This water is cold.
+N5,強い,つよい,"strong, powerful",I-adjective (keiyoushi),彼はとても強いです。,He is very strong.
+N5,手,て,hand,Noun,私は手を洗います。,I will wash my hands.
+N5,テープ,テープ,tape,Noun,私はテープを使って、箱を閉じます。,I use tape to close the box.
+N5,テープレコーダー,テープレコーダー,tape recorder,Noun,私はテープレコーダーで音楽を録音します。,I will record music with a tape recorder.
+N5,テーブル,テーブル,"a piece of furniture with a flat top and one or more legs, used for various purposes such as eating or working",Noun,テーブルの上に本があります。,There is a book on the table.
+N5,出かける,でかける,to go out; to leave,Ichidan verb,私は友達と出かけます。,I will go out with my friend.
+N5,手紙,てがみ,"a written message sent to someone, usually on paper",Noun,友達に手紙を書きました。,I wrote a letter to my friend.
+N5,できる,できる,to be able to (to accomplish),Ichidan verb,私は日本語ができる。,I can speak Japanese.
+N5,出口,でぐち,an exit,Noun,出口はどこですか？,Where is the exit?
+N5,テスト,テスト,a test or examination,Noun,明日、数学のテストがあります。,There is a math test tomorrow.
+N5,では,では,"then, well, so",Conjunction,では、始めましょう。,"Well, let's get started."
+N5,デパート,デパート,(abbreviation) department store,Noun,私はデパートに行きます。,I will go to the department store.
+N5,でも,でも,"but, however",Conjunction,りんごは好きですが、バナナは嫌いです。でも、フルーツは好きです。,"I like apples, but I dislike bananas. However, I like fruits."
+N5,出る,でる,"to go out, to leave, to appear",Ichidan verb,友達が家に出る。,My friend is leaving the house.
+N5,テレビ,テレビ,"テレビ (television, TV)",Noun,私は毎晩テレビを見ます。,I watch TV every night.
+N5,天気,てんき,weather,Noun,今日は天気がいいです。,The weather is nice today.
+N5,電気,でんき,"electricity, electric light",Noun,電気をつけてください。,Please turn on the light.
+N5,電車,でんしゃ,electric train,Noun,私は毎朝電車で学校に行きます。,I go to school by train every morning.
+N5,電話,でんわ,a telephone,Noun,私は電話をかけます。,I will make a phone call.
+N5,戸,と,door (Japanese style),Noun,戸を開けてください。,Please open the door.
+N5,～度,～ど,counter for occurrences; ~ degree; ~ point,Noun,今日は三度目のテストです。,Today is the third test.
+N5,ドア,ドア,door (Western style),Noun,ドアを開けてください。,Please open the door.
+N5,トイレ,トイレ,bathroom; toilet,Noun,トイレはあちらです。,The bathroom is over there.
+N5,どう,どう,"how, in what way",Adverb,あなたはどう思いますか？,What do you think?
+N5,どうして,どうして,"why, for what reason",Adverb (fukushi),どうして学校に行きませんか？,Why don't you go to school?
+N5,どうぞ,どうぞ,"please, go ahead",Expression,これをどうぞ。,Please take this.
+N5,動物,どうぶつ,animal,Noun,私は動物が好きです。,I like animals.
+N5,どうも,どうも,Thank you; somehow; used to express gratitude or to indicate a vague feeling,Adverb / Interjection,どうもありがとう。,Thank you very much.
+N5,十,(〜を) とお,ten,Numeric,りんごが十個あります。,There are ten apples.
+N5,遠い,とおい,"far (away), distant",I-adjective (keiyoushi),あの山は遠いです。,That mountain is far away.
+N5,十日,とおか,ten days; the tenth day of the month,Noun,私は十日に友達と会います。,I will meet my friend on the tenth day.
+N5,時々,ときどき,sometimes,Adverb (fukushi),私は時々映画を見ます。,I watch movies sometimes.
+N5,時計,とけい,a watch; a clock,Noun,私は時計を見ます。,I look at the clock.
+N5,どこ,どこ,"where, what place",Pronoun,あなたはどこにいますか？,Where are you?
+N5,所,ところ,place,Noun,ここは私の好きな所です。,This is my favorite place.
+N5,年,とし,"year, age",Noun,私は三十歳です。私の年は三十です。,I am thirty years old. My age is thirty.
+N5,図書館,としょかん,library,Noun,私は図書館で本を読みます。,I read books at the library.
+N5,どちら,どちら,which (one); where (polite),Pronoun,どちらが好きですか？,Which one do you like?
+N5,どっち,どっち,which one,Pronoun,りんごとバナナ、どっちが好きですか？,"Which do you like, apples or bananas?"
+N5,とても,とても,"very (much), greatly, exceedingly",Adverb (fukushi),このケーキはとてもおいしいです。,This cake is very delicious.
+N5,どなた,どなた,who (polite),Pronoun,あの方はどなたですか？,Who is that person?
+N5,隣,となり,"next to, next door to",Noun,私の隣に座っている人は友達です。,The person sitting next to me is my friend.
+N5,どの,どの,which (used to ask about a choice among options),Pre-noun adjectival (rentaishi),どの本が好きですか？,Which book do you like?
+N5,飛ぶ,とぶ,"to fly, to hop",Godan verb with 'bu' ending,鳥が空を飛んでいます。,The bird is flying in the sky.
+N5,止まる,とまる,to stop,Godan verb,バスが止まる。,The bus stops.
+N5,友達,ともだち,friend,Noun,私は友達と公園に行きます。,I will go to the park with my friend.
+N5,土曜日,どようび,Saturday,Noun,土曜日に友達と映画を見ます。,I will watch a movie with my friend on Saturday.
+N5,鳥,とり,bird (including chicken),Noun,私は鳥が好きです。,I like birds.
+N5,鶏肉,とりにく,chicken meat,Noun,私は鶏肉が好きです。,I like chicken meat.
+N5,取る,とる,to take (a class); to get (a grade),Godan verb,私は日本語のクラスを取ります。,I will take a Japanese class.
+N5,撮る,とる,"to take (a photo), to shoot (a film)",Godan verb,私は写真を撮ります。,I will take a photo.
+N5,どれ,どれ,which one,Pronoun,どれがあなたの本ですか？,Which one is your book?
+N5,どんな,どんな,what kind of,Pre-noun adjectival (rentaishi),あなたはどんな本が好きですか？,What kind of books do you like?
+N5,ない,ない,"there isn't, doesn't have",Verb (negative form),犬がない。,There isn't a dog.
+N5,ナイフ,ナイフ,"a tool used for cutting, typically with a sharp blade",Noun,私はナイフでリンゴを切ります。,I cut the apple with a knife.
+N5,中,なか,"inside, middle, among",Noun,箱の中におもちゃがあります。,There is a toy inside the box.
+N5,長い,ながい,"long, lengthy",I-adjective (keiyoushi),この道は長いです。,This road is long.
+N5,鳴く,なく,to cry (of animals),Godan verb with 'ku' ending,鳥が鳴く。,The bird sings.
+N5,無くす,なくす,to lose something,Godan verb with 'su' ending,私は財布を無くしました。,I lost my wallet.
+N5,なぜ,なぜ,why (same as どうして),Adverb (fukushi),なぜあなたは学校に行きませんか？,Why don't you go to school?
+N5,夏,なつ,summer,Noun,夏はとても暑いです。,Summer is very hot.
+N5,夏休み,なつやすみ,summer vacation,Noun,私は夏休みに海に行きます。,I will go to the beach during summer vacation.
+N5,七つ,ななつ,seven (things),Noun,私は七つのリンゴを持っています。,I have seven apples.
+N5,何,なん; なに,what,Pronoun,これは何ですか？,What is this?
+N5,七日,なのか,seven days; the seventh day of the month,Noun,今日は七日です。,Today is the seventh day.
+N5,名前,なまえ,name,Noun,私の名前は田中です。,My name is Tanaka.
+N5,習う,ならう,to learn,Godan verb with 'u' ending,私は日本語を習っています。,I am learning Japanese.
+N5,並ぶ,ならぶ,"to line up, to stand in a line",Godan verb with 'bu' ending,みんなが学校の前に並んでいます。,Everyone is lined up in front of the school.
+N5,並べる,ならべる,to put (things) side by side; to line up,Ichidan verb,本を並べる。,I line up the books.
+N5,なる,なる,to become,Godan verb with 'ru' ending,私は学生になります。,I will become a student.
+N5,二,に,two,Numeric,りんごが二つあります。,There are two apples.
+N5,にぎやか,にぎやか,"bustling, lively",Na-adjective (keiyodoshi),この町はにぎやかです。,This town is bustling.
+N5,肉,にく,meat,Noun,私は肉が好きです。,I like meat.
+N5,西,にし,west,Noun,学校は西にあります。,The school is to the west.
+N5,～日,～にち,"~ day of the month, for ~ days",Noun,今日は三日です。,Today is the third (day of the month).
+N5,日曜日,にちようび,Sunday,Noun,日曜日に友達と遊びます。,I will play with my friends on Sunday.
+N5,荷物,にもつ,luggage; baggage,Noun,私は荷物を持っています。,I have luggage.
+N5,ニュース,ニュース,news,Noun,私は毎朝ニュースを見ます。,I watch the news every morning.
+N5,庭,にわ,garden,Noun,私の庭には花があります。,There are flowers in my garden.
+N5,～人,～にん,counter for people,Noun,学生が三人います。,There are three students.
+N5,脱ぐ,ぬぐ,to take off (clothes),Godan verb with 'gu' ending,私は家に帰ったら、コートを脱ぎます。,"When I get home, I will take off my coat."
+N5,温い,ぬるい,lukewarm; not hot or cold,I-adjective (keiyoushi),お湯がぬるいです。,The water is lukewarm.
+N5,ネクタイ,ネクタイ,"tie, necktie",Noun,彼は新しいネクタイを買いました。,He bought a new tie.
+N5,猫,ねこ,cat,Noun,私の家には猫がいます。,There is a cat in my house.
+N5,寝る,ねる,to sleep; to go to bed,Ichidan verb,私は毎晩10時に寝ます。,I go to bed at 10 o'clock every night.
+N5,～年,～ねん,~ years,Noun,私は三年日本語を勉強しました。,I studied Japanese for three years.
+N5,ノート,ノート,notebook,Noun,私はノートに書きます。,I write in my notebook.
+N5,登る,のぼる,to climb,Godan verb,山に登る。,I climb the mountain.
+N5,飲み物,のみもの,"drink, beverage",Noun,水は飲み物です。,Water is a drink.
+N5,飲む,のむ,to drink,Godan verb with 'mu' ending,水を飲みます。,I drink water.
+N5,乗る,のる,"to get on, to ride, to board",Godan verb with 'ru' ending,バスに乗る。,I get on the bus.
+N5,歯,は,tooth,Noun,私の歯は痛いです。,My tooth hurts.
+N5,パーティー,パーティー,a party,Noun,友達とパーティーをします。,I will have a party with my friends.
+N5,はい,はい,yes,Interjection,はい、わかりました。,"Yes, I understand."
+N5,～杯,～はい,counter for cups or cupfuls,Counter,水を二杯飲みました。,I drank two cups of water.
+N5,灰皿,はいざら,a container for ashes from cigarettes or other smoking materials,Noun,テーブルの上に灰皿があります。,There is an ashtray on the table.
+N5,入る,はいる,"to enter, to go in",Godan verb,部屋に入る。,I enter the room.
+N5,葉書,はがき,postcard,Noun,友達に葉書を書きました。,I wrote a postcard to my friend.
+N5,はく,はく,"to put on (items below your waist, like pants or a skirt)",Godan verb with 'ku' ending,私はズボンをはきます。,I put on pants.
+N5,箱,はこ,box,Noun,私は箱を開けます。,I will open the box.
+N5,橋,はし,bridge,Noun,あの橋はとても大きいです。,That bridge is very big.
+N5,箸,はし,chopsticks,Noun,私は箸でご飯を食べます。,I eat rice with chopsticks.
+N5,始まる,はじまる,(something) begins,Godan verb with 'ru' ending,授業が始まる。,The class begins.
+N5,初め; 始め,はじめ,"beginning, start",Noun,新しい仕事の初めは緊張します。,The beginning of a new job is nerve-wracking.
+N5,初めて,はじめて,for the first time,Adverb (fukushi),私は初めて日本に行きました。,I went to Japan for the first time.
+N5,走る,はしる,to run,Godan verb with 'ru' ending,私は公園で走ります。,I run in the park.
+N5,バス,バス,bus,Noun,私はバスに乗ります。,I will take the bus.
+N5,バター,バター,butter,Noun,パンにバターをぬります。,I spread butter on the bread.
+N5,二十歳,はたち,20 years old,Noun,彼は二十歳です。,He is 20 years old.
+N5,働く,はたらく,to work,Godan verb with 'ku' ending,私は毎日働きます。,I work every day.
+N5,八,はち,eight,Numeric,私は八つのリンゴを持っています。,I have eight apples.
+N5,二十日,はつか,twentieth (day of the month),Noun,今日は二十日です。,Today is the twentieth.
+N5,花,はな,flower,Noun,公園に花がたくさんあります。,There are many flowers in the park.
+N5,鼻,はな,nose,Noun,私の鼻は大きいです。,My nose is big.
+N5,話,はなし,"talk (chat), story",Noun,彼と面白い話をしました。,I had an interesting talk with him.
+N5,話す,はなす,to speak,Godan verb with 'su' ending,私は日本語を話します。,I speak Japanese.
+N5,母,はは,(my) mother,Noun,私の母は料理が上手です。,My mother is good at cooking.
+N5,早い,はやい,early,I-adjective (keiyoushi),私は早い電車に乗ります。,I take the early train.
+N5,速い,はやい,"fast, quick",I-adjective (keiyoushi),彼は速い車を持っています。,He has a fast car.
+N5,春,はる,spring,Noun,春が来ました。,Spring has come.
+N5,貼る,はる,to post; to paste; to attach,Godan verb,私は壁にポスターを貼ります。,I will paste a poster on the wall.
+N5,晴れ,はれ,clear (sunny) weather,Noun,今日は晴れです。,Today is sunny.
+N5,晴れる,はれる,to be sunny,Godan verb,今日は晴れると思います。,I think it will be sunny today.
+N5,半,はん,"half (e.g., にじはん | half-past two)","Noun, used as a prefix",いま、にじはんです。,It is half-past two now.
+N5,晩,ばん,evening,Noun,晩ごはんを食べます。,I will eat dinner.
+N5,～番,～ばん,~th; ~th best,Noun,彼はクラスで一番です。,He is the best in the class.
+N5,パン,パン,bread,Noun,私は朝ごはんにパンを食べます。,I eat bread for breakfast.
+N5,ハンカチ,ハンカチ,handkerchief,Noun,私はハンカチを持っています。,I have a handkerchief.
+N5,番号,ばんごう,"number, a series of digits",Noun,私の電話番号は123-4567です。,My phone number is 123-4567.
+N5,晩御飯,ばんごはん,"dinner, evening meal",Noun,今日は晩御飯に寿司を食べます。,I will eat sushi for dinner today.
+N5,半分,はんぶん,half,Noun,リンゴを半分に切りました。,I cut the apple in half.
+N5,東,ひがし,east,Noun,私の家は東にあります。,My house is to the east.
+N5,～匹,～ひき,counter for small animals,Counter,猫が三匹います。,There are three cats.
+N5,引く,ひく,to pull; to draw; to subtract,Godan verb with 'ku' ending,私はドアを引きます。,I will pull the door.
+N5,弾く,ひく,to play (a string instrument or piano),Godan verb with 'ku' ending,彼はギターを弾きます。,He plays the guitar.
+N5,低い,ひくい,"short, low",I-adjective (keiyoushi),このテーブルは低いです。,This table is low.
+N5,飛行機,ひこうき,airplane,Noun,私は飛行機で旅行します。,I will travel by airplane.
+N5,左,ひだり,left side,Noun,左に行ってください。,Please go to the left.
+N5,人,ひと,person,Noun,あの人は学生です。,That person is a student.
+N5,一つ,ひとつ,one thing,Noun,リンゴを一つください。,Please give me one apple.
+N5,一月,ひとつき,one month,Noun,一月は寒いです。,January is cold.
+N5,一人,ひとり,one person,Noun,私は一人で行きます。,I will go alone.
+N5,暇,ひま,"free time, leisure",Noun,今日は暇です。,I am free today.
+N5,百,ひゃく,hundred,Noun,私は百円を持っています。,I have one hundred yen.
+N5,病院,びょういん,hospital,Noun,私は病院に行きます。,I will go to the hospital.
+N5,病気,びょうき,illness; sickness,Noun,私は病気です。,I am sick.
+N5,平仮名,ひらがな,a Japanese syllabary used for native Japanese words and grammatical elements,Noun,私は平仮名を勉強しています。,I am studying hiragana.
+N5,昼,ひる,"noon, daytime",Noun,私は昼に昼ごはんを食べます。,I eat lunch during the daytime.
+N5,昼御飯,ひるごはん,"lunch, midday meal",Noun,私は毎日昼御飯を食べます。,I eat lunch every day.
+N5,広い,ひろい,spacious; wide; broad,I-adjective (keiyoushi),この部屋は広いです。,This room is spacious.
+N5,フィルム,フィルム,フィルムは写真を撮るためのロールです。,Noun,私はフィルムを買いました。,I bought a film.
+N5,封筒,ふうとう,envelope,Noun,手紙を封筒に入れました。,I put the letter in the envelope.
+N5,プール,プール,swimming pool,Noun,夏にプールで泳ぎます。,I swim in the pool in summer.
+N5,フォーク,フォーク,fork,Noun,私はフォークでサラダを食べます。,I eat salad with a fork.
+N5,吹く,ふく,"to blow (wind, etc.)",Godan verb with 'ku' ending,風が吹く。,The wind blows.
+N5,服,ふく,clothes,Noun,私は新しい服を買いました。,I bought new clothes.
+N5,二つ,ふたつ,two things,Noun,りんごが二つあります。,There are two apples.
+N5,豚肉,ぶたにく,pork,Noun,私は豚肉が好きです。,I like pork.
+N5,二人,ふたり,two people,Noun,公園に二人がいます。,There are two people in the park.
+N5,二日,ふつか,two days; the second day of the month,Noun,今日は二日です。,Today is the second day of the month.
+N5,太い,ふとい,"fat, thick",I-adjective (keiyoushi),この木は太いです。,This tree is thick.
+N5,冬,ふゆ,winter,Noun,冬はとても寒いです。,Winter is very cold.
+N5,降る,ふる,"to fall (e.g., rain, snow, etc.)",Godan verb with 'ru' ending,雪が降っています。,It is snowing.
+N5,古い,ふるい,"old (in reference to objects, not people), aged, ancient",I-adjective (keiyoushi),この本は古いです。,This book is old.
+N5,～分,～ふん,~ minutes,Noun,今、5分待ってください。,Please wait for 5 minutes.
+N5,文章,ぶんしょう,a sentence or a piece of text,Noun,この文章はとても面白いです。,This sentence is very interesting.
+N5,ページ,ページ,a page,Noun,このページを見てください。,Please look at this page.
+N5,下手,へた,"unskillful, poor",Na-adjective (keiyodoshi),私は下手な歌手です。,I am an unskillful singer.
+N5,ベッド,ベッド,bed,Noun,私はベッドで寝ます。,I sleep in my bed.
+N5,ペット,ペット,a pet,Noun,私のペットは犬です。,My pet is a dog.
+N5,部屋,へや,a room,Noun,私の部屋はきれいです。,My room is clean.
+N5,辺,へん,"area, vicinity",Noun,この辺に公園があります。,There is a park in this area.
+N5,ペン,ペン,a writing instrument used to write or draw,Noun,私はペンで手紙を書きます。,I write a letter with a pen.
+N5,勉強,べんきょう (する),study,"Noun, Verb",私は毎日勉強します。,I study every day.
+N5,便利,べんり,"convenient, handy",Na-adjective (keiyodoshi),このアプリはとても便利です。,This app is very convenient.
+N5,帽子,ぼうし,hat; cap,Noun,私は新しい帽子を買いました。,I bought a new hat.
+N5,ボールペン,ボールペン,a pen that uses a ballpoint to write,Noun,私はボールペンで手紙を書きます。,I write a letter with a ballpoint pen.
+N5,外,ほか,"other, the rest",Noun,ほかの人は来ませんでした。,Other people did not come.
+N5,ポケット,ポケット,pocket,Noun,私のポケットにお金があります。,I have money in my pocket.
+N5,欲しい,ほしい,"to want, to desire",I-adjective (keiyoushi),私は新しい本が欲しいです。,I want a new book.
+N5,ポスト,ポスト,mailbox; post,Noun,ポストに手紙を入れました。,I put a letter in the mailbox.
+N5,細い,ほそい,"thin, slender, fine",I-adjective (keiyoushi),彼女は細い髪をしています。,She has thin hair.
+N5,ボタン,ボタン,button,Noun,シャツのボタンが外れました。,The button of the shirt came off.
+N5,ホテル,ホテル,hotel,Noun,私はホテルに泊まります。,I will stay at a hotel.
+N5,本,ほん,book,Noun,私は毎日本を読みます。,I read a book every day.
+N5,～本,～ほん,counter for long cylindrical objects,Counter,ペンを三本買いました。,I bought three pens.
+N5,本棚,ほんだな,a shelf for holding books; bookshelf,Noun,私の部屋には大きな本棚があります。,There is a big bookshelf in my room.
+N5,本当,ほんとう,"true, real",Noun,これは本当の話です。,This is a true story.
+N5,～枚,～まい,counter for flat things,Counter,紙を三枚ください。,Please give me three sheets of paper.
+N5,毎朝,まいあさ,every morning,Noun,私は毎朝ジョギングをします。,I go jogging every morning.
+N5,毎月,まいげつ; まいつき,"every month, monthly",Noun,私は毎月本を買います。,I buy a book every month.
+N5,毎週,まいしゅう,every week,Noun,私は毎週土曜日に友達と会います。,I meet my friends every Saturday.
+N5,毎日,まいにち,every day,Noun,私は毎日学校に行きます。,I go to school every day.
+N5,毎年,まいねん; まいとし,"every year, yearly, annually",Adverb (fukushi),毎年、家族と旅行に行きます。,"Every year, I go on a trip with my family."
+N5,毎晩,まいばん,every night,Noun,私は毎晩テレビを見ます。,I watch TV every night.
+N5,前,まえ,"before, in front","Noun, used as a prefix",学校の前に公園があります。,There is a park in front of the school.
+N5,～前,～まえ,in front of ~,"Noun, used as a suffix",学校の前に公園があります。,There is a park in front of the school.
+N5,曲る,まがる,"to turn, to bend",Godan verb,角を曲がってください。,Please turn at the corner.
+N5,まずい,まずい,"bad (in reference to food), unappetizing, unpleasant (taste)",I-adjective (keiyoushi),この料理はまずいです。,This dish is bad.
+N5,また,また,and; furthermore,Adverb (fukushi),私はりんごが好きです。また、バナナも好きです。,"I like apples. Furthermore, I also like bananas."
+N5,まだ,まだ,"yet, still",Adverb (fukushi),私はまだ宿題をしていません。,I still haven't done my homework.
+N5,町,まち,town; city,Noun,私は町に住んでいます。,I live in a town.
+N5,待つ,まつ,to wait,Godan verb with 'tsu' ending,私は友達を待っています。,I am waiting for my friend.
+N5,まっすぐ,まっすぐ,"straight (ahead), direct",Adverb (fukushi),まっすぐ行ってください。,Please go straight.
+N5,マッチ,マッチ,matchstick,Noun,私はマッチを使ってキャンドルに火をつけました。,I used a match to light the candle.
+N5,窓,まど,A structure in a wall that allows light and air to enter a room.,Noun,窓を開けてください。,Please open the window.
+N5,丸い; 円い,まるい,"round, circular",I-adjective (keiyoushi),このテーブルは丸いです。,This table is round.
+N5,万,まん,ten thousand,Noun,彼は万ドルを持っています。,He has ten thousand dollars.
+N5,万年筆,まんねんひつ,fountain pen,Noun,私は万年筆で手紙を書きます。,I write letters with a fountain pen.
+N5,磨く,みがく,to brush (teeth); to polish,Godan verb with 'ku' ending,毎朝歯を磨きます。,I brush my teeth every morning.
+N5,右,みぎ,right side,Noun,私の右に猫がいます。,There is a cat on my right.
+N5,短い,みじかい,short (in length),I-adjective (keiyoushi),このペンは短いです。,This pen is short.
+N5,水,みず,water,Noun,私は水を飲みます。,I drink water.
+N5,店,みせ,"store, shop",Noun,この店はとても安いです。,This store is very cheap.
+N5,見せる,みせる,"to show, to display",Ichidan verb,私は友達に写真を見せる。,I will show the photo to my friend.
+N5,道,みち,"road, street; way, directions",Noun,この道をまっすぐ行ってください。,Please go straight down this road.
+N5,三日,みっか,three days; the third day of the month,Noun,今日は三日です。,Today is the third day of the month.
+N5,三つ,みっつ,three things,Noun,リンゴが三つあります。,There are three apples.
+N5,緑,みどり,green,Noun,公園には緑がたくさんあります。,There is a lot of green in the park.
+N5,皆さん,みなさん,"everyone, all of you",Noun,皆さん、こんにちは。,"Hello, everyone."
+N5,南,みなみ,South,Noun,私は南に行きます。,I will go south.
+N5,耳,みみ,ear,Noun,私の耳が痛いです。,My ear hurts.
+N5,見る,みる,"to see, to look at",Ichidan verb,私は映画を見る。,I watch a movie.
+N5,みんな,みんな,"everyone, all",Noun,みんなで公園に行きましょう。,Let's all go to the park.
+N5,六日,むいか,six days; sixth day of the month,Noun,今日は六日です。,Today is the sixth day of the month.
+N5,向こう,むこう,"over there, beyond",Noun,向こうに山があります。,There is a mountain over there.
+N5,難しい,むずかしい,difficult,I-adjective (keiyoushi),この問題は難しいです。,This problem is difficult.
+N5,六つ,むっつ,six (things),Noun,りんごが六つあります。,There are six apples.
+N5,村,むら,"a small community or settlement, typically smaller than a town",Noun,私は村に住んでいます。,I live in a village.
+N5,目,め,eye,Noun,私の目は大きいです。,My eyes are big.
+N5,メートル,メートル,meter,Noun,この部屋は五メートルの長さです。,This room is five meters long.
+N5,眼鏡,めがね,glasses,Noun,私は眼鏡をかけています。,I am wearing glasses.
+N5,もう,もう,already; again; more,Adverb (fukushi),もう食べましたか？,Have you already eaten?
+N5,木曜日,もくようび,Thursday,Noun,木曜日に友達と会います。,I will meet my friend on Thursday.
+N5,もしもし,もしもし,Hello? (used when answering the phone),Interjection,もしもし、元気ですか？,Hello? How are you?
+N5,持つ,もつ,"to hold, to carry; to possess",Godan verb with 'tsu' ending,私は本を持っています。,I have a book.
+N5,もっと,もっと,more,Adverb (fukushi),もっと勉強したいです。,I want to study more.
+N5,物,もの,thing (concrete object),Noun,これは私の物です。,This is my thing.
+N5,門,もん,gate,Noun,学校の門は大きいです。,The gate of the school is big.
+N5,問題,もんだい,a problem,Noun,この問題は簡単です。,This problem is easy.
+N5,～屋,～や,~ shop,Noun (Suffix),本屋に行きます。,I will go to the bookstore.
+N5,八百屋,やおや,a shop that sells vegetables and fruits; greengrocer,Noun,私は八百屋で野菜を買います。,I buy vegetables at the greengrocer.
+N5,野菜,やさい,vegetable,Noun,私は毎日野菜を食べます。,I eat vegetables every day.
+N5,易しい,やさしい,"easy, simple",I-adjective (keiyoushi),この問題は易しいです。,This problem is easy.
+N5,安い,やすい,inexpensive; cheap (things),I-adjective (keiyoushi),この本は安いです。,This book is cheap.
+N5,休み,やすみ,holiday; day off; absence,Noun,明日は休みです。,Tomorrow is a holiday.
+N5,休む,やすむ,"to rest, to take a break, to take time off",Godan verb with 'mu' ending,今日は仕事を休む。,I will take a break from work today.
+N5,八つ,やっつ,eight (things),Noun,りんごを八つ買いました。,I bought eight apples.
+N5,山,やま,mountain,Noun,私は山に登ります。,I will climb the mountain.
+N5,やる,やる,"to do; to give (to pets, parents, siblings, etc.)",Godan verb with 'ru' ending,犬に餌をやる。,I give food to the dog.
+N5,夕方,ゆうがた,"late afternoon (just before dinner time), evening",Noun,夕方に友達と公園に行きます。,I will go to the park with my friend in the evening.
+N5,夕飯,ゆうはん,"dinner, evening meal",Noun,私は毎晩夕飯を食べます。,I eat dinner every evening.
+N5,郵便局,ゆうびんきょく,post office,Noun,私は郵便局に行きます。,I will go to the post office.
+N5,昨夜,ゆうべ,last night,Noun,昨夜、友達と映画を見ました。,"Last night, I watched a movie with my friend."
+N5,有名,ゆうめい,famous,Na-adjective,彼は有名な歌手です。,He is a famous singer.
+N5,雪,ゆき,snow,Noun,冬に雪が降ります。,It snows in winter.
+N5,ゆっくりと,ゆっくりと,"slowly, at ease",Adverb (fukushi),彼はゆっくりと歩きます。,He walks slowly.
+N5,八日,ようか,eight days; the eighth day of the month,Noun,今日は八日です。,Today is the eighth day of the month.
+N5,洋服,ようふく,Western-style clothing,Noun,私は洋服を買いました。,I bought Western-style clothes.
+N5,よく,よく,"frequently, often; well, skillfully",Adverb (fukushi),私はよく本を読みます。,I often read books.
+N5,横,よこ,side; next to,Noun,私の横に座ってください。,Please sit next to me.
+N5,四日,よっか,four days; the fourth day of the month,Noun,今日は四日です。,Today is the fourth day.
+N5,四つ,よっつ,four things,Noun,りんごが四つあります。,There are four apples.
+N5,呼ぶ,よぶ,to call (someone's name); to invite,Godan verb with 'bu' ending,友達を呼びました。,I called my friend.
+N5,読む,よむ,to read,Godan verb with 'mu' ending,私は本を読みます。,I read a book.
+N5,夜,よる,night,Noun,私は夜にテレビを見ます。,I watch TV at night.
+N5,弱い,よわい,weak,I-adjective (keiyoushi),彼は弱いです。,He is weak.
+N5,来月,らいげつ,next month,Noun,来月、友達と旅行に行きます。,"Next month, I will go on a trip with my friend."
+N5,来週,らいしゅう,next week,Noun,来週、友達と映画を見ます。,"Next week, I will watch a movie with my friend."
+N5,来年,らいねん,next year,Noun,来年、私は日本に行きます。,"Next year, I will go to Japan."
+N5,ラジオ,ラジオ,radio,Noun,私は毎朝ラジオを聞きます。,I listen to the radio every morning.
+N5,ラジオカセ,ラジオカセ,ラジオカセットプレーヤー,Noun,私はラジオカセットを聞きます。,I listen to the radio cassette.
+N5,りっぱ,りっぱ,"splendid, fine",Na-adjective,彼の絵はりっぱです。,His painting is splendid.
+N5,留学生,りゅうがくせい,student from another country,Noun,彼は留学生です。,He is an international student.
+N5,両親,りょうしん,parents (both mother and father),Noun,私の両親は日本に住んでいます。,My parents live in Japan.
+N5,料理,りょうり,cooking; cuisine,Noun,私は日本料理が好きです。,I like Japanese cuisine.
+N5,旅行,りょこう,"travel, trip",Noun,私は友達と旅行に行きます。,I will go on a trip with my friends.
+N5,零,れい,"zero, nought",Noun,私の点数は零でした。,My score was zero.
+N5,冷蔵庫,れいぞうこ,refrigerator,Noun,冷蔵庫に牛乳があります。,There is milk in the refrigerator.
+N5,レコード,レコード,record,Noun,私はレコードを聞きます。,I listen to records.
+N5,レストラン,レストラン,A place where people go to eat meals.,Noun,私はレストランで昼ごはんを食べます。,I eat lunch at a restaurant.
+N5,練習,れんしゅう (する),(to) practice,Noun/Verb,毎日ピアノの練習をします。,I practice the piano every day.
+N5,廊下,ろうか,a long passage or hallway in a building,Noun,学校の廊下を歩きます。,I walk in the school corridor.
+N5,六,ろく,six,Numeric,私は六つのリンゴを持っています。,I have six apples.
+N5,ワイシャツ,ワイシャツ,shirt (usually a white dress shirt worn for business),Noun,彼はワイシャツを着ています。,He is wearing a shirt.
+N5,若い,わかい,young,I-adjective (keiyoushi),彼は若いです。,He is young.
+N5,分かる,わかる,to understand,Godan verb with 'ru' ending,私は日本語が分かります。,I understand Japanese.
+N5,忘れる,わすれる,to forget,Ichidan verb,私は宿題を忘れました。,I forgot my homework.
+N5,私,わたし,"I, me",Pronoun,私は学生です。,I am a student.
+N5,私,わたくし,"I (formal), myself",Pronoun,私は学生です。,I am a student.
+N5,渡す,わたす,to hand (something) over; to pass (something),Godan verb with 'su' ending,私は友達に本を渡します。,I will hand over the book to my friend.
+N5,渡る,わたる,"to cross over, to go across",Godan verb,橋を渡る。,I cross the bridge.
+N5,悪い,わるい,bad; not good,I-adjective (keiyoushi),このりんごは悪いです。,This apple is bad.
+N5,ある,ある,to be; to have (for inanimate objects),Godan verb with 'ru' ending,机の上に本がある。,There is a book on the desk.
+N5,川,かわ,river,Noun,川で魚を釣ります。,I will fish in the river.
+N5,九,きゅう/く,nine,Numeric,私は九つのりんごを持っています。,I have nine apples.
+N5,七,しち/なな,seven,Numeric,私は七つのリンゴを持っています。,I have seven apples.

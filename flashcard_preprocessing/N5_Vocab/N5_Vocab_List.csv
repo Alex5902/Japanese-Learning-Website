@@ -1,0 +1,716 @@
+JLPT,Word,Reading,Meaning,Word Type
+N5,ああ,ああ,"Ah!, Oh!",Interjection
+N5,会う,あう,"to meet, to see",Godan verb with 'u' ending
+N5,青,あお,blue,Noun
+N5,青い,あおい,blue,I-adjective (keiyoushi)
+N5,赤,あか,red,Noun
+N5,赤い,あかい,red,I-adjective (keiyoushi)
+N5,明るい,あかるい,bright (in reference to personality or weather); cheerful,I-adjective (keiyoushi)
+N5,どんな,どんな,what kind of; what sort of,Pre-noun adjectival (連体詞)
+N5,どうして,どうして,why; for what reason; how,Adverb (fukushi)
+N5,どうやって,どうやって,how; in what way; by what means,Expression / Phrase
+N5,いつも,いつも,always; usually; habitually,Adverb (fukushi)
+N5,一番,いちばん,the most; the best,Noun / Adverbial
+N5,一緒に,いっしょに,together,Adverb (fukushi)
+N5,まだ,まだ,still; not yet,Adverb (fukushi)
+N5,なる,なる,to become,Godan verb
+N5,とても,とても,very; awfully; exceedingly,Adverb (fukushi)
+N5,すぎる,すぎる,too much,Ichidan verb
+N5,秋,あき,fall (season),Noun
+N5,開く,あく,"to open, to become open",Godan verb with 'ku' ending
+N5,開ける,あける,to open (v.t.),Ichidan verb
+N5,上げる,あげる,"to raise, to lift",Ichidan verb
+N5,朝,あさ,morning,Noun
+N5,朝御飯,あさごはん,breakfast,Noun
+N5,明後日,あさって,day after tomorrow,Noun
+N5,足; 脚,あし,foot; leg,Noun
+N5,明日,あした,tomorrow,Noun
+N5,あそこ,あそこ,"there, over there, that place",Pronoun
+N5,遊ぶ,あそぶ,to play; to spend time pleasantly; to hang out,Godan verb with 'bu' ending
+N5,暖かい,あたたかい,warm,I-adjective (keiyoushi)
+N5,頭,あたま,head,Noun
+N5,新しい,あたらしい,new,I-adjective (keiyoushi)
+N5,あちら,あちら,"that way (over there, polite)",Pronoun
+N5,暑い,あつい,"hot (in reference to weather), warm",I-adjective (keiyoushi)
+N5,熱い,あつい,hot (objects),I-adjective (keiyoushi)
+N5,厚い,あつい,"kind, warm(hearted), thick, deep",I-adjective (keiyoushi)
+N5,あっち,あっち,over there,Pronoun
+N5,後,あと,afterwards (later); in the future; the rest; since then,Noun
+N5,あなた,あなた,you,Pronoun
+N5,兄,あに,(my) older brother (humble),Noun
+N5,姉,あね,(my) older sister (humble),Noun
+N5,アパート,アパート,apartment (abbr.),Noun
+N5,あの,あの,"that over there; like that, that way; um...",Pre-noun adjectival (rentaishi)
+N5,浴びる,あびる,"to bathe, to shower",Ichidan verb
+N5,危ない,あぶない,"dangerous, critical",I-adjective (keiyoushi)
+N5,甘い,あまい,"generous, sweet",I-adjective (keiyoushi)
+N5,余り,あまり,not very; surplus,Noun
+N5,雨,あめ,rain,Noun
+N5,飴,あめ,(hard) candy,Noun
+N5,洗う,あらう,to wash,Godan verb with 'u' ending
+N5,歩く,あるく,to walk,Godan verb with 'ku' ending
+N5,あれ,あれ,that one (over there),Pronoun
+N5,いい; よい,いい; よい,good,I-adjective (keiyoushi)
+N5,いいえ,いいえ,"no, not at all",Interjection
+N5,言う,いう,to say,Godan verb with 'u' ending
+N5,家,いえ,"house, home",Noun
+N5,いかが,いかが,"how, in what way",Adverb (fukushi)
+N5,行く,いく; ゆく,to go,Godan verb - Iku/Yuku special class
+N5,いくつ,いくつ,"how many, how old",Adverb (fukushi)
+N5,いくら,いくら,"how much, how many",Noun
+N5,池,いけ,pond,Noun
+N5,医者,いしゃ,doctor; physician,Noun
+N5,椅子,いす,chair,Noun
+N5,忙しい,いそがしい,"busy (people, days)",I-adjective (keiyoushi)
+N5,痛い,いたい,hurt; painful; sore,I-adjective (keiyoushi)
+N5,一,いち,one,Numeric
+N5,一日,いちにち,one day (duration),Noun
+N5,一番,いちばん,"best (most), first, number one",Noun
+N5,いつ,いつ,when,Pronoun
+N5,五日,いつか,five days; fifth day of the month,Noun
+N5,一緒,いっしょ,together,Noun
+N5,五つ,いつつ,five things,Numeric
+N5,いつも,いつも,"always, usually, every time, never (with neg. verb)",Adverb (fukushi)
+N5,犬,いぬ,dog,Noun
+N5,今,いま,now,Noun
+N5,意味,いみ,"meaning, significance",Noun
+N5,妹,いもうと,younger sister (humble),Noun
+N5,嫌,いや,"disagreeable, detestable, unpleasant",Na-adjective (keiyodoshi)
+N5,入口,いりぐち,entrance,Noun
+N5,居る,いる,"(humble) to be (animate), to exist",Ichidan verb
+N5,要る,いる,to need,Godan verb with 'ru' ending
+N5,入れる,いれる,to put in,Ichidan verb
+N5,色,いろ,color,Noun
+N5,色々,いろいろ,various,Na-adjective (keiyodoshi)
+N5,上,うえ,"above (up, top, etc.), over, on top of",Noun
+N5,後ろ,うしろ,"back, behind, rear",Noun
+N5,薄い,うすい,"thin, weak",I-adjective (keiyoushi)
+N5,歌,うた,a song,Noun
+N5,歌う,うたう,to sing,Godan verb with 'u' ending
+N5,うち,うち,home; house; my place,Noun
+N5,生まれる,うまれる,to be born,Ichidan verb
+N5,海,うみ,"sea, beach",Noun
+N5,売る,うる,to sell (v.t.),Godan verb with 'ru' ending
+N5,うるさい,うるさい,noisy; annoying,I-adjective (keiyoushi)
+N5,上着,うわぎ,"coat, jacket",Noun
+N5,絵,え,a painting; a picture; a drawing,Noun
+N5,映画,えいが,"movie, film",Noun
+N5,映画館,えいがかん,"movie theater, cinema",Noun
+N5,英語,えいご,English (language),Noun
+N5,ええ,ええ,yes,Interjection
+N5,駅,えき,station,Noun
+N5,エレベーター,エレベーター,elevator,Noun
+N5,～円,～えん,Yen,Noun
+N5,鉛筆,えんぴつ,pencil,Noun
+N5,お～,お～,honorable ~ (honorific),Noun
+N5,美味しい,おいしい,"delicious, tasty",I-adjective (keiyoushi)
+N5,多い,おおい,many; there are a lot,I-adjective (keiyoushi)
+N5,大きい,おおきい,"big, large",I-adjective (keiyoushi)
+N5,大きな,おおきな,big,Pre-noun adjectival (rentaishi)
+N5,大勢,おおぜい,great number of people,Noun
+N5,お母さん,おかあさん,mother (formal),Noun
+N5,お菓子,おかし,"confections, sweets, snack",Noun
+N5,お金,おかね,money,Noun
+N5,起きる,おきる,"to get up (e.g., from sleeping); to happen",Ichidan verb
+N5,置く,おく,to put; to lay; to place,Godan verb with 'ku' ending
+N5,奥さん,おくさん,(someone else's) wife (hon.),Noun
+N5,お酒,おさけ,sake; alcohol,Noun
+N5,お皿,おさら,"plate, dish",Noun
+N5,伯父; 叔父さん,おじさん,"uncle, middle-aged man",Noun
+N5,おじいさん,おじいさん,"grandfather, male senior citizen",Noun
+N5,教える,おしえる,"to teach, to inform, to instruct",Ichidan verb
+N5,押す,おす,"to push, to press, to stamp (e.g., a passport)",Godan verb with 'su' ending
+N5,遅い,おそい,slow; (to be) late,I-adjective (keiyoushi)
+N5,お茶,おちゃ,(green) tea,Noun
+N5,お手洗い,おてあらい,"toilet, restroom, bathroom (lit., a place to wash one's hands)",Noun
+N5,お父さん,おとうさん,father (formal),Noun
+N5,弟,おとうと,younger brother,Noun
+N5,男,おとこ,"man, male",Noun
+N5,男の子,おとこのこ,boy,"Expressions (phrases, clauses, etc.)"
+N5,一昨日,おととい,the day before yesterday,Noun
+N5,おととし,おととし,year before last,Noun
+N5,大人,おとな,adult,Noun
+N5,お腹,おなか,stomach,Noun
+N5,同じ,おなじ,"same, identical",Noun or verb acting prenominally
+N5,お兄さん,おにいさん,(someone else's) older brother (formal),Noun
+N5,お姉さん,おねえさん,older sister (formal),Noun
+N5,伯母さん; 叔母さん,おばさん,aunt,Noun
+N5,おばあさん,おばあさん,"grandmother, female senior-citizen",Noun
+N5,お風呂,おふろ,a bath,Noun
+N5,お弁当,おべんとう,a boxed lunch,Noun
+N5,覚える,おぼえる,"to learn, to commit to memory, to remember, to memorize",Ichidan verb
+N5,おまわりさん,おまわりさん,policeman (friendly term),Noun
+N5,重い,おもい,heavy; serious,I-adjective (keiyoushi)
+N5,面白い,おもしろい,"interesting, amusing",I-adjective (keiyoushi)
+N5,泳ぐ,およぐ,to swim,Godan verb with 'gu' ending
+N5,降りる,おりる,to get off,Ichidan verb
+N5,終る,おわる,"to finish, to close",Godan verb with 'ru' ending
+N5,音楽,おんがく,Music,Noun
+N5,女,おんな,"woman, female",Noun
+N5,女の子,おんなのこ,girl,"Expressions (phrases, clauses, etc.)"
+N5,～回,～かい,counter for occurrences (~ times),Counter
+N5,～階,～かい,counter for stories (floors) of a building,Noun
+N5,外国,がいこく,foreign country; abroad,Noun
+N5,外国人,がいこくじん,foreigner,Noun
+N5,会社,かいしゃ,"company, corporation",Noun
+N5,階段,かいだん,stairs,Noun
+N5,買い物,かいもの,shopping,Noun
+N5,買う,かう,to buy,Godan verb with 'u' ending
+N5,返す,かえす,to return something,Godan verb with 'su' ending
+N5,帰る,かえる,"to go back, to go home, to return",Godan verb with 'ru' ending
+N5,顔,かお,face (body part),Noun
+N5,かかる,かかる,"it takes (amount of time, money) (v.i.)",Godan verb with 'ru' ending
+N5,鍵,かぎ,a lock; a key,Noun
+N5,書く,かく,to write,Godan verb with 'ku' ending
+N5,学生,がくせい,student,Noun
+N5,～か月,～かげつ,(number of) months,Counter
+N5,掛ける,かける,"to put on (e.g., glasses); to hang (e.g., on a wall)",Ichidan verb
+N5,かける,かける,"to dial/call (e.g., phone); to sit down",Ichidan verb
+N5,傘,かさ,"umbrella, parasol",Noun
+N5,貸す,かす,to lend,Godan verb with 'su' ending
+N5,風,かぜ,"wind, breeze",Noun
+N5,風邪,かぜ,"cold, flu",Noun
+N5,方,かた,-- honorific form for 人 (ひと) --; way of doing,Noun
+N5,家族,かぞく,"family, members of a family",Noun
+N5,片仮名,かたかな,katakana,Noun
+N5,～月,～がつ,month of year,Noun
+N5,学校,がっこう,a school,Noun
+N5,カップ,カップ,cup,Noun
+N5,家庭,かてい,home; family,Noun
+N5,角,かど,"corner (e.g., desk, pavement)",Noun
+N5,かばん,かばん,"bag, basket",Noun
+N5,花瓶,かびん,(flower) vase,Noun
+N5,かぶる,かぶる,"to wear, to put on (e.g., a hat on the head)",Godan verb with 'ru' ending
+N5,紙,かみ,paper,Noun
+N5,カメラ,カメラ,camera,Noun
+N5,火曜日,かようび,Tuesday,Noun
+N5,辛い,からい,hot and spicy; salty,I-adjective (keiyoushi)
+N5,体,からだ,body; health,Noun
+N5,借りる,かりる,"to borrow, to owe",Ichidan verb
+N5,軽い,かるい,"light, non-serious, minor",I-adjective (keiyoushi)
+N5,カレー,カレー,curry (abbr. for curry and rice),Noun
+N5,カレンダー,カレンダー,calendar,Noun
+N5,～側,～がわ,~ side,Noun
+N5,可愛い,かわいい,"cute, adorable",I-adjective (keiyoushi)
+N5,漢字,かんじ,kanji; Chinese character,Noun
+N5,木,き,"tree, wood, timber",Noun
+N5,黄色,きいろ,yellow,Noun
+N5,黄色い,きいろい,yellow,I-adjective (keiyoushi)
+N5,消える,きえる,"to vanish, to disappear",Ichidan verb
+N5,聞く,きく,"to hear, to listen, to ask",Godan verb with 'ku' ending
+N5,北,きた,north,Noun
+N5,ギター,ギター,guitar,Noun
+N5,汚い,きたない,"dirty, unclean, filthy",I-adjective (keiyoushi)
+N5,喫茶店,きっさてん,café,Noun
+N5,切手,きって,postal (postage) stamps,Noun
+N5,切符,きっぷ,a ticket,Noun
+N5,昨日,きのう,yesterday,Noun
+N5,牛肉,ぎゅうにく,beef,Noun
+N5,牛乳,ぎゅうにゅう,milk,Noun
+N5,今日,きょう,"today, this day",Noun
+N5,教室,きょうしつ,classroom,Noun
+N5,兄弟,きょうだい,"siblings (humble), brothers and sisters",Noun
+N5,去年,きょねん,last year,Noun
+N5,嫌い,きらい,dislike,Na-adjective (keiyodoshi)
+N5,切る,きる,to cut; to hang up (a phone),Godan verb with 'ru' ending
+N5,着る,きる,to put on (clothes above your waist); to wear,Ichidan verb
+N5,綺麗,きれい,"pretty, clean, tidy",Na-adjective (keiyodoshi)
+N5,キロ; キログラム,キロ; キログラム,(abbr.) kilo (kilogram),Prefix
+N5,キロ; キロメートル,キロ; キロメートル,(abbr.) kilo (kilometer),Prefix
+N5,銀行,ぎんこう,bank,Noun
+N5,金曜日,きんようび,Friday,Noun
+N5,薬,くすり,medicine,Noun
+N5,下さい,ください,(with te-form verb) please do for me,"Expressions (phrases, clauses, etc.)"
+N5,果物,くだもの,fruit,Noun
+N5,口,くち,job opening; mouth,Noun
+N5,靴,くつ,"shoes, footwear",Noun
+N5,靴下,くつした,socks,Noun
+N5,国,くに,country; place of origin,Noun
+N5,曇り,くもり,"cloudiness, cloudy weather",Noun
+N5,曇る,くもる,"to become cloudy, to become dim",Godan verb with 'ru' ending
+N5,暗い,くらい,"dark, gloomy",I-adjective (keiyoushi)
+N5,クラス,クラス,a class,Noun
+N5,グラム,グラム,gram,Noun
+N5,来る,くる,to come,Kuru verb - special class
+N5,車,くるま,"car, vehicle",Noun
+N5,黒,くろ,black,Noun
+N5,黒い,くろい,black; dark,I-adjective (keiyoushi)
+N5,警官,けいかん,police officer,Noun
+N5,今朝,けさ,this morning,Noun
+N5,消す,けす,"to erase, to delete, to turn off power",Godan verb with 'su' ending
+N5,結構,けっこう,"splendid; enough, tolerably",Na-adjective (keiyodoshi)
+N5,結婚,けっこん (する),marriage (get married),Noun
+N5,月曜日,げつようび,Monday,Noun
+N5,玄関,げんかん,entrance (to a house or a building),Noun
+N5,元気,げんき,"health(y), energetic",Na-adjective (keiyodoshi)
+N5,～個,～こ,"counter for small items (e.g., fruits, cups)",Counter
+N5,五,ご,five,Numeric
+N5,～語,～ご,"word, language",Noun
+N5,公園,こうえん,a park,Noun
+N5,交差点,こうさてん,intersection,Noun
+N5,紅茶,こうちゃ,black tea,Noun
+N5,交番,こうばん,police box,Noun
+N5,声,こえ,voice,Noun
+N5,コート,コート,"coat; court (e.g., tennis)",Noun
+N5,コーヒー,コーヒー,coffee,Noun
+N5,ここ,ここ,"here, this place",Noun
+N5,午後,ごご,"afternoon, P.M.",Noun
+N5,九日,ここのか,nine days; ninth day of the month,Noun
+N5,九つ,ここのつ,nine things,Numeric
+N5,午前,ごぜん,"morning, A.M.",Noun
+N5,答える,こたえる,"to answer, to reply",Ichidan verb
+N5,こちら,こちら,this person (polite); this way (polite),Pronoun
+N5,こっち,こっち,this person; this direction; this side,Pronoun
+N5,コップ,コップ,a tumbler; a glass,Noun
+N5,今年,ことし,this year,Noun
+N5,言葉,ことば,language; word(s); expression(s),Noun
+N5,子供,こども,child(ren),Noun
+N5,この,この,this,Pre-noun adjectival (rentaishi)
+N5,御飯,ごはん,rice (cooked); meal,Noun
+N5,コピーする,コピーする,to copy,Noun
+N5,困る,こまる,"to be bothered, to have difficulty",Godan verb with 'ru' ending
+N5,これ,これ,this one,Pronoun
+N5,今月,こんげつ,this month,Noun
+N5,今週,こんしゅう,this week,Noun
+N5,こんな,こんな,"such, like this",Pre-noun adjectival (rentaishi)
+N5,今晩,こんばん,"tonight, this evening",Noun
+N5,さあ,さあ,"come now, well",Interjection
+N5,～歳,～さい,~ years old,Noun
+N5,財布,さいふ,wallet,Noun
+N5,魚,さかな,fish,Noun
+N5,先,さき,"future; recent, previous",Noun
+N5,咲く,さく,to bloom,Godan verb with 'ku' ending
+N5,作文,さくぶん,essay; composition,Noun
+N5,差す,さす,"to raise (stretch out) hands, to raise (e.g., umbrella)",Godan verb with 'su' ending
+N5,～冊,～さつ,counter for books,Counter
+N5,雑誌,ざっし,"magazine, journal",Noun
+N5,砂糖,さとう,sugar,Noun
+N5,寒い,さむい,cold (in reference to weather),I-adjective (keiyoushi)
+N5,さ来年,さらいねん,year after next,Noun
+N5,～さん,～さん,"Mr. ~, Ms. ~",Numeric
+N5,三,さん,three,Numeric
+N5,散歩,さんぽ (する),"walk, stroll",Noun
+N5,四,し,four,Numeric
+N5,～時,～じ,~ o'clock (time),Noun
+N5,塩,しお,salt,Noun
+N5,しかし,しかし,however; but,Conjunction
+N5,時間,じかん,time,Noun
+N5,～時間,～じかん,~ hours,Noun
+N5,仕事,しごと,"work, job, occupation, employment",Noun
+N5,辞書,じしょ,dictionary,Noun
+N5,静か,しずか,"quiet, calm",Na-adjective (keiyodoshi)
+N5,下,した,"under, below, beneath",Noun
+N5,質問,しつもん,"question, inquiry",Noun
+N5,自転車,じてんしゃ,bicycle,Noun
+N5,自動車,じどうしゃ,automobile,Noun
+N5,死ぬ,しぬ,to die,Godan verb with 'nu' ending
+N5,字引,じびき,dictionary,Noun
+N5,自分,じぶん,"myself, oneself",Pronoun
+N5,閉まる,しまる,"to close, to be closed",Godan verb with 'ru' ending
+N5,閉める,しめる,"to close, to shut",Ichidan verb
+N5,締める,しめる,"to tie, to fasten, to tighten",Ichidan verb
+N5,じゃ; じゃあ,じゃ; じゃあ,"well, well then",Conjunction
+N5,写真,しゃしん,a picture; a photograph,Noun
+N5,シャツ,シャツ,shirt,Noun
+N5,シャワー,シャワー,shower,Noun
+N5,十,じゅう,ten,Numeric
+N5,～週間,～しゅうかん,~ weeks,Noun
+N5,授業,じゅぎょう,a class (of school),Noun
+N5,宿題,しゅくだい,homework,Noun
+N5,上手,じょうず,"be good at, skillful",Na-adjective (keiyodoshi)
+N5,丈夫,じょうぶ,"strong, solid, durable",Na-adjective (keiyodoshi)
+N5,醤油,しょうゆ,soy sauce,Noun
+N5,食堂,しょくどう,"cafeteria, dining hall",Noun
+N5,知る,しる,"to know, to understand",Godan verb with 'ru' ending
+N5,白,しろ,white,Noun
+N5,白い,しろい,white,I-adjective (keiyoushi)
+N5,～人,～じん,counter for people,Noun
+N5,新聞,しんぶん,newspaper,Noun
+N5,水曜日,すいようび,Wednesday,Noun
+N5,吸う,すう,"to breathe in, to suck",Godan verb with 'u' ending
+N5,スカート,スカート,skirt,Noun
+N5,好き,すき,"liking, fondness, love",Na-adjective (keiyodoshi)
+N5,少ない,すくない,a little; a few,I-adjective (keiyoushi)
+N5,すぐに,すぐに,"immediately, soon",Adverb (fukushi)
+N5,少し,すこし,"little, few",Adverb (fukushi)
+N5,涼しい,すずしい,"cool, refreshing (in reference to weather)",I-adjective (keiyoushi)
+N5,ストーブ,ストーブ,heater (lit: stove),Noun
+N5,スプーン,スプーン,spoon,Noun
+N5,スポーツ,スポーツ,sport(s),Noun
+N5,ズボン,ズボン,trousers,Noun
+N5,住む,すむ,"to reside, to live in",Godan verb with 'mu' ending
+N5,する,する,"to do, to try; to wear small items (e.g., necktie, watch, etc.)",Suru verb - included
+N5,座る,すわる,to sit,Godan verb with 'ru' ending
+N5,背,せい,"(one's) height, stature",Noun
+N5,生徒,せいと,student; pupil,Noun
+N5,セーター,セーター,sweater,Noun
+N5,石鹸,せっけん,soap,Noun
+N5,背広,せびろ,men's suit,Noun
+N5,狭い,せまい,narrow; not spacious,I-adjective (keiyoushi)
+N5,ゼロ,ゼロ,zero,Noun
+N5,千,せん,thousand,Numeric
+N5,先月,せんげつ,last month,Noun
+N5,先週,せんしゅう,last week,Noun
+N5,先生,せんせい,"teacher, professor; master; doctor",Noun
+N5,洗濯,せんたく,"washing, laundry",Noun
+N5,全部,ぜんぶ,"all, entire, whole",Noun
+N5,そう; そうです,そう; そうです,"yes; appears, to be the case",Noun
+N5,掃除,そうじ (する),"cleaning, sweeping",Noun
+N5,そうして; そして,そうして; そして,"and, like that",Conjunction
+N5,そこ,そこ,"that place, there; bottom, sole",Pronoun
+N5,そちら,そちら,over there,Pronoun
+N5,そっち,そっち,over there,Pronoun
+N5,外,そと,"outside, exterior",Noun
+N5,その,その,that,Pre-noun adjectival (rentaishi)
+N5,そば,そば,"near, close, beside; Japanese traditional buckwheat noodle",Noun
+N5,空,そら,sky,Noun
+N5,それ,それ,that one,Pronoun
+N5,それから,それから,"and then, after that","Expressions (phrases, clauses, etc.)"
+N5,それでは,それでは,"in that situation, well then...",Conjunction
+N5,～台,～だい,counter for vehicles; machines,Noun
+N5,大学,だいがく,college; university,Noun
+N5,大使館,たいしかん,embassy,Noun
+N5,大丈夫,だいじょうぶ,It's ok (all right); No need to worry; Everything is under control,Na-adjective (keiyodoshi)
+N5,大好き,だいすき,"very like-able, like very much",Na-adjective (keiyodoshi)
+N5,大切,たいせつ,important,Na-adjective (keiyodoshi)
+N5,台所,だいどころ,kitchen,Noun
+N5,大変,たいへん,"very; difficult, hard",Adverb (fukushi)
+N5,高い,たかい,"tall, high; expensive",I-adjective (keiyoushi)
+N5,沢山,たくさん,"many, much",Noun which may take the genitive case particle 'no'
+N5,タクシー,タクシー,taxi,Noun
+N5,出す,だす,to take (something) out; to hand in (something),Godan verb with 'su' ending
+N5,～たち,～たち,plural suffix,Noun
+N5,立つ,たつ,to stand up,Godan verb with 'tsu' ending
+N5,たて,たて,"length, height",Noun
+N5,建物,たてもの,building,Noun
+N5,楽しい,たのしい,"enjoyable, fun",I-adjective (keiyoushi)
+N5,頼む,たのむ,"to request, to ask (a favor)",Godan verb with 'mu' ending
+N5,たばこ,たばこ,"tobacco, cigarettes",Noun
+N5,多分,たぶん,"perhaps, probably, maybe",Adverb (fukushi)
+N5,食べ物,たべもの,food,Noun
+N5,食べる,たべる,to eat,Ichidan verb
+N5,卵,たまご,egg,Noun
+N5,誰,だれ,who,Pronoun
+N5,誰か,だれか,someone,Pronoun
+N5,誕生日,たんじょうび,birthday,Noun
+N5,段々,だんだん,"gradually, by degrees",Adverb (fukushi)
+N5,小さい,ちいさい,"small, little",I-adjective (keiyoushi)
+N5,小さな,ちいさな,"small, little",Pre-noun adjectival (rentaishi)
+N5,近い,ちかい,"near, close by, short",I-adjective (keiyoushi)
+N5,違う,ちがう,to be different; to differ; wrong,Godan verb with 'u' ending
+N5,近く,ちかく,nearby; in the neighborhood,Noun
+N5,地下鉄,ちかてつ,"underground train, subway",Noun
+N5,地図,ちず,a map,Noun
+N5,父,ちち,(my) father,Noun
+N5,茶色,ちゃいろ,brown,Noun
+N5,茶碗,ちゃわん,rice bowl,Noun
+N5,丁度,ちょうど,"just, right, exactly",Adverb (fukushi)
+N5,ちょっと,ちょっと,"a little, somewhat; just a little, somewhat",Adverb (fukushi)
+N5,一日,ついたち,one day; first day of the month,Noun
+N5,使う,つかう,to use,Godan verb with 'u' ending
+N5,疲れる,つかれる,to get (become) tired; to become fatigued,Ichidan verb
+N5,次,つぎ,next,Noun
+N5,着く,つく,"to arrive at, to reach",Godan verb with 'ku' ending
+N5,机,つくえ,desk,Noun
+N5,作る,つくる,"to make, to create",Godan verb with 'ru' ending
+N5,つける,つける,"to turn on (e.g., a light); to take",Ichidan verb
+N5,勤める,つとめる,to work (for),Ichidan verb
+N5,つまらない,つまらない,"boring, dull; insignificant",I-adjective (keiyoushi)
+N5,冷たい,つめたい,"cold (things, people)",I-adjective (keiyoushi)
+N5,強い,つよい,"strong, powerful",I-adjective (keiyoushi)
+N5,手,て,hand,Noun
+N5,テープ,テープ,tape,Noun
+N5,テープレコーダー,テープレコーダー,tape recorder,Noun
+N5,テーブル,テーブル,table,Noun
+N5,出かける,でかける,to go out; to depart,Ichidan verb
+N5,手紙,てがみ,letter,Noun
+N5,できる,できる,to be able to (to accomplish),Ichidan verb
+N5,出口,でぐち,an exit,Noun
+N5,テスト,テスト,test,Noun
+N5,では,では,"then, well, so",Conjunction
+N5,デパート,デパート,(abbr.) department store,Noun
+N5,でも,でも,"but, however",Conjunction
+N5,出る,でる,"to appear, to leave",Ichidan verb
+N5,テレビ,テレビ,"television, TV",Noun
+N5,天気,てんき,weather,Noun
+N5,電気,でんき,"electricity, (electric) light",Noun
+N5,電車,でんしゃ,electric train,Noun
+N5,電話,でんわ,a telephone,Noun
+N5,戸,と,door (Japanese style),Noun
+N5,～度,～ど,counter for occurrences; ~ degree; ~ point,Noun
+N5,ドア,ドア,door (Western style),Noun
+N5,トイレ,トイレ,bathroom; toilet,Noun
+N5,どう,どう,"how, in what way",Noun
+N5,どうして,どうして,"why, for what reason",Adverb (fukushi)
+N5,どうぞ,どうぞ,"please, kindly, by all means",Adverb (fukushi)
+N5,動物,どうぶつ,animal,Noun
+N5,どうも,どうも,Thank you; somehow,Adverb / Interjection
+N5,十,(〜を) とお,ten (~),Numeric
+N5,遠い,とおい,"far (away), distant",I-adjective (keiyoushi)
+N5,十日,とおか,ten days; tenth day of the month,Noun
+N5,時々,ときどき,sometimes,Adverb (fukushi)
+N5,時計,とけい,a watch; a clock,Noun
+N5,どこ,どこ,"where, what place",Pronoun
+N5,所,ところ,place,Noun
+N5,年,とし,"year, age",Noun
+N5,図書館,としょかん,library,Noun
+N5,どちら,どちら,which (one) (way); where (polite),Pronoun
+N5,どっち,どっち,"which one, which way",Pronoun
+N5,とても,とても,"very (much), greatly, exceedingly",Adverb (fukushi)
+N5,どなた,どなた,who,Pronoun
+N5,隣,となり,"next to, next door to",Noun which may take the genitive case particle 'no'
+N5,どの,どの,which,Pre-noun adjectival (rentaishi)
+N5,飛ぶ,とぶ,"to fly, to hop",Godan verb with 'bu' ending
+N5,止まる,とまる,to come to a halt,Godan verb with 'ru' ending
+N5,友達,ともだち,friend,Noun
+N5,土曜日,どようび,Saturday,Noun
+N5,鳥,とり,"chicken (lit., bird)",Noun
+N5,鶏肉,とりにく,chicken meat,Noun
+N5,取る,とる,to take (a class); to get (a grade),Godan verb with 'ru' ending
+N5,撮る,とる,"to take (a photo), to make (a film)",Godan verb with 'ru' ending
+N5,どれ,どれ,which one,Pronoun
+N5,どんな,どんな,"what, what kind of",Pre-noun adjectival (rentaishi)
+N5,ない,ない,"there isn't, doesn't have",I-adjective (keiyoushi)
+N5,ナイフ,ナイフ,knife,Noun
+N5,中,なか,"inside, middle, among",Noun
+N5,長い,ながい,"long, lengthy",I-adjective (keiyoushi)
+N5,鳴く,なく,to make sound (animal),Godan verb with 'ku' ending
+N5,無くす,なくす,to lose something,Godan verb with 'su' ending
+N5,なぜ,なぜ,why (same as どうして),Adverb (fukushi)
+N5,夏,なつ,summer,Noun
+N5,夏休み,なつやすみ,summer vacation,Noun
+N5,七つ,ななつ,seven things,Numeric
+N5,何,なん; なに,what,Pronoun
+N5,七日,なのか,seven days; seventh day (of the month),Noun
+N5,名前,なまえ,name,Noun
+N5,習う,ならう,to learn,Godan verb with 'u' ending
+N5,並ぶ,ならぶ,"to line up, to stand in a line (v.i.)",Godan verb with 'bu' ending
+N5,並べる,ならべる,to put (things) side by side; to line up,Ichidan verb
+N5,なる,なる,to become,Godan verb with 'ru' ending
+N5,二,に,two,Numeric
+N5,にぎやか,にぎやか,"bustling, busy",Na-adjective (keiyodoshi)
+N5,肉,にく,meat,Noun
+N5,西,にし,west,Noun
+N5,～日,～にち,"~ day of the month, for ~ days",Noun
+N5,日曜日,にちようび,Sunday,Noun
+N5,荷物,にもつ,luggage; baggage,Noun
+N5,ニュース,ニュース,news,Noun
+N5,庭,にわ,garden,Noun
+N5,～人,～にん,counter for people,Noun
+N5,脱ぐ,ぬぐ,to take off (clothes),Godan verb with 'gu' ending
+N5,温い,ぬるい,lukewarm,I-adjective (keiyoushi)
+N5,ネクタイ,ネクタイ,"tie, necktie",Noun
+N5,猫,ねこ,cat,Noun
+N5,寝る,ねる,to sleep; to go to sleep; to go to bed,Ichidan verb
+N5,～年,～ねん,~ years,Noun
+N5,ノート,ノート,notebook,Noun
+N5,登る,のぼる,to climb,Godan verb with 'ru' ending
+N5,飲み物,のみもの,"drink, beverage",Noun
+N5,飲む,のむ,to drink,Godan verb with 'mu' ending
+N5,乗る,のる,"to get on, to ride in, to board",Godan verb with 'ru' ending
+N5,歯,は,tooth,Noun
+N5,パーティー,パーティー,a party,Noun
+N5,はい,はい,yes,Interjection
+N5,～杯,～はい,counter for cupfuls,Counter
+N5,灰皿,はいざら,ashtray,Noun
+N5,入る,はいる,"to enter, to contain, to hold",Godan verb with 'ru' ending
+N5,葉書,はがき,postcard,Noun
+N5,はく,はく,to put on (items below your waist),Godan verb with 'ku' ending
+N5,箱,はこ,box,Noun
+N5,橋,はし,bridge,Noun
+N5,箸,はし,chopsticks,Noun
+N5,始まる,はじまる,(something) begins,Godan verb with 'ru' ending
+N5,初め; 始め,はじめ,"beginning, start",Noun
+N5,初めて,はじめて,for the first time,Adverb (fukushi)
+N5,走る,はしる,to run,Godan verb with 'ru' ending
+N5,バス,バス,bus; bath; bass,Noun
+N5,バター,バター,butter,Noun
+N5,二十歳,はたち,20 years old,Noun
+N5,働く,はたらく,to work,Godan verb with 'ku' ending
+N5,八,はち,eight,Numeric
+N5,二十日,はつか,"twenty days, twentieth (day of the month)",Noun
+N5,花,はな,flower,Noun
+N5,鼻,はな,nose,Noun
+N5,話,はなし,"talk (chat), story",Noun
+N5,話す,はなす,to speak,Godan verb with 'su' ending
+N5,母,はは,(my) mother,Noun
+N5,早い,はやい,early,I-adjective (keiyoushi)
+N5,速い,はやい,"fast, quick",I-adjective (keiyoushi)
+N5,春,はる,spring,Noun
+N5,貼る,はる,to post; to paste; to attach,Godan verb with 'ru' ending
+N5,晴れ,はれ,clear (sunny) weather,Noun
+N5,晴れる,はれる,to be sunny,Ichidan verb
+N5,半,はん,"half (e.g., にじはん | half-past two)","Noun, used as a prefix"
+N5,晩,ばん,evening,Noun
+N5,～番,～ばん,~st; ~th best,Noun
+N5,パン,パン,bread,Noun
+N5,ハンカチ,ハンカチ,handkerchief,Noun
+N5,番号,ばんごう,"number, series of digits",Noun
+N5,晩御飯,ばんごはん,"dinner, evening meal",Noun
+N5,半分,はんぶん,half,Noun
+N5,東,ひがし,east,Noun
+N5,～匹,～ひき,counter for small animals,Counter
+N5,引く,ひく,"to pull, to draw; subtract",Godan verb with 'ku' ending
+N5,弾く,ひく,to play (a string instrument or piano),Godan verb with 'ku' ending
+N5,低い,ひくい,"short, low",I-adjective (keiyoushi)
+N5,飛行機,ひこうき,airplane,Noun
+N5,左,ひだり,left hand side,Noun
+N5,人,ひと,"man, person",Noun
+N5,一つ,ひとつ,one thing,Numeric
+N5,一月,ひとつき,one month,Noun
+N5,一人,ひとり,one person,Noun
+N5,暇,ひま,"free time, leisure",Na-adjective (keiyodoshi)
+N5,百,ひゃく,hundred,Numeric
+N5,病院,びょういん,hospital,Noun
+N5,病気,びょうき,illness; sickness,Noun
+N5,平仮名,ひらがな,hiragana,Noun
+N5,昼,ひる,"noon, daytime",Noun
+N5,昼御飯,ひるごはん,"lunch, midday meal",Noun
+N5,広い,ひろい,spacious; wide; broad,I-adjective (keiyoushi)
+N5,フィルム,フィルム,film (roll of),Noun
+N5,封筒,ふうとう,envelope,Noun
+N5,プール,プール,swimming pool,Noun
+N5,フォーク,フォーク,fork,Noun
+N5,吹く,ふく,"to blow (wind, etc.)",Godan verb with 'ku' ending
+N5,服,ふく,clothes,Noun
+N5,二つ,ふたつ,two things,Numeric
+N5,豚肉,ぶたにく,pork,Noun
+N5,二人,ふたり,two people,Noun
+N5,二日,ふつか,two days; second day of the month,Noun
+N5,太い,ふとい,"fat, thick",I-adjective (keiyoushi)
+N5,冬,ふゆ,winter,Noun
+N5,降る,ふる,"to precipitate, to fall (e.g., rain, snow, etc.)",Godan verb with 'ru' ending
+N5,古い,ふるい,"old (in reference to objects, not people), aged, ancient",I-adjective (keiyoushi)
+N5,～分,～ふん,~ minutes,Noun
+N5,文章,ぶんしょう,"sentence, text",Noun
+N5,ページ,ページ,a page,Noun
+N5,下手,へた,"unskillful, poor",Na-adjective (keiyodoshi)
+N5,ベッド,ベッド,bed,Noun
+N5,ペット,ペット,pet,Noun
+N5,部屋,へや,a room,Noun
+N5,辺,へん,"area, vicinity",Noun
+N5,ペン,ペン,pen,Noun
+N5,勉強,べんきょう (する),study,Noun
+N5,便利,べんり,"convenient, handy",Na-adjective (keiyodoshi)
+N5,帽子,ぼうし,hat; cap,Noun
+N5,ボールペン,ボールペン,ball-point pen,Noun
+N5,外,ほか,"other, the rest",Noun
+N5,ポケット,ポケット,pocket,Noun
+N5,欲しい,ほしい,"to want, in need of",I-adjective (keiyoushi)
+N5,ポスト,ポスト,"mailbox; post, position",Noun
+N5,細い,ほそい,"thin, slender, fine",I-adjective (keiyoushi)
+N5,ボタン,ボタン,button,Noun
+N5,ホテル,ホテル,hotel,Noun
+N5,本,ほん,book,Noun
+N5,～本,～ほん,counter for long cylindrical things,Counter
+N5,本棚,ほんだな,bookshelf,Noun
+N5,本当,ほんとう,"real, true",Noun
+N5,～枚,～まい,counter for flat things,Counter
+N5,毎朝,まいあさ,every morning,Noun
+N5,毎月,まいげつ; まいつき,"every month, monthly",Adverb (fukushi)
+N5,毎週,まいしゅう,every week,Noun
+N5,毎日,まいにち,every day,Noun
+N5,毎年,まいねん; まいとし,"every year, yearly, annually",Adverb (fukushi)
+N5,毎晩,まいばん,every night,Noun
+N5,前,まえ,"before, in front","Noun, used as a prefix"
+N5,～前,～まえ,in front of ~,"Noun, used as a prefix"
+N5,曲る,まがる,"to turn, to bend",Godan verb with 'ru' ending
+N5,まずい,まずい,"terrible (in reference to food), unappetizing, unpleasant (taste)",I-adjective (keiyoushi)
+N5,また,また,and; furthermore,Adverb (fukushi)
+N5,まだ,まだ,"yet, still, besides",Adverb (fukushi)
+N5,町,まち,town; city,Noun
+N5,待つ,まつ,to wait,Godan verb with 'tsu' ending
+N5,まっすぐ,まっすぐ,"straight (ahead), direct",Na-adjective (keiyodoshi)
+N5,マッチ,マッチ,match,Noun
+N5,窓,まど,window,Noun
+N5,丸い; 円い,まるい,"round, circular",I-adjective (keiyoushi)
+N5,万,まん,ten thousand,Numeric
+N5,万年筆,まんねんひつ,fountain pen,Noun
+N5,磨く,みがく,to brush (teeth); to polish,Godan verb with 'ku' ending
+N5,右,みぎ,right hand side,Noun
+N5,短い,みじかい,short (length),I-adjective (keiyoushi)
+N5,水,みず,water,Noun
+N5,店,みせ,"store, shop",Noun
+N5,見せる,みせる,"to show, to display",Ichidan verb
+N5,道,みち,"road, street; way, directions",Noun
+N5,三日,みっか,"three days, third day of the month",Noun
+N5,三つ,みっつ,three things,Numeric
+N5,緑,みどり,green,Noun
+N5,皆さん,みなさん,"all of you, everyone",Noun
+N5,南,みなみ,South,Noun
+N5,耳,みみ,ear,Noun
+N5,見る,みる,"to see, to look",Ichidan verb
+N5,みんな,みんな,"all, everyone, everybody",Noun
+N5,六日,むいか,six days; sixth day of month,Noun
+N5,向こう,むこう,"beyond, over there",Noun
+N5,難しい,むずかしい,difficult,I-adjective (keiyoushi)
+N5,六つ,むっつ,six things,Numeric
+N5,村,むら,village,Noun
+N5,目,め,eye(s),Noun
+N5,メートル,メートル,meter,Noun
+N5,眼鏡,めがね,eye glasses,Noun
+N5,もう,もう,already; again; more,Adverb (fukushi)
+N5,木曜日,もくようび,Thursday,Noun
+N5,もしもし,もしもし,Hello? (used on the phone),Interjection
+N5,持つ,もつ,"to hold, to carry; to possess",Godan verb with 'tsu' ending
+N5,もっと,もっと,more,Adverb (fukushi)
+N5,物,もの,thing (concrete object),Noun
+N5,門,もん,gate,Noun
+N5,問題,もんだい,a problem,Noun
+N5,～屋,～や,~ shop,Suffix
+N5,八百屋,やおや,greengrocer,Noun
+N5,野菜,やさい,vegetable,Noun
+N5,易しい,やさしい,"easy, plain, simple",I-adjective (keiyoushi)
+N5,安い,やすい,inexpensive; cheap (things),I-adjective (keiyoushi)
+N5,休み,やすみ,holiday; day off; absence,Noun
+N5,休む,やすむ,"to rest, to have a break, to get time off",Godan verb with 'mu' ending
+N5,八つ,やっつ,eight things,Numeric
+N5,山,やま,mountain,Noun
+N5,やる,やる,"to do; to give (to pets, parents, siblings, etc.)",Godan verb with 'ru' ending
+N5,夕方,ゆうがた,"late afternoon (typically just before dinner time), evening",Noun
+N5,夕飯,ゆうはん,"dinner, supper, evening meal",Noun
+N5,郵便局,ゆうびんきょく,post office,Noun
+N5,昨夜,ゆうべ,last night,Noun
+N5,有名,ゆうめい,famous,Na-adjective (keiyodoshi)
+N5,雪,ゆき,snow,Noun
+N5,ゆっくりと,ゆっくりと,"slowly, at ease",Adverb (fukushi)
+N5,八日,ようか,eight days; eighth day of the month,Noun
+N5,洋服,ようふく,Western-style clothes,Noun
+N5,よく,よく,"frequently, often (much); well, skillfully",Adverb (fukushi)
+N5,横,よこ,beside; side; width,Noun
+N5,四日,よっか,four days; fourth day of the month,Noun
+N5,四つ,よっつ,four things,Numeric
+N5,呼ぶ,よぶ,to call (one's name); to invite,Godan verb with 'bu' ending
+N5,読む,よむ,to read,Godan verb with 'mu' ending
+N5,夜,よる,"evening, night",Noun
+N5,弱い,よわい,weak,I-adjective (keiyoushi)
+N5,来月,らいげつ,next month,Noun
+N5,来週,らいしゅう,next week,Noun
+N5,来年,らいねん,next year,Noun
+N5,ラジオ,ラジオ,radio,Noun
+N5,ラジオカセ,ラジオカセ,radio cassette player,Noun
+N5,りっぱ,りっぱ,"splendid, fine",Na-adjective (keiyodoshi)
+N5,留学生,りゅうがくせい,international student,Noun
+N5,両親,りょうしん,"parents (lit., both parents)",Noun
+N5,料理,りょうり,cooking; cuisine,Noun
+N5,旅行,りょこう,"travel, trip",Noun
+N5,零,れい,"zero, nought",Noun
+N5,冷蔵庫,れいぞうこ,refrigerator,Noun
+N5,レコード,レコード,record,Noun
+N5,レストラン,レストラン,restaurant,Noun
+N5,練習,れんしゅう (する),(to) practice,Noun
+N5,廊下,ろうか,corridor,Noun
+N5,六,ろく,six,Numeric
+N5,ワイシャツ,ワイシャツ,"shirt (lit: white shirt), business shirt",Noun
+N5,若い,わかい,young,I-adjective (keiyoushi)
+N5,分かる,わかる,to understand,Godan verb with 'ru' ending
+N5,忘れる,わすれる,to forget,Ichidan verb
+N5,私,わたし,"I, myself",Pronoun
+N5,私,わたくし,"I (formal), myself, private affairs",Pronoun
+N5,渡す,わたす,to hand (something) over (v.t.); to get across,Godan verb with 'su' ending
+N5,渡る,わたる,"to cross over, to go across",Godan verb with 'ru' ending
+N5,悪い,わるい,"bad, sinful; inferior",I-adjective (keiyoushi)
+N5,ある,ある,to be; to have (inanimate),Godan verb with 'ru' ending (irregular verb)
+N5,川,かわ,river,Noun
+N5,九,きゅう/く,nine,Numeric
+N5,七,しち/なな,seven,Numeric

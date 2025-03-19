@@ -1,0 +1,81 @@
+JLPT,Word,Reading,Meaning,Word Type,Example Sentence JP,Example Sentence EN
+N5,ちゃいけない・じゃいけない,ちゃいけない / じゃいけない,must not do (in spoken Japanese),Expression,ここで走ってはいけない。,You must not run here.
+N5,だ・です,だ / です,"to be (am, is, are)",Auxiliary verb (Copula),彼は学生です。,He is a student.
+N5,だろう,だろう,I think; it seems; probably; right?,Auxiliary verb,明日は雨が降るだろう。,It will probably rain tomorrow.
+N5,で,で,in; at; on; by; with; via,Particle,公園で遊びます。,I play in the park.
+N5,でも,でも,but; however,Conjunction,今日は雨が降っています。でも、私は行きます。,"It is raining today. But, I will go."
+N5,でしょう,でしょう,I think; it seems; probably; right?,Auxiliary verb / Expression,明日は雨が降るでしょう。,It will probably rain tomorrow.
+N5,が,が,subject marker; but,Particle,猫が好きです。,I like cats.
+N5,があります,があります,there is; there are (for non-living things),Expression,公園に木があります。,There is a tree in the park.
+N5,がほしい,がほしい,to want something,Expression,私はりんごがほしいです。,I want an apple.
+N5,がいます,がいます,there is; to be (for living things),Expression,公園に犬がいます。,There is a dog in the park.
+N5,がる,がる,"to feel (a certain way, often used to express someone else's feelings or desires)",Auxiliary verb,彼は寒がっています。,He feels cold.
+N5,ずつ,ずつ,each; at a time; in turn,Suffix,リンゴを一つずつ食べます。,I will eat the apples one by one.
+N5,だけ,だけ,"only ~, just ~",Particle,りんごだけ食べました。,I only ate an apple.
+N5,すぎ,すぎ,too much; excessively,Expression,このケーキは甘すぎる。,This cake is too sweet.
+N5,ころ; ごろ,～ころ; ～ごろ,"about, around (time)",Noun,日本に行ったころ、友達に会いました。,"Around the time I went to Japan, I met a friend."
+N5,中,ちゅう,"during, while ~ing",Particle,私は勉強中です。,I am studying.
+N5,時,とき,at the time of ~,Noun,学校に行く時、友達に会いました。,I met my friend at the time of going to school.
+N5,など,など,and so on; etc.,Particle,りんごやバナナなどが好きです。,"I like apples, bananas, and so on."
+N5,何～,なん～,what kind of ~,Pronoun,何の本を読みますか？,What kind of book will you read?
+N5,ほうがいい,ほうがいい,should; had better; it would be better to,Expression,早く寝たほうがいいよ。,You should go to bed early.
+N5,い-adjectives,いけいようし,い形容詞 (いけいようし)は、形容詞の一種で、語尾が「い」で終わる言葉です。,Adjective category,この花はきれいです。,This flower is beautiful.
+N5,じゃない・ではない,じゃない / ではない,to not be (am not; is not; are not),Auxiliary verb (negative copula),これはペンじゃない。,This is not a pen.
+N5,か,か,question particle used at the end of a sentence to indicate a question,Particle,これはペンですか？,Is this a pen?
+N5,か〜か,か〜か,or (used to connect alternatives),Particle,りんごかバナナをください。,Please give me either an apple or a banana.
+N5,から,から,because; since; from,Particle,今日は雨だから、家にいます。,I'm staying home because it's raining today.
+N5,方,かた,the way of doing something; how to do,Noun,この料理の作り方を教えてください。,Please teach me how to make this dish.
+N5,けど,けど,but; however; although,Conjunction,今日は雨が降っていますけど、明日は晴れるでしょう。,"It is raining today, but it will probably be sunny tomorrow."
+N5,けれども,けれども,but; however; although,Conjunction,今日は雨が降っていますけれども、出かけます。,"It is raining today, but I will go out."
+N5,～中,～じゅう,"during, while",Noun,私は勉強中です。,I am studying.
+N5,～くらい; ぐらい,～くらい; ぐらい,approximately; about,Particle,りんごは三つぐらいあります。,There are about three apples.
+N5,まだ〜ていません,まだ〜ていません,have not yet,Expression,私はまだ宿題をしていません。,I have not yet done my homework.
+N5,まで,まで,until ~; as far as ~; to (an extent); even ~,Particle,学校まで歩きます。,I walk to the school.
+N5,前に,まえに,before ~; in front of ~,Expression,学校の前に友達がいます。,There is a friend in front of the school.
+N5,ませんか,ませんか,Would you like to; do you want to; shall we~,Expression,映画を見ませんか？,Would you like to watch a movie?
+N5,ましょう,ましょう,let's ~; shall we ~,Auxiliary verb,公園に行きましょう。,Let's go to the park.
+N5,ましょうか,ましょうか,Shall I ~; used to offer help to the listener.,Expression,手伝いましょうか？,Shall I help you?
+N5,も,も,too; also; as well,Particle,私も行きます。,I will go too.
+N5,もう,もう,already; anymore; again,Adverb (fukushi),もう食べましたか？,Have you already eaten?
+N5,な-adjectives,なけいようし,な形容詞 (na-adjectives) are adjectives that require 'な' when modifying nouns.,Adjective category,彼は元気な男の子です。,He is a lively boy.
+N5,なあ,なあ,sentence-ending particle used to express confirmation or admiration,Particle,今日はいい天気だなあ。,"The weather is nice today, isn't it?"
+N5,ないで,ないで,without doing~ ; To do [B] without doing [A],Conjunction,宿題をしないで遊びました。,I played without doing my homework.
+N5,ないでください,ないでください,please don't do,Expression,ここで走らないでください。,Please don't run here.
+N5,なくてもいい,なくてもいい,don't have to,Expression,行かなくてもいいです。,You don't have to go.
+N5,なくちゃ,なくちゃ,must do; need to; have to,Expression,宿題をなくちゃいけません。,I have to do my homework.
+N5,なくてはいけない,なくてはいけない,must do; need to do,Expression,宿題をなくてはいけない。,I must do my homework.
+N5,なくてはならない,なくてはならない,must do; need to do,Expression,宿題をなくてはならない。,I must do my homework.
+N5,んです,んです,to explain something or to emphasize a statement,Expression,これは大事なんです。,"This is important, you see."
+N5,ね,ね,isn't it? right? eh?,Particle,今日はいい天気ですね。,"It's nice weather today, isn't it?"
+N5,に,に,destination particle; indicates a location or direction,Particle,学校に行きます。,I will go to school.
+N5,にいく,にいく,to go to do (something),Expression,私は学校に行く。,I go to school.
+N5,にする,にする,to decide on; to choose,Expression,私はこの本にする。,I will choose this book.
+N5,に/へ,に / へ,to (indicates direction or destination),Particle,学校に行きます。,I will go to school.
+N5,の,の,possessive particle; indicates ownership or relationship,Particle,これは私の本です。,This is my book.
+N5,のです,のです,to explain something; to emphasize a statement,Expression,これは私の本なのです。,"This is my book, you see."
+N5,のが下手,のがへた,to be bad at doing something,Expression,私は料理のが下手です。,I am bad at cooking.
+N5,のが上手,のがじょうず,to be good at (doing something),Expression,彼はサッカーをするのが上手です。,He is good at playing soccer.
+N5,のが好き,のがすき,to like doing something,Expression,私は本を読むのが好きです。,I like reading books.
+N5,の中で[A]が一番,のなかで[A]がいちばん,"Out of this group, [A] is the best.",Expression,クラスの中で田中さんが一番上手です。,"Out of the class, Tanaka is the best."
+N5,ので,ので,because; since,Particle,雨が降っているので、傘を持って行きます。,"Since it is raining, I will take an umbrella."
+N5,を,を,particle used to indicate the direct object of a verb,Particle,りんごをたべます。,I will eat an apple.
+N5,をください,をください,please give me~,Expression,水をください。,Please give me water.
+N5,しかし,しかし,but; however,Conjunction,私は日本語が好きです。しかし、英語も勉強しています。,"I like Japanese. However, I am also studying English."
+N5,たことがある,たことがある,to have done something before,Expression,私は日本に行ったことがある。,I have been to Japan.
+N5,たい,たい,to want to do something,Auxiliary Verb,私は日本語を勉強したいです。,I want to study Japanese.
+N5,たり〜たり,たり〜たり,do such things as A and B,Expression,週末は映画を見たり、友達と遊んだりします。,"On the weekend, I do things like watch movies and hang out with friends."
+N5,てある,てある,is in a state of being done (resulting state),Expression,ドアが開いてある。,The door is open.
+N5,ている,ている,indicates an ongoing action or current state,Expression,私は今、勉強しています。,I am studying now.
+N5,てから,てから,after doing~,Expression,ごはんをたべてから、テレビをみます。,"After eating dinner, I will watch TV."
+N5,てください,てください,please do (something),Expression,宿題をしてください。,Please do your homework.
+N5,てはいけない,てはいけない,must not; may not; cannot,Expression,ここで遊んではいけない。,You must not play here.
+N5,てもいいです,てもいいです,is okay to...; may I...?,Expression,ここに座ってもいいですか？,May I sit here?
+N5,と,と,and; with; as; connecting particle,Particle,りんごとバナナを食べます。,I will eat an apple and a banana.
+N5,とき,とき,when; at that time,Noun,学校に行くとき、友達に会います。,I meet my friends when I go to school.
+N5,つもり,つもり,plan to ~; intend to ~,Noun,私は明日映画を見るつもりです。,I plan to watch a movie tomorrow.
+N5,は,は,topic marker; used to indicate the topic of a sentence,Particle,私は学生です。,I am a student.
+N5,[A]は[B]より・・・です,[A]は[B]より・・・です,[A] is more ~ than [B],Expression,このりんごはあのりんごよりおおきいです。,This apple is bigger than that apple.
+N5,はどうですか,はどうですか,how about; how is it,Expression,このレストランはどうですか？,How about this restaurant?
+N5,や,や,and; or; connecting particle,Particle,りんごやバナナを食べます。,I eat apples and bananas.
+N5,よ,よ,you know; emphasis (ending particle),Particle,これはおいしいよ。,"This is delicious, you know."
+N5,[B]より[A]ほうが,[B]より[A]ほうが,[A] is more than [B],Expression,りんごよりバナナのほうが好きです。,I like bananas more than apples.

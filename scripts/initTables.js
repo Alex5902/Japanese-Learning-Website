@@ -1,12 +1,14 @@
 const { Pool } = require('pg');
 
+require("dotenv").config();
+
 // Create a connection pool
 const pool = new Pool({
-    user: 'your_user',
-    host: 'your_host',
-    database: 'your_database',
-    password: 'your_password',
-    port: 5432,
+    user: process.env.PGUSER,
+    host: process.env.PGHOST,
+    database: process.env.PGDATABASE,
+    password: process.env.PGPASSWORD,
+    port: process.env.PGPORT,
 });
 
 async function createTables() {
@@ -21,7 +23,8 @@ async function createTables() {
                 username VARCHAR(50) NOT NULL,
                 email VARCHAR(255) UNIQUE NOT NULL,
                 password_hash CHAR(60) NOT NULL,
-                subscription_tier VARCHAR(50) DEFAULT 'Free'
+                subscription_tier VARCHAR(50) DEFAULT 'Free',
+                jlpt_level VARCHAR(10) DEFAULT 'N5'
             );
         `);
 
@@ -31,16 +34,17 @@ async function createTables() {
                 flashcard_id UUID PRIMARY KEY,
                 type VARCHAR(10) NOT NULL,
                 content JSONB NOT NULL,
-                breakdown JSONB NOT NULL,
-                JLPT VARCHAR(10),
-                audio_url TEXT
+                JLPT_level VARCHAR(10),
+                audio_urls JSONB NOT NULL,
+                lesson INT NOT NULL CHECK (lesson BETWEEN 1 AND 22),
+                sequence INT NOT NULL,
+                UNIQUE (lesson, sequence)
             );
         `);
 
         // UserFlashcards Table
         await client.query(`
             CREATE TABLE IF NOT EXISTS UserFlashcards (
-                id UUID PRIMARY KEY,
                 user_id UUID REFERENCES Users(user_id) ON DELETE CASCADE,
                 flashcard_id UUID REFERENCES Flashcards(flashcard_id) ON DELETE CASCADE,
                 level INTEGER DEFAULT 0,
@@ -48,7 +52,8 @@ async function createTables() {
                 incorrect_count INTEGER DEFAULT 0,
                 next_review TIMESTAMP,
                 accuracy INTEGER,
-                reached_level_3 DATE
+                reached_level_3 DATE,
+                UNIQUE (user_id, flashcard_id)
             );
         `);
 
@@ -91,6 +96,13 @@ async function createTables() {
             );
         `);
 
+        // Insert Test User if Not Exists
+        await client.query(`
+            INSERT INTO Users (user_id, username, email, password_hash, subscription_tier, jlpt_level)
+            VALUES (gen_random_uuid(), 'testuser', 'test@example.com', 'hashedpassword', 'Free', 'N5')
+            ON CONFLICT (email) DO NOTHING;
+        `);
+        
         await client.query('COMMIT');
         console.log('Tables created successfully.');
     } catch (error) {

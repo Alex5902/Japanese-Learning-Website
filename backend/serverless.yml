@@ -1,0 +1,97 @@
+service: japanese-learning-app
+
+custom:
+  serverless-offline:
+    httpPort: 4000  # Choose any port you like
+  dotenv:
+    path: ../.env   # Load from the root directory
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-1
+  environment:
+    PGUSER: ${env:PGUSER}
+    PGHOST: ${env:PGHOST}
+    PGDATABASE: ${env:PGDATABASE}
+    PGPASSWORD: ${env:PGPASSWORD}
+    PGPORT: ${env:PGPORT}
+
+plugins:
+  - serverless-offline
+  - serverless-dotenv-plugin
+
+functions:
+  fetchFlashcards:
+    handler: functions/flashcards/flashcards.fetchLessonFlashcards
+    events:
+      - http:
+          path: flashcards/lesson
+          method: post
+
+  fetchReviewFlashcards:
+    handler: functions/flashcards/flashcards.fetchReviewFlashcards
+    events:
+      - http:
+          path: flashcards/review
+          method: post
+
+  updateUserFlashcard:
+    handler: functions/flashcards/flashcards.updateUserFlashcard
+    events:
+      - http:
+          path: flashcards/update
+          method: post
+
+  validateFlashcardAnswer:
+    handler: functions/flashcards/flashcards.validateFlashcardAnswer
+    events:
+      - http:
+          path: flashcards/validate
+          method: post
+
+  markFlashcardReview:
+    handler: functions/flashcards/flashcards.markFlashcardReview
+    events:
+      - http:
+          path: flashcards/mark
+          method: post
+
+  # NEW function entry for updateReviewFlashcard
+  updateReviewFlashcard:
+    handler: functions/flashcards/flashcards.updateReviewFlashcard
+    events:
+      - http:
+          path: flashcards/updateReviewFlashcard
+          method: post
+
+  ############################################
+  # ADD A NEW FUNCTION FOR USER REGISTRATION #
+  ############################################
+  registerUser:
+    handler: functions/auth/registerUser.handler
+    events:
+      - http:
+          path: register
+          method: post
+
+  loginUser:
+    handler: functions/auth/loginUser.handler
+    events:
+      - http:
+          path: login
+          method: post
+
+  fetchNextLesson:
+      handler: functions/flashcards/flashcards.fetchNextLesson
+      events:
+        - http:
+            path: flashcards/fetchNextLesson
+            method: post
+
+  bulkSyncGuestProgress:
+    handler: functions/flashcards/flashcards.bulkSyncGuestProgress
+    events:
+      - http:
+          path: flashcards/bulkSyncGuestProgress
+          method: post

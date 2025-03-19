@@ -46,7 +46,7 @@ def synthesize_speech(text, output_file, voice_id, engine="neural"):
         print(f"Error generating audio for '{text}': {e}")
 
 # Load CSV
-csv_file = "flashcard_preprocessing/N5_Vocab/N5_vocab_refined_examples_updated_again_again_again.csv"
+csv_file = "flashcard_preprocessing/N5_Vocab/N5_Vocab_List_with_Example_Sentences_and_Breakdowns.csv"
 df = pd.read_csv(csv_file)
 
 # Process each row for both male and female voices

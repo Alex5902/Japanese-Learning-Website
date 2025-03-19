@@ -1,7 +1,6 @@
-// loginUser.js
-const { Client } = require('pg');
-const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken');
+const { Client } = require("pg");
+const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
 
 // Create a new PostgreSQL client instance using environment variables.
 const client = new Client({
@@ -12,10 +11,8 @@ const client = new Client({
   port: process.env.PGPORT || 5432,
 });
 
-// Lambda initialization: connect to the database outside the handler
-// to allow connection re-use across Lambda invocations.
+// Reuse DB connection across Lambda invocations
 let isConnected = false;
-
 async function connectToDB() {
   if (!isConnected) {
     await client.connect();
@@ -24,94 +21,106 @@ async function connectToDB() {
 }
 
 /**
- * Handler for user login.
+ * Handler for user login with a single "identifier" (email or username) + password.
  *
  * Expected Input:
  * {
- *   "email": "user@example.com",
- *   "username": "someusername", // username can be provided instead of email
+ *   "identifier": "someuser OR user@example.com",
  *   "password": "securepassword"
  * }
  *
  * Returns:
  * {
  *   "user_id": "uuid",
+ *   "username": "someuser",
  *   "token": "jwt-token"
  * }
  */
-
 exports.handler = async (event) => {
   try {
     // 1. Parse and validate incoming request data
-    const body = typeof event.body === 'string' ? JSON.parse(event.body) : event.body;
-    const { email, username, password } = body;
-    
-    if ((!email && !username) || !password) {
+    const body = typeof event.body === "string" ? JSON.parse(event.body) : event.body;
+    const { identifier, password } = body;
+
+    if (!identifier || !password) {
       return {
         statusCode: 400,
-        body: JSON.stringify({ message: 'Email/username and password are required.' }),
+        body: JSON.stringify({
+          message: "Identifier (email or username) and password are required.",
+        }),
       };
     }
-    
-    // 2. Connect to the database (reuse connection if possible)
+
+    // 2. Connect to DB (reuse if already connected)
     await connectToDB();
 
-    // 3. Query the Users table based on email or username.
-    // Adjust the query based on the field provided.
-    let queryText = '';
-    let queryValues = [];
-    if (email) {
-      queryText = 'SELECT id, email, password FROM Users WHERE email = $1 LIMIT 1';
-      queryValues = [email];
+    // 3. Determine if identifier is an email or username
+    let queryText;
+    let queryValues;
+    if (identifier.includes("@")) {
+      // We assume it's an email
+      queryText = `
+        SELECT user_id, email, username, password_hash
+        FROM Users
+        WHERE email = $1
+        LIMIT 1;
+      `;
+      queryValues = [identifier];
     } else {
-      queryText = 'SELECT id, email, password FROM Users WHERE username = $1 LIMIT 1';
-      queryValues = [username];
+      // Otherwise, treat it as a username
+      queryText = `
+        SELECT user_id, email, username, password_hash
+        FROM Users
+        WHERE username = $1
+        LIMIT 1;
+      `;
+      queryValues = [identifier];
     }
-    
-    const result = await client.query(queryText, queryValues);
 
-    // 4. Check if user exists
+    // 4. Query the database
+    const result = await client.query(queryText, queryValues);
     if (result.rowCount === 0) {
       return {
         statusCode: 401,
-        body: JSON.stringify({ message: 'Invalid credentials.' }),
+        body: JSON.stringify({ message: "Invalid credentials." }),
       };
     }
-    
+
     const user = result.rows[0];
 
-    // 5. Verify the password using bcrypt.
-    const isPasswordValid = await bcrypt.compare(password, user.password);
+    // 5. Verify the password using bcrypt
+    const isPasswordValid = await bcrypt.compare(password, user.password_hash);
     if (!isPasswordValid) {
       return {
         statusCode: 401,
-        body: JSON.stringify({ message: 'Invalid credentials.' }),
+        body: JSON.stringify({ message: "Invalid credentials." }),
       };
     }
-    
-    // 6. Generate JWT token containing the user's ID and email.
-    // Use environment variable for secret and expiry.
+
+    // 6. Generate a JWT token if desired
     const tokenPayload = {
-      user_id: user.id,
+      user_id: user.user_id,
+      username: user.username,
       email: user.email,
     };
     const token = jwt.sign(tokenPayload, process.env.JWT_SECRET, {
-      expiresIn: process.env.JWT_EXPIRES_IN || '24h',
+      expiresIn: process.env.JWT_EXPIRES_IN || "24h",
     });
-    
-    // 7. Return the JWT token and the user's ID.
+
+    // 7. Return the user_id, username, plus JWT
     return {
       statusCode: 200,
       body: JSON.stringify({
-        user_id: user.id,
+        user_id: user.user_id,
+        username: user.username,
         token,
       }),
     };
   } catch (error) {
-    console.error('Error in LoginUser function:', error);
+    console.error("Error in loginUser function:", error);
     return {
       statusCode: 500,
-      body: JSON.stringify({ message: 'Internal server error.' }),
+      body: JSON.stringify({ message: "Internal server error." }),
     };
   }
 };

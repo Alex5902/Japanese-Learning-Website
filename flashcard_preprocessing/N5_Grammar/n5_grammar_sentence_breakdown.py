@@ -1,11 +1,20 @@
 import time
 import json
 import pandas as pd
+import sys
+import os
+
+# Get the absolute path of the project root
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
+
+# Add it to the Python path
+sys.path.append(PROJECT_ROOT)
+
 from flashcard_preprocessing.ai_processing.generate_breakdowns import analyze_japanese_sentence, parse_analysis_response
 
 # File paths (adjust as necessary)
-INPUT_CSV = 'flashcard_preprocessing/N5_Grammar/N5_grammar_refined_examples_updated_again_again_again_again.csv'
-OUTPUT_CSV = 'flashcard_preprocessing/N5_Grammar/N5_grammar_with_breakdowns.csv'
+INPUT_CSV = 'flashcard_preprocessing/N5_Grammar/N5_Grammar_List_with_Example_Sentences.csv'
+OUTPUT_CSV = 'flashcard_preprocessing/N5_Grammar/N5_Grammar_List_with_Example_Sentences_and_Breakdowns.csv'
 
 def process_csv(input_csv: str, output_csv: str):
     # Read the CSV file into a pandas DataFrame.

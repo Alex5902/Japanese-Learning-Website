@@ -45,13 +45,13 @@ def synthesize_speech(text, output_file, voice_id, engine="neural"):
         print(f"Error generating audio for '{text}': {e}")
 
 # Load CSV
-csv_file = "flashcard_preprocessing/N5_Grammar/N5_grammar_refined_examples_updated_again_again_again_again.csv"
+csv_file = "flashcard_preprocessing/N5_Grammar/N5_Grammar_List_with_Example_Sentences_and_Breakdowns.csv"
 df = pd.read_csv(csv_file)
 
 # Process each row for both male and female voices
 for index, row in df.iterrows():
     print(f"Processing row {index + 1}...")
-    word = row.get("Grammar")
+    word = row.get("Word")
     example = row.get("Example Sentence JP")
 
     if pd.notna(word):

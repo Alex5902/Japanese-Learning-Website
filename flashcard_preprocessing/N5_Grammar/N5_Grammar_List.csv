@@ -1,0 +1,81 @@
+JLPT,Word,Reading,Meaning,Word Type
+N5,ちゃいけない・じゃいけない,ちゃいけない / じゃいけない,must not do (spoken Japanese),Expression
+N5,だ・です,だ / です,"to be (am, is, are, were, used to)",Auxiliary verb (Copula)
+N5,だろう,だろう,I think; it seems; probably; right?,Auxiliary verb / Expression
+N5,で,で,in; at; on; by; with; via,Particle
+N5,でも,でも,but; however,Conjunction
+N5,でしょう,でしょう,I think; it seems; probably; right?,Auxiliary verb / Expression
+N5,が,が,subject marker; however; but,Particle
+N5,があります,があります,there is; is (non-living things),Expression 
+N5,がほしい,がほしい,to want something,Expression 
+N5,がいます,がいます,there is; to be; is (living things),Expression 
+N5,～がる,～がる,feel,Auxiliary verb
+N5,～ずつ,～ずつ,at a time,Suffix
+N5,～だけ,～だけ,"only ~, just ~, as ~",Particle
+N5,～すぎ,～すぎ,"past; to exceed, ~ too much",Noun
+N5,～ころ; ～ごろ,～ころ; ～ごろ,"about, toward, approximately (time)",Noun
+N5,～中,～ちゅう,"during, while ~ing",Noun
+N5,～時,～とき,at the time of ~,Noun
+N5,～など,～など,et cetera,Particle
+N5,何～,なん～,what sort of ~,Pronoun
+N5,ほうがいい,ほうがいい,had better; it'd be better to; should~,Expression
+N5,い-adjectives,いけいようし,i-adjectives,Adjective category
+N5,じゃない・ではない,じゃない / ではない,to not be (am not; is not; are not),Auxiliary verb (negative copula)
+N5,か,か,question particle,Particle
+N5,か〜か,か〜か,or,Particle
+N5,から,から,because; since; from,Particle
+N5,方,かた,the way of doing something; how to do,Noun (suffix usage)
+N5,けど,けど,but; however; although,Conjunction
+N5,けれども,けれども,but; however; although,Conjunction
+N5,～中,～じゅう,"during, while",Noun
+N5,～くらい; ぐらい,～くらい; ぐらい,approximate (quantity),I-adjective (keiyoushi)
+N5,まだ〜ていません,まだ〜ていません,have not yet,Expression 
+N5,まで,まで,until ~; as far as ~; to (an extent); even ~,Particle
+N5,前に,まえに,before ~; in front of ~,Expression 
+N5,ませんか,ませんか,would you; do you want to; shall we~,Expression 
+N5,ましょう,ましょう,let's ~; shall we ~,Auxiliary verb
+N5,ましょうか,ましょうか,shall I ~; used to offer help to the listener,Expression 
+N5,も,も,too; also; as well,Particle
+N5,もう,もう,already; anymore; again; other,Adverb (fukushi)
+N5,な-adjectives,なけいようし,na-adjectives,Adjective category
+N5,なあ,なあ,"sentence ending particle; confirmation; admiration, etc",Particle
+N5,ないで,ないで,without doing~ ; To do [B] without doing [A],Conjunction 
+N5,ないでください,ないでください,please don't do,Expression 
+N5,なくてもいい,なくてもいい,don't have to,Expression 
+N5,なくちゃ,なくちゃ,must do; need to; gotta do,Expression 
+N5,なくてはいけない,なくてはいけない,must do; need to do,Expression 
+N5,なくてはならない,なくてはならない,must do; need to do,Expression 
+N5,んです,んです,to explain something; show emphasis,Expression 
+N5,ね,ね,isn't it? right? eh?,Particle
+N5,に,に,destination particle; in; at; on; to,Particle
+N5,にいく,にいく,go to do,Expression 
+N5,にする,にする,to decide on,Expression 
+N5,に/へ,に / へ,to (indicates direction / destination),Particle
+N5,の,の,possessive particle,Particle
+N5,のです,のです,to explain something; show emphasis,Expression 
+N5,のが下手,のがへた,to be bad at doing something,Expression 
+N5,のが上手,のがじょうず,to be good at,Expression  
+N5,のが好き,のがすき,to like doing something,Expression  
+N5,の中で[A]が一番,のなかで[A]がいちばん,"out of this group, [A] is best",Expression 
+N5,ので,ので,because of; given that; since,Particle
+N5,を,を,object marker particle,Particle
+N5,をください,をください,please give me~,Expression 
+N5,しかし,しかし,but; however,Conjunction
+N5,たことがある,たことがある,to have done something before,Expression 
+N5,たい,たい,want to do something,Auxiliary 
+N5,たり〜たり,たり〜たり,do such things as A and B,Expression / Particle
+N5,てある,てある,is/has been done (resulting state),Expression 
+N5,ている,ている,ongoing action or current state,Expression 
+N5,てから,てから,after doing~,Expression 
+N5,てください,てください,please do,Expression 
+N5,てはいけない,てはいけない,must not; may not; cannot,Expression 
+N5,てもいいです,てもいいです,is OK to..; is alright to..; may I..?,Expression 
+N5,と,と,and; with; as; connecting particle,Particle
+N5,とき,とき,when; at this time,Noun
+N5,つもり,つもり,plan to ~; intend to ~,Noun
+N5,は,は,topic marker,Particle
+N5,は〜より・・・です,は〜より・・・です,[A] is more ~ than [B],Expression 
+N5,はどうですか,はどうですか,how about; how is,Expression 
+N5,や,や,and; or; connecting particle,Particle
+N5,よ,よ,you know; emphasis (ending particle),Particle
+N5,より〜ほうが,より〜ほうが,[A] is more than [B],Expression 

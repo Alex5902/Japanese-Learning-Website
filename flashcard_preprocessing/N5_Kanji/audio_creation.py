@@ -33,7 +33,7 @@ def synthesize_speech(text, output_file, voice_id, engine="neural"):
         print(f"Error generating audio for '{text}': {e}")
 
 # Load CSV
-csv_file = "flashcard_preprocessing/N5_Kanji/N5_kanji.csv"
+csv_file = "flashcard_preprocessing/N5_Kanji/N5_Kanji_List.csv"
 df = pd.read_csv(csv_file)
 
 for index, row in df.iterrows():
