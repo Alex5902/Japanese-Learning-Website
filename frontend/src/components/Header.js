@@ -80,7 +80,7 @@ export default function Header({ onSignupSuccess }) {
       <div className="max-w-6xl mx-auto flex items-center justify-between p-4">
         {/* Logo */}
         <div className="text-2xl font-bold text-blue-600">
-          <Link href="/">Japanai</Link>
+          <Link href="/">KantanJapanese</Link>
         </div>
 
         {/* Navigation Links */}
