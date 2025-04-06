@@ -186,22 +186,22 @@ export default function FlashcardLesson() {
     }
   }, [clickCount, currentIndex, flashcards, loading, error, router, userId]);
 
-  useEffect(() => {
-    const handleKeyDown = (e) => {
-      if (loading || error || !flashcards[currentIndex]) return;
+  // useEffect(() => {
+  //   const handleKeyDown = (e) => {
+  //     if (loading || error || !flashcards[currentIndex]) return;
   
-      if (e.key === "ArrowLeft") {
-        setLastKeyPressed("left");
-        handleFlashcardAction(true);
-      } else if (e.key === "ArrowRight") {
-        setLastKeyPressed("right");
-        handleFlashcardAction(false);
-      }
-    };
+  //     if (e.key === "ArrowLeft") {
+  //       setLastKeyPressed("left");
+  //       handleFlashcardAction(true);
+  //     } else if (e.key === "ArrowRight") {
+  //       setLastKeyPressed("right");
+  //       handleFlashcardAction(false);
+  //     }
+  //   };
   
-    window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [flashcards, currentIndex, loading, error]);
+  //   window.addEventListener("keydown", handleKeyDown);
+  //   return () => window.removeEventListener("keydown", handleKeyDown);
+  // }, [flashcards, currentIndex, loading, error]);
   
   useEffect(() => {
     if (!lastKeyPressed) return;
