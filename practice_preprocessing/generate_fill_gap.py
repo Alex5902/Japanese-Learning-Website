@@ -1,6 +1,7 @@
 import os
 import csv
 import json
+import time
 from openai import OpenAI
 from dotenv import load_dotenv
 
@@ -8,67 +9,85 @@ load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 
 client = OpenAI(api_key=OPENAI_API_KEY)
-INPUT_FILE = "flashcards_n5.csv"
-OUTPUT_FILE = "fill_gap_questions.csv"
+
+# Input/Output files
+FLASHCARDS_INPUT = "flashcards_n5.csv"
+FILL_GAP_OUTPUT = "fill_gap_questions.csv"
+
+# Dictionary to track used questions for each word:
+#   used_questions[word] = set of previously used "question" strings.
+used_questions = {}
 
 def generate_fill_gap(word, meaning, word_type, example_sentence):
     """
-    Calls OpenAI to create a new N5-level sentence that is:
-      - Short
-      - Different from the existing example_sentence
-      - JSON structure: { "question": "...", "answer": "...", "english": "..." }
-      - The word itself replaced by ＿＿＿ in the 'question'
+    Returns a (question, answer, english) triple for a fill-in-the-gap sentence.
+    If it can't generate a new unique question after several attempts, returns ("ERROR", "ERROR", "ERROR").
     """
-    # We explicitly tell the model NOT to mimic the example sentence.
     prompt = f"""
 You are a Japanese teacher preparing JLPT N5-level exercises.
 
 Task:
 1. The sentence must contain the target word below, but replaced in the final output with ＿＿＿.
 2. It must be different from this example the student already saw: "{example_sentence}"
-3. Keep the sentence simple, natural, and short.
+3. Keep the sentence simple, natural, and short (N5 level).
 4. Provide the final answer (the word) and a brief English translation.
-
-Target word: "{word}" 
-Meaning: "{meaning}"
-Type: "{word_type}"
-
-Return valid JSON in the format:
+5. Return valid JSON in this format:
 
 {{
   "question": "私は＿＿＿を食べます。",
   "answer": "りんご",
   "english": "I eat an apple."
 }}
+
+Target word: "{word}"
+Meaning: "{meaning}"
+Type: "{word_type}"
 """
+    # We will allow multiple tries in case the model returns duplicates or invalid JSON.
+    max_retries = 4
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(
+                model="gpt-3.5-turbo",  # or your preferred model
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.5
+            )
+            content = response.choices[0].message.content.strip()
+            data = json.loads(content)
 
-    try:
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",  # or whichever model you want to use
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.3
-        )
-        content = response.choices[0].message.content.strip()
+            question = data.get("question", "").strip()
+            answer = data.get("answer", "").strip()
+            english = data.get("english", "").strip()
 
-        # Attempt to parse the JSON
-        data = json.loads(content)
+            # Basic sanity checks
+            if not question or not answer or not english:
+                raise ValueError("Missing question, answer, or english in response.")
 
-        # Basic checks
-        question = data.get("question", "").strip()
-        answer = data.get("answer", "").strip()
-        english = data.get("english", "").strip()
+            # Check if the question was already used for this word
+            if question in used_questions[word]:
+                # It's a duplicate; try again
+                print(f"Duplicate fill-in-the-gap detected for '{word}'. Retrying...")
+                continue
 
-        return question, answer, english
+            # If it's new, update the used_questions and return
+            used_questions[word].add(question)
+            return question, answer, english
 
-    except Exception as e:
-        # If there's an error, return placeholders so your CSV doesn't break
-        print(f"OpenAI error on word={word}: {e}")
-        return "ERROR", "ERROR", str(e)
+        except Exception as e:
+            print(f"Error in generation (attempt {attempt+1}/{max_retries}) for '{word}': {e}")
+            time.sleep(1)  # brief pause to avoid spamming the API
+
+    # If we exhaust all retries, return an error
+    return "ERROR", "ERROR", "ERROR"
 
 def create_fill_gap_csv():
-    # Read from the CSV of flashcards
-    with open(INPUT_FILE, mode="r", encoding="utf-8") as f_in, \
-         open(OUTPUT_FILE, mode="w", encoding="utf-8", newline="") as f_out:
+    """
+    Reads each row from flashcards_n5.csv, generates a fill-in-the-gap sentence
+    that’s different from the DB example and from any previously generated.
+    Saves results to fill_gap_questions.csv.
+    """
+    with open(FLASHCARDS_INPUT, mode="r", encoding="utf-8") as f_in, \
+         open(FILL_GAP_OUTPUT, mode="w", encoding="utf-8", newline="") as f_out:
 
         reader = csv.DictReader(f_in)
         fieldnames = ["flashcard_id", "question", "answer", "english"]
@@ -83,7 +102,11 @@ def create_fill_gap_csv():
             example_sentence = row["example_sentence"]
 
             if not word:
-                continue  # skip if missing
+                continue  # skip if no word
+
+            # Initialize a used set for each word if not present
+            if word not in used_questions:
+                used_questions[word] = set()
 
             question, answer, english = generate_fill_gap(
                 word, meaning, word_type, example_sentence
@@ -96,7 +119,7 @@ def create_fill_gap_csv():
                 "english": english
             })
 
-    print(f"✅ Fill-gap exercises saved to: {OUTPUT_FILE}")
+    print(f"✅ Fill-gap exercises saved to: {FILL_GAP_OUTPUT}")
 
 if __name__ == "__main__":
     create_fill_gap_csv()
