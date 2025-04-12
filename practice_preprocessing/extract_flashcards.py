@@ -2,12 +2,18 @@ import os
 import csv
 import json
 import psycopg2
-from dotenv import load_dotenv
+from dotenv import load_dotenv, dotenv_values
+from pathlib import Path
+from pathlib import Path
 
-load_dotenv()
+env_path = Path(__file__).resolve().parent.parent / ".env"
+load_dotenv(dotenv_path=env_path, override=True)
 DATABASE_URL = os.getenv("DATABASE_URL")
 
-FLASHCARDS_CSV = "flashcards_n5.csv"
+FLASHCARDS_CSV = "practice_preprocessing/flashcards_n5.csv"
+
+def safe_strip(value):
+    return value.strip() if isinstance(value, str) else ""
 
 def export_flashcards_to_csv():
     """
@@ -42,10 +48,10 @@ def export_flashcards_to_csv():
                     content = json.loads(content)
 
                 # Safely extract fields
-                word = content.get("word", "").strip()
-                meaning = content.get("meaning", "").strip()
-                word_type = content.get("word_type", "").strip()
-                example_sentence = content.get("example_sentence", "").strip()
+                word = safe_strip(content.get("word"))
+                meaning = safe_strip(content.get("meaning"))
+                word_type = safe_strip(content.get("word_type"))
+                example_sentence = safe_strip(content.get("example_sentence"))
 
                 # Write row
                 writer.writerow({

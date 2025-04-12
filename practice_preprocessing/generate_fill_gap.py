@@ -11,8 +11,8 @@ OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 client = OpenAI(api_key=OPENAI_API_KEY)
 
 # Input/Output files
-FLASHCARDS_INPUT = "flashcards_n5.csv"
-FILL_GAP_OUTPUT = "fill_gap_questions.csv"
+FLASHCARDS_INPUT = "practice_preprocessing/flashcards_n5.csv"
+FILL_GAP_OUTPUT = "practice_preprocessing/fill_gap_questions.csv"
 
 # Dictionary to track used questions for each word:
 #   used_questions[word] = set of previously used "question" strings.
@@ -27,64 +27,74 @@ def generate_fill_gap(word, meaning, word_type, example_sentence):
 You are a Japanese teacher preparing JLPT N5-level exercises.
 
 Task:
-1. The sentence must contain the target word below, but replaced in the final output with ＿＿＿.
-2. It must be different from this example the student already saw: "{example_sentence}"
-3. Keep the sentence simple, natural, and short (N5 level).
-4. Provide the final answer (the word) and a brief English translation.
-5. Return valid JSON in this format:
+1. Generate 3 unique Japanese sentences, each using the target word below.
+2. In each sentence, replace the target word with ____ (an underline).
+3. Do NOT repeat the sentence used in this example: "{example_sentence}"
+4. Each sentence must be natural, one setence long (can be simple or complex sentence) and be at an N5 level (N5 level).
+5. For each sentence, include:
+   - "question" (Japanese with ____)
+   - "answer" (the correct word)
+   - "english" (a short English translation)
 
-{{
-  "question": "私は＿＿＿を食べます。",
-  "answer": "りんご",
-  "english": "I eat an apple."
-}}
+Return a JSON array with 3 objects in this format:
+
+[
+  {{
+    "question": "私は____を食べます。",
+    "answer": "りんご",
+    "english": "I eat an apple."
+  }},
+  ...
+]
 
 Target word: "{word}"
 Meaning: "{meaning}"
 Type: "{word_type}"
 """
-    # We will allow multiple tries in case the model returns duplicates or invalid JSON.
-    max_retries = 4
+    max_retries = 3
     for attempt in range(max_retries):
         try:
             response = client.chat.completions.create(
-                model="gpt-3.5-turbo",  # or your preferred model
+                model="gpt-4o-mini",
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.5
             )
             content = response.choices[0].message.content.strip()
+
+            # Strip markdown code block if it exists
+            if content.startswith("```"):
+                content = content.replace("```json", "").replace("```", "").strip()
+
             data = json.loads(content)
 
-            question = data.get("question", "").strip()
-            answer = data.get("answer", "").strip()
-            english = data.get("english", "").strip()
+            results = []
+            for item in data:
+                question = item.get("question", "").strip()
+                answer = item.get("answer", "").strip()
+                english = item.get("english", "").strip()
 
-            # Basic sanity checks
-            if not question or not answer or not english:
-                raise ValueError("Missing question, answer, or english in response.")
+                if not question or not answer or not english:
+                    continue
 
-            # Check if the question was already used for this word
-            if question in used_questions[word]:
-                # It's a duplicate; try again
-                print(f"Duplicate fill-in-the-gap detected for '{word}'. Retrying...")
-                continue
+                # Deduplicate
+                if question in used_questions[word]:
+                    continue
 
-            # If it's new, update the used_questions and return
-            used_questions[word].add(question)
-            return question, answer, english
+                used_questions[word].add(question)
+                results.append((question, answer, english))
+
+            return results
 
         except Exception as e:
-            print(f"Error in generation (attempt {attempt+1}/{max_retries}) for '{word}': {e}")
-            time.sleep(1)  # brief pause to avoid spamming the API
+            print(f"❌ Error (attempt {attempt+1}) for '{word}': {e}")
+            time.sleep(1)
 
-    # If we exhaust all retries, return an error
-    return "ERROR", "ERROR", "ERROR"
+    return []  # Return empty list if failed
 
 def create_fill_gap_csv():
     """
-    Reads each row from flashcards_n5.csv, generates a fill-in-the-gap sentence
-    that’s different from the DB example and from any previously generated.
-    Saves results to fill_gap_questions.csv.
+    For each flashcard, generates 3 unique fill-in-the-gap sentences
+    that differ from the DB example and from each other.
     """
     with open(FLASHCARDS_INPUT, mode="r", encoding="utf-8") as f_in, \
          open(FILL_GAP_OUTPUT, mode="w", encoding="utf-8", newline="") as f_out:
@@ -95,31 +105,33 @@ def create_fill_gap_csv():
         writer.writeheader()
 
         for row in reader:
-            flashcard_id = row["flashcard_id"]
-            word = row["word"]
-            meaning = row["meaning"]
-            word_type = row["word_type"]
-            example_sentence = row["example_sentence"]
+            flashcard_id = row.get("flashcard_id", "").strip()
+            word = row.get("word", "").strip()
+            meaning = row.get("meaning", "").strip()
+            word_type = row.get("word_type", "").strip()
+            example_sentence = row.get("example_sentence", "").strip()
 
             if not word:
-                continue  # skip if no word
+                continue  # Skip if no word
 
-            # Initialize a used set for each word if not present
+            # Initialise used set if not already
             if word not in used_questions:
                 used_questions[word] = set()
 
-            question, answer, english = generate_fill_gap(
-                word, meaning, word_type, example_sentence
-            )
+            results = generate_fill_gap(word, meaning, word_type, example_sentence)
 
-            writer.writerow({
-                "flashcard_id": flashcard_id,
-                "question": question,
-                "answer": answer,
-                "english": english
-            })
+            for question, answer, english in results[:3]:  # Just in case GPT returns more than 3
+                writer.writerow({
+                    "flashcard_id": flashcard_id,
+                    "question": question,
+                    "answer": answer,
+                    "english": english
+                })
 
-    print(f"✅ Fill-gap exercises saved to: {FILL_GAP_OUTPUT}")
+            if len(results) < 3:
+                print(f"⚠️ Only got {len(results)} questions for '{word}' ({flashcard_id})")
+
+    print(f"✅ 3 fill-gap exercises generated for each flashcard and saved to: {FILL_GAP_OUTPUT}")
 
 if __name__ == "__main__":
     create_fill_gap_csv()
