@@ -1,367 +1,4 @@
 issue,details
-wrong_count,"8650b718-c133-43ad-9555-efd4cdd93648 (has 2, expected 3)"
-answer_mismatch,id=1ff3bd2e-815a-4222-a1bc-521d6b2045b9 line=41 answer='あります' expected='があります'
-answer_mismatch,id=1ff3bd2e-815a-4222-a1bc-521d6b2045b9 line=42 answer='あります' expected='があります'
-answer_mismatch,id=1ff3bd2e-815a-4222-a1bc-521d6b2045b9 line=43 answer='あります' expected='があります'
-answer_mismatch,id=1a51d9fa-5942-4fcf-a89c-20e40e8565aa line=92 answer='こと' expected='こんな'
-answer_mismatch,id=1a51d9fa-5942-4fcf-a89c-20e40e8565aa line=93 answer='音楽' expected='こんな'
-answer_mismatch,id=1a51d9fa-5942-4fcf-a89c-20e40e8565aa line=94 answer='寒い' expected='こんな'
-answer_mismatch,id=884d51b1-eb89-42f3-92ec-a49e05510e9c line=161 answer='元気' expected='な-adjectives'
-answer_mismatch,id=884d51b1-eb89-42f3-92ec-a49e05510e9c line=162 answer='面白い' expected='な-adjectives'
-answer_mismatch,id=884d51b1-eb89-42f3-92ec-a49e05510e9c line=163 answer='静か' expected='な-adjectives'
-answer_mismatch,id=0fec3e0a-8194-44db-bfb7-a9ff6926ff12 line=182 answer='聞きます' expected='聞く'
-answer_mismatch,id=0fec3e0a-8194-44db-bfb7-a9ff6926ff12 line=183 answer='聞きます' expected='聞く'
-answer_mismatch,id=0fec3e0a-8194-44db-bfb7-a9ff6926ff12 line=184 answer='聞きます' expected='聞く'
-answer_mismatch,id=e6abe0cc-3377-43a4-ba84-bbd34e9c1e52 line=218 answer='勉強したい' expected='たい'
-answer_mismatch,id=e6abe0cc-3377-43a4-ba84-bbd34e9c1e52 line=219 answer='したい' expected='たい'
-answer_mismatch,id=e6abe0cc-3377-43a4-ba84-bbd34e9c1e52 line=220 answer='見たい' expected='たい'
-answer_mismatch,id=8e4ee19a-972f-44c9-9ee2-48ab57bfb835 line=230 answer='してから' expected='てから'
-answer_mismatch,id=8e4ee19a-972f-44c9-9ee2-48ab57bfb835 line=231 answer='食べてから' expected='てから'
-answer_mismatch,id=8e4ee19a-972f-44c9-9ee2-48ab57bfb835 line=232 answer='から' expected='てから'
-answer_mismatch,id=1345c5f2-a649-4a94-a2a2-3e581c47ddc6 line=233 answer='降ります' expected='降りる'
-answer_mismatch,id=1345c5f2-a649-4a94-a2a2-3e581c47ddc6 line=235 answer='降りている' expected='降りる'
-answer_mismatch,id=017235eb-7614-4d6b-b79c-76b647685a25 line=262 answer='読んでいる' expected='ている'
-answer_mismatch,id=017235eb-7614-4d6b-b79c-76b647685a25 line=263 answer='遊んでいる' expected='ている'
-answer_mismatch,id=017235eb-7614-4d6b-b79c-76b647685a25 line=264 answer='聞いている' expected='ている'
-answer_mismatch,id=06c2ba22-a11c-4b88-922c-20820fe5da3b line=265 answer='中' expected='～中'
-answer_mismatch,id=06c2ba22-a11c-4b88-922c-20820fe5da3b line=266 answer='中' expected='～中'
-answer_mismatch,id=06c2ba22-a11c-4b88-922c-20820fe5da3b line=267 answer='中' expected='～中'
-answer_mismatch,id=4a664a33-fdc8-4134-b50c-132d39d89f52 line=271 answer='差します' expected='差す'
-answer_mismatch,id=4a664a33-fdc8-4134-b50c-132d39d89f52 line=272 answer='差した' expected='差す'
-answer_mismatch,id=4a664a33-fdc8-4134-b50c-132d39d89f52 line=273 answer='差しています' expected='差す'
-answer_mismatch,id=58f6afcc-50a8-4f29-9b59-6132f855d049 line=280 answer='渡ります' expected='渡る'
-answer_mismatch,id=58f6afcc-50a8-4f29-9b59-6132f855d049 line=281 answer='渡った' expected='渡る'
-answer_mismatch,id=58f6afcc-50a8-4f29-9b59-6132f855d049 line=282 answer='渡ります' expected='渡る'
-answer_mismatch,id=3068651e-7459-493c-8f9e-a1df5e436b3a line=319 answer='答えます' expected='答える'
-answer_mismatch,id=3068651e-7459-493c-8f9e-a1df5e436b3a line=320 answer='答えた' expected='答える'
-answer_mismatch,id=3068651e-7459-493c-8f9e-a1df5e436b3a line=321 answer='答えます' expected='答える'
-answer_mismatch,id=d092b5eb-19ad-4754-a6a0-bc867756b2a9 line=322 answer='入れます' expected='入れる'
-answer_mismatch,id=d092b5eb-19ad-4754-a6a0-bc867756b2a9 line=323 answer='入れました' expected='入れる'
-answer_mismatch,id=d092b5eb-19ad-4754-a6a0-bc867756b2a9 line=324 answer='入れます' expected='入れる'
-answer_mismatch,id=7c84e1a3-ae45-4ac1-a4dd-96b44e5a67d0 line=328 answer='出します' expected='出す'
-answer_mismatch,id=7c84e1a3-ae45-4ac1-a4dd-96b44e5a67d0 line=329 answer='出しました' expected='出す'
-answer_mismatch,id=7c84e1a3-ae45-4ac1-a4dd-96b44e5a67d0 line=330 answer='出します' expected='出す'
-answer_mismatch,id=a54d30ee-e845-4a04-b7d2-3b9a78960e44 line=331 answer='何時' expected='始まる'
-answer_mismatch,id=31c06391-d50b-4c14-b17c-b5dd6bb1f881 line=340 answer='借ります' expected='借りる'
-answer_mismatch,id=a6058c14-29d0-4111-bafe-e6faef38dcbe line=379 answer='丸い' expected='丸い; 円い'
-answer_mismatch,id=a6058c14-29d0-4111-bafe-e6faef38dcbe line=380 answer='円い' expected='丸い; 円い'
-answer_mismatch,id=a6058c14-29d0-4111-bafe-e6faef38dcbe line=381 answer='丸い' expected='丸い; 円い'
-answer_mismatch,id=9971f4ba-b01e-4082-a1ad-488c4601c456 line=385 answer='会' expected='に/へ'
-answer_mismatch,id=9971f4ba-b01e-4082-a1ad-488c4601c456 line=386 answer='行' expected='に/へ'
-answer_mismatch,id=9971f4ba-b01e-4082-a1ad-488c4601c456 line=387 answer='帰' expected='に/へ'
-answer_mismatch,id=451c6bda-9dfd-4d3c-a06d-33940efe80a9 line=412 answer='前' expected='～前'
-answer_mismatch,id=451c6bda-9dfd-4d3c-a06d-33940efe80a9 line=413 answer='前' expected='～前'
-answer_mismatch,id=451c6bda-9dfd-4d3c-a06d-33940efe80a9 line=414 answer='前' expected='～前'
-answer_mismatch,id=da6e39b1-2300-4de4-8fc0-0c40d7d97b7b line=433 answer='います' expected='がいます'
-answer_mismatch,id=da6e39b1-2300-4de4-8fc0-0c40d7d97b7b line=434 answer='います' expected='がいます'
-answer_mismatch,id=da6e39b1-2300-4de4-8fc0-0c40d7d97b7b line=435 answer='います' expected='がいます'
-answer_mismatch,id=9d56351f-960d-4a22-8908-568eca8b810f line=445 answer='側' expected='～側'
-answer_mismatch,id=9d56351f-960d-4a22-8908-568eca8b810f line=446 answer='側' expected='～側'
-answer_mismatch,id=9d56351f-960d-4a22-8908-568eca8b810f line=447 answer='側' expected='～側'
-answer_mismatch,id=268e9cf7-0899-42d9-859a-70b660e2ce28 line=460 answer='学生' expected='～人'
-answer_mismatch,id=268e9cf7-0899-42d9-859a-70b660e2ce28 line=461 answer='三人' expected='～人'
-answer_mismatch,id=268e9cf7-0899-42d9-859a-70b660e2ce28 line=462 answer='人' expected='～人'
-answer_mismatch,id=33a0fbd5-78f2-4f8e-a23e-4fa1903eb859 line=496 answer='着きます' expected='着く'
-answer_mismatch,id=33a0fbd5-78f2-4f8e-a23e-4fa1903eb859 line=497 answer='着きました' expected='着く'
-answer_mismatch,id=33a0fbd5-78f2-4f8e-a23e-4fa1903eb859 line=498 answer='着きます' expected='着く'
-answer_mismatch,id=e2e0300a-2ffb-4696-aa15-e1ccccacf84f line=514 answer='本' expected='ある'
-answer_mismatch,id=e2e0300a-2ffb-4696-aa15-e1ccccacf84f line=515 answer='きれいな' expected='ある'
-answer_mismatch,id=e2e0300a-2ffb-4696-aa15-e1ccccacf84f line=516 answer='大きい' expected='ある'
-answer_mismatch,id=935777f1-e2bf-4fd1-ac27-fe3b63ea3d01 line=526 answer='えんぴつ' expected='～本'
-answer_mismatch,id=935777f1-e2bf-4fd1-ac27-fe3b63ea3d01 line=527 answer='ジュース' expected='～本'
-answer_mismatch,id=935777f1-e2bf-4fd1-ac27-fe3b63ea3d01 line=528 answer='かさ' expected='～本'
-answer_mismatch,id=266eb48d-faf1-41cf-a965-a803a181a177 line=529 answer='一キロ' expected='キロ; キログラム'
-answer_mismatch,id=266eb48d-faf1-41cf-a965-a803a181a177 line=530 answer='三キロ' expected='キロ; キログラム'
-answer_mismatch,id=266eb48d-faf1-41cf-a965-a803a181a177 line=531 answer='五キロ' expected='キロ; キログラム'
-answer_mismatch,id=c4464426-7cc9-4807-8f47-15068c65cd9d line=535 answer='四月' expected='～月'
-answer_mismatch,id=c4464426-7cc9-4807-8f47-15068c65cd9d line=536 answer='三月' expected='～月'
-answer_mismatch,id=c4464426-7cc9-4807-8f47-15068c65cd9d line=537 answer='九月' expected='～月'
-answer_mismatch,id=f4f2a40d-8369-4ac1-a239-02a22c631869 line=550 answer='一時間' expected='～くらい; ぐらい'
-answer_mismatch,id=f4f2a40d-8369-4ac1-a239-02a22c631869 line=551 answer='千円' expected='～くらい; ぐらい'
-answer_mismatch,id=f4f2a40d-8369-4ac1-a239-02a22c631869 line=552 answer='十分' expected='～くらい; ぐらい'
-answer_mismatch,id=e8d939cd-0b89-4aea-b58a-fbe5525c5470 line=556 answer='おもしろい' expected='[A]は[B]より・・・です'
-answer_mismatch,id=e8d939cd-0b89-4aea-b58a-fbe5525c5470 line=557 answer='背が高い' expected='[A]は[B]より・・・です'
-answer_mismatch,id=e8d939cd-0b89-4aea-b58a-fbe5525c5470 line=558 answer='速い' expected='[A]は[B]より・・・です'
-answer_mismatch,id=03249a7a-57db-4a38-9cb0-0782039aec69 line=565 answer='三回' expected='～回'
-answer_mismatch,id=03249a7a-57db-4a38-9cb0-0782039aec69 line=566 answer='五回' expected='～回'
-answer_mismatch,id=03249a7a-57db-4a38-9cb0-0782039aec69 line=567 answer='二回' expected='～回'
-answer_mismatch,id=7f43efd4-0be2-44a1-8d87-acbf6338acae line=568 answer='キロ' expected='キロ; キロメートル'
-answer_mismatch,id=7f43efd4-0be2-44a1-8d87-acbf6338acae line=569 answer='キロ' expected='キロ; キロメートル'
-answer_mismatch,id=7f43efd4-0be2-44a1-8d87-acbf6338acae line=570 answer='キロ' expected='キロ; キロメートル'
-answer_mismatch,id=62f2b811-2cf3-4096-84fd-3084f518f42d line=571 answer='台' expected='～台'
-answer_mismatch,id=62f2b811-2cf3-4096-84fd-3084f518f42d line=572 answer='台' expected='～台'
-answer_mismatch,id=62f2b811-2cf3-4096-84fd-3084f518f42d line=573 answer='台' expected='～台'
-answer_mismatch,id=3511c2de-1bac-41c1-84bb-fba4ed3cfd1d line=574 answer='三週間' expected='～週間'
-answer_mismatch,id=3511c2de-1bac-41c1-84bb-fba4ed3cfd1d line=575 answer='二週間' expected='～週間'
-answer_mismatch,id=3511c2de-1bac-41c1-84bb-fba4ed3cfd1d line=576 answer='四週間' expected='～週間'
-answer_mismatch,id=1f31fd11-84e7-425d-8f73-fde64c658435 line=580 answer='二匹' expected='～匹'
-answer_mismatch,id=1f31fd11-84e7-425d-8f73-fde64c658435 line=581 answer='三匹' expected='～匹'
-answer_mismatch,id=1f31fd11-84e7-425d-8f73-fde64c658435 line=582 answer='五匹' expected='～匹'
-answer_mismatch,id=e0b796ae-0d44-47a2-b712-6aef89e734d3 line=583 answer='一杯' expected='～杯'
-answer_mismatch,id=e0b796ae-0d44-47a2-b712-6aef89e734d3 line=584 answer='二杯' expected='～杯'
-answer_mismatch,id=e0b796ae-0d44-47a2-b712-6aef89e734d3 line=585 answer='三杯' expected='～杯'
-answer_mismatch,id=8b386a7b-3b70-41ec-a25e-0a760701c2cf line=589 answer='三日' expected='～日'
-answer_mismatch,id=8b386a7b-3b70-41ec-a25e-0a760701c2cf line=590 answer='五日' expected='～日'
-answer_mismatch,id=8b386a7b-3b70-41ec-a25e-0a760701c2cf line=591 answer='十日' expected='～日'
-answer_mismatch,id=b3103136-c403-4131-b7ad-cfb86d9bdc63 line=592 answer='年' expected='～年'
-answer_mismatch,id=b3103136-c403-4131-b7ad-cfb86d9bdc63 line=593 answer='年' expected='～年'
-answer_mismatch,id=b3103136-c403-4131-b7ad-cfb86d9bdc63 line=594 answer='年' expected='～年'
-answer_mismatch,id=c05f739c-9ce9-474a-9358-927d40cb4cb8 line=607 answer='千円' expected='～円'
-answer_mismatch,id=c05f739c-9ce9-474a-9358-927d40cb4cb8 line=608 answer='五百円' expected='～円'
-answer_mismatch,id=c05f739c-9ce9-474a-9358-927d40cb4cb8 line=609 answer='二万円' expected='～円'
-answer_mismatch,id=c7bc46ba-4876-440b-a1cd-3d18d917cd2a line=613 answer='行き' expected='～度'
-answer_mismatch,id=c7bc46ba-4876-440b-a1cd-3d18d917cd2a line=614 answer='映画' expected='～度'
-answer_mismatch,id=c7bc46ba-4876-440b-a1cd-3d18d917cd2a line=615 answer='日本語' expected='～度'
-answer_mismatch,id=98abfbbb-f1ac-4b7d-8b0c-b01cf7cee6e2 line=622 answer='人' expected='～人'
-answer_mismatch,id=98abfbbb-f1ac-4b7d-8b0c-b01cf7cee6e2 line=623 answer='人' expected='～人'
-answer_mismatch,id=98abfbbb-f1ac-4b7d-8b0c-b01cf7cee6e2 line=624 answer='人' expected='～人'
-answer_mismatch,id=a60b2b22-4f08-4a68-be9a-9ba8db74fe2a line=625 answer='三冊' expected='～冊'
-answer_mismatch,id=a60b2b22-4f08-4a68-be9a-9ba8db74fe2a line=626 answer='五冊' expected='～冊'
-answer_mismatch,id=a60b2b22-4f08-4a68-be9a-9ba8db74fe2a line=627 answer='二冊' expected='～冊'
-answer_mismatch,id=561025a0-1dd3-4c76-a5b5-f17a809093fd line=643 answer='一番' expected='～番'
-answer_mismatch,id=561025a0-1dd3-4c76-a5b5-f17a809093fd line=644 answer='三番' expected='～番'
-answer_mismatch,id=561025a0-1dd3-4c76-a5b5-f17a809093fd line=645 answer='二番' expected='～番'
-answer_mismatch,id=3cd3ff38-3113-42e5-86fd-aca60be281c6 line=649 answer='三か月' expected='～か月'
-answer_mismatch,id=3cd3ff38-3113-42e5-86fd-aca60be281c6 line=650 answer='六か月' expected='～か月'
-answer_mismatch,id=3cd3ff38-3113-42e5-86fd-aca60be281c6 line=651 answer='二か月' expected='～か月'
-answer_mismatch,id=9b33eb99-2d38-4d2e-ad9b-11c97187e43f line=661 answer='名前' expected='ずつ'
-answer_mismatch,id=9b33eb99-2d38-4d2e-ad9b-11c97187e43f line=662 answer='おもちゃ' expected='ずつ'
-answer_mismatch,id=9b33eb99-2d38-4d2e-ad9b-11c97187e43f line=663 answer='日本語' expected='ずつ'
-answer_mismatch,id=5793a8e2-fb0e-467c-b242-af7eeb8a1034 line=667 answer='この' expected='[B]より[A]ほうが'
-answer_mismatch,id=5793a8e2-fb0e-467c-b242-af7eeb8a1034 line=668 answer='彼' expected='[B]より[A]ほうが'
-answer_mismatch,id=5793a8e2-fb0e-467c-b242-af7eeb8a1034 line=669 answer='この' expected='[B]より[A]ほうが'
-answer_mismatch,id=d0a22160-e250-4e44-9961-56e2632b97db line=685 answer='三枚' expected='～枚'
-answer_mismatch,id=d0a22160-e250-4e44-9961-56e2632b97db line=686 answer='五枚' expected='～枚'
-answer_mismatch,id=d0a22160-e250-4e44-9961-56e2632b97db line=687 answer='二枚' expected='～枚'
-answer_mismatch,id=bad50968-0b7d-4c98-962b-e52a70a186fb line=691 answer='バナナ' expected='の中で[A]が一番'
-answer_mismatch,id=bad50968-0b7d-4c98-962b-e52a70a186fb line=692 answer='犬' expected='の中で[A]が一番'
-answer_mismatch,id=bad50968-0b7d-4c98-962b-e52a70a186fb line=693 answer='サッカー' expected='の中で[A]が一番'
-answer_mismatch,id=a4e45b6b-a4f1-4a94-9de0-4421ead1498b line=706 answer='時間' expected='～時間'
-answer_mismatch,id=a4e45b6b-a4f1-4a94-9de0-4421ead1498b line=707 answer='時間' expected='～時間'
-answer_mismatch,id=a4e45b6b-a4f1-4a94-9de0-4421ead1498b line=708 answer='時間' expected='～時間'
-answer_mismatch,id=55793a01-166c-484e-b28f-b2896427a538 line=715 answer='五時半' expected='半'
-answer_mismatch,id=55793a01-166c-484e-b28f-b2896427a538 line=716 answer='半分' expected='半'
-answer_mismatch,id=55793a01-166c-484e-b28f-b2896427a538 line=717 answer='三分の一' expected='半'
-answer_mismatch,id=90d376f7-9fde-4979-b8ec-fd282109c231 line=722 answer='いくつ' expected='いくら'
-answer_mismatch,id=8d9cfdbb-1484-4fce-976e-545d9ca96cac line=727 answer='二百グラム' expected='グラム'
-answer_mismatch,id=8d9cfdbb-1484-4fce-976e-545d9ca96cac line=728 answer='五百グラム' expected='グラム'
-answer_mismatch,id=8d9cfdbb-1484-4fce-976e-545d9ca96cac line=729 answer='一キログラム' expected='グラム'
-answer_mismatch,id=9eade8ed-0467-404f-bbc7-f2889055689d line=736 answer='旅行' expected='さ来年'
-answer_mismatch,id=82addc58-4924-4b58-8c8c-c85f4d0dae20 line=739 answer='階' expected='～階'
-answer_mismatch,id=82addc58-4924-4b58-8c8c-c85f4d0dae20 line=740 answer='階' expected='～階'
-answer_mismatch,id=82addc58-4924-4b58-8c8c-c85f4d0dae20 line=741 answer='階' expected='～階'
-answer_mismatch,id=f1686fe6-99ea-44b3-8775-4cd451cec82f line=742 answer='十分' expected='～分'
-answer_mismatch,id=f1686fe6-99ea-44b3-8775-4cd451cec82f line=743 answer='五分' expected='～分'
-answer_mismatch,id=f1686fe6-99ea-44b3-8775-4cd451cec82f line=744 answer='三十分' expected='～分'
-answer_mismatch,id=35e962b2-8e86-4407-9b07-488efb582d7f line=748 answer='話さないで' expected='ないでください'
-answer_mismatch,id=35e962b2-8e86-4407-9b07-488efb582d7f line=749 answer='読まないで' expected='ないでください'
-answer_mismatch,id=35e962b2-8e86-4407-9b07-488efb582d7f line=750 answer='ください' expected='ないでください'
-answer_mismatch,id=99ae7ee5-7743-4bda-9ac5-c108e3f0fc95 line=763 answer='三個' expected='～個'
-answer_mismatch,id=99ae7ee5-7743-4bda-9ac5-c108e3f0fc95 line=764 answer='二個' expected='～個'
-answer_mismatch,id=99ae7ee5-7743-4bda-9ac5-c108e3f0fc95 line=765 answer='四個' expected='～個'
-answer_mismatch,id=0ae605d6-a7bd-41c9-b306-13debe9762a5 line=793 answer='しなくちゃ' expected='なくちゃ'
-answer_mismatch,id=2af139e5-1944-4ead-acbe-3de38ead4252 line=826 answer='たり' expected='たり〜たり'
-answer_mismatch,id=2af139e5-1944-4ead-acbe-3de38ead4252 line=827 answer='たり' expected='たり〜たり'
-answer_mismatch,id=2af139e5-1944-4ead-acbe-3de38ead4252 line=828 answer='たり' expected='たり〜たり'
-answer_mismatch,id=cdfa8a0e-9c78-44ea-bc26-0cf004133b6f line=835 answer='本屋' expected='～屋'
-answer_mismatch,id=cdfa8a0e-9c78-44ea-bc26-0cf004133b6f line=836 answer='花屋' expected='～屋'
-answer_mismatch,id=cdfa8a0e-9c78-44ea-bc26-0cf004133b6f line=837 answer='肉屋' expected='～屋'
-answer_mismatch,id=0ce23bae-60b8-4e10-b7c2-97f4fba19b66 line=943 answer='教えます' expected='教える'
-answer_mismatch,id=0ce23bae-60b8-4e10-b7c2-97f4fba19b66 line=944 answer='教えています' expected='教える'
-answer_mismatch,id=0ce23bae-60b8-4e10-b7c2-97f4fba19b66 line=945 answer='教えてくれます' expected='教える'
-answer_mismatch,id=c3b48139-ebe4-49c3-b5c6-4b70cf84498d line=946 answer='ほうが' expected='ほうがいい'
-answer_mismatch,id=c3b48139-ebe4-49c3-b5c6-4b70cf84498d line=947 answer='ほうが' expected='ほうがいい'
-answer_mismatch,id=c3b48139-ebe4-49c3-b5c6-4b70cf84498d line=948 answer='ほうが' expected='ほうがいい'
-answer_mismatch,id=2569c761-ea39-4c12-b62f-a689eb18edd0 line=955 answer='ください' expected='てください'
-answer_mismatch,id=2569c761-ea39-4c12-b62f-a689eb18edd0 line=956 answer='ください' expected='てください'
-answer_mismatch,id=2569c761-ea39-4c12-b62f-a689eb18edd0 line=957 answer='ください' expected='てください'
-answer_mismatch,id=cb498119-92f5-4442-96ea-c0e3281cfd6d line=961 answer='いけない' expected='ちゃいけない・じゃいけない'
-answer_mismatch,id=cb498119-92f5-4442-96ea-c0e3281cfd6d line=962 answer='いけない' expected='ちゃいけない・じゃいけない'
-answer_mismatch,id=cb498119-92f5-4442-96ea-c0e3281cfd6d line=963 answer='いけない' expected='ちゃいけない・じゃいけない'
-answer_mismatch,id=69e00c21-84ae-44bd-b595-40e76049be94 line=976 answer='まだしていません' expected='まだ〜ていません'
-answer_mismatch,id=69e00c21-84ae-44bd-b595-40e76049be94 line=977 answer='まだ見ていません' expected='まだ〜ていません'
-answer_mismatch,id=69e00c21-84ae-44bd-b595-40e76049be94 line=978 answer='まだ食べていません' expected='まだ〜ていません'
-answer_mismatch,id=9cb66291-19bf-4c79-91a9-8c240e2c2e7c line=982 answer='生まれた' expected='生まれる'
-answer_mismatch,id=9cb66291-19bf-4c79-91a9-8c240e2c2e7c line=984 answer='生まれます' expected='生まれる'
-answer_mismatch,id=591589f1-3cd3-49ce-a6d1-7e92a8ceb1a2 line=994 answer='ごろ' expected='ころ; ごろ'
-answer_mismatch,id=591589f1-3cd3-49ce-a6d1-7e92a8ceb1a2 line=995 answer='ころ' expected='ころ; ごろ'
-answer_mismatch,id=591589f1-3cd3-49ce-a6d1-7e92a8ceb1a2 line=996 answer='ごろ' expected='ころ; ごろ'
-answer_mismatch,id=9d775b5d-fee0-4ca7-bbf9-4d6af11bd0bb line=1006 answer='いいです' expected='てもいいです'
-answer_mismatch,id=9d775b5d-fee0-4ca7-bbf9-4d6af11bd0bb line=1007 answer='いいです' expected='てもいいです'
-answer_mismatch,id=9d775b5d-fee0-4ca7-bbf9-4d6af11bd0bb line=1008 answer='いいです' expected='てもいいです'
-answer_mismatch,id=328be9e3-97d8-4d65-9e9b-4210b8754102 line=1013 answer='きませんか' expected='ませんか'
-answer_mismatch,id=328be9e3-97d8-4d65-9e9b-4210b8754102 line=1014 answer='みませんか' expected='ませんか'
-answer_mismatch,id=e8c483c1-6255-40cf-919f-51b11cf288d9 line=1024 answer='です' expected='だ・です'
-answer_mismatch,id=e8c483c1-6255-40cf-919f-51b11cf288d9 line=1025 answer='だ' expected='だ・です'
-answer_mismatch,id=e8c483c1-6255-40cf-919f-51b11cf288d9 line=1026 answer='です' expected='だ・です'
-answer_mismatch,id=c8d63842-9df0-4442-be88-7d045107a271 line=1042 answer='日本の' expected='は'
-answer_mismatch,id=c8d63842-9df0-4442-be88-7d045107a271 line=1043 answer='とても' expected='は'
-answer_mismatch,id=c8d63842-9df0-4442-be88-7d045107a271 line=1044 answer='とても' expected='は'
-answer_mismatch,id=09c1bb27-b1f2-4568-9f49-038c677758e8 line=1153 answer='語' expected='～語'
-answer_mismatch,id=09c1bb27-b1f2-4568-9f49-038c677758e8 line=1154 answer='語' expected='～語'
-answer_mismatch,id=09c1bb27-b1f2-4568-9f49-038c677758e8 line=1155 answer='語' expected='～語'
-answer_mismatch,id=460f64c7-a442-4416-a2e0-2c733773f5f9 line=1162 answer='じゃあ' expected='じゃ; じゃあ'
-answer_mismatch,id=460f64c7-a442-4416-a2e0-2c733773f5f9 line=1163 answer='じゃあ' expected='じゃ; じゃあ'
-answer_mismatch,id=460f64c7-a442-4416-a2e0-2c733773f5f9 line=1164 answer='じゃあ' expected='じゃ; じゃあ'
-answer_mismatch,id=ce8c3627-0a98-4288-852b-1885d7c72d4e line=1189 answer='しないで' expected='ないで'
-answer_mismatch,id=ce8c3627-0a98-4288-852b-1885d7c72d4e line=1190 answer='食べないで' expected='ないで'
-answer_mismatch,id=a5c86e22-1a88-4d2c-b6fa-186325e594db line=1195 answer='母' expected='お～'
-answer_mismatch,id=a5c86e22-1a88-4d2c-b6fa-186325e594db line=1196 answer='茶' expected='お～'
-answer_mismatch,id=a5c86e22-1a88-4d2c-b6fa-186325e594db line=1197 answer='店' expected='お～'
-answer_mismatch,id=6653aa51-f139-4d67-b79b-1ad6e476b49d line=1201 answer='どうですか' expected='はどうですか'
-answer_mismatch,id=6653aa51-f139-4d67-b79b-1ad6e476b49d line=1202 answer='どうですか' expected='はどうですか'
-answer_mismatch,id=6653aa51-f139-4d67-b79b-1ad6e476b49d line=1203 answer='どうですか' expected='はどうですか'
-answer_mismatch,id=29ea9cba-ba0b-44ef-91e3-22bbd2a0bc01 line=1213 answer='さん' expected='～さん'
-answer_mismatch,id=29ea9cba-ba0b-44ef-91e3-22bbd2a0bc01 line=1214 answer='さん' expected='～さん'
-answer_mismatch,id=29ea9cba-ba0b-44ef-91e3-22bbd2a0bc01 line=1215 answer='さん' expected='～さん'
-answer_mismatch,id=aea0d7b0-5c2a-4857-9d2d-932a5edfb9a3 line=1216 answer='なのです' expected='のです'
-answer_mismatch,id=aea0d7b0-5c2a-4857-9d2d-932a5edfb9a3 line=1218 answer='なのです' expected='のです'
-answer_mismatch,id=58082056-52a2-4f66-a7f5-d3dc861f73dd line=1219 answer='と思います' expected='なあ'
-answer_mismatch,id=58082056-52a2-4f66-a7f5-d3dc861f73dd line=1220 answer='と思う' expected='なあ'
-answer_mismatch,id=58082056-52a2-4f66-a7f5-d3dc861f73dd line=1221 answer='と思った' expected='なあ'
-answer_mismatch,id=e1318cd0-0a3f-4e9e-9e8c-fda4600ad1a4 line=1243 answer='日本人' expected='も'
-answer_mismatch,id=e1318cd0-0a3f-4e9e-9e8c-fda4600ad1a4 line=1244 answer='好き' expected='も'
-answer_mismatch,id=e1318cd0-0a3f-4e9e-9e8c-fda4600ad1a4 line=1245 answer='面白い' expected='も'
-answer_mismatch,id=e00b982d-4ee1-497a-8f57-a8c53788afd0 line=1246 answer='そうです' expected='そう; そうです'
-answer_mismatch,id=e00b982d-4ee1-497a-8f57-a8c53788afd0 line=1247 answer='そうです' expected='そう; そうです'
-answer_mismatch,id=e00b982d-4ee1-497a-8f57-a8c53788afd0 line=1248 answer='そうです' expected='そう; そうです'
-answer_mismatch,id=b6cdf8e6-6c31-457d-878a-e90b26335638 line=1258 answer='学生' expected='んです'
-answer_mismatch,id=b6cdf8e6-6c31-457d-878a-e90b26335638 line=1259 answer='雨' expected='んです'
-answer_mismatch,id=b6cdf8e6-6c31-457d-878a-e90b26335638 line=1260 answer='本' expected='んです'
-answer_mismatch,id=f19a5e2d-4073-4a06-8010-17003590d507 line=1264 answer='そして' expected='そうして; そして'
-answer_mismatch,id=f19a5e2d-4073-4a06-8010-17003590d507 line=1265 answer='そうして' expected='そうして; そして'
-answer_mismatch,id=f19a5e2d-4073-4a06-8010-17003590d507 line=1266 answer='そして' expected='そうして; そして'
-answer_mismatch,id=2392cfe8-fdc0-494a-9f01-2b2535ddc843 line=1270 answer='置いてある' expected='てある'
-answer_mismatch,id=2392cfe8-fdc0-494a-9f01-2b2535ddc843 line=1271 answer='ある' expected='てある'
-answer_mismatch,id=2392cfe8-fdc0-494a-9f01-2b2535ddc843 line=1272 answer='置いてある' expected='てある'
-answer_mismatch,id=fd696251-cc6a-4e23-929e-7c7ccaf08fc2 line=1276 answer='三' expected='かかる'
-answer_mismatch,id=fd696251-cc6a-4e23-929e-7c7ccaf08fc2 line=1277 answer='千' expected='かかる'
-answer_mismatch,id=fd696251-cc6a-4e23-929e-7c7ccaf08fc2 line=1278 answer='十分' expected='かかる'
-answer_mismatch,id=0274ce56-59c7-488d-aa79-475da89f096a line=1282 answer='友達' expected='後'
-answer_mismatch,id=0274ce56-59c7-488d-aa79-475da89f096a line=1283 answer='テレビ' expected='後'
-answer_mismatch,id=0274ce56-59c7-488d-aa79-475da89f096a line=1284 answer='買い物' expected='後'
-answer_mismatch,id=abe32a3a-1853-4376-a865-06558ad19414 line=1291 answer='か' expected='か〜か'
-answer_mismatch,id=abe32a3a-1853-4376-a865-06558ad19414 line=1292 answer='か' expected='か〜か'
-answer_mismatch,id=abe32a3a-1853-4376-a865-06558ad19414 line=1293 answer='か' expected='か〜か'
-answer_mismatch,id=19025bf5-2129-453b-83b6-471ac9223708 line=1303 answer='始め' expected='初め; 始め'
-answer_mismatch,id=19025bf5-2129-453b-83b6-471ac9223708 line=1304 answer='始め' expected='初め; 始め'
-answer_mismatch,id=19025bf5-2129-453b-83b6-471ac9223708 line=1305 answer='初め' expected='初め; 始め'
-answer_mismatch,id=f72f9754-264a-4585-8eb1-8c2bd3a9e275 line=1333 answer='ですか' expected='か'
-answer_mismatch,id=f72f9754-264a-4585-8eb1-8c2bd3a9e275 line=1334 answer='ですか' expected='か'
-answer_mismatch,id=1dc034f7-375c-4046-a473-ccde281321d0 line=1354 answer='行きます' expected='来年'
-answer_mismatch,id=1dc034f7-375c-4046-a473-ccde281321d0 line=1355 answer='車' expected='来年'
-answer_mismatch,id=1dc034f7-375c-4046-a473-ccde281321d0 line=1356 answer='旅行' expected='来年'
-answer_mismatch,id=0349cadc-b8e3-4afa-807e-f620a316aa35 line=1366 answer='日曜日' expected='明日'
-answer_mismatch,id=1b21a6f8-b8de-41d9-be96-642693701ae4 line=1438 answer='いきます' expected='にいく'
-answer_mismatch,id=1b21a6f8-b8de-41d9-be96-642693701ae4 line=1439 answer='いきます' expected='にいく'
-answer_mismatch,id=1b21a6f8-b8de-41d9-be96-642693701ae4 line=1440 answer='いきます' expected='にいく'
-answer_mismatch,id=9393d089-119a-4a9c-bac2-3ebbba9957b5 line=1444 answer='学校' expected='そちら'
-answer_mismatch,id=ffab73fc-7eb1-4138-82ed-6154e6813646 line=1447 answer='私は' expected='私'
-answer_mismatch,id=ffab73fc-7eb1-4138-82ed-6154e6813646 line=1448 answer='私の' expected='私'
-answer_mismatch,id=ffab73fc-7eb1-4138-82ed-6154e6813646 line=1449 answer='私は' expected='私'
-answer_mismatch,id=68343025-23e3-4181-9105-c370322be30d line=1462 answer='行きます' expected='行く'
-answer_mismatch,id=68343025-23e3-4181-9105-c370322be30d line=1463 answer='行きます' expected='行く'
-answer_mismatch,id=68343025-23e3-4181-9105-c370322be30d line=1464 answer='行きます' expected='行く'
-answer_mismatch,id=0d8c2e9a-99fc-46e1-8e34-cf42a0363029 line=1486 answer='何のスポーツ' expected='何～'
-answer_mismatch,id=0d8c2e9a-99fc-46e1-8e34-cf42a0363029 line=1487 answer='何の音楽' expected='何～'
-answer_mismatch,id=0d8c2e9a-99fc-46e1-8e34-cf42a0363029 line=1488 answer='何の本' expected='何～'
-answer_mismatch,id=dc82f4f7-1dac-4788-b0d9-d6d62d1ef537 line=1639 answer='おいしい' expected='い-adjectives'
-answer_mismatch,id=dc82f4f7-1dac-4788-b0d9-d6d62d1ef537 line=1640 answer='きれい' expected='い-adjectives'
-answer_mismatch,id=dc82f4f7-1dac-4788-b0d9-d6d62d1ef537 line=1641 answer='いい' expected='い-adjectives'
-answer_mismatch,id=b9f27a17-ac3c-44d0-8719-815f7ab0fbe5 line=1672 answer='足' expected='足; 脚'
-answer_mismatch,id=b9f27a17-ac3c-44d0-8719-815f7ab0fbe5 line=1673 answer='脚' expected='足; 脚'
-answer_mismatch,id=b9f27a17-ac3c-44d0-8719-815f7ab0fbe5 line=1674 answer='足' expected='足; 脚'
-answer_mismatch,id=b39928be-3c03-4047-85b5-3b3af5952f2f line=1783 answer='ラジオカセット' expected='ラジオカセ'
-answer_mismatch,id=b39928be-3c03-4047-85b5-3b3af5952f2f line=1784 answer='ラジオカセット' expected='ラジオカセ'
-answer_mismatch,id=b39928be-3c03-4047-85b5-3b3af5952f2f line=1785 answer='ラジオカセット' expected='ラジオカセ'
-answer_mismatch,id=c515a961-52c9-4fde-81fc-5ac2df9a651f line=1849 answer='伯父' expected='伯父; 叔父さん'
-answer_mismatch,id=c515a961-52c9-4fde-81fc-5ac2df9a651f line=1850 answer='叔父さん' expected='伯父; 叔父さん'
-answer_mismatch,id=c515a961-52c9-4fde-81fc-5ac2df9a651f line=1851 answer='伯父' expected='伯父; 叔父さん'
-answer_mismatch,id=3e05ff6a-d1ca-44d1-8017-67855baf9485 line=1894 answer='じゃない' expected='じゃない・ではない'
-answer_mismatch,id=3e05ff6a-d1ca-44d1-8017-67855baf9485 line=1895 answer='ではない' expected='じゃない・ではない'
-answer_mismatch,id=3e05ff6a-d1ca-44d1-8017-67855baf9485 line=1896 answer='じゃない' expected='じゃない・ではない'
-answer_mismatch,id=72bf0cea-ebcc-4609-ad78-252b72cb49bb line=1903 answer='伯母さん' expected='伯母さん; 叔母さん'
-answer_mismatch,id=72bf0cea-ebcc-4609-ad78-252b72cb49bb line=1904 answer='叔母さん' expected='伯母さん; 叔母さん'
-answer_mismatch,id=72bf0cea-ebcc-4609-ad78-252b72cb49bb line=1905 answer='伯母さん' expected='伯母さん; 叔母さん'
-answer_mismatch,id=20eb8a5a-0a43-42d1-9293-4f255cbc1d86 line=1927 answer='旅行' expected='おととし'
-answer_mismatch,id=20eb8a5a-0a43-42d1-9293-4f255cbc1d86 line=1929 answer='車' expected='おととし'
-answer_mismatch,id=4abcca6f-5835-43a9-9568-a1d7410ea504 line=1948 answer='友達' expected='～たち'
-answer_mismatch,id=4abcca6f-5835-43a9-9568-a1d7410ea504 line=1949 answer='学校' expected='～たち'
-answer_mismatch,id=4abcca6f-5835-43a9-9568-a1d7410ea504 line=1950 answer='ソファ' expected='～たち'
-answer_mismatch,id=c9f3f139-8f11-4ec8-bf08-b0238b7ee509 line=1957 answer='十歳' expected='～歳'
-answer_mismatch,id=c9f3f139-8f11-4ec8-bf08-b0238b7ee509 line=1958 answer='五歳' expected='～歳'
-answer_mismatch,id=c9f3f139-8f11-4ec8-bf08-b0238b7ee509 line=1959 answer='二十歳' expected='～歳'
-answer_mismatch,id=58282d15-5a55-4250-ae83-ad5a88826379 line=1990 answer='立って' expected='立つ'
-answer_mismatch,id=58282d15-5a55-4250-ae83-ad5a88826379 line=1991 answer='立ちます' expected='立つ'
-answer_mismatch,id=58282d15-5a55-4250-ae83-ad5a88826379 line=1992 answer='立っている' expected='立つ'
-answer_mismatch,id=be72e9ff-15f1-476f-9e79-421611dd2d86 line=1996 answer='つけます' expected='つける'
-answer_mismatch,id=be72e9ff-15f1-476f-9e79-421611dd2d86 line=1997 answer='つけました' expected='つける'
-answer_mismatch,id=4b7f0dcf-1b81-4322-9a34-612bf998ac11 line=2011 answer='洗います' expected='洗う'
-answer_mismatch,id=4b7f0dcf-1b81-4322-9a34-612bf998ac11 line=2012 answer='洗います' expected='洗う'
-answer_mismatch,id=4b7f0dcf-1b81-4322-9a34-612bf998ac11 line=2013 answer='洗います' expected='洗う'
-answer_mismatch,id=a2f79c20-2617-407a-9074-81806b3d1b1e line=2020 answer='はきます' expected='はく'
-answer_mismatch,id=a2f79c20-2617-407a-9074-81806b3d1b1e line=2021 answer='はきます' expected='はく'
-answer_mismatch,id=a2f79c20-2617-407a-9074-81806b3d1b1e line=2022 answer='はきます' expected='はく'
-answer_mismatch,id=73c60a34-a0bc-40cb-b743-2876c0363a7e line=2035 answer='使います' expected='使う'
-answer_mismatch,id=73c60a34-a0bc-40cb-b743-2876c0363a7e line=2036 answer='使っています' expected='使う'
-answer_mismatch,id=73c60a34-a0bc-40cb-b743-2876c0363a7e line=2037 answer='使います' expected='使う'
-answer_mismatch,id=37f5e729-4e65-48e3-944d-a6a03ed953e5 line=2047 answer='三時' expected='午後'
-answer_mismatch,id=37f5e729-4e65-48e3-944d-a6a03ed953e5 line=2048 answer='五時' expected='午後'
-answer_mismatch,id=37f5e729-4e65-48e3-944d-a6a03ed953e5 line=2049 answer='四時' expected='午後'
-answer_mismatch,id=f908c09f-b1e7-4c4d-b76f-9460fac2e33b line=2053 answer='飲みます' expected='飲む'
-answer_mismatch,id=f908c09f-b1e7-4c4d-b76f-9460fac2e33b line=2054 answer='飲みます' expected='飲む'
-answer_mismatch,id=f908c09f-b1e7-4c4d-b76f-9460fac2e33b line=2055 answer='飲みます' expected='飲む'
-answer_mismatch,id=f6a0b472-add2-4e31-b825-1478e61eecc7 line=2062 answer='書きます' expected='書く'
-answer_mismatch,id=f6a0b472-add2-4e31-b825-1478e61eecc7 line=2063 answer='書きました' expected='書く'
-answer_mismatch,id=f6a0b472-add2-4e31-b825-1478e61eecc7 line=2064 answer='書いています' expected='書く'
-answer_mismatch,id=5af0145c-d878-48c0-a0b0-51db5235f216 line=2065 answer='取ります' expected='取る'
-answer_mismatch,id=5af0145c-d878-48c0-a0b0-51db5235f216 line=2066 answer='取った' expected='取る'
-answer_mismatch,id=5af0145c-d878-48c0-a0b0-51db5235f216 line=2067 answer='取ります' expected='取る'
-answer_mismatch,id=2f0f4844-602f-4de6-a26a-873ee0966bbe line=2080 answer='置きます' expected='置く'
-answer_mismatch,id=2f0f4844-602f-4de6-a26a-873ee0966bbe line=2081 answer='置きました' expected='置く'
-answer_mismatch,id=2f0f4844-602f-4de6-a26a-873ee0966bbe line=2082 answer='置きます' expected='置く'
-answer_mismatch,id=0fe0088d-7032-4578-8f93-a400cf62590d line=2095 answer='乗ります' expected='乗る'
-answer_mismatch,id=0fe0088d-7032-4578-8f93-a400cf62590d line=2096 answer='乗っています' expected='乗る'
-answer_mismatch,id=0fe0088d-7032-4578-8f93-a400cf62590d line=2097 answer='乗った' expected='乗る'
-answer_mismatch,id=8e448811-281f-45df-a38c-fa73fb1170ed line=2098 answer='学校' expected='～時'
-answer_mismatch,id=8e448811-281f-45df-a38c-fa73fb1170ed line=2099 answer='テレビ' expected='～時'
-answer_mismatch,id=8e448811-281f-45df-a38c-fa73fb1170ed line=2100 answer='起き' expected='～時'
-answer_mismatch,id=648c560e-1fd1-4b1c-876a-ac4e28d4f0ba line=2101 answer='映画' expected='今晩'
-answer_mismatch,id=96533b80-089b-498c-bad9-2169952bf004 line=2119 answer='持っています' expected='持つ'
-answer_mismatch,id=96533b80-089b-498c-bad9-2169952bf004 line=2120 answer='持っています' expected='持つ'
-answer_mismatch,id=96533b80-089b-498c-bad9-2169952bf004 line=2121 answer='持っています' expected='持つ'
-answer_mismatch,id=6b5ab61c-b170-4e38-9fa2-925d85fcfe7f line=2125 answer='買います' expected='買う'
-answer_mismatch,id=6b5ab61c-b170-4e38-9fa2-925d85fcfe7f line=2126 answer='買いたい' expected='買う'
-answer_mismatch,id=6b5ab61c-b170-4e38-9fa2-925d85fcfe7f line=2127 answer='買いました' expected='買う'
-answer_mismatch,id=1cf3a425-a1ff-428c-a243-52e302c46fee line=2128 answer='作ります' expected='作る'
-answer_mismatch,id=1cf3a425-a1ff-428c-a243-52e302c46fee line=2129 answer='作った' expected='作る'
-answer_mismatch,id=1cf3a425-a1ff-428c-a243-52e302c46fee line=2130 answer='作ります' expected='作る'
-answer_mismatch,id=53603086-e7b0-43ea-ae2f-9ab0b1477baa line=2134 answer='コピーします' expected='コピーする'
-answer_mismatch,id=53603086-e7b0-43ea-ae2f-9ab0b1477baa line=2135 answer='コピーします' expected='コピーする'
-answer_mismatch,id=53603086-e7b0-43ea-ae2f-9ab0b1477baa line=2136 answer='コピーしました' expected='コピーする'
-answer_mismatch,id=66898bec-3ff5-4a68-a173-583d0d502ea7 line=2137 answer='消します' expected='消す'
-answer_mismatch,id=66898bec-3ff5-4a68-a173-583d0d502ea7 line=2138 answer='消します' expected='消す'
-answer_mismatch,id=258958aa-7517-463d-b728-ed2873886077 line=2140 answer='会う' expected='来週'
-answer_mismatch,id=7a813bf2-fd65-4747-bbf6-54974b961b2f line=2143 answer='読みます' expected='読む'
-answer_mismatch,id=7a813bf2-fd65-4747-bbf6-54974b961b2f line=2144 answer='読みます' expected='読む'
-answer_mismatch,id=7a813bf2-fd65-4747-bbf6-54974b961b2f line=2145 answer='読みます' expected='読む'
-answer_mismatch,id=182830c9-9648-41b4-933b-1f9f4304fa69 line=2146 answer='習います' expected='習う'
-answer_mismatch,id=182830c9-9648-41b4-933b-1f9f4304fa69 line=2147 answer='習っています' expected='習う'
-answer_mismatch,id=182830c9-9648-41b4-933b-1f9f4304fa69 line=2148 answer='習います' expected='習う'
-answer_mismatch,id=9b3c1132-01c7-42c2-8f5a-b9665ecd60a9 line=2158 answer='走ります' expected='走る'
-answer_mismatch,id=9b3c1132-01c7-42c2-8f5a-b9665ecd60a9 line=2159 answer='走っています' expected='走る'
-answer_mismatch,id=cabee6a3-d109-4ad1-ae4b-6e6d39fbd073 line=2185 answer='待って' expected='待つ'
-answer_mismatch,id=cabee6a3-d109-4ad1-ae4b-6e6d39fbd073 line=2187 answer='待って' expected='待つ'
-answer_mismatch,id=fde2791c-52da-4cf9-be4a-0234226e9d29 line=2188 answer='映画' expected='明後日'
-answer_mismatch,id=e5632310-b07d-4195-81eb-d40e847eff0c line=2209 answer='話します' expected='話す'
-answer_mismatch,id=e5632310-b07d-4195-81eb-d40e847eff0c line=2210 answer='話します' expected='話す'
-answer_mismatch,id=e5632310-b07d-4195-81eb-d40e847eff0c line=2211 answer='話します' expected='話す'
-answer_mismatch,id=43198dac-37d3-49e6-aaa8-1e2bce57c101 line=2215 answer='言いました' expected='言う'
-answer_mismatch,id=43198dac-37d3-49e6-aaa8-1e2bce57c101 line=2216 answer='言います' expected='言う'
-answer_mismatch,id=43198dac-37d3-49e6-aaa8-1e2bce57c101 line=2217 answer='言った' expected='言う'
-answer_mismatch,id=6c9db455-8d6c-4682-9117-05e4a699635c line=2251 answer='いい' expected='いい; よい'
-answer_mismatch,id=6c9db455-8d6c-4682-9117-05e4a699635c line=2252 answer='よい' expected='いい; よい'
-answer_mismatch,id=6c9db455-8d6c-4682-9117-05e4a699635c line=2253 answer='いい' expected='いい; よい'
 duplicate_question,"first_line=27, dup_line=35, text=彼は新しい____を買いました。"
 duplicate_question,"first_line=27, dup_line=39, text=彼は新しい____を買いました。"
 duplicate_question,"first_line=27, dup_line=53, text=彼は新しい____を買いました。"
@@ -375,345 +12,345 @@ duplicate_question,"first_line=104, dup_line=167, text=今日は____です。"
 duplicate_question,"first_line=20, dup_line=176, text=____本は面白いです。"
 duplicate_question,"first_line=21, dup_line=177, text=____車は私のです。"
 duplicate_question,"first_line=205, dup_line=249, text=彼女は____本を読みます。"
-duplicate_question,"first_line=200, dup_line=262, text=彼は本を____。"
-duplicate_question,"first_line=215, dup_line=265, text=私は勉強____音楽を聞きます。"
-duplicate_question,"first_line=240, dup_line=344, text=友達と一緒に____のが好きです。"
-duplicate_question,"first_line=96, dup_line=359, text=私の____は青いです。"
-duplicate_question,"first_line=48, dup_line=362, text=彼のシャツは____です。"
-duplicate_question,"first_line=90, dup_line=371, text=私は____が好きです。"
-duplicate_question,"first_line=38, dup_line=382, text=テーブルの上に____があります。"
-duplicate_question,"first_line=159, dup_line=384, text=この____はとてもきれいです。"
-duplicate_question,"first_line=65, dup_line=390, text=私の部屋には____があります。"
-duplicate_question,"first_line=54, dup_line=395, text=この____はとても高いです。"
-duplicate_question,"first_line=90, dup_line=396, text=私は____が好きです。"
-duplicate_question,"first_line=23, dup_line=419, text=学校の____はとても長いです。"
-duplicate_question,"first_line=424, dup_line=442, text=彼は____に行きます。"
-duplicate_question,"first_line=426, dup_line=443, text=私の家は____にあります。"
-duplicate_question,"first_line=403, dup_line=448, text=猫はテーブルの____にいます。"
-duplicate_question,"first_line=408, dup_line=453, text=私の家は駅の____にあります。"
-duplicate_question,"first_line=86, dup_line=462, text=あの____は先生です。"
-duplicate_question,"first_line=426, dup_line=485, text=私の家は____にあります。"
-duplicate_question,"first_line=424, dup_line=487, text=彼は____に行きます。"
-duplicate_question,"first_line=289, dup_line=497, text=彼は学校に____。"
-duplicate_question,"first_line=75, dup_line=501, text=私の家の近くに____があります。"
-duplicate_question,"first_line=75, dup_line=507, text=私の家の近くに____があります。"
-duplicate_question,"first_line=424, dup_line=508, text=彼は____に行きます。"
-duplicate_question,"first_line=399, dup_line=513, text=私の家はその____の近くにあります。"
-duplicate_question,"first_line=460, dup_line=517, text=彼は____です。"
-duplicate_question,"first_line=406, dup_line=520, text=彼は____にいます。"
-duplicate_question,"first_line=457, dup_line=521, text=私の家の____に公園があります。"
-duplicate_question,"first_line=426, dup_line=523, text=私の家は____にあります。"
-duplicate_question,"first_line=98, dup_line=526, text=彼は____を持っています。"
-duplicate_question,"first_line=475, dup_line=535, text=私の誕生日は____です。"
-duplicate_question,"first_line=475, dup_line=545, text=私の誕生日は____です。"
-duplicate_question,"first_line=104, dup_line=589, text=今日は____です。"
-duplicate_question,"first_line=550, dup_line=590, text=彼は毎日____運動します。"
-duplicate_question,"first_line=475, dup_line=591, text=私の誕生日は____です。"
-duplicate_question,"first_line=554, dup_line=598, text=彼は____人の友達がいます。"
-duplicate_question,"first_line=116, dup_line=607, text=この本は____です。"
-duplicate_question,"first_line=538, dup_line=610, text=彼は____円持っています。"
-duplicate_question,"first_line=604, dup_line=616, text=テーブルの上に____のりんごがあります。"
-duplicate_question,"first_line=605, dup_line=617, text=私は____の本を持っています。"
-duplicate_question,"first_line=554, dup_line=620, text=彼は____人の友達がいます。"
-duplicate_question,"first_line=596, dup_line=621, text=私の家族は____人です。"
-duplicate_question,"first_line=554, dup_line=631, text=彼は____人の友達がいます。"
-duplicate_question,"first_line=577, dup_line=640, text=彼は____の本を持っています。"
-duplicate_question,"first_line=604, dup_line=642, text=テーブルの上に____のりんごがあります。"
-duplicate_question,"first_line=579, dup_line=646, text=テーブルの上に____のリンゴがあります。"
-duplicate_question,"first_line=577, dup_line=647, text=彼は____の本を持っています。"
-duplicate_question,"first_line=564, dup_line=648, text=私は____の花を買いました。"
-duplicate_question,"first_line=601, dup_line=652, text=私は____つのりんごがあります。"
-duplicate_question,"first_line=548, dup_line=654, text=今日は____日です。"
-duplicate_question,"first_line=475, dup_line=655, text=私の誕生日は____です。"
-duplicate_question,"first_line=475, dup_line=671, text=私の誕生日は____です。"
-duplicate_question,"first_line=546, dup_line=672, text=____後に友達に会います。"
-duplicate_question,"first_line=475, dup_line=678, text=私の誕生日は____です。"
-duplicate_question,"first_line=104, dup_line=694, text=今日は____です。"
-duplicate_question,"first_line=660, dup_line=696, text=____は月曜日です。"
-duplicate_question,"first_line=695, dup_line=697, text=私は____に友達に会います。"
-duplicate_question,"first_line=653, dup_line=710, text=彼は____歳です。"
-duplicate_question,"first_line=635, dup_line=714, text=私は____に友達と会います。"
-duplicate_question,"first_line=116, dup_line=717, text=この本は____です。"
-duplicate_question,"first_line=544, dup_line=718, text=今月の____は日曜日です。"
-duplicate_question,"first_line=475, dup_line=719, text=私の誕生日は____です。"
-duplicate_question,"first_line=357, dup_line=720, text=____に友達と会います。"
-duplicate_question,"first_line=554, dup_line=725, text=彼は____人の友達がいます。"
-duplicate_question,"first_line=14, dup_line=730, text=公園に____がいます。"
-duplicate_question,"first_line=588, dup_line=731, text=____で映画を見ました。"
-duplicate_question,"first_line=538, dup_line=754, text=彼は____円持っています。"
-duplicate_question,"first_line=539, dup_line=755, text=この本は____ページあります。"
-duplicate_question,"first_line=641, dup_line=761, text=私の家には____の犬がいます。"
-duplicate_question,"first_line=563, dup_line=762, text=テーブルの上に____の本があります。"
-duplicate_question,"first_line=563, dup_line=770, text=テーブルの上に____の本があります。"
-duplicate_question,"first_line=74, dup_line=776, text=子供たちは____で遊んでいます。"
-duplicate_question,"first_line=138, dup_line=778, text=彼の車は____です。"
-duplicate_question,"first_line=723, dup_line=780, text=このシャツは____ですか？"
-duplicate_question,"first_line=38, dup_line=781, text=テーブルの上に____があります。"
-duplicate_question,"first_line=775, dup_line=811, text=夏に友達と____に行きます。"
-duplicate_question,"first_line=797, dup_line=829, text=彼は____が好きです。"
-duplicate_question,"first_line=194, dup_line=841, text=友達と____に行きます。"
-duplicate_question,"first_line=27, dup_line=860, text=彼は新しい____を買いました。"
-duplicate_question,"first_line=816, dup_line=861, text=この店の____はとてもおいしいです。"
-duplicate_question,"first_line=54, dup_line=876, text=この____はとても高いです。"
-duplicate_question,"first_line=817, dup_line=877, text=彼は毎日____を作ります。"
-duplicate_question,"first_line=823, dup_line=878, text=私の好きな料理は____です。"
-duplicate_question,"first_line=98, dup_line=880, text=彼は____を持っています。"
-duplicate_question,"first_line=797, dup_line=883, text=彼は____が好きです。"
-duplicate_question,"first_line=814, dup_line=886, text=毎朝、私は____を飲みます。"
-duplicate_question,"first_line=833, dup_line=887, text=このケーキには____が入っています。"
-duplicate_question,"first_line=797, dup_line=888, text=彼は____が好きです。"
-duplicate_question,"first_line=90, dup_line=894, text=私は____が好きです。"
-duplicate_question,"first_line=194, dup_line=895, text=友達と____に行きます。"
-duplicate_question,"first_line=490, dup_line=902, text=明日、____に行きます。"
-duplicate_question,"first_line=796, dup_line=904, text=毎朝、私は____を食べます。"
-duplicate_question,"first_line=797, dup_line=910, text=彼は____が好きです。"
-duplicate_question,"first_line=814, dup_line=913, text=毎朝、私は____を飲みます。"
-duplicate_question,"first_line=840, dup_line=915, text=この____はとてもおいしいです。"
-duplicate_question,"first_line=90, dup_line=922, text=私は____が好きです。"
-duplicate_question,"first_line=825, dup_line=924, text=____はとてもおいしいです。"
-duplicate_question,"first_line=674, dup_line=932, text=この____はとても大切です。"
-duplicate_question,"first_line=793, dup_line=940, text=宿題を____。"
-duplicate_question,"first_line=968, dup_line=1004, text=私は日本語を話す____。"
-duplicate_question,"first_line=75, dup_line=1023, text=私の家の近くに____があります。"
-duplicate_question,"first_line=460, dup_line=1034, text=彼は____です。"
-duplicate_question,"first_line=14, dup_line=1035, text=公園に____がいます。"
-duplicate_question,"first_line=666, dup_line=1044, text=私の犬は____かわいいです。"
-duplicate_question,"first_line=439, dup_line=1045, text=公園で____が遊んでいます。"
-duplicate_question,"first_line=926, dup_line=1049, text=友達と一緒に____を買いました。"
-duplicate_question,"first_line=468, dup_line=1066, text=____はとても暑いです。"
-duplicate_question,"first_line=660, dup_line=1068, text=____は月曜日です。"
-duplicate_question,"first_line=803, dup_line=1075, text=公園で____を見ました。"
-duplicate_question,"first_line=466, dup_line=1095, text=彼は____で遊んでいます。"
-duplicate_question,"first_line=868, dup_line=1101, text=____は忙しいです。"
-duplicate_question,"first_line=1047, dup_line=1102, text=____は学校に行きます。"
-duplicate_question,"first_line=14, dup_line=1111, text=公園に____がいます。"
-duplicate_question,"first_line=14, dup_line=1123, text=公園に____がいます。"
-duplicate_question,"first_line=27, dup_line=1126, text=彼は新しい____を買いました。"
-duplicate_question,"first_line=365, dup_line=1130, text=私は新しい____を買いました。"
-duplicate_question,"first_line=420, dup_line=1142, text=私は毎日____を使います。"
-duplicate_question,"first_line=473, dup_line=1158, text=____はとても静かです。"
-duplicate_question,"first_line=424, dup_line=1165, text=彼は____に行きます。"
-duplicate_question,"first_line=1096, dup_line=1172, text=彼は新しい____に住んでいます。"
-duplicate_question,"first_line=1000, dup_line=1192, text=あなたは____行きますか？"
-duplicate_question,"first_line=1185, dup_line=1206, text=彼は忙しい____、手伝えません。"
-duplicate_question,"first_line=1024, dup_line=1216, text=彼は学生____。"
-duplicate_question,"first_line=1199, dup_line=1231, text=明日は雨が降る____。"
-duplicate_question,"first_line=1024, dup_line=1232, text=彼は学生____。"
-duplicate_question,"first_line=1199, dup_line=1234, text=明日は雨が降る____。"
-duplicate_question,"first_line=1024, dup_line=1235, text=彼は学生____。"
-duplicate_question,"first_line=1233, dup_line=1236, text=この映画は面白い____。"
-duplicate_question,"first_line=767, dup_line=1279, text=この映画は____面白いです。"
-duplicate_question,"first_line=460, dup_line=1285, text=彼は____です。"
-duplicate_question,"first_line=873, dup_line=1286, text=私は毎日____に行きます。"
-duplicate_question,"first_line=468, dup_line=1311, text=____はとても暑いです。"
-duplicate_question,"first_line=27, dup_line=1322, text=彼は新しい____を買いました。"
-duplicate_question,"first_line=872, dup_line=1336, text=この____はとても安いです。"
-duplicate_question,"first_line=194, dup_line=1339, text=友達と____に行きます。"
-duplicate_question,"first_line=74, dup_line=1340, text=子供たちは____で遊んでいます。"
-duplicate_question,"first_line=505, dup_line=1343, text=明日、____に乗ります。"
-duplicate_question,"first_line=797, dup_line=1344, text=彼は____が好きです。"
-duplicate_question,"first_line=27, dup_line=1345, text=彼は新しい____を買いました。"
-duplicate_question,"first_line=54, dup_line=1346, text=この____はとても高いです。"
-duplicate_question,"first_line=472, dup_line=1357, text=私は____にいます。"
-duplicate_question,"first_line=1058, dup_line=1359, text=私の____は大きいです。"
-duplicate_question,"first_line=1137, dup_line=1362, text=この問題の答えは____です。"
-duplicate_question,"first_line=499, dup_line=1364, text=彼は毎日____に行きます。"
-duplicate_question,"first_line=259, dup_line=1366, text=明日は____です。"
-duplicate_question,"first_line=460, dup_line=1369, text=彼は____です。"
-duplicate_question,"first_line=54, dup_line=1379, text=この____はとても高いです。"
-duplicate_question,"first_line=502, dup_line=1384, text=学校の____は二階にあります。"
-duplicate_question,"first_line=721, dup_line=1392, text=この本は____ですか？"
-duplicate_question,"first_line=1060, dup_line=1393, text=彼は____を使っています。"
-duplicate_question,"first_line=930, dup_line=1394, text=私は____を買いました。"
-duplicate_question,"first_line=424, dup_line=1396, text=彼は____に行きます。"
-duplicate_question,"first_line=1363, dup_line=1399, text=明日は新しい____があります。"
-duplicate_question,"first_line=790, dup_line=1412, text=彼は____がたくさんあります。"
-duplicate_question,"first_line=1098, dup_line=1416, text=この____はとても静かです。"
-duplicate_question,"first_line=1327, dup_line=1417, text=あの店は____ですか？"
-duplicate_question,"first_line=406, dup_line=1418, text=彼は____にいます。"
-duplicate_question,"first_line=510, dup_line=1451, text=____はとても大きいです。"
-duplicate_question,"first_line=1328, dup_line=1456, text=____に行きましょう。"
-duplicate_question,"first_line=473, dup_line=1457, text=____はとても静かです。"
-duplicate_question,"first_line=1450, dup_line=1459, text=____は私の本です。"
-duplicate_question,"first_line=1450, dup_line=1465, text=____は私の本です。"
-duplicate_question,"first_line=1460, dup_line=1466, text=____が好きですか？"
-duplicate_question,"first_line=1114, dup_line=1481, text=彼は____に行きました。"
-duplicate_question,"first_line=1327, dup_line=1483, text=あの店は____ですか？"
-duplicate_question,"first_line=1328, dup_line=1484, text=____に行きましょう。"
-duplicate_question,"first_line=1375, dup_line=1486, text=あなたは____をしますか？"
-duplicate_question,"first_line=797, dup_line=1487, text=彼は____が好きです。"
-duplicate_question,"first_line=124, dup_line=1501, text=この部屋は____です。"
-duplicate_question,"first_line=581, dup_line=1509, text=犬が____走っています。"
-duplicate_question,"first_line=38, dup_line=1513, text=テーブルの上に____があります。"
-duplicate_question,"first_line=116, dup_line=1525, text=この本は____です。"
-duplicate_question,"first_line=117, dup_line=1526, text=彼の話はとても____です。"
-duplicate_question,"first_line=20, dup_line=1528, text=____本は面白いです。"
-duplicate_question,"first_line=147, dup_line=1532, text=彼の声はとても____です。"
-duplicate_question,"first_line=124, dup_line=1547, text=この部屋は____です。"
-duplicate_question,"first_line=128, dup_line=1549, text=あの犬は____です。"
-duplicate_question,"first_line=138, dup_line=1551, text=彼の車は____です。"
-duplicate_question,"first_line=865, dup_line=1555, text=彼は____を開けました。"
-duplicate_question,"first_line=50, dup_line=1558, text=今日はとても____です。"
-duplicate_question,"first_line=767, dup_line=1561, text=この映画は____面白いです。"
-duplicate_question,"first_line=1387, dup_line=1571, text=毎朝、私は____を見ます。"
-duplicate_question,"first_line=354, dup_line=1573, text=この本は____面白いです。"
-duplicate_question,"first_line=1563, dup_line=1575, text=今日は____寒いですね。"
-duplicate_question,"first_line=865, dup_line=1576, text=彼は____を開けました。"
-duplicate_question,"first_line=27, dup_line=1594, text=彼は新しい____を買いました。"
-duplicate_question,"first_line=54, dup_line=1596, text=この____はとても高いです。"
-duplicate_question,"first_line=38, dup_line=1597, text=テーブルの上に____があります。"
-duplicate_question,"first_line=368, dup_line=1598, text=私の____はとてもきれいです。"
-duplicate_question,"first_line=27, dup_line=1600, text=彼は新しい____を買いました。"
-duplicate_question,"first_line=38, dup_line=1603, text=テーブルの上に____があります。"
-duplicate_question,"first_line=365, dup_line=1605, text=私は新しい____を買いました。"
-duplicate_question,"first_line=90, dup_line=1618, text=私は____が好きです。"
-duplicate_question,"first_line=468, dup_line=1619, text=____はとても暑いです。"
-duplicate_question,"first_line=1056, dup_line=1622, text=私の友達は____です。"
-duplicate_question,"first_line=27, dup_line=1630, text=彼は新しい____を買いました。"
-duplicate_question,"first_line=138, dup_line=1633, text=彼の車は____です。"
-duplicate_question,"first_line=173, dup_line=1639, text=このケーキは____です。"
-duplicate_question,"first_line=874, dup_line=1646, text=彼は____を買いました。"
-duplicate_question,"first_line=27, dup_line=1648, text=彼は新しい____を買いました。"
-duplicate_question,"first_line=54, dup_line=1650, text=この____はとても高いです。"
-duplicate_question,"first_line=96, dup_line=1652, text=私の____は青いです。"
-duplicate_question,"first_line=797, dup_line=1656, text=彼は____が好きです。"
-duplicate_question,"first_line=1625, dup_line=1661, text=この部屋はとても____です。"
-duplicate_question,"first_line=367, dup_line=1675, text=彼は____で勉強します。"
-duplicate_question,"first_line=1058, dup_line=1676, text=私の____は大きいです。"
-duplicate_question,"first_line=67, dup_line=1677, text=____の上に本があります。"
-duplicate_question,"first_line=27, dup_line=1678, text=彼は新しい____を買いました。"
-duplicate_question,"first_line=1122, dup_line=1679, text=この____はとても重いです。"
-duplicate_question,"first_line=796, dup_line=1682, text=毎朝、私は____を食べます。"
-duplicate_question,"first_line=124, dup_line=1684, text=この部屋は____です。"
-duplicate_question,"first_line=111, dup_line=1687, text=このペンは____です。"
-duplicate_question,"first_line=595, dup_line=1688, text=彼は____本の本を持っています。"
-duplicate_question,"first_line=159, dup_line=1694, text=この____はとてもきれいです。"
-duplicate_question,"first_line=930, dup_line=1701, text=私は____を買いました。"
-duplicate_question,"first_line=361, dup_line=1702, text=空は____です。"
-duplicate_question,"first_line=212, dup_line=1705, text=彼は____勉強します。"
-duplicate_question,"first_line=159, dup_line=1709, text=この____はとてもきれいです。"
-duplicate_question,"first_line=38, dup_line=1712, text=テーブルの上に____があります。"
-duplicate_question,"first_line=1058, dup_line=1718, text=私の____は大きいです。"
-duplicate_question,"first_line=124, dup_line=1720, text=この部屋は____です。"
-duplicate_question,"first_line=159, dup_line=1724, text=この____はとてもきれいです。"
-duplicate_question,"first_line=373, dup_line=1727, text=彼は____を洗います。"
-duplicate_question,"first_line=609, dup_line=1728, text=私は____を持っています。"
-duplicate_question,"first_line=356, dup_line=1731, text=____はとてもきれいです。"
-duplicate_question,"first_line=54, dup_line=1733, text=この____はとても高いです。"
-duplicate_question,"first_line=365, dup_line=1734, text=私は新しい____を買いました。"
-duplicate_question,"first_line=48, dup_line=1738, text=彼のシャツは____です。"
-duplicate_question,"first_line=1621, dup_line=1741, text=彼は____車を運転します。"
-duplicate_question,"first_line=98, dup_line=1750, text=彼は____を持っています。"
-duplicate_question,"first_line=930, dup_line=1751, text=私は____を買いました。"
-duplicate_question,"first_line=1531, dup_line=1753, text=このテーブルは____です。"
-duplicate_question,"first_line=27, dup_line=1758, text=彼は新しい____を買いました。"
+duplicate_question,"first_line=200, dup_line=263, text=彼は本を____。"
+duplicate_question,"first_line=215, dup_line=266, text=私は勉強____音楽を聞きます。"
+duplicate_question,"first_line=240, dup_line=345, text=友達と一緒に____のが好きです。"
+duplicate_question,"first_line=96, dup_line=360, text=私の____は青いです。"
+duplicate_question,"first_line=48, dup_line=363, text=彼のシャツは____です。"
+duplicate_question,"first_line=90, dup_line=372, text=私は____が好きです。"
+duplicate_question,"first_line=38, dup_line=383, text=テーブルの上に____があります。"
+duplicate_question,"first_line=159, dup_line=385, text=この____はとてもきれいです。"
+duplicate_question,"first_line=65, dup_line=391, text=私の部屋には____があります。"
+duplicate_question,"first_line=54, dup_line=396, text=この____はとても高いです。"
+duplicate_question,"first_line=90, dup_line=397, text=私は____が好きです。"
+duplicate_question,"first_line=23, dup_line=420, text=学校の____はとても長いです。"
+duplicate_question,"first_line=425, dup_line=443, text=彼は____に行きます。"
+duplicate_question,"first_line=427, dup_line=444, text=私の家は____にあります。"
+duplicate_question,"first_line=404, dup_line=449, text=猫はテーブルの____にいます。"
+duplicate_question,"first_line=409, dup_line=454, text=私の家は駅の____にあります。"
+duplicate_question,"first_line=86, dup_line=463, text=あの____は先生です。"
+duplicate_question,"first_line=427, dup_line=486, text=私の家は____にあります。"
+duplicate_question,"first_line=425, dup_line=488, text=彼は____に行きます。"
+duplicate_question,"first_line=290, dup_line=498, text=彼は学校に____。"
+duplicate_question,"first_line=75, dup_line=502, text=私の家の近くに____があります。"
+duplicate_question,"first_line=75, dup_line=508, text=私の家の近くに____があります。"
+duplicate_question,"first_line=425, dup_line=509, text=彼は____に行きます。"
+duplicate_question,"first_line=400, dup_line=514, text=私の家はその____の近くにあります。"
+duplicate_question,"first_line=461, dup_line=518, text=彼は____です。"
+duplicate_question,"first_line=407, dup_line=521, text=彼は____にいます。"
+duplicate_question,"first_line=458, dup_line=522, text=私の家の____に公園があります。"
+duplicate_question,"first_line=427, dup_line=524, text=私の家は____にあります。"
+duplicate_question,"first_line=98, dup_line=527, text=彼は____を持っています。"
+duplicate_question,"first_line=476, dup_line=536, text=私の誕生日は____です。"
+duplicate_question,"first_line=476, dup_line=546, text=私の誕生日は____です。"
+duplicate_question,"first_line=104, dup_line=590, text=今日は____です。"
+duplicate_question,"first_line=551, dup_line=591, text=彼は毎日____運動します。"
+duplicate_question,"first_line=476, dup_line=592, text=私の誕生日は____です。"
+duplicate_question,"first_line=555, dup_line=599, text=彼は____人の友達がいます。"
+duplicate_question,"first_line=116, dup_line=608, text=この本は____です。"
+duplicate_question,"first_line=539, dup_line=611, text=彼は____円持っています。"
+duplicate_question,"first_line=605, dup_line=617, text=テーブルの上に____のりんごがあります。"
+duplicate_question,"first_line=606, dup_line=618, text=私は____の本を持っています。"
+duplicate_question,"first_line=555, dup_line=621, text=彼は____人の友達がいます。"
+duplicate_question,"first_line=597, dup_line=622, text=私の家族は____人です。"
+duplicate_question,"first_line=555, dup_line=632, text=彼は____人の友達がいます。"
+duplicate_question,"first_line=578, dup_line=641, text=彼は____の本を持っています。"
+duplicate_question,"first_line=605, dup_line=643, text=テーブルの上に____のりんごがあります。"
+duplicate_question,"first_line=580, dup_line=647, text=テーブルの上に____のリンゴがあります。"
+duplicate_question,"first_line=578, dup_line=648, text=彼は____の本を持っています。"
+duplicate_question,"first_line=565, dup_line=649, text=私は____の花を買いました。"
+duplicate_question,"first_line=602, dup_line=653, text=私は____つのりんごがあります。"
+duplicate_question,"first_line=549, dup_line=655, text=今日は____日です。"
+duplicate_question,"first_line=476, dup_line=656, text=私の誕生日は____です。"
+duplicate_question,"first_line=476, dup_line=672, text=私の誕生日は____です。"
+duplicate_question,"first_line=547, dup_line=673, text=____後に友達に会います。"
+duplicate_question,"first_line=476, dup_line=679, text=私の誕生日は____です。"
+duplicate_question,"first_line=104, dup_line=695, text=今日は____です。"
+duplicate_question,"first_line=661, dup_line=697, text=____は月曜日です。"
+duplicate_question,"first_line=696, dup_line=698, text=私は____に友達に会います。"
+duplicate_question,"first_line=654, dup_line=711, text=彼は____歳です。"
+duplicate_question,"first_line=636, dup_line=715, text=私は____に友達と会います。"
+duplicate_question,"first_line=116, dup_line=718, text=この本は____です。"
+duplicate_question,"first_line=545, dup_line=719, text=今月の____は日曜日です。"
+duplicate_question,"first_line=476, dup_line=720, text=私の誕生日は____です。"
+duplicate_question,"first_line=358, dup_line=721, text=____に友達と会います。"
+duplicate_question,"first_line=555, dup_line=726, text=彼は____人の友達がいます。"
+duplicate_question,"first_line=14, dup_line=731, text=公園に____がいます。"
+duplicate_question,"first_line=589, dup_line=732, text=____で映画を見ました。"
+duplicate_question,"first_line=539, dup_line=755, text=彼は____円持っています。"
+duplicate_question,"first_line=540, dup_line=756, text=この本は____ページあります。"
+duplicate_question,"first_line=642, dup_line=762, text=私の家には____の犬がいます。"
+duplicate_question,"first_line=564, dup_line=763, text=テーブルの上に____の本があります。"
+duplicate_question,"first_line=564, dup_line=771, text=テーブルの上に____の本があります。"
+duplicate_question,"first_line=74, dup_line=777, text=子供たちは____で遊んでいます。"
+duplicate_question,"first_line=138, dup_line=779, text=彼の車は____です。"
+duplicate_question,"first_line=724, dup_line=781, text=このシャツは____ですか？"
+duplicate_question,"first_line=38, dup_line=782, text=テーブルの上に____があります。"
+duplicate_question,"first_line=776, dup_line=812, text=夏に友達と____に行きます。"
+duplicate_question,"first_line=798, dup_line=830, text=彼は____が好きです。"
+duplicate_question,"first_line=194, dup_line=842, text=友達と____に行きます。"
+duplicate_question,"first_line=27, dup_line=861, text=彼は新しい____を買いました。"
+duplicate_question,"first_line=817, dup_line=862, text=この店の____はとてもおいしいです。"
+duplicate_question,"first_line=54, dup_line=877, text=この____はとても高いです。"
+duplicate_question,"first_line=818, dup_line=878, text=彼は毎日____を作ります。"
+duplicate_question,"first_line=824, dup_line=879, text=私の好きな料理は____です。"
+duplicate_question,"first_line=98, dup_line=881, text=彼は____を持っています。"
+duplicate_question,"first_line=798, dup_line=884, text=彼は____が好きです。"
+duplicate_question,"first_line=815, dup_line=887, text=毎朝、私は____を飲みます。"
+duplicate_question,"first_line=834, dup_line=888, text=このケーキには____が入っています。"
+duplicate_question,"first_line=798, dup_line=889, text=彼は____が好きです。"
+duplicate_question,"first_line=90, dup_line=895, text=私は____が好きです。"
+duplicate_question,"first_line=194, dup_line=896, text=友達と____に行きます。"
+duplicate_question,"first_line=491, dup_line=903, text=明日、____に行きます。"
+duplicate_question,"first_line=797, dup_line=905, text=毎朝、私は____を食べます。"
+duplicate_question,"first_line=798, dup_line=911, text=彼は____が好きです。"
+duplicate_question,"first_line=815, dup_line=914, text=毎朝、私は____を飲みます。"
+duplicate_question,"first_line=841, dup_line=916, text=この____はとてもおいしいです。"
+duplicate_question,"first_line=90, dup_line=923, text=私は____が好きです。"
+duplicate_question,"first_line=826, dup_line=925, text=____はとてもおいしいです。"
+duplicate_question,"first_line=675, dup_line=933, text=この____はとても大切です。"
+duplicate_question,"first_line=794, dup_line=941, text=宿題を____。"
+duplicate_question,"first_line=969, dup_line=1005, text=私は日本語を話す____。"
+duplicate_question,"first_line=75, dup_line=1024, text=私の家の近くに____があります。"
+duplicate_question,"first_line=461, dup_line=1035, text=彼は____です。"
+duplicate_question,"first_line=14, dup_line=1036, text=公園に____がいます。"
+duplicate_question,"first_line=667, dup_line=1045, text=私の犬は____かわいいです。"
+duplicate_question,"first_line=440, dup_line=1046, text=公園で____が遊んでいます。"
+duplicate_question,"first_line=927, dup_line=1050, text=友達と一緒に____を買いました。"
+duplicate_question,"first_line=469, dup_line=1067, text=____はとても暑いです。"
+duplicate_question,"first_line=661, dup_line=1069, text=____は月曜日です。"
+duplicate_question,"first_line=804, dup_line=1076, text=公園で____を見ました。"
+duplicate_question,"first_line=467, dup_line=1096, text=彼は____で遊んでいます。"
+duplicate_question,"first_line=869, dup_line=1102, text=____は忙しいです。"
+duplicate_question,"first_line=1048, dup_line=1103, text=____は学校に行きます。"
+duplicate_question,"first_line=14, dup_line=1112, text=公園に____がいます。"
+duplicate_question,"first_line=14, dup_line=1124, text=公園に____がいます。"
+duplicate_question,"first_line=27, dup_line=1127, text=彼は新しい____を買いました。"
+duplicate_question,"first_line=366, dup_line=1131, text=私は新しい____を買いました。"
+duplicate_question,"first_line=421, dup_line=1143, text=私は毎日____を使います。"
+duplicate_question,"first_line=474, dup_line=1159, text=____はとても静かです。"
+duplicate_question,"first_line=425, dup_line=1166, text=彼は____に行きます。"
+duplicate_question,"first_line=1097, dup_line=1173, text=彼は新しい____に住んでいます。"
+duplicate_question,"first_line=1001, dup_line=1193, text=あなたは____行きますか？"
+duplicate_question,"first_line=1186, dup_line=1207, text=彼は忙しい____、手伝えません。"
+duplicate_question,"first_line=1025, dup_line=1217, text=彼は学生____。"
+duplicate_question,"first_line=1200, dup_line=1232, text=明日は雨が降る____。"
+duplicate_question,"first_line=1025, dup_line=1233, text=彼は学生____。"
+duplicate_question,"first_line=1200, dup_line=1235, text=明日は雨が降る____。"
+duplicate_question,"first_line=1025, dup_line=1236, text=彼は学生____。"
+duplicate_question,"first_line=1234, dup_line=1237, text=この映画は面白い____。"
+duplicate_question,"first_line=768, dup_line=1280, text=この映画は____面白いです。"
+duplicate_question,"first_line=461, dup_line=1286, text=彼は____です。"
+duplicate_question,"first_line=874, dup_line=1287, text=私は毎日____に行きます。"
+duplicate_question,"first_line=469, dup_line=1312, text=____はとても暑いです。"
+duplicate_question,"first_line=27, dup_line=1323, text=彼は新しい____を買いました。"
+duplicate_question,"first_line=873, dup_line=1337, text=この____はとても安いです。"
+duplicate_question,"first_line=194, dup_line=1340, text=友達と____に行きます。"
+duplicate_question,"first_line=74, dup_line=1341, text=子供たちは____で遊んでいます。"
+duplicate_question,"first_line=506, dup_line=1344, text=明日、____に乗ります。"
+duplicate_question,"first_line=798, dup_line=1345, text=彼は____が好きです。"
+duplicate_question,"first_line=27, dup_line=1346, text=彼は新しい____を買いました。"
+duplicate_question,"first_line=54, dup_line=1347, text=この____はとても高いです。"
+duplicate_question,"first_line=473, dup_line=1358, text=私は____にいます。"
+duplicate_question,"first_line=1059, dup_line=1360, text=私の____は大きいです。"
+duplicate_question,"first_line=1138, dup_line=1363, text=この問題の答えは____です。"
+duplicate_question,"first_line=500, dup_line=1365, text=彼は毎日____に行きます。"
+duplicate_question,"first_line=260, dup_line=1367, text=明日は____です。"
+duplicate_question,"first_line=461, dup_line=1370, text=彼は____です。"
+duplicate_question,"first_line=54, dup_line=1380, text=この____はとても高いです。"
+duplicate_question,"first_line=503, dup_line=1385, text=学校の____は二階にあります。"
+duplicate_question,"first_line=722, dup_line=1393, text=この本は____ですか？"
+duplicate_question,"first_line=1061, dup_line=1394, text=彼は____を使っています。"
+duplicate_question,"first_line=931, dup_line=1395, text=私は____を買いました。"
+duplicate_question,"first_line=425, dup_line=1397, text=彼は____に行きます。"
+duplicate_question,"first_line=1364, dup_line=1400, text=明日は新しい____があります。"
+duplicate_question,"first_line=791, dup_line=1413, text=彼は____がたくさんあります。"
+duplicate_question,"first_line=1099, dup_line=1417, text=この____はとても静かです。"
+duplicate_question,"first_line=1328, dup_line=1418, text=あの店は____ですか？"
+duplicate_question,"first_line=407, dup_line=1419, text=彼は____にいます。"
+duplicate_question,"first_line=511, dup_line=1452, text=____はとても大きいです。"
+duplicate_question,"first_line=1329, dup_line=1457, text=____に行きましょう。"
+duplicate_question,"first_line=474, dup_line=1458, text=____はとても静かです。"
+duplicate_question,"first_line=1451, dup_line=1460, text=____は私の本です。"
+duplicate_question,"first_line=1451, dup_line=1466, text=____は私の本です。"
+duplicate_question,"first_line=1461, dup_line=1467, text=____が好きですか？"
+duplicate_question,"first_line=1115, dup_line=1482, text=彼は____に行きました。"
+duplicate_question,"first_line=1328, dup_line=1484, text=あの店は____ですか？"
+duplicate_question,"first_line=1329, dup_line=1485, text=____に行きましょう。"
+duplicate_question,"first_line=1376, dup_line=1487, text=あなたは____をしますか？"
+duplicate_question,"first_line=798, dup_line=1488, text=彼は____が好きです。"
+duplicate_question,"first_line=124, dup_line=1502, text=この部屋は____です。"
+duplicate_question,"first_line=582, dup_line=1510, text=犬が____走っています。"
+duplicate_question,"first_line=38, dup_line=1514, text=テーブルの上に____があります。"
+duplicate_question,"first_line=116, dup_line=1526, text=この本は____です。"
+duplicate_question,"first_line=117, dup_line=1527, text=彼の話はとても____です。"
+duplicate_question,"first_line=20, dup_line=1529, text=____本は面白いです。"
+duplicate_question,"first_line=147, dup_line=1533, text=彼の声はとても____です。"
+duplicate_question,"first_line=124, dup_line=1548, text=この部屋は____です。"
+duplicate_question,"first_line=128, dup_line=1550, text=あの犬は____です。"
+duplicate_question,"first_line=138, dup_line=1552, text=彼の車は____です。"
+duplicate_question,"first_line=866, dup_line=1556, text=彼は____を開けました。"
+duplicate_question,"first_line=50, dup_line=1559, text=今日はとても____です。"
+duplicate_question,"first_line=768, dup_line=1562, text=この映画は____面白いです。"
+duplicate_question,"first_line=1388, dup_line=1572, text=毎朝、私は____を見ます。"
+duplicate_question,"first_line=355, dup_line=1574, text=この本は____面白いです。"
+duplicate_question,"first_line=1564, dup_line=1576, text=今日は____寒いですね。"
+duplicate_question,"first_line=866, dup_line=1577, text=彼は____を開けました。"
+duplicate_question,"first_line=27, dup_line=1595, text=彼は新しい____を買いました。"
+duplicate_question,"first_line=54, dup_line=1597, text=この____はとても高いです。"
+duplicate_question,"first_line=38, dup_line=1598, text=テーブルの上に____があります。"
+duplicate_question,"first_line=369, dup_line=1599, text=私の____はとてもきれいです。"
+duplicate_question,"first_line=27, dup_line=1601, text=彼は新しい____を買いました。"
+duplicate_question,"first_line=38, dup_line=1604, text=テーブルの上に____があります。"
+duplicate_question,"first_line=366, dup_line=1606, text=私は新しい____を買いました。"
+duplicate_question,"first_line=90, dup_line=1619, text=私は____が好きです。"
+duplicate_question,"first_line=469, dup_line=1620, text=____はとても暑いです。"
+duplicate_question,"first_line=1057, dup_line=1623, text=私の友達は____です。"
+duplicate_question,"first_line=27, dup_line=1631, text=彼は新しい____を買いました。"
+duplicate_question,"first_line=138, dup_line=1634, text=彼の車は____です。"
+duplicate_question,"first_line=173, dup_line=1640, text=このケーキは____です。"
+duplicate_question,"first_line=875, dup_line=1647, text=彼は____を買いました。"
+duplicate_question,"first_line=27, dup_line=1649, text=彼は新しい____を買いました。"
+duplicate_question,"first_line=54, dup_line=1651, text=この____はとても高いです。"
+duplicate_question,"first_line=96, dup_line=1653, text=私の____は青いです。"
+duplicate_question,"first_line=798, dup_line=1657, text=彼は____が好きです。"
+duplicate_question,"first_line=1626, dup_line=1662, text=この部屋はとても____です。"
+duplicate_question,"first_line=368, dup_line=1676, text=彼は____で勉強します。"
+duplicate_question,"first_line=1059, dup_line=1677, text=私の____は大きいです。"
+duplicate_question,"first_line=67, dup_line=1678, text=____の上に本があります。"
+duplicate_question,"first_line=27, dup_line=1679, text=彼は新しい____を買いました。"
+duplicate_question,"first_line=1123, dup_line=1680, text=この____はとても重いです。"
+duplicate_question,"first_line=797, dup_line=1683, text=毎朝、私は____を食べます。"
+duplicate_question,"first_line=124, dup_line=1685, text=この部屋は____です。"
+duplicate_question,"first_line=111, dup_line=1688, text=このペンは____です。"
+duplicate_question,"first_line=596, dup_line=1689, text=彼は____本の本を持っています。"
+duplicate_question,"first_line=159, dup_line=1695, text=この____はとてもきれいです。"
+duplicate_question,"first_line=931, dup_line=1702, text=私は____を買いました。"
+duplicate_question,"first_line=362, dup_line=1703, text=空は____です。"
+duplicate_question,"first_line=212, dup_line=1706, text=彼は____勉強します。"
+duplicate_question,"first_line=159, dup_line=1710, text=この____はとてもきれいです。"
+duplicate_question,"first_line=38, dup_line=1713, text=テーブルの上に____があります。"
+duplicate_question,"first_line=1059, dup_line=1719, text=私の____は大きいです。"
+duplicate_question,"first_line=124, dup_line=1721, text=この部屋は____です。"
+duplicate_question,"first_line=159, dup_line=1725, text=この____はとてもきれいです。"
+duplicate_question,"first_line=374, dup_line=1728, text=彼は____を洗います。"
+duplicate_question,"first_line=610, dup_line=1729, text=私は____を持っています。"
+duplicate_question,"first_line=357, dup_line=1732, text=____はとてもきれいです。"
+duplicate_question,"first_line=54, dup_line=1734, text=この____はとても高いです。"
+duplicate_question,"first_line=366, dup_line=1735, text=私は新しい____を買いました。"
+duplicate_question,"first_line=48, dup_line=1739, text=彼のシャツは____です。"
+duplicate_question,"first_line=1622, dup_line=1742, text=彼は____車を運転します。"
+duplicate_question,"first_line=98, dup_line=1751, text=彼は____を持っています。"
+duplicate_question,"first_line=931, dup_line=1752, text=私は____を買いました。"
+duplicate_question,"first_line=1532, dup_line=1754, text=このテーブルは____です。"
 duplicate_question,"first_line=27, dup_line=1759, text=彼は新しい____を買いました。"
-duplicate_question,"first_line=96, dup_line=1760, text=私の____は青いです。"
-duplicate_question,"first_line=1128, dup_line=1761, text=毎日____で学校に行きます。"
-duplicate_question,"first_line=27, dup_line=1762, text=彼は新しい____を買いました。"
-duplicate_question,"first_line=300, dup_line=1764, text=この____はとても大きいです。"
-duplicate_question,"first_line=54, dup_line=1767, text=この____はとても高いです。"
-duplicate_question,"first_line=138, dup_line=1774, text=彼の車は____です。"
-duplicate_question,"first_line=124, dup_line=1777, text=この部屋は____です。"
-duplicate_question,"first_line=65, dup_line=1784, text=私の部屋には____があります。"
-duplicate_question,"first_line=173, dup_line=1786, text=このケーキは____です。"
-duplicate_question,"first_line=70, dup_line=1794, text=彼女は____な人です。"
-duplicate_question,"first_line=1083, dup_line=1808, text=この____はとても面白いです。"
-duplicate_question,"first_line=50, dup_line=1814, text=今日はとても____です。"
-duplicate_question,"first_line=415, dup_line=1819, text=公園の____にベンチがあります。"
-duplicate_question,"first_line=74, dup_line=1826, text=子供たちは____で遊んでいます。"
-duplicate_question,"first_line=90, dup_line=1827, text=私は____が好きです。"
-duplicate_question,"first_line=27, dup_line=1828, text=彼は新しい____を買いました。"
-duplicate_question,"first_line=1127, dup_line=1830, text=私の____は赤いです。"
-duplicate_question,"first_line=194, dup_line=1834, text=友達と____に行きます。"
-duplicate_question,"first_line=510, dup_line=1836, text=____はとても大きいです。"
-duplicate_question,"first_line=1801, dup_line=1837, text=彼は____が痛いと言っています。"
-duplicate_question,"first_line=499, dup_line=1840, text=彼は毎日____に行きます。"
-duplicate_question,"first_line=1717, dup_line=1870, text=彼は____が痛いと言いました。"
-duplicate_question,"first_line=1844, dup_line=1874, text=____は毎日学校に行きます。"
-duplicate_question,"first_line=424, dup_line=1876, text=彼は____に行きます。"
-duplicate_question,"first_line=1849, dup_line=1879, text=私の____は日本に住んでいます。"
-duplicate_question,"first_line=973, dup_line=1882, text=私は____、友達と映画を見ました。"
-duplicate_question,"first_line=1058, dup_line=1885, text=私の____は大きいです。"
-duplicate_question,"first_line=40, dup_line=1887, text=私の____はとても大切です。"
-duplicate_question,"first_line=1865, dup_line=1891, text=私の____は学生です。"
-duplicate_question,"first_line=1024, dup_line=1895, text=彼は学生____。"
-duplicate_question,"first_line=1853, dup_line=1903, text=私の____は料理が上手です。"
-duplicate_question,"first_line=460, dup_line=1906, text=彼は____です。"
-duplicate_question,"first_line=259, dup_line=1909, text=明日は____です。"
-duplicate_question,"first_line=1057, dup_line=1912, text=彼は____に住んでいます。"
-duplicate_question,"first_line=1853, dup_line=1917, text=私の____は料理が上手です。"
-duplicate_question,"first_line=1312, dup_line=1918, text=私の____はとても優しいです。"
-duplicate_question,"first_line=803, dup_line=1921, text=公園で____を見ました。"
-duplicate_question,"first_line=1858, dup_line=1933, text=私の____は日本人です。"
-duplicate_question,"first_line=1312, dup_line=1935, text=私の____はとても優しいです。"
-duplicate_question,"first_line=1865, dup_line=1936, text=私の____は学生です。"
-duplicate_question,"first_line=1866, dup_line=1938, text=____と一緒に映画を見ました。"
-duplicate_question,"first_line=1849, dup_line=1940, text=私の____は日本に住んでいます。"
-duplicate_question,"first_line=1780, dup_line=1943, text=彼女は新しい____を買いました。"
-duplicate_question,"first_line=113, dup_line=1946, text=彼の____はとても優しいです。"
-duplicate_question,"first_line=460, dup_line=1957, text=彼は____です。"
-duplicate_question,"first_line=1496, dup_line=1959, text=あなたは____ですか？"
-duplicate_question,"first_line=1864, dup_line=1966, text=あの____はとても優しいです。"
-duplicate_question,"first_line=1866, dup_line=1968, text=____と一緒に映画を見ました。"
-duplicate_question,"first_line=40, dup_line=1978, text=私の____はとても大切です。"
-duplicate_question,"first_line=259, dup_line=1999, text=明日は____です。"
-duplicate_question,"first_line=1590, dup_line=2006, text=彼は____コーヒーを飲みます。"
-duplicate_question,"first_line=200, dup_line=2017, text=彼は本を____。"
-duplicate_question,"first_line=973, dup_line=2056, text=私は____、友達と映画を見ました。"
-duplicate_question,"first_line=200, dup_line=2080, text=彼は本を____。"
-duplicate_question,"first_line=1047, dup_line=2092, text=____は学校に行きます。"
-duplicate_question,"first_line=797, dup_line=2093, text=彼は____が好きです。"
-duplicate_question,"first_line=357, dup_line=2094, text=____に友達と会います。"
-duplicate_question,"first_line=259, dup_line=2113, text=明日は____です。"
-duplicate_question,"first_line=475, dup_line=2118, text=私の誕生日は____です。"
-duplicate_question,"first_line=200, dup_line=2119, text=彼は本を____。"
-duplicate_question,"first_line=200, dup_line=2125, text=彼は本を____。"
-duplicate_question,"first_line=475, dup_line=2131, text=私の誕生日は____です。"
-duplicate_question,"first_line=357, dup_line=2132, text=____に友達と会います。"
-duplicate_question,"first_line=1149, dup_line=2142, text=私は____旅行に行きます。"
-duplicate_question,"first_line=218, dup_line=2146, text=私は日本語を____。"
-duplicate_question,"first_line=224, dup_line=2147, text=彼はギターを____。"
-duplicate_question,"first_line=2029, dup_line=2158, text=彼は毎朝公園で____。"
-duplicate_question,"first_line=240, dup_line=2160, text=友達と一緒に____のが好きです。"
-duplicate_question,"first_line=475, dup_line=2167, text=私の誕生日は____です。"
-duplicate_question,"first_line=475, dup_line=2173, text=私の誕生日は____です。"
-duplicate_question,"first_line=357, dup_line=2174, text=____に友達と会います。"
-duplicate_question,"first_line=977, dup_line=2176, text=彼は映画を____。"
-duplicate_question,"first_line=1368, dup_line=2180, text=____、友達に会います。"
-duplicate_question,"first_line=1099, dup_line=2194, text=私は____、友達に会います。"
-duplicate_question,"first_line=1981, dup_line=2200, text=友達に本を____。"
-duplicate_question,"first_line=1012, dup_line=2204, text=映画を見____。"
-duplicate_question,"first_line=2036, dup_line=2209, text=彼は日本語を____。"
-duplicate_question,"first_line=2110, dup_line=2212, text=彼はドアを____。"
-duplicate_question,"first_line=27, dup_line=2230, text=彼は新しい____を買いました。"
-duplicate_question,"first_line=548, dup_line=2233, text=今日は____日です。"
-duplicate_question,"first_line=116, dup_line=2245, text=この本は____です。"
-duplicate_question,"first_line=131, dup_line=2251, text=この映画は____です。"
-duplicate_question,"first_line=365, dup_line=2258, text=私は新しい____を買いました。"
-duplicate_question,"first_line=865, dup_line=2269, text=彼は____を開けました。"
-duplicate_question,"first_line=131, dup_line=2275, text=この映画は____です。"
-duplicate_question,"first_line=1780, dup_line=2278, text=彼女は新しい____を買いました。"
-duplicate_question,"first_line=1939, dup_line=2281, text=彼は____ですか？"
-duplicate_question,"first_line=1496, dup_line=2283, text=あなたは____ですか？"
-duplicate_question,"first_line=797, dup_line=2284, text=彼は____が好きです。"
-duplicate_question,"first_line=635, dup_line=2290, text=私は____に友達と会います。"
-duplicate_question,"first_line=74, dup_line=2294, text=子供たちは____で遊んでいます。"
-duplicate_question,"first_line=76, dup_line=2295, text=夏に____で泳ぎたいです。"
-duplicate_question,"first_line=930, dup_line=2303, text=私は____を買いました。"
-duplicate_question,"first_line=124, dup_line=2305, text=この部屋は____です。"
-duplicate_question,"first_line=1546, dup_line=2308, text=彼は____犬を飼っています。"
-duplicate_question,"first_line=159, dup_line=2318, text=この____はとてもきれいです。"
-duplicate_question,"first_line=194, dup_line=2320, text=友達と____に行きます。"
-duplicate_question,"first_line=2293, dup_line=2326, text=公園に大きな____があります。"
-duplicate_question,"first_line=138, dup_line=2329, text=彼の車は____です。"
-duplicate_question,"first_line=130, dup_line=2330, text=この花は____です。"
-duplicate_question,"first_line=1776, dup_line=2331, text=私の好きな色は____です。"
-duplicate_question,"first_line=1076, dup_line=2342, text=私の家には____がいます。"
-duplicate_question,"first_line=71, dup_line=2348, text=この道は____です。"
-duplicate_question,"first_line=90, dup_line=2361, text=私は____が好きです。"
-duplicate_question,"first_line=1388, dup_line=2365, text=手紙を____に入れました。"
-duplicate_question,"first_line=2075, dup_line=2369, text=彼女は____が好きです。"
-duplicate_question,"first_line=159, dup_line=2370, text=この____はとてもきれいです。"
-duplicate_question,"first_line=300, dup_line=2372, text=この____はとても大きいです。"
-duplicate_question,"first_line=1810, dup_line=2377, text=彼は毎日____です。"
+duplicate_question,"first_line=27, dup_line=1760, text=彼は新しい____を買いました。"
+duplicate_question,"first_line=96, dup_line=1761, text=私の____は青いです。"
+duplicate_question,"first_line=1129, dup_line=1762, text=毎日____で学校に行きます。"
+duplicate_question,"first_line=27, dup_line=1763, text=彼は新しい____を買いました。"
+duplicate_question,"first_line=301, dup_line=1765, text=この____はとても大きいです。"
+duplicate_question,"first_line=54, dup_line=1768, text=この____はとても高いです。"
+duplicate_question,"first_line=138, dup_line=1775, text=彼の車は____です。"
+duplicate_question,"first_line=124, dup_line=1778, text=この部屋は____です。"
+duplicate_question,"first_line=65, dup_line=1785, text=私の部屋には____があります。"
+duplicate_question,"first_line=173, dup_line=1787, text=このケーキは____です。"
+duplicate_question,"first_line=70, dup_line=1795, text=彼女は____な人です。"
+duplicate_question,"first_line=1084, dup_line=1809, text=この____はとても面白いです。"
+duplicate_question,"first_line=50, dup_line=1815, text=今日はとても____です。"
+duplicate_question,"first_line=416, dup_line=1820, text=公園の____にベンチがあります。"
+duplicate_question,"first_line=74, dup_line=1827, text=子供たちは____で遊んでいます。"
+duplicate_question,"first_line=90, dup_line=1828, text=私は____が好きです。"
+duplicate_question,"first_line=27, dup_line=1829, text=彼は新しい____を買いました。"
+duplicate_question,"first_line=1128, dup_line=1831, text=私の____は赤いです。"
+duplicate_question,"first_line=194, dup_line=1835, text=友達と____に行きます。"
+duplicate_question,"first_line=511, dup_line=1837, text=____はとても大きいです。"
+duplicate_question,"first_line=1802, dup_line=1838, text=彼は____が痛いと言っています。"
+duplicate_question,"first_line=500, dup_line=1841, text=彼は毎日____に行きます。"
+duplicate_question,"first_line=1718, dup_line=1871, text=彼は____が痛いと言いました。"
+duplicate_question,"first_line=1845, dup_line=1875, text=____は毎日学校に行きます。"
+duplicate_question,"first_line=425, dup_line=1877, text=彼は____に行きます。"
+duplicate_question,"first_line=1850, dup_line=1880, text=私の____は日本に住んでいます。"
+duplicate_question,"first_line=974, dup_line=1883, text=私は____、友達と映画を見ました。"
+duplicate_question,"first_line=1059, dup_line=1886, text=私の____は大きいです。"
+duplicate_question,"first_line=40, dup_line=1888, text=私の____はとても大切です。"
+duplicate_question,"first_line=1866, dup_line=1892, text=私の____は学生です。"
+duplicate_question,"first_line=1025, dup_line=1896, text=彼は学生____。"
+duplicate_question,"first_line=1854, dup_line=1904, text=私の____は料理が上手です。"
+duplicate_question,"first_line=461, dup_line=1907, text=彼は____です。"
+duplicate_question,"first_line=260, dup_line=1910, text=明日は____です。"
+duplicate_question,"first_line=1058, dup_line=1913, text=彼は____に住んでいます。"
+duplicate_question,"first_line=1854, dup_line=1918, text=私の____は料理が上手です。"
+duplicate_question,"first_line=1313, dup_line=1919, text=私の____はとても優しいです。"
+duplicate_question,"first_line=804, dup_line=1922, text=公園で____を見ました。"
+duplicate_question,"first_line=1859, dup_line=1934, text=私の____は日本人です。"
+duplicate_question,"first_line=1313, dup_line=1936, text=私の____はとても優しいです。"
+duplicate_question,"first_line=1866, dup_line=1937, text=私の____は学生です。"
+duplicate_question,"first_line=1867, dup_line=1939, text=____と一緒に映画を見ました。"
+duplicate_question,"first_line=1850, dup_line=1941, text=私の____は日本に住んでいます。"
+duplicate_question,"first_line=1781, dup_line=1944, text=彼女は新しい____を買いました。"
+duplicate_question,"first_line=113, dup_line=1947, text=彼の____はとても優しいです。"
+duplicate_question,"first_line=461, dup_line=1958, text=彼は____です。"
+duplicate_question,"first_line=1497, dup_line=1960, text=あなたは____ですか？"
+duplicate_question,"first_line=1865, dup_line=1967, text=あの____はとても優しいです。"
+duplicate_question,"first_line=1867, dup_line=1969, text=____と一緒に映画を見ました。"
+duplicate_question,"first_line=40, dup_line=1979, text=私の____はとても大切です。"
+duplicate_question,"first_line=260, dup_line=2000, text=明日は____です。"
+duplicate_question,"first_line=1591, dup_line=2007, text=彼は____コーヒーを飲みます。"
+duplicate_question,"first_line=200, dup_line=2018, text=彼は本を____。"
+duplicate_question,"first_line=974, dup_line=2057, text=私は____、友達と映画を見ました。"
+duplicate_question,"first_line=200, dup_line=2081, text=彼は本を____。"
+duplicate_question,"first_line=1048, dup_line=2093, text=____は学校に行きます。"
+duplicate_question,"first_line=798, dup_line=2094, text=彼は____が好きです。"
+duplicate_question,"first_line=358, dup_line=2095, text=____に友達と会います。"
+duplicate_question,"first_line=260, dup_line=2114, text=明日は____です。"
+duplicate_question,"first_line=476, dup_line=2119, text=私の誕生日は____です。"
+duplicate_question,"first_line=200, dup_line=2120, text=彼は本を____。"
+duplicate_question,"first_line=200, dup_line=2126, text=彼は本を____。"
+duplicate_question,"first_line=476, dup_line=2132, text=私の誕生日は____です。"
+duplicate_question,"first_line=358, dup_line=2133, text=____に友達と会います。"
+duplicate_question,"first_line=1150, dup_line=2143, text=私は____旅行に行きます。"
+duplicate_question,"first_line=218, dup_line=2147, text=私は日本語を____。"
+duplicate_question,"first_line=224, dup_line=2148, text=彼はギターを____。"
+duplicate_question,"first_line=2030, dup_line=2159, text=彼は毎朝公園で____。"
+duplicate_question,"first_line=240, dup_line=2161, text=友達と一緒に____のが好きです。"
+duplicate_question,"first_line=476, dup_line=2168, text=私の誕生日は____です。"
+duplicate_question,"first_line=476, dup_line=2174, text=私の誕生日は____です。"
+duplicate_question,"first_line=358, dup_line=2175, text=____に友達と会います。"
+duplicate_question,"first_line=978, dup_line=2177, text=彼は映画を____。"
+duplicate_question,"first_line=1369, dup_line=2181, text=____、友達に会います。"
+duplicate_question,"first_line=1100, dup_line=2195, text=私は____、友達に会います。"
+duplicate_question,"first_line=1982, dup_line=2201, text=友達に本を____。"
+duplicate_question,"first_line=1013, dup_line=2205, text=映画を見____。"
+duplicate_question,"first_line=2037, dup_line=2210, text=彼は日本語を____。"
+duplicate_question,"first_line=2111, dup_line=2213, text=彼はドアを____。"
+duplicate_question,"first_line=27, dup_line=2231, text=彼は新しい____を買いました。"
+duplicate_question,"first_line=549, dup_line=2234, text=今日は____日です。"
+duplicate_question,"first_line=116, dup_line=2246, text=この本は____です。"
+duplicate_question,"first_line=131, dup_line=2252, text=この映画は____です。"
+duplicate_question,"first_line=366, dup_line=2259, text=私は新しい____を買いました。"
+duplicate_question,"first_line=866, dup_line=2270, text=彼は____を開けました。"
+duplicate_question,"first_line=131, dup_line=2276, text=この映画は____です。"
+duplicate_question,"first_line=1781, dup_line=2279, text=彼女は新しい____を買いました。"
+duplicate_question,"first_line=1940, dup_line=2282, text=彼は____ですか？"
+duplicate_question,"first_line=1497, dup_line=2284, text=あなたは____ですか？"
+duplicate_question,"first_line=798, dup_line=2285, text=彼は____が好きです。"
+duplicate_question,"first_line=636, dup_line=2291, text=私は____に友達と会います。"
+duplicate_question,"first_line=74, dup_line=2295, text=子供たちは____で遊んでいます。"
+duplicate_question,"first_line=76, dup_line=2296, text=夏に____で泳ぎたいです。"
+duplicate_question,"first_line=931, dup_line=2304, text=私は____を買いました。"
+duplicate_question,"first_line=124, dup_line=2306, text=この部屋は____です。"
+duplicate_question,"first_line=1547, dup_line=2309, text=彼は____犬を飼っています。"
+duplicate_question,"first_line=159, dup_line=2319, text=この____はとてもきれいです。"
+duplicate_question,"first_line=194, dup_line=2321, text=友達と____に行きます。"
+duplicate_question,"first_line=2294, dup_line=2327, text=公園に大きな____があります。"
+duplicate_question,"first_line=138, dup_line=2330, text=彼の車は____です。"
+duplicate_question,"first_line=130, dup_line=2331, text=この花は____です。"
+duplicate_question,"first_line=1777, dup_line=2332, text=私の好きな色は____です。"
+duplicate_question,"first_line=1077, dup_line=2343, text=私の家には____がいます。"
+duplicate_question,"first_line=71, dup_line=2349, text=この道は____です。"
+duplicate_question,"first_line=90, dup_line=2362, text=私は____が好きです。"
+duplicate_question,"first_line=1389, dup_line=2366, text=手紙を____に入れました。"
+duplicate_question,"first_line=2076, dup_line=2370, text=彼女は____が好きです。"
+duplicate_question,"first_line=159, dup_line=2371, text=この____はとてもきれいです。"
+duplicate_question,"first_line=301, dup_line=2373, text=この____はとても大きいです。"
+duplicate_question,"first_line=1811, dup_line=2378, text=彼は毎日____です。"

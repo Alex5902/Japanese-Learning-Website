@@ -106,7 +106,7 @@ def validate(flashcards_path, fillgap_path, report_path=None):
     print(f"Fill‑gap rows checked:         {sum(len(v) for v in gaps_by_id.values()):>5}")
     print()
     print(f"Missing flashcard IDs:         {len(missing_ids):>5}")
-    print(f"IDs with wrong # of gaps:      {len(wrong_count):>5}")
+    print(f"IDs with wrong # of gaps:      {len(wrong_count):>5}", wrong_count)
     print(f"Answer mismatches:             {len(answer_errors):>5}")
     print(f"Duplicate questions found:     {len(dup_questions):>5}")
     print(f"Extra IDs in fill‑gap file:    {len(extra_ids):>5}")

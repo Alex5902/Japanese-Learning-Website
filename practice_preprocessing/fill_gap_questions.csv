@@ -38,9 +38,9 @@ bef65e07-dd1c-4949-8353-933850f730d3,____人は先生ですか？,あの,Is that
 ac120e70-c648-4465-ad1e-09905723eb3d,テーブルの上に____があります。,物,There is a thing on the table.
 ac120e70-c648-4465-ad1e-09905723eb3d,彼は新しい____を買いました。,物,He bought a new thing.
 ac120e70-c648-4465-ad1e-09905723eb3d,私の____はとても大切です。,物,My thing is very important.
-1ff3bd2e-815a-4222-a1bc-521d6b2045b9,公園に木が____。,あります,There are trees in the park.
-1ff3bd2e-815a-4222-a1bc-521d6b2045b9,部屋にテーブルが____。,あります,There is a table in the room.
-1ff3bd2e-815a-4222-a1bc-521d6b2045b9,図書館に本が____。,あります,There are books in the library.
+1ff3bd2e-815a-4222-a1bc-521d6b2045b9,公園に木が____。,があります,There are trees in the park.
+1ff3bd2e-815a-4222-a1bc-521d6b2045b9,部屋にテーブルが____。,があります,There is a table in the room.
+1ff3bd2e-815a-4222-a1bc-521d6b2045b9,図書館に本が____。,があります,There are books in the library.
 4ad3d951-a68b-403f-9a9c-ae5ae49a26cd,この荷物は____です。,重い,This luggage is heavy.
 4ad3d951-a68b-403f-9a9c-ae5ae49a26cd,彼の気持ちは____です。,重い,His feelings are serious.
 4ad3d951-a68b-403f-9a9c-ae5ae49a26cd,その本はとても____です。,重い,That book is very heavy.
@@ -89,9 +89,9 @@ ce50e468-efbb-4fd8-92a9-3577700cdc1b,そのテストはとても____でした。
 af1c0696-5afe-4f05-a325-8ca711b918b4,今日は____が降っています。,雨,It is raining today.
 af1c0696-5afe-4f05-a325-8ca711b918b4,私は____が好きです。,雨,I like rain.
 af1c0696-5afe-4f05-a325-8ca711b918b4,外に出るときは____に気をつけてください。,雨,Please be careful of the rain when you go outside.
-1a51d9fa-5942-4fcf-a89c-20e40e8565aa,こんな____は初めて見ました。,こと,I have never seen such a thing.
-1a51d9fa-5942-4fcf-a89c-20e40e8565aa,こんな____が好きです。,音楽,I like music like this.
-1a51d9fa-5942-4fcf-a89c-20e40e8565aa,こんな____な天気は嫌いです。,寒い,I dislike cold weather like this.
+1a51d9fa-5942-4fcf-a89c-20e40e8565aa,こんな____は初めて見ました。,こんな,I have never seen such a thing.
+1a51d9fa-5942-4fcf-a89c-20e40e8565aa,こんな____が好きです。,こんな,I like music like this.
+1a51d9fa-5942-4fcf-a89c-20e40e8565aa,こんな____な天気は嫌いです。,こんな,I dislike cold weather like this.
 fe2382eb-8ec5-4b95-ba15-53a7d3030e09,彼は____で学校に行きます。,自転車,He goes to school by bicycle.
 fe2382eb-8ec5-4b95-ba15-53a7d3030e09,私の____は青いです。,自転車,My bicycle is blue.
 fe2382eb-8ec5-4b95-ba15-53a7d3030e09,週末に友達と____に乗ります。,自転車,I ride a bicycle with my friends on the weekend.
@@ -158,9 +158,9 @@ d3d293b6-d72d-4dd1-ad7b-72c416c72029,このシャツは____ので、着やすい
 a228d6b1-2202-4864-ba0f-64464e1a7392,彼は毎日____を歌います。,歌,He sings a song every day.
 a228d6b1-2202-4864-ba0f-64464e1a7392,この____はとてもきれいです。,歌,This song is very beautiful.
 a228d6b1-2202-4864-ba0f-64464e1a7392,友達と一緒に____を聞きました。,歌,I listened to a song with my friend.
-884d51b1-eb89-42f3-92ec-a49e05510e9c,彼は____な人です。,元気,He is a lively person.
-884d51b1-eb89-42f3-92ec-a49e05510e9c,この映画は____です。,面白い,This movie is interesting.
-884d51b1-eb89-42f3-92ec-a49e05510e9c,彼女は____な学生です。,静か,She is a quiet student.
+884d51b1-eb89-42f3-92ec-a49e05510e9c,彼は____な人です。,な-adjectives,He is a lively person.
+884d51b1-eb89-42f3-92ec-a49e05510e9c,この映画は____です。,な-adjectives,This movie is interesting.
+884d51b1-eb89-42f3-92ec-a49e05510e9c,彼女は____な学生です。,な-adjectives,She is a quiet student.
 91c5767a-6bcd-4bbb-8728-29ba86d118c0,____になると、花が咲きます。,春,"When spring comes, flowers bloom."
 91c5767a-6bcd-4bbb-8728-29ba86d118c0,私は毎年____に旅行します。,春,I travel every year in spring.
 91c5767a-6bcd-4bbb-8728-29ba86d118c0,____は暖かいです。,春,Spring is warm.
@@ -179,9 +179,9 @@ f630d364-69ac-46de-9c49-0b64e2dcc129,このラーメンはとても____。,美�
 20cb0e5c-e41c-420b-9ee4-b4488663b1e5,友達を____。,呼ぶ,I call my friend.
 20cb0e5c-e41c-420b-9ee4-b4488663b1e5,先生は私を____。,呼ぶ,The teacher calls me.
 20cb0e5c-e41c-420b-9ee4-b4488663b1e5,彼女は犬を____。,呼ぶ,She calls her dog.
-0fec3e0a-8194-44db-bfb7-a9ff6926ff12,私は音楽を____。,聞きます,I listen to music.
-0fec3e0a-8194-44db-bfb7-a9ff6926ff12,先生に質問を____。,聞きます,I ask the teacher a question.
-0fec3e0a-8194-44db-bfb7-a9ff6926ff12,友達の話を____。,聞きます,I listen to my friend's story.
+0fec3e0a-8194-44db-bfb7-a9ff6926ff12,私は音楽を____。,聞く,I listen to music.
+0fec3e0a-8194-44db-bfb7-a9ff6926ff12,先生に質問を____。,聞く,I ask the teacher a question.
+0fec3e0a-8194-44db-bfb7-a9ff6926ff12,友達の話を____。,聞く,I listen to my friend's story.
 ddc6519a-1b15-48a2-86ef-6f8aeed1661a,毎朝、犬と____をします。,散歩,I take a walk with my dog every morning.
 ddc6519a-1b15-48a2-86ef-6f8aeed1661a,公園で友達と____をしました。,散歩,I took a walk with my friend in the park.
 ddc6519a-1b15-48a2-86ef-6f8aeed1661a,天気がいいので、____に行きましょう。,散歩,"Since the weather is nice, let's go for a walk."
@@ -215,9 +215,9 @@ cb5aa400-4076-47ac-9701-db0fdb841293,彼女は____公園で遊びます。,い�
 7596f227-e76d-47c0-b8fd-22a6a96d7239,私は勉強____音楽を聞きます。,中,I listen to music while studying.
 7596f227-e76d-47c0-b8fd-22a6a96d7239,彼は旅行____写真をたくさん撮りました。,中,He took many pictures during the trip.
 7596f227-e76d-47c0-b8fd-22a6a96d7239,授業____質問がありますか？,中,Do you have questions during the class?
-e6abe0cc-3377-43a4-ba84-bbd34e9c1e52,私は日本語を____。,勉強したい,I want to study Japanese.
-e6abe0cc-3377-43a4-ba84-bbd34e9c1e52,彼はサッカーを____。,したい,He wants to play soccer.
-e6abe0cc-3377-43a4-ba84-bbd34e9c1e52,あなたは映画を____。,見たい,You want to watch a movie.
+e6abe0cc-3377-43a4-ba84-bbd34e9c1e52,私は日本語を____。,たい,I want to study Japanese.
+e6abe0cc-3377-43a4-ba84-bbd34e9c1e52,彼はサッカーを____。,たい,He wants to play soccer.
+e6abe0cc-3377-43a4-ba84-bbd34e9c1e52,あなたは映画を____。,たい,You want to watch a movie.
 a9a349f1-7243-4413-8b00-41792c447285,お金がないと____。,困る,I am troubled without money.
 a9a349f1-7243-4413-8b00-41792c447285,彼は宿題が多くて____。,困る,He is troubled because he has too much homework.
 a9a349f1-7243-4413-8b00-41792c447285,道がわからなくて____。,困る,I am troubled because I don't know the way.
@@ -227,12 +227,12 @@ a9a349f1-7243-4413-8b00-41792c447285,道がわからなくて____。,困る,I am
 314bdff3-bf6f-4447-8880-03c546ef6c81,先生は本を____。,渡す,The teacher hands over a book.
 314bdff3-bf6f-4447-8880-03c546ef6c81,友達に手紙を____。,渡す,I pass a letter to my friend.
 314bdff3-bf6f-4447-8880-03c546ef6c81,彼は私にプレゼントを____。,渡す,He hands me a present.
-8e4ee19a-972f-44c9-9ee2-48ab57bfb835,宿題を____、テレビを見ます。,してから,"After doing my homework, I watch TV."
-8e4ee19a-972f-44c9-9ee2-48ab57bfb835,ご飯を____、散歩に行きます。,食べてから,"After eating, I go for a walk."
-8e4ee19a-972f-44c9-9ee2-48ab57bfb835,学校が終わって____、友達と遊びます。,から,"After school ends, I play with my friends."
-1345c5f2-a649-4a94-a2a2-3e581c47ddc6,バスが着いたら、私は____。,降ります,"When the bus arrives, I will get off."
+8e4ee19a-972f-44c9-9ee2-48ab57bfb835,宿題を____、テレビを見ます。,てから,"After doing my homework, I watch TV."
+8e4ee19a-972f-44c9-9ee2-48ab57bfb835,ご飯を____、散歩に行きます。,てから,"After eating, I go for a walk."
+8e4ee19a-972f-44c9-9ee2-48ab57bfb835,学校が終わって____、友達と遊びます。,てから,"After school ends, I play with my friends."
+1345c5f2-a649-4a94-a2a2-3e581c47ddc6,バスが着いたら、私は____。,降りる,"When the bus arrives, I will get off."
 1345c5f2-a649-4a94-a2a2-3e581c47ddc6,駅で電車を____。,降りる,I will get off the train at the station.
-1345c5f2-a649-4a94-a2a2-3e581c47ddc6,彼は階段を使って____。,降りている,He is getting off using the stairs.
+1345c5f2-a649-4a94-a2a2-3e581c47ddc6,彼は階段を使って____。,降りる,He is getting off using the stairs.
 41329c0f-897f-4965-af59-ed844d7e0254,彼は____来ますか？,すぐに,Will he come soon?
 41329c0f-897f-4965-af59-ed844d7e0254,宿題を____終わらせました。,すぐに,I finished my homework immediately.
 41329c0f-897f-4965-af59-ed844d7e0254,電話を____かけます。,すぐに,I will call you soon.
@@ -247,6 +247,7 @@ fefd7157-a7c6-4dfc-9a24-b2cc6a28bf12,明日、宿題を____と思います。,�
 3f4bae41-3d04-474e-b17c-86875dc4eaf2,彼女は階段を____。,登る,She climbs the stairs.
 8650b718-c133-43ad-9555-efd4cdd93648,彼は____学校に行きます。,いつも,He always goes to school.
 8650b718-c133-43ad-9555-efd4cdd93648,彼女は____本を読みます。,いつも,She always reads books.
+8650b718-c133-43ad-9555-efd4cdd93648,私たちは____この店で昼ごはんを食べます。,いつも,We always eat lunch at this shop.
 4d30f3d6-8490-4484-a90a-3ea72208d051,春になると花が____。,咲く,Flowers bloom in spring.
 4d30f3d6-8490-4484-a90a-3ea72208d051,公園で桜が____。,咲く,The cherry blossoms bloom in the park.
 4d30f3d6-8490-4484-a90a-3ea72208d051,庭の花が毎年____。,咲く,The flowers in the garden bloom every year.
@@ -259,27 +260,27 @@ fefd7157-a7c6-4dfc-9a24-b2cc6a28bf12,明日、宿題を____と思います。,�
 32345fca-b07d-49e0-b200-bacb68af58eb,明日は____です。,二日,Tomorrow is the second day.
 32345fca-b07d-49e0-b200-bacb68af58eb,私は____待ちました。,二日,I waited for two days.
 32345fca-b07d-49e0-b200-bacb68af58eb,____に友達に会います。,二日,I will meet my friend on the second day.
-017235eb-7614-4d6b-b79c-76b647685a25,彼は本を____。,読んでいる,He is reading a book.
-017235eb-7614-4d6b-b79c-76b647685a25,私たちは公園で____。,遊んでいる,We are playing in the park.
-017235eb-7614-4d6b-b79c-76b647685a25,彼女は音楽を____。,聞いている,She is listening to music.
-06c2ba22-a11c-4b88-922c-20820fe5da3b,私は勉強____音楽を聞きます。,中,I listen to music while studying.
-06c2ba22-a11c-4b88-922c-20820fe5da3b,彼は旅行____写真を撮ります。,中,He takes pictures during the trip.
-06c2ba22-a11c-4b88-922c-20820fe5da3b,授業____友達と話します。,中,I talk with my friends during class.
+017235eb-7614-4d6b-b79c-76b647685a25,彼は本を____。,ている,He is reading a book.
+017235eb-7614-4d6b-b79c-76b647685a25,私たちは公園で____。,ている,We are playing in the park.
+017235eb-7614-4d6b-b79c-76b647685a25,彼女は音楽を____。,ている,She is listening to music.
+06c2ba22-a11c-4b88-922c-20820fe5da3b,私は勉強____音楽を聞きます。,～中,I listen to music while studying.
+06c2ba22-a11c-4b88-922c-20820fe5da3b,彼は旅行____写真を撮ります。,～中,He takes pictures during the trip.
+06c2ba22-a11c-4b88-922c-20820fe5da3b,授業____友達と話します。,～中,I talk with my friends during class.
 93f0a512-976d-41de-acb2-4daf34b105af,今日は____があるので、映画を見に行きます。,暇,"I have free time today, so I'm going to watch a movie."
 93f0a512-976d-41de-acb2-4daf34b105af,彼は週末に____を楽しむことが好きです。,暇,He likes to enjoy his free time on the weekend.
 93f0a512-976d-41de-acb2-4daf34b105af,____があれば、友達と遊びます。,暇,"If I have free time, I will play with my friends."
-4a664a33-fdc8-4134-b50c-132d39d89f52,雨が降っているので、私は傘を____。,差します,"Since it is raining, I will hold up an umbrella."
-4a664a33-fdc8-4134-b50c-132d39d89f52,彼は手を____と、みんなが見ました。,差した,"When he raised his hand, everyone looked."
-4a664a33-fdc8-4134-b50c-132d39d89f52,子供たちは空に手を____。,差しています,The children are raising their hands to the sky.
+4a664a33-fdc8-4134-b50c-132d39d89f52,雨が降っているので、私は傘を____。,差す,"Since it is raining, I will hold up an umbrella."
+4a664a33-fdc8-4134-b50c-132d39d89f52,彼は手を____と、みんなが見ました。,差す,"When he raised his hand, everyone looked."
+4a664a33-fdc8-4134-b50c-132d39d89f52,子供たちは空に手を____。,差す,The children are raising their hands to the sky.
 041dc74a-d19c-4f97-b03e-6272794005b0,右に____と、駅があります。,曲る,"If you turn right, there is a station."
 041dc74a-d19c-4f97-b03e-6272794005b0,この道を____と、すぐ左です。,曲る,"If you turn on this road, it's immediately on the left."
 041dc74a-d19c-4f97-b03e-6272794005b0,橋の前で____必要があります。,曲る,You need to turn before the bridge.
 cbcf544a-6b7e-47bf-9031-6ce42b6de976,彼は毎日____をします。,スポーツ,He plays sports every day.
 cbcf544a-6b7e-47bf-9031-6ce42b6de976,私たちは週末に____を見に行きます。,スポーツ,We will go to watch sports on the weekend.
 cbcf544a-6b7e-47bf-9031-6ce42b6de976,彼女は____が大好きです。,スポーツ,She loves sports.
-58f6afcc-50a8-4f29-9b59-6132f855d049,私は橋を____ます。,渡ります,I will cross the bridge.
-58f6afcc-50a8-4f29-9b59-6132f855d049,彼は道を____。,渡った,He crossed the road.
-58f6afcc-50a8-4f29-9b59-6132f855d049,私たちは川を____。,渡ります,We will cross the river.
+58f6afcc-50a8-4f29-9b59-6132f855d049,私は橋を____ます。,渡る,I will cross the bridge.
+58f6afcc-50a8-4f29-9b59-6132f855d049,彼は道を____。,渡る,He crossed the road.
+58f6afcc-50a8-4f29-9b59-6132f855d049,私たちは川を____。,渡る,We will cross the river.
 fd0cfe14-e13d-41a0-897f-26ee5e35e790,毎朝、私はシャワーを____。,浴びる,"Every morning, I take a shower."
 fd0cfe14-e13d-41a0-897f-26ee5e35e790,夏に海で日光を____のが好きです。,浴びる,I like to bathe in the sunlight at the beach in summer.
 fd0cfe14-e13d-41a0-897f-26ee5e35e790,彼はプールで水を____。,浴びる,He bathes in the water at the pool.
@@ -316,19 +317,19 @@ fb4171f8-8e84-44cf-96a8-723fab8cd07a,ピアノの____が必要です。,練習,P
 9400f700-3a48-4d2a-9027-45f6bb4f0a14,鳥が____います。,鳴く,The bird is singing.
 9400f700-3a48-4d2a-9027-45f6bb4f0a14,猫が夜に____。,鳴く,The cat cries at night.
 9400f700-3a48-4d2a-9027-45f6bb4f0a14,犬は元気に____。,鳴く,The dog barks happily.
-3068651e-7459-493c-8f9e-a1df5e436b3a,先生は質問に____。,答えます,The teacher answers the question.
-3068651e-7459-493c-8f9e-a1df5e436b3a,友達は私のメールに____。,答えた,My friend replied to my email.
-3068651e-7459-493c-8f9e-a1df5e436b3a,彼はいつも私の疑問に____。,答えます,He always answers my questions.
-d092b5eb-19ad-4754-a6a0-bc867756b2a9,私はカバンに本を____。,入れます,I put a book in the bag.
-d092b5eb-19ad-4754-a6a0-bc867756b2a9,彼は箱におもちゃを____。,入れました,He put a toy in the box.
-d092b5eb-19ad-4754-a6a0-bc867756b2a9,お母さんは冷蔵庫にジュースを____。,入れます,Mom puts juice in the refrigerator.
+3068651e-7459-493c-8f9e-a1df5e436b3a,先生は質問に____。,答える,The teacher answers the question.
+3068651e-7459-493c-8f9e-a1df5e436b3a,友達は私のメールに____。,答える,My friend replied to my email.
+3068651e-7459-493c-8f9e-a1df5e436b3a,彼はいつも私の疑問に____。,答える,He always answers my questions.
+d092b5eb-19ad-4754-a6a0-bc867756b2a9,私はカバンに本を____。,入れる,I put a book in the bag.
+d092b5eb-19ad-4754-a6a0-bc867756b2a9,彼は箱におもちゃを____。,入れる,He put a toy in the box.
+d092b5eb-19ad-4754-a6a0-bc867756b2a9,お母さんは冷蔵庫にジュースを____。,入れる,Mom puts juice in the refrigerator.
 6db38b82-a196-44ac-bb39-085e01a284ea,私は漢字を____ために勉強します。,覚える,I study to remember kanji.
 6db38b82-a196-44ac-bb39-085e01a284ea,彼は新しい単語を____のが好きです。,覚える,He likes to memorize new words.
 6db38b82-a196-44ac-bb39-085e01a284ea,毎日、フレーズを____ようにしています。,覚える,I try to learn phrases every day.
-7c84e1a3-ae45-4ac1-a4dd-96b44e5a67d0,先生に宿題を____。,出します,I will submit my homework to the teacher.
-7c84e1a3-ae45-4ac1-a4dd-96b44e5a67d0,彼はポケットから手紙を____。,出しました,He took the letter out of his pocket.
-7c84e1a3-ae45-4ac1-a4dd-96b44e5a67d0,毎朝、ゴミを____。,出します,I take out the trash every morning.
-a54d30ee-e845-4a04-b7d2-3b9a78960e44,映画は____時に始まりますか。,何時,What time does the movie begin?
+7c84e1a3-ae45-4ac1-a4dd-96b44e5a67d0,先生に宿題を____。,出す,I will submit my homework to the teacher.
+7c84e1a3-ae45-4ac1-a4dd-96b44e5a67d0,彼はポケットから手紙を____。,出す,He took the letter out of his pocket.
+7c84e1a3-ae45-4ac1-a4dd-96b44e5a67d0,毎朝、ゴミを____。,出す,I take out the trash every morning.
+a54d30ee-e845-4a04-b7d2-3b9a78960e44,映画は____時に始まりますか。,始まる,What time does the movie begin?
 a54d30ee-e845-4a04-b7d2-3b9a78960e44,学校が____と、友達に会えます。,始まる,"When school begins, I can meet my friends."
 a54d30ee-e845-4a04-b7d2-3b9a78960e44,新しい年は1月1日に____。,始まる,The new year begins on January 1st.
 61ff7aaf-c9fc-4564-9007-f69d979e436e,壁にポスターを____。,貼る,I will paste the poster on the wall.
@@ -337,7 +338,7 @@ a54d30ee-e845-4a04-b7d2-3b9a78960e44,新しい年は1月1日に____。,始まる
 12120fa8-43a3-4809-8cb9-a620ee2defd8,星が____と、空が暗くなります。,消える,"When the stars disappear, the sky becomes dark."
 12120fa8-43a3-4809-8cb9-a620ee2defd8,彼の声が____と、みんな静かになりました。,消える,"When his voice disappeared, everyone became silent."
 12120fa8-43a3-4809-8cb9-a620ee2defd8,夜になると、光が____。,消える,"At night, the light disappears."
-31c06391-d50b-4c14-b17c-b5dd6bb1f881,友達から本を____。,借ります,I borrow a book from a friend.
+31c06391-d50b-4c14-b17c-b5dd6bb1f881,友達から本を____。,借りる,I borrow a book from a friend.
 31c06391-d50b-4c14-b17c-b5dd6bb1f881,彼はお金を____と言いました。,借りる,He said he would borrow money.
 31c06391-d50b-4c14-b17c-b5dd6bb1f881,私は映画のDVDを____つもりです。,借りる,I plan to borrow a movie DVD.
 de6b4218-051b-4dfd-a499-699304dfe9e1,彼は毎朝____を練習します。,歌う,He practices singing every morning.
@@ -376,15 +377,15 @@ d4034713-617e-4ad6-b207-bddb45329b1e,____になると、涼しくなります。
 b851b8b3-ea10-4eef-9e67-5fd0a286ef7d,彼の____はとても高いです。,時計,His watch is very expensive.
 b851b8b3-ea10-4eef-9e67-5fd0a286ef7d,私は毎朝____を見ます。,時計,I check the clock every morning.
 b851b8b3-ea10-4eef-9e67-5fd0a286ef7d,部屋に大きな____があります。,時計,There is a big clock in the room.
-a6058c14-29d0-4111-bafe-e6faef38dcbe,このボールは____です。,丸い,This ball is round.
-a6058c14-29d0-4111-bafe-e6faef38dcbe,テーブルは____形をしています。,円い,The table has a circular shape.
-a6058c14-29d0-4111-bafe-e6faef38dcbe,彼女は____石を見つけました。,丸い,She found a round stone.
+a6058c14-29d0-4111-bafe-e6faef38dcbe,このボールは____です。,丸い; 円い,This ball is round.
+a6058c14-29d0-4111-bafe-e6faef38dcbe,テーブルは____形をしています。,丸い; 円い,The table has a circular shape.
+a6058c14-29d0-4111-bafe-e6faef38dcbe,彼女は____石を見つけました。,丸い; 円い,She found a round stone.
 3de15d8a-5120-45f3-92a2-f849ba2f4505,テーブルの上に____があります。,花瓶,There is a vase on the table.
 3de15d8a-5120-45f3-92a2-f849ba2f4505,彼女は____に花を入れました。,花瓶,She put flowers in the vase.
 3de15d8a-5120-45f3-92a2-f849ba2f4505,この____はとてもきれいです。,花瓶,This vase is very beautiful.
-9971f4ba-b01e-4082-a1ad-488c4601c456,友達に____行きます。,会,I will go to meet a friend.
-9971f4ba-b01e-4082-a1ad-488c4601c456,学校へ____行きます。,行,I go to school.
-9971f4ba-b01e-4082-a1ad-488c4601c456,家に____帰ります。,帰,I return home.
+9971f4ba-b01e-4082-a1ad-488c4601c456,友達に____行きます。,に/へ,I will go to meet a friend.
+9971f4ba-b01e-4082-a1ad-488c4601c456,学校へ____行きます。,に/へ,I go to school.
+9971f4ba-b01e-4082-a1ad-488c4601c456,家に____帰ります。,に/へ,I return home.
 68a5a64c-f12d-47e5-8d51-bcb2464704dc,冬に____が必要です。,ストーブ,A heater is necessary in winter.
 68a5a64c-f12d-47e5-8d51-bcb2464704dc,寒いので、____をつけました。,ストーブ,I turned on the heater because it is cold.
 68a5a64c-f12d-47e5-8d51-bcb2464704dc,私の部屋には____があります。,ストーブ,There is a heater in my room.
@@ -409,9 +410,9 @@ a740c19f-0eb6-4ff3-9426-2ac25e694631,鳥は木の____で歌っています。,�
 1af1a3ea-95d6-40a3-a62a-f9ab4a4576d0,公園の____に友達がいます。,向こう,My friend is over there in the park.
 1af1a3ea-95d6-40a3-a62a-f9ab4a4576d0,あの山の____に村があります。,向こう,There is a village beyond that mountain.
 1af1a3ea-95d6-40a3-a62a-f9ab4a4576d0,駅の____に新しい店が開きました。,向こう,A new shop opened over there by the station.
-451c6bda-9dfd-4d3c-a06d-33940efe80a9,学校の____に立っています。,前,I am standing in front of the school.
-451c6bda-9dfd-4d3c-a06d-33940efe80a9,家の____に車があります。,前,There is a car in front of the house.
-451c6bda-9dfd-4d3c-a06d-33940efe80a9,店の____で友達を待っています。,前,I am waiting for my friend in front of the store.
+451c6bda-9dfd-4d3c-a06d-33940efe80a9,学校の____に立っています。,～前,I am standing in front of the school.
+451c6bda-9dfd-4d3c-a06d-33940efe80a9,家の____に車があります。,～前,There is a car in front of the house.
+451c6bda-9dfd-4d3c-a06d-33940efe80a9,店の____で友達を待っています。,～前,I am waiting for my friend in front of the store.
 1bfe332e-7719-4eeb-832e-a6fe77a401a6,公園の____にベンチがあります。,辺,There is a bench in the vicinity of the park.
 1bfe332e-7719-4eeb-832e-a6fe77a401a6,その____にはたくさんの店があります。,辺,There are many shops in that area.
 1bfe332e-7719-4eeb-832e-a6fe77a401a6,私の家の____に学校があります。,辺,There is a school near my house.
@@ -430,9 +431,9 @@ cd2790a6-5577-4600-942f-2d4c91bc6056,彼は____に座っています。,隣,He i
 020296fc-bcab-4067-9c61-3fbb57e6eb40,学校の____、友達に会いました。,前に,I met my friend in front of the school.
 020296fc-bcab-4067-9c61-3fbb57e6eb40,家の____、犬がいます。,前に,There is a dog in front of the house.
 020296fc-bcab-4067-9c61-3fbb57e6eb40,映画の____、ポップコーンを買いました。,前に,I bought popcorn before the movie.
-da6e39b1-2300-4de4-8fc0-0c40d7d97b7b,公園に犬が____。,います,There is a dog in the park.
-da6e39b1-2300-4de4-8fc0-0c40d7d97b7b,私の家に猫が____。,います,There is a cat in my house.
-da6e39b1-2300-4de4-8fc0-0c40d7d97b7b,学校に学生が____。,います,There are students at school.
+da6e39b1-2300-4de4-8fc0-0c40d7d97b7b,公園に犬が____。,がいます,There is a dog in the park.
+da6e39b1-2300-4de4-8fc0-0c40d7d97b7b,私の家に猫が____。,がいます,There is a cat in my house.
+da6e39b1-2300-4de4-8fc0-0c40d7d97b7b,学校に学生が____。,がいます,There are students at school.
 8b3aa142-53ab-4cc3-9403-7fb66ad59bfe,彼は私の____にいます。,後ろ,He is behind me.
 8b3aa142-53ab-4cc3-9403-7fb66ad59bfe,犬が私の____で遊んでいます。,後ろ,The dog is playing behind me.
 8b3aa142-53ab-4cc3-9403-7fb66ad59bfe,彼女は____の席に座っています。,後ろ,She is sitting in the back seat.
@@ -442,9 +443,9 @@ b4b6650a-a495-4544-b326-d42f9d8cc958,____が私の名前を知っていますか
 c5fa0ceb-66fb-4107-8d7c-3dbd77f680c7,彼は____に行きます。,西,He goes to the west.
 c5fa0ceb-66fb-4107-8d7c-3dbd77f680c7,私の家は____にあります。,西,My house is to the west.
 c5fa0ceb-66fb-4107-8d7c-3dbd77f680c7,学校は____にありますか？,西,Is the school to the west?
-9d56351f-960d-4a22-8908-568eca8b810f,駅の____にカフェがあります。,側,There is a café on the side of the station.
-9d56351f-960d-4a22-8908-568eca8b810f,私の家は川の____にあります。,側,My house is on the side of the river.
-9d56351f-960d-4a22-8908-568eca8b810f,彼は道の____に立っています。,側,He is standing on the side of the road.
+9d56351f-960d-4a22-8908-568eca8b810f,駅の____にカフェがあります。,～側,There is a café on the side of the station.
+9d56351f-960d-4a22-8908-568eca8b810f,私の家は川の____にあります。,～側,My house is on the side of the river.
+9d56351f-960d-4a22-8908-568eca8b810f,彼は道の____に立っています。,～側,He is standing on the side of the road.
 dca90563-ee10-47c5-9299-2fec4f2b7e1f,猫はテーブルの____にいます。,下,The cat is under the table.
 dca90563-ee10-47c5-9299-2fec4f2b7e1f,彼は椅子の____に本を置きました。,下,He put the book under the chair.
 dca90563-ee10-47c5-9299-2fec4f2b7e1f,その箱は机の____にあります。,下,The box is beneath the desk.
@@ -457,9 +458,9 @@ ff2e449d-86f5-4ac4-8289-d76b2bf8bf6d,____を渡ると、駅があります。,�
 8ba04e24-554d-4b8c-9c0b-2fb1cfda11e5,私の家の____に公園があります。,前,There is a park in front of my house.
 8ba04e24-554d-4b8c-9c0b-2fb1cfda11e5,授業の____に宿題を出してください。,前,Please submit your homework before class.
 8ba04e24-554d-4b8c-9c0b-2fb1cfda11e5,彼は私の____に立っています。,前,He is standing in front of me.
-268e9cf7-0899-42d9-859a-70b660e2ce28,彼は____です。,学生,He is a student.
-268e9cf7-0899-42d9-859a-70b660e2ce28,私たちは____がいます。,三人,There are three of us.
-268e9cf7-0899-42d9-859a-70b660e2ce28,あの____は先生です。,人,That person is a teacher.
+268e9cf7-0899-42d9-859a-70b660e2ce28,彼は____です。,～人,He is a student.
+268e9cf7-0899-42d9-859a-70b660e2ce28,私たちは____がいます。,～人,There are three of us.
+268e9cf7-0899-42d9-859a-70b660e2ce28,あの____は先生です。,～人,That person is a teacher.
 24ec74c9-85a6-4a0f-a0a9-4ba2c4b51766,毎朝、____に乗ります。,電車,I take the train every morning.
 24ec74c9-85a6-4a0f-a0a9-4ba2c4b51766,____はとても速いです。,電車,The train is very fast.
 24ec74c9-85a6-4a0f-a0a9-4ba2c4b51766,友達と一緒に____で行きます。,電車,I will go with my friend by train.
@@ -493,9 +494,9 @@ fb788423-f84e-45ad-bf47-e4d3e57a9b9a,公園の____に花が咲いています。
 be51d56e-5734-423c-ae42-ca29d2e9768a,このビルの____はどこですか？,入口,Where is the entrance of this building?
 be51d56e-5734-423c-ae42-ca29d2e9768a,公園の____に行きましょう。,入口,Let's go to the entrance of the park.
 be51d56e-5734-423c-ae42-ca29d2e9768a,映画館の____はあそこです。,入口,The entrance of the cinema is over there.
-33a0fbd5-78f2-4f8e-a23e-4fa1903eb859,私たちは駅に____。,着きます,We arrive at the station.
-33a0fbd5-78f2-4f8e-a23e-4fa1903eb859,彼は学校に____。,着きました,He arrived at school.
-33a0fbd5-78f2-4f8e-a23e-4fa1903eb859,バスはすぐに____。,着きます,The bus will arrive soon.
+33a0fbd5-78f2-4f8e-a23e-4fa1903eb859,私たちは駅に____。,着く,We arrive at the station.
+33a0fbd5-78f2-4f8e-a23e-4fa1903eb859,彼は学校に____。,着く,He arrived at school.
+33a0fbd5-78f2-4f8e-a23e-4fa1903eb859,バスはすぐに____。,着く,The bus will arrive soon.
 c285426b-b4f5-4a77-81ed-55c6e4bd69e9,彼は毎日____に行きます。,郵便局,He goes to the post office every day.
 c285426b-b4f5-4a77-81ed-55c6e4bd69e9,____で手紙を出しました。,郵便局,I sent a letter at the post office.
 c285426b-b4f5-4a77-81ed-55c6e4bd69e9,私の家の近くに____があります。,郵便局,There is a post office near my house.
@@ -511,9 +512,9 @@ fc5baf64-877d-4bed-a63a-de7c54ee7e72,私の家の近くに____があります。
 2430e8b3-44bd-4320-956e-f2d7e1240056,この____はとても狭いです。,道,This road is very narrow.
 2430e8b3-44bd-4320-956e-f2d7e1240056,左に曲がって____を渡ってください。,道,Please turn left and cross the road.
 2430e8b3-44bd-4320-956e-f2d7e1240056,私の家はその____の近くにあります。,道,My house is near that road.
-e2e0300a-2ffb-4696-aa15-e1ccccacf84f,テーブルの上に____本があります。,本,There is a book on the table.
-e2e0300a-2ffb-4696-aa15-e1ccccacf84f,公園に____花が咲いています。,きれいな,There are beautiful flowers in the park.
-e2e0300a-2ffb-4696-aa15-e1ccccacf84f,部屋に____テレビがあります。,大きい,There is a big TV in the room.
+e2e0300a-2ffb-4696-aa15-e1ccccacf84f,テーブルの上に____本があります。,ある,There is a book on the table.
+e2e0300a-2ffb-4696-aa15-e1ccccacf84f,公園に____花が咲いています。,ある,There are beautiful flowers in the park.
+e2e0300a-2ffb-4696-aa15-e1ccccacf84f,部屋に____テレビがあります。,ある,There is a big TV in the room.
 924ec5fc-00b5-4792-9b66-c9768722ef51,彼は____です。,二十歳,He is 20 years old.
 924ec5fc-00b5-4792-9b66-c9768722ef51,私は来年____になります。,二十歳,I will be 20 years old next year.
 924ec5fc-00b5-4792-9b66-c9768722ef51,彼女は今____です。,二十歳,She is now 20 years old.
@@ -523,18 +524,18 @@ b7cfb438-3383-4e0d-bfcd-a7cd37cb8ba7,テーブルの____に本があります。
 5ac6cfc1-90c1-4592-bffe-848fc0ed0493,私の家は____にあります。,近く,My house is nearby.
 5ac6cfc1-90c1-4592-bffe-848fc0ed0493,学校は公園の____です。,近く,The school is near the park.
 5ac6cfc1-90c1-4592-bffe-848fc0ed0493,彼の家は私の家の____です。,近く,His house is near my house.
-935777f1-e2bf-4fd1-ac27-fe3b63ea3d01,彼は____を持っています。,えんぴつ,He has a pencil.
-935777f1-e2bf-4fd1-ac27-fe3b63ea3d01,私は毎朝____を飲みます。,ジュース,I drink juice every morning.
-935777f1-e2bf-4fd1-ac27-fe3b63ea3d01,友達に____をあげました。,かさ,I gave my friend an umbrella.
-266eb48d-faf1-41cf-a965-a803a181a177,このリンゴは____です。,一キロ,This apple is one kilo.
-266eb48d-faf1-41cf-a965-a803a181a177,私は____の米を買いました。,三キロ,I bought three kilos of rice.
-266eb48d-faf1-41cf-a965-a803a181a177,その魚は____あります。,五キロ,That fish weighs five kilos.
+935777f1-e2bf-4fd1-ac27-fe3b63ea3d01,彼は____を持っています。,～本,He has a pencil.
+935777f1-e2bf-4fd1-ac27-fe3b63ea3d01,私は毎朝____を飲みます。,～本,I drink juice every morning.
+935777f1-e2bf-4fd1-ac27-fe3b63ea3d01,友達に____をあげました。,～本,I gave my friend an umbrella.
+266eb48d-faf1-41cf-a965-a803a181a177,このリンゴは____です。,キロ; キログラム,This apple is one kilo.
+266eb48d-faf1-41cf-a965-a803a181a177,私は____の米を買いました。,キロ; キログラム,I bought three kilos of rice.
+266eb48d-faf1-41cf-a965-a803a181a177,その魚は____あります。,キロ; キログラム,That fish weighs five kilos.
 0a0a95f1-dde0-4ac5-bf3c-8b29ed6e7bcf,私は犬____猫が好きです。,や,I like dogs and cats.
 0a0a95f1-dde0-4ac5-bf3c-8b29ed6e7bcf,彼は日本語____英語を話します。,や,He speaks Japanese and English.
 0a0a95f1-dde0-4ac5-bf3c-8b29ed6e7bcf,この本____その本は面白いです。,や,This book and that book are interesting.
-c4464426-7cc9-4807-8f47-15068c65cd9d,私の誕生日は____です。,四月,My birthday is in April.
-c4464426-7cc9-4807-8f47-15068c65cd9d,日本では、桜は____に咲きます。,三月,"In Japan, cherry blossoms bloom in March."
-c4464426-7cc9-4807-8f47-15068c65cd9d,学校は九月から始まります。,九月,School starts in September.
+c4464426-7cc9-4807-8f47-15068c65cd9d,私の誕生日は____です。,～月,My birthday is in April.
+c4464426-7cc9-4807-8f47-15068c65cd9d,日本では、桜は____に咲きます。,～月,"In Japan, cherry blossoms bloom in March."
+c4464426-7cc9-4807-8f47-15068c65cd9d,学校は九月から始まります。,～月,School starts in September.
 553d1056-7697-45cd-bb99-69f752b0484c,彼は____円持っています。,千,He has a thousand yen.
 553d1056-7697-45cd-bb99-69f752b0484c,この本は____ページあります。,千,This book has a thousand pages.
 553d1056-7697-45cd-bb99-69f752b0484c,日本の人口は____万人です。,千,The population of Japan is a thousand ten thousand.
@@ -547,51 +548,51 @@ c4464426-7cc9-4807-8f47-15068c65cd9d,学校は九月から始まります。,九
 5a838667-2032-46e9-adb0-41dcfbd49e92,彼は____つのリンゴを持っています。,六,He has six apples.
 5a838667-2032-46e9-adb0-41dcfbd49e92,今日は____日です。,六,Today is the sixth day.
 5a838667-2032-46e9-adb0-41dcfbd49e92,私の兄は____歳です。,六,My older brother is six years old.
-f4f2a40d-8369-4ac1-a239-02a22c631869,彼は毎日____運動します。,一時間,He exercises for about an hour every day.
-f4f2a40d-8369-4ac1-a239-02a22c631869,この本は____の値段です。,千円,This book costs about a thousand yen.
-f4f2a40d-8369-4ac1-a239-02a22c631869,私の家は駅から____です。,十分,My house is about ten minutes from the station.
+f4f2a40d-8369-4ac1-a239-02a22c631869,彼は毎日____運動します。,～くらい; ぐらい,He exercises for about an hour every day.
+f4f2a40d-8369-4ac1-a239-02a22c631869,この本は____の値段です。,～くらい; ぐらい,This book costs about a thousand yen.
+f4f2a40d-8369-4ac1-a239-02a22c631869,私の家は駅から____です。,～くらい; ぐらい,My house is about ten minutes from the station.
 06941172-14ab-47f4-a374-a5c115a04c0d,私の家には____つの犬がいます。,一,There is one dog in my house.
 06941172-14ab-47f4-a374-a5c115a04c0d,彼は____人の友達がいます。,一,He has one friend.
 06941172-14ab-47f4-a374-a5c115a04c0d,今日は____つの本を読みました。,一,I read one book today.
-e8d939cd-0b89-4aea-b58a-fbe5525c5470,この本はあの本より____です。,おもしろい,This book is more interesting than that book.
-e8d939cd-0b89-4aea-b58a-fbe5525c5470,彼は私より____です。,背が高い,He is taller than me.
-e8d939cd-0b89-4aea-b58a-fbe5525c5470,この車はその車より____です。,速い,This car is faster than that car.
+e8d939cd-0b89-4aea-b58a-fbe5525c5470,この本はあの本より____です。,[A]は[B]より・・・です,This book is more interesting than that book.
+e8d939cd-0b89-4aea-b58a-fbe5525c5470,彼は私より____です。,[A]は[B]より・・・です,He is taller than me.
+e8d939cd-0b89-4aea-b58a-fbe5525c5470,この車はその車より____です。,[A]は[B]より・・・です,This car is faster than that car.
 a767827d-8152-47d4-af37-7cc9a1a6370c,彼は____のりんごを買いました。,八つ,He bought eight apples.
 a767827d-8152-47d4-af37-7cc9a1a6370c,私の家には____の猫がいます。,八つ,There are eight cats in my house.
 a767827d-8152-47d4-af37-7cc9a1a6370c,学校で____の本を読みました。,八つ,I read eight books at school.
 d0c18959-b2af-4553-9e16-ba7a91f0ff83,彼は____のりんごを持っています。,九つ,He has nine apples.
 d0c18959-b2af-4553-9e16-ba7a91f0ff83,テーブルの上に____の本があります。,九つ,There are nine books on the table.
 d0c18959-b2af-4553-9e16-ba7a91f0ff83,私は____の花を買いました。,九つ,I bought nine flowers.
-03249a7a-57db-4a38-9cb0-0782039aec69,私は映画を____見ました。,三回,I watched the movie three times.
-03249a7a-57db-4a38-9cb0-0782039aec69,彼は毎日____勉強します。,五回,He studies five times every day.
-03249a7a-57db-4a38-9cb0-0782039aec69,私たちは____旅行に行きました。,二回,We went on a trip two times.
-7f43efd4-0be2-44a1-8d87-acbf6338acae,駅まで____を歩きます。,キロ,I walk a kilometer to the station.
-7f43efd4-0be2-44a1-8d87-acbf6338acae,私の家は学校から____あります。,キロ,My house is one kilometer from the school.
-7f43efd4-0be2-44a1-8d87-acbf6338acae,彼は毎日____を走ります。,キロ,He runs a kilometer every day.
-62f2b811-2cf3-4096-84fd-3084f518f42d,彼は自転車を____買いました。,台,He bought a bicycle.
-62f2b811-2cf3-4096-84fd-3084f518f42d,私の家には車が二____あります。,台,There are two cars in my house.
-62f2b811-2cf3-4096-84fd-3084f518f42d,この店でバイクを一____見ました。,台,I saw one motorcycle at this store.
-3511c2de-1bac-41c1-84bb-fba4ed3cfd1d,彼は日本に____います。,三週間,He will be in Japan for three weeks.
-3511c2de-1bac-41c1-84bb-fba4ed3cfd1d,私の友達は____休みます。,二週間,My friend will take a break for two weeks.
-3511c2de-1bac-41c1-84bb-fba4ed3cfd1d,この本は____かかります。,四週間,This book will take four weeks.
+03249a7a-57db-4a38-9cb0-0782039aec69,私は映画を____見ました。,～回,I watched the movie three times.
+03249a7a-57db-4a38-9cb0-0782039aec69,彼は毎日____勉強します。,～回,He studies five times every day.
+03249a7a-57db-4a38-9cb0-0782039aec69,私たちは____旅行に行きました。,～回,We went on a trip two times.
+7f43efd4-0be2-44a1-8d87-acbf6338acae,駅まで____を歩きます。,キロ; キロメートル,I walk a kilometer to the station.
+7f43efd4-0be2-44a1-8d87-acbf6338acae,私の家は学校から____あります。,キロ; キロメートル,My house is one kilometer from the school.
+7f43efd4-0be2-44a1-8d87-acbf6338acae,彼は毎日____を走ります。,キロ; キロメートル,He runs a kilometer every day.
+62f2b811-2cf3-4096-84fd-3084f518f42d,彼は自転車を____買いました。,～台,He bought a bicycle.
+62f2b811-2cf3-4096-84fd-3084f518f42d,私の家には車が二____あります。,～台,There are two cars in my house.
+62f2b811-2cf3-4096-84fd-3084f518f42d,この店でバイクを一____見ました。,～台,I saw one motorcycle at this store.
+3511c2de-1bac-41c1-84bb-fba4ed3cfd1d,彼は日本に____います。,～週間,He will be in Japan for three weeks.
+3511c2de-1bac-41c1-84bb-fba4ed3cfd1d,私の友達は____休みます。,～週間,My friend will take a break for two weeks.
+3511c2de-1bac-41c1-84bb-fba4ed3cfd1d,この本は____かかります。,～週間,This book will take four weeks.
 7693eaf5-b84b-4836-a17a-ba1aee246a38,彼は____の本を持っています。,二つ,He has two books.
 7693eaf5-b84b-4836-a17a-ba1aee246a38,私は____のペンを買いました。,二つ,I bought two pens.
 7693eaf5-b84b-4836-a17a-ba1aee246a38,テーブルの上に____のリンゴがあります。,二つ,There are two apples on the table.
-1f31fd11-84e7-425d-8f73-fde64c658435,猫が____います。,二匹,There are two cats.
-1f31fd11-84e7-425d-8f73-fde64c658435,犬が____走っています。,三匹,Three dogs are running.
-1f31fd11-84e7-425d-8f73-fde64c658435,公園に____います。,五匹,There are five small animals in the park.
-e0b796ae-0d44-47a2-b712-6aef89e734d3,彼はコーヒーを____飲みます。,一杯,He drinks one cup of coffee.
-e0b796ae-0d44-47a2-b712-6aef89e734d3,私たちはお茶を____ください。,二杯,Please give us two cups of tea.
-e0b796ae-0d44-47a2-b712-6aef89e734d3,友達がジュースを____持っています。,三杯,My friend has three cups of juice.
+1f31fd11-84e7-425d-8f73-fde64c658435,猫が____います。,～匹,There are two cats.
+1f31fd11-84e7-425d-8f73-fde64c658435,犬が____走っています。,～匹,Three dogs are running.
+1f31fd11-84e7-425d-8f73-fde64c658435,公園に____います。,～匹,There are five small animals in the park.
+e0b796ae-0d44-47a2-b712-6aef89e734d3,彼はコーヒーを____飲みます。,～杯,He drinks one cup of coffee.
+e0b796ae-0d44-47a2-b712-6aef89e734d3,私たちはお茶を____ください。,～杯,Please give us two cups of tea.
+e0b796ae-0d44-47a2-b712-6aef89e734d3,友達がジュースを____持っています。,～杯,My friend has three cups of juice.
 687146c7-45ab-451f-b3fd-bec79571b126,公園には____がいます。,一人,There is one person in the park.
 687146c7-45ab-451f-b3fd-bec79571b126,彼は____で旅行します。,一人,He travels alone.
 687146c7-45ab-451f-b3fd-bec79571b126,____で映画を見ました。,一人,I watched a movie by myself.
-8b386a7b-3b70-41ec-a25e-0a760701c2cf,今日は____です。,三日,Today is the third.
-8b386a7b-3b70-41ec-a25e-0a760701c2cf,彼は毎日____運動します。,五日,He exercises for five days.
-8b386a7b-3b70-41ec-a25e-0a760701c2cf,私の誕生日は____です。,十日,My birthday is on the tenth.
-b3103136-c403-4131-b7ad-cfb86d9bdc63,彼は２０____です。,年,He is 20 years old.
-b3103136-c403-4131-b7ad-cfb86d9bdc63,私の犬は３____です。,年,My dog is 3 years old.
-b3103136-c403-4131-b7ad-cfb86d9bdc63,彼女は５____学生です。,年,She is a student for 5 years.
+8b386a7b-3b70-41ec-a25e-0a760701c2cf,今日は____です。,～日,Today is the third.
+8b386a7b-3b70-41ec-a25e-0a760701c2cf,彼は毎日____運動します。,～日,He exercises for five days.
+8b386a7b-3b70-41ec-a25e-0a760701c2cf,私の誕生日は____です。,～日,My birthday is on the tenth.
+b3103136-c403-4131-b7ad-cfb86d9bdc63,彼は２０____です。,～年,He is 20 years old.
+b3103136-c403-4131-b7ad-cfb86d9bdc63,私の犬は３____です。,～年,My dog is 3 years old.
+b3103136-c403-4131-b7ad-cfb86d9bdc63,彼女は５____学生です。,～年,She is a student for 5 years.
 3c68040a-fce7-4b9e-a402-62f21ba3c2ae,彼は____本の本を持っています。,十,He has ten books.
 3c68040a-fce7-4b9e-a402-62f21ba3c2ae,私の家族は____人です。,十,My family has ten people.
 3c68040a-fce7-4b9e-a402-62f21ba3c2ae,私は____円を持っています。,十,I have ten yen.
@@ -604,27 +605,27 @@ cebe4cdc-3864-49a1-a6e0-a1eb73013f3e,このクラスには____人の学生がい
 3d9c6f84-88a3-4d77-a573-2a86214bb9d1,テーブルの上に____のりんごがあります。,五つ,There are five apples on the table.
 3d9c6f84-88a3-4d77-a573-2a86214bb9d1,私は____の本を持っています。,五つ,I have five books.
 3d9c6f84-88a3-4d77-a573-2a86214bb9d1,彼は____の友達がいます。,五つ,He has five friends.
-c05f739c-9ce9-474a-9358-927d40cb4cb8,この本は____です。,千円,"This book is 1,000 yen."
-c05f739c-9ce9-474a-9358-927d40cb4cb8,コーヒーは____かかります。,五百円,The coffee costs 500 yen.
-c05f739c-9ce9-474a-9358-927d40cb4cb8,私は____を持っています。,二万円,"I have 20,000 yen."
+c05f739c-9ce9-474a-9358-927d40cb4cb8,この本は____です。,～円,"This book is 1,000 yen."
+c05f739c-9ce9-474a-9358-927d40cb4cb8,コーヒーは____かかります。,～円,The coffee costs 500 yen.
+c05f739c-9ce9-474a-9358-927d40cb4cb8,私は____を持っています。,～円,"I have 20,000 yen."
 799d0d26-0d83-4390-9f73-6bccf736212c,彼は____円持っています。,万,He has ten thousand yen.
 799d0d26-0d83-4390-9f73-6bccf736212c,この本は____のページがあります。,万,This book has ten thousand pages.
 799d0d26-0d83-4390-9f73-6bccf736212c,日本の人口は____人を超えています。,万,The population of Japan exceeds ten million.
-c7bc46ba-4876-440b-a1cd-3d18d917cd2a,今日は三度____に行きました。,行き,I went three times today.
-c7bc46ba-4876-440b-a1cd-3d18d917cd2a,彼は五度____を見ました。,映画,He watched the movie five times.
-c7bc46ba-4876-440b-a1cd-3d18d917cd2a,明日は二度____を勉強します。,日本語,I will study Japanese two times tomorrow.
+c7bc46ba-4876-440b-a1cd-3d18d917cd2a,今日は三度____に行きました。,～度,I went three times today.
+c7bc46ba-4876-440b-a1cd-3d18d917cd2a,彼は五度____を見ました。,～度,He watched the movie five times.
+c7bc46ba-4876-440b-a1cd-3d18d917cd2a,明日は二度____を勉強します。,～度,I will study Japanese two times tomorrow.
 32750932-c132-482c-bf7b-bc3268f18d4c,テーブルの上に____のりんごがあります。,三つ,There are three apples on the table.
 32750932-c132-482c-bf7b-bc3268f18d4c,私は____の本を持っています。,三つ,I have three books.
 32750932-c132-482c-bf7b-bc3268f18d4c,彼は____の友達と遊びます。,三つ,He plays with three friends.
 86da28a3-0129-4f65-b749-2eb714f4dda4,私は____つのリンゴを買いました。,三,I bought three apples.
 86da28a3-0129-4f65-b749-2eb714f4dda4,彼は____人の友達がいます。,三,He has three friends.
 86da28a3-0129-4f65-b749-2eb714f4dda4,私の家族は____人です。,三,There are three people in my family.
-98abfbbb-f1ac-4b7d-8b0c-b01cf7cee6e2,私たちは二____で行きます。,人,We will go with two people.
-98abfbbb-f1ac-4b7d-8b0c-b01cf7cee6e2,映画館に三____がいました。,人,There were three people at the movie theater.
-98abfbbb-f1ac-4b7d-8b0c-b01cf7cee6e2,あの店に四____が並んでいます。,人,Four people are lining up at that shop.
-a60b2b22-4f08-4a68-be9a-9ba8db74fe2a,彼は本を____買いました。,三冊,He bought three books.
-a60b2b22-4f08-4a68-be9a-9ba8db74fe2a,図書館に____行きました。,五冊,I went to the library for five books.
-a60b2b22-4f08-4a68-be9a-9ba8db74fe2a,彼女は____読んでいます。,二冊,She is reading two books.
+98abfbbb-f1ac-4b7d-8b0c-b01cf7cee6e2,私たちは二____で行きます。,～人,We will go with two people.
+98abfbbb-f1ac-4b7d-8b0c-b01cf7cee6e2,映画館に三____がいました。,～人,There were three people at the movie theater.
+98abfbbb-f1ac-4b7d-8b0c-b01cf7cee6e2,あの店に四____が並んでいます。,～人,Four people are lining up at that shop.
+a60b2b22-4f08-4a68-be9a-9ba8db74fe2a,彼は本を____買いました。,～冊,He bought three books.
+a60b2b22-4f08-4a68-be9a-9ba8db74fe2a,図書館に____行きました。,～冊,I went to the library for five books.
+a60b2b22-4f08-4a68-be9a-9ba8db74fe2a,彼女は____読んでいます。,～冊,She is reading two books.
 e86141ad-cb94-431a-9261-e82a752b1640,彼は本を____持っています。,沢山,He has a lot of books.
 e86141ad-cb94-431a-9261-e82a752b1640,公園には花が____咲いています。,沢山,There are many flowers blooming in the park.
 e86141ad-cb94-431a-9261-e82a752b1640,私の友達は____います。,沢山,I have many friends.
@@ -640,15 +641,15 @@ b8197600-c420-4c34-bed9-2be86081485e,私は____冊の本を読みました。,�
 3becd3b1-81be-4046-9bf1-74aa25c10bbc,彼は____の本を持っています。,六つ,He has six books.
 3becd3b1-81be-4046-9bf1-74aa25c10bbc,私の家には____の犬がいます。,六つ,There are six dogs in my house.
 3becd3b1-81be-4046-9bf1-74aa25c10bbc,テーブルの上に____のりんごがあります。,六つ,There are six apples on the table.
-561025a0-1dd3-4c76-a5b5-f17a809093fd,彼はクラスで____です。,一番,He is the best in the class.
-561025a0-1dd3-4c76-a5b5-f17a809093fd,私はこの映画が____好きです。,三番,I like this movie the third best.
-561025a0-1dd3-4c76-a5b5-f17a809093fd,彼女は学校で____の学生です。,二番,She is the second best student at school.
+561025a0-1dd3-4c76-a5b5-f17a809093fd,彼はクラスで____です。,～番,He is the best in the class.
+561025a0-1dd3-4c76-a5b5-f17a809093fd,私はこの映画が____好きです。,～番,I like this movie the third best.
+561025a0-1dd3-4c76-a5b5-f17a809093fd,彼女は学校で____の学生です。,～番,She is the second best student at school.
 e9ffa557-51d7-4ccf-99ab-4a9188061450,テーブルの上に____のリンゴがあります。,四つ,There are four apples on the table.
 e9ffa557-51d7-4ccf-99ab-4a9188061450,彼は____の本を持っています。,四つ,He has four books.
 e9ffa557-51d7-4ccf-99ab-4a9188061450,私は____の花を買いました。,四つ,I bought four flowers.
-3cd3ff38-3113-42e5-86fd-aca60be281c6,彼は日本に____住んでいます。,三か月,He has lived in Japan for three months.
-3cd3ff38-3113-42e5-86fd-aca60be281c6,私の妹は____学校に行きました。,六か月,My younger sister went to school for six months.
-3cd3ff38-3113-42e5-86fd-aca60be281c6,このプロジェクトは____かかります。,二か月,This project will take two months.
+3cd3ff38-3113-42e5-86fd-aca60be281c6,彼は日本に____住んでいます。,～か月,He has lived in Japan for three months.
+3cd3ff38-3113-42e5-86fd-aca60be281c6,私の妹は____学校に行きました。,～か月,My younger sister went to school for six months.
+3cd3ff38-3113-42e5-86fd-aca60be281c6,このプロジェクトは____かかります。,～か月,This project will take two months.
 cdcedc42-a50d-411f-99ea-768f2c224b69,私は____つのりんごがあります。,七,I have seven apples.
 cdcedc42-a50d-411f-99ea-768f2c224b69,彼は____歳です。,七,He is seven years old.
 cdcedc42-a50d-411f-99ea-768f2c224b69,今日は____日です。,七,Today is the seventh day.
@@ -658,15 +659,15 @@ b002471b-9efc-4e04-94e0-adf86606daf2,彼は____待ちました。,三日,He wait
 da88c70b-b320-4905-8d81-360c97830ee7,来週の____に会いましょう。,五日,Let's meet on the fifth day of next week.
 da88c70b-b320-4905-8d81-360c97830ee7,____後にテストがあります。,五日,There is a test in five days.
 da88c70b-b320-4905-8d81-360c97830ee7,____は月曜日です。,五日,The fifth is a Monday.
-9b33eb99-2d38-4d2e-ad9b-11c97187e43f,みんなが一人ずつ____を言います。,名前,Everyone will say their name one by one.
-9b33eb99-2d38-4d2e-ad9b-11c97187e43f,子供たちは一つずつ____を作ります。,おもちゃ,The children will make one toy at a time.
-9b33eb99-2d38-4d2e-ad9b-11c97187e43f,彼は毎日少しずつ____を勉強します。,日本語,He studies Japanese little by little every day.
+9b33eb99-2d38-4d2e-ad9b-11c97187e43f,みんなが一人ずつ____を言います。,ずつ,Everyone will say their name one by one.
+9b33eb99-2d38-4d2e-ad9b-11c97187e43f,子供たちは一つずつ____を作ります。,ずつ,The children will make one toy at a time.
+9b33eb99-2d38-4d2e-ad9b-11c97187e43f,彼は毎日少しずつ____を勉強します。,ずつ,He studies Japanese little by little every day.
 90fce158-731f-48e0-870f-0ee7f5e6ec3f,彼は____の学生です。,一番,He is the best student.
 90fce158-731f-48e0-870f-0ee7f5e6ec3f,この映画は____好きです。,一番,This is my favorite movie.
 90fce158-731f-48e0-870f-0ee7f5e6ec3f,私の犬は____かわいいです。,一番,My dog is the cutest.
-5793a8e2-fb0e-467c-b242-af7eeb8a1034,この本はあの本より____ほうが面白いです。,この,This book is more interesting than that book.
-5793a8e2-fb0e-467c-b242-af7eeb8a1034,彼は私より____ほうが背が高いです。,彼,He is taller than me.
-5793a8e2-fb0e-467c-b242-af7eeb8a1034,この映画はあの映画より____ほうが好きです。,この,I like this movie more than that movie.
+5793a8e2-fb0e-467c-b242-af7eeb8a1034,この本はあの本より____ほうが面白いです。,[B]より[A]ほうが,This book is more interesting than that book.
+5793a8e2-fb0e-467c-b242-af7eeb8a1034,彼は私より____ほうが背が高いです。,[B]より[A]ほうが,He is taller than me.
+5793a8e2-fb0e-467c-b242-af7eeb8a1034,この映画はあの映画より____ほうが好きです。,[B]より[A]ほうが,I like this movie more than that movie.
 3f1ee8f5-724e-4bd6-9322-63acd7f31d92,彼は____に学校に行きます。,十日,He goes to school on the tenth day.
 3f1ee8f5-724e-4bd6-9322-63acd7f31d92,私の誕生日は____です。,十日,My birthday is on the tenth.
 3f1ee8f5-724e-4bd6-9322-63acd7f31d92,____後に友達に会います。,十日,I will meet my friend in ten days.
@@ -682,15 +683,15 @@ c43509a4-7eb3-4b33-8de9-39c86baf6250,川の幅は5____です。,メートル,The
 1b2867b6-7c65-4253-a9f3-c722da2c969f,彼は____の人です。,外,He is an outsider.
 1b2867b6-7c65-4253-a9f3-c722da2c969f,私たちは____のことを話しましょう。,外,Let's talk about the rest.
 1b2867b6-7c65-4253-a9f3-c722da2c969f,彼女は____に行きました。,外,She went outside.
-d0a22160-e250-4e44-9961-56e2632b97db,彼は写真を____撮りました。,三枚,He took three pictures.
-d0a22160-e250-4e44-9961-56e2632b97db,この本は____ありますか？,五枚,Do you have five pages of this book?
-d0a22160-e250-4e44-9961-56e2632b97db,私は切符を____買いました。,二枚,I bought two tickets.
+d0a22160-e250-4e44-9961-56e2632b97db,彼は写真を____撮りました。,～枚,He took three pictures.
+d0a22160-e250-4e44-9961-56e2632b97db,この本は____ありますか？,～枚,Do you have five pages of this book?
+d0a22160-e250-4e44-9961-56e2632b97db,私は切符を____買いました。,～枚,I bought two tickets.
 f29fed62-0098-4c40-93df-d1bda5ccd9d7,勉強は____ことです。,なくてはならない,Studying is a must.
 f29fed62-0098-4c40-93df-d1bda5ccd9d7,健康のために運動は____。,なくてはならない,Exercise is necessary for health.
 f29fed62-0098-4c40-93df-d1bda5ccd9d7,仕事をするために、準備が____。,なくてはならない,Preparation is essential for work.
-bad50968-0b7d-4c98-962b-e52a70a186fb,果物の中で____が一番好きです。,バナナ,I like bananas the most among fruits.
-bad50968-0b7d-4c98-962b-e52a70a186fb,動物の中で____が一番かわいいです。,犬,Dogs are the cutest among animals.
-bad50968-0b7d-4c98-962b-e52a70a186fb,スポーツの中で____が一番楽しいです。,サッカー,Soccer is the most fun among sports.
+bad50968-0b7d-4c98-962b-e52a70a186fb,果物の中で____が一番好きです。,の中で[A]が一番,I like bananas the most among fruits.
+bad50968-0b7d-4c98-962b-e52a70a186fb,動物の中で____が一番かわいいです。,の中で[A]が一番,Dogs are the cutest among animals.
+bad50968-0b7d-4c98-962b-e52a70a186fb,スポーツの中で____が一番楽しいです。,の中で[A]が一番,Soccer is the most fun among sports.
 5cd6d3d6-cecd-40bd-a25d-4c91e1ef7fd0,今日は____です。,九日,Today is the ninth day.
 5cd6d3d6-cecd-40bd-a25d-4c91e1ef7fd0,私は____に友達に会います。,九日,I will meet my friend on the ninth.
 5cd6d3d6-cecd-40bd-a25d-4c91e1ef7fd0,____は月曜日です。,九日,The ninth is a Monday.
@@ -703,51 +704,51 @@ ed35b480-55e3-4116-8b98-1e9a2a3045fc,この____はとても暑いです。,年,T
 99b68235-a785-4529-970c-41fdae47b2cd,私の兄は____人です。,二,My older brother is two years old.
 99b68235-a785-4529-970c-41fdae47b2cd,彼女は____つのケーキを作りました。,二,She made two cakes.
 99b68235-a785-4529-970c-41fdae47b2cd,テーブルの上に____つの本があります。,二,There are two books on the table.
-a4e45b6b-a4f1-4a94-9de0-4421ead1498b,彼は毎日三____勉強します。,時間,He studies for three hours every day.
-a4e45b6b-a4f1-4a94-9de0-4421ead1498b,私たちは二____映画を見ました。,時間,We watched a movie for two hours.
-a4e45b6b-a4f1-4a94-9de0-4421ead1498b,この仕事は一____かかります。,時間,This job takes one hour.
+a4e45b6b-a4f1-4a94-9de0-4421ead1498b,彼は毎日三____勉強します。,～時間,He studies for three hours every day.
+a4e45b6b-a4f1-4a94-9de0-4421ead1498b,私たちは二____映画を見ました。,～時間,We watched a movie for two hours.
+a4e45b6b-a4f1-4a94-9de0-4421ead1498b,この仕事は一____かかります。,～時間,This job takes one hour.
 8e489e54-1d17-4cb4-838f-9783e23abdc8,私は____つのりんごを買いました。,八,I bought eight apples.
 8e489e54-1d17-4cb4-838f-9783e23abdc8,彼は____歳です。,八,He is eight years old.
 8e489e54-1d17-4cb4-838f-9783e23abdc8,テーブルの上に____本の本があります。,八,There are eight books on the table.
 0b62fcd7-c7a4-410c-af4e-c47feb1e087f,今週の____は土曜日です。,四日,This week's fourth day is Saturday.
 0b62fcd7-c7a4-410c-af4e-c47feb1e087f,彼は____に来ます。,四日,He will come in four days.
 0b62fcd7-c7a4-410c-af4e-c47feb1e087f,私は____に友達と会います。,四日,I will meet my friend on the fourth day.
-55793a01-166c-484e-b28f-b2896427a538,今は____です。,五時半,It is half past five now.
-55793a01-166c-484e-b28f-b2896427a538,彼は____のケーキを食べました。,半分,He ate half of the cake.
-55793a01-166c-484e-b28f-b2896427a538,この本は____です。,三分の一,This book is one third.
+55793a01-166c-484e-b28f-b2896427a538,今は____です。,半,It is half past five now.
+55793a01-166c-484e-b28f-b2896427a538,彼は____のケーキを食べました。,半,He ate half of the cake.
+55793a01-166c-484e-b28f-b2896427a538,この本は____です。,半,This book is one third.
 533d95e1-c6c7-4694-bd7e-146c1b0d708c,今月の____は日曜日です。,八日,The eighth day of this month is Sunday.
 533d95e1-c6c7-4694-bd7e-146c1b0d708c,私の誕生日は____です。,八日,My birthday is on the eighth.
 533d95e1-c6c7-4694-bd7e-146c1b0d708c,____に友達と会います。,八日,I will meet my friend on the eighth.
 90d376f7-9fde-4979-b8ec-fd282109c231,この本は____ですか？,いくら,How much is this book?
-90d376f7-9fde-4979-b8ec-fd282109c231,あなたは____のりんごを買いましたか？,いくつ,How many apples did you buy?
+90d376f7-9fde-4979-b8ec-fd282109c231,あなたは____のりんごを買いましたか？,いくら,How many apples did you buy?
 90d376f7-9fde-4979-b8ec-fd282109c231,このシャツは____ですか？,いくら,How much is this shirt?
 a71628cb-a8fe-416e-9bb5-449ef1696d15,私は____つのリンゴがあります。,四,I have four apples.
 a71628cb-a8fe-416e-9bb5-449ef1696d15,彼は____人の友達がいます。,四,He has four friends.
 a71628cb-a8fe-416e-9bb5-449ef1696d15,教室には____つの机があります。,四,There are four desks in the classroom.
-8d9cfdbb-1484-4fce-976e-545d9ca96cac,このりんごは____です。,二百グラム,This apple is 200 grams.
-8d9cfdbb-1484-4fce-976e-545d9ca96cac,私は肉を____買います。,五百グラム,I will buy 500 grams of meat.
-8d9cfdbb-1484-4fce-976e-545d9ca96cac,このお米は____ですか？,一キログラム,How much is this rice in grams?
+8d9cfdbb-1484-4fce-976e-545d9ca96cac,このりんごは____です。,グラム,This apple is 200 grams.
+8d9cfdbb-1484-4fce-976e-545d9ca96cac,私は肉を____買います。,グラム,I will buy 500 grams of meat.
+8d9cfdbb-1484-4fce-976e-545d9ca96cac,このお米は____ですか？,グラム,How much is this rice in grams?
 626bcd5f-de9e-492f-832d-6feceb8fae1b,公園に____がいます。,二人,There are two people in the park.
 626bcd5f-de9e-492f-832d-6feceb8fae1b,____で映画を見ました。,二人,I watched a movie with two people.
 626bcd5f-de9e-492f-832d-6feceb8fae1b,友達と____で遊びました。,二人,I played with two people and my friend.
 e3fcf061-0b05-469a-9d4f-3f2a9b600a3c,彼は____の本を読みました。,全部,He read all the books.
 e3fcf061-0b05-469a-9d4f-3f2a9b600a3c,私たちは____の人を知っています。,全部,We know all the people.
 e3fcf061-0b05-469a-9d4f-3f2a9b600a3c,この料理は____おいしいです。,全部,This dish is all delicious.
-9eade8ed-0467-404f-bbc7-f2889055689d,さ来年、私は日本に行きます。____を楽しみにしています。,旅行,I will go to Japan the year after next. I am looking forward to the trip.
+9eade8ed-0467-404f-bbc7-f2889055689d,さ来年、私は日本に行きます。____を楽しみにしています。,さ来年,I will go to Japan the year after next. I am looking forward to the trip.
 9eade8ed-0467-404f-bbc7-f2889055689d,彼は____に大学を卒業します。,さ来年,He will graduate from university the year after next.
 9eade8ed-0467-404f-bbc7-f2889055689d,私たちは____の夏に結婚します。,さ来年,We will get married in the summer of the year after next.
-82addc58-4924-4b58-8c8c-c85f4d0dae20,私の部屋は3____です。,階,My room is on the third floor.
-82addc58-4924-4b58-8c8c-c85f4d0dae20,このビルは5____あります。,階,This building has five floors.
-82addc58-4924-4b58-8c8c-c85f4d0dae20,彼は2____に住んでいます。,階,He lives on the second floor.
-f1686fe6-99ea-44b3-8775-4cd451cec82f,今、私は____待っています。,十分,I am waiting for ten minutes.
-f1686fe6-99ea-44b3-8775-4cd451cec82f,電車は____に来ます。,五分,The train will come in five minutes.
-f1686fe6-99ea-44b3-8775-4cd451cec82f,宿題は____かかります。,三十分,The homework takes thirty minutes.
+82addc58-4924-4b58-8c8c-c85f4d0dae20,私の部屋は3____です。,～階,My room is on the third floor.
+82addc58-4924-4b58-8c8c-c85f4d0dae20,このビルは5____あります。,～階,This building has five floors.
+82addc58-4924-4b58-8c8c-c85f4d0dae20,彼は2____に住んでいます。,～階,He lives on the second floor.
+f1686fe6-99ea-44b3-8775-4cd451cec82f,今、私は____待っています。,～分,I am waiting for ten minutes.
+f1686fe6-99ea-44b3-8775-4cd451cec82f,電車は____に来ます。,～分,The train will come in five minutes.
+f1686fe6-99ea-44b3-8775-4cd451cec82f,宿題は____かかります。,～分,The homework takes thirty minutes.
 980ba8ef-09ea-44b5-b9cf-8efbbb8d6b02,このお菓子は____おいしくないです。,余り,This snack is not very tasty.
 980ba8ef-09ea-44b5-b9cf-8efbbb8d6b02,彼は____勉強しません。,余り,He does not study very much.
 980ba8ef-09ea-44b5-b9cf-8efbbb8d6b02,今日は____暑くないです。,余り,Today is not very hot.
-35e962b2-8e86-4407-9b07-488efb582d7f,ここで大声で____ください。,話さないで,Please don't speak loudly here.
-35e962b2-8e86-4407-9b07-488efb582d7f,その本を____ください。,読まないで,Please don't read that book.
-35e962b2-8e86-4407-9b07-488efb582d7f,遅れないで____。,ください,Please don't be late.
+35e962b2-8e86-4407-9b07-488efb582d7f,ここで大声で____ください。,ないでください,Please don't speak loudly here.
+35e962b2-8e86-4407-9b07-488efb582d7f,その本を____ください。,ないでください,Please don't read that book.
+35e962b2-8e86-4407-9b07-488efb582d7f,遅れないで____。,ないでください,Please don't be late.
 868e6369-fc44-4d4f-aa2e-5eaf50b59b5b,あなたは____歳ですか？,いくつ,How old are you?
 868e6369-fc44-4d4f-aa2e-5eaf50b59b5b,このリンゴは____ありますか？,いくつ,How many apples are there?
 868e6369-fc44-4d4f-aa2e-5eaf50b59b5b,彼は____の本を持っていますか？,いくつ,How many books does he have?
@@ -760,9 +761,9 @@ f552bb92-3d53-43af-854e-21a1ddaa2a92,この本は子供____読むことができ
 cbd91083-56b4-484f-8919-28598472b120,彼は____の花を持っています。,七つ,He has seven flowers.
 cbd91083-56b4-484f-8919-28598472b120,私の家には____の犬がいます。,七つ,There are seven dogs in my house.
 cbd91083-56b4-484f-8919-28598472b120,テーブルの上に____の本があります。,七つ,There are seven books on the table.
-99ae7ee5-7743-4bda-9ac5-c108e3f0fc95,この店で____の卵を買いました。,三個,I bought three eggs at this store.
-99ae7ee5-7743-4bda-9ac5-c108e3f0fc95,私は____の本を読みました。,二個,I read two books.
-99ae7ee5-7743-4bda-9ac5-c108e3f0fc95,テーブルの上に____のコップがあります。,四個,There are four cups on the table.
+99ae7ee5-7743-4bda-9ac5-c108e3f0fc95,この店で____の卵を買いました。,～個,I bought three eggs at this store.
+99ae7ee5-7743-4bda-9ac5-c108e3f0fc95,私は____の本を読みました。,～個,I read two books.
+99ae7ee5-7743-4bda-9ac5-c108e3f0fc95,テーブルの上に____のコップがあります。,～個,There are four cups on the table.
 f76d0754-9252-4c1a-b6fe-46d873452bda,彼はクラスで____成績がいいです。,一番,He has the best grades in the class.
 f76d0754-9252-4c1a-b6fe-46d873452bda,この映画は____面白いです。,一番,This movie is the most interesting.
 f76d0754-9252-4c1a-b6fe-46d873452bda,夏が____好きです。,一番,I like summer the most.
@@ -790,7 +791,7 @@ f0785e6b-a4cf-41e9-8fa6-befeea801282,____で友達に会います。,地下鉄,I
 50a2bb61-34c7-486f-b219-1b06de9f428e,彼は____がたくさんあります。,お金,He has a lot of money.
 50a2bb61-34c7-486f-b219-1b06de9f428e,この店で____を使えますか。,お金,Can I use money at this store?
 50a2bb61-34c7-486f-b219-1b06de9f428e,私は____をためています。,お金,I am saving money.
-0ae605d6-a7bd-41c9-b306-13debe9762a5,宿題を____。,しなくちゃ,I must do my homework.
+0ae605d6-a7bd-41c9-b306-13debe9762a5,宿題を____。,なくちゃ,I must do my homework.
 0ae605d6-a7bd-41c9-b306-13debe9762a5,明日、早く起き____。,なくちゃ,I need to wake up early tomorrow.
 0ae605d6-a7bd-41c9-b306-13debe9762a5,この本を読ま____。,なくちゃ,I have to read this book.
 086f7e2b-7cda-4316-9223-cd5f6f225664,毎朝、私は____を食べます。,朝御飯,"Every morning, I eat breakfast."
@@ -823,18 +824,18 @@ d1f7eb80-c8ac-4a4a-a921-e638a6d00bfc,この店の____はとてもおいしいで
 b3105598-0383-433c-a2e9-105aef60c103,私の好きな料理は____です。,豚肉,My favorite dish is pork.
 b3105598-0383-433c-a2e9-105aef60c103,夕ご飯に____を作ります。,豚肉,I will make pork for dinner.
 b3105598-0383-433c-a2e9-105aef60c103,____はとてもおいしいです。,豚肉,Pork is very delicious.
-2af139e5-1944-4ead-acbe-3de38ead4252,週末に映画を見たり、友達と遊んだりします。,たり,"On the weekend, I do things like watch movies and hang out with friends."
-2af139e5-1944-4ead-acbe-3de38ead4252,彼はサッカーをしたり、音楽を聞いたりします。,たり,He does things like play soccer and listen to music.
-2af139e5-1944-4ead-acbe-3de38ead4252,私は本を読んだり、勉強したりします。,たり,I do things like read books and study.
+2af139e5-1944-4ead-acbe-3de38ead4252,週末に映画を見たり、友達と遊んだりします。,たり〜たり,"On the weekend, I do things like watch movies and hang out with friends."
+2af139e5-1944-4ead-acbe-3de38ead4252,彼はサッカーをしたり、音楽を聞いたりします。,たり〜たり,He does things like play soccer and listen to music.
+2af139e5-1944-4ead-acbe-3de38ead4252,私は本を読んだり、勉強したりします。,たり〜たり,I do things like read books and study.
 d917b89e-a47e-4d40-9d6e-1da39933a849,彼は____が好きです。,鶏肉,He likes chicken meat.
 d917b89e-a47e-4d40-9d6e-1da39933a849,今晩、____を料理します。,鶏肉,I will cook chicken meat tonight.
 d917b89e-a47e-4d40-9d6e-1da39933a849,____はとても美味しいです。,鶏肉,Chicken meat is very delicious.
 dd89ced9-8cd1-4dd2-ae4a-b96131943d55,パンに____を塗ります。,バター,I spread butter on the bread.
 dd89ced9-8cd1-4dd2-ae4a-b96131943d55,このケーキには____が入っています。,バター,This cake contains butter.
 dd89ced9-8cd1-4dd2-ae4a-b96131943d55,彼は____を使って料理をします。,バター,He cooks with butter.
-cdfa8a0e-9c78-44ea-bc26-0cf004133b6f,あの____はとても人気があります。,本屋,That bookstore is very popular.
-cdfa8a0e-9c78-44ea-bc26-0cf004133b6f,この町にはたくさんの____があります。,花屋,There are many flower shops in this town.
-cdfa8a0e-9c78-44ea-bc26-0cf004133b6f,私は毎週____に行きます。,肉屋,I go to the butcher shop every week.
+cdfa8a0e-9c78-44ea-bc26-0cf004133b6f,あの____はとても人気があります。,～屋,That bookstore is very popular.
+cdfa8a0e-9c78-44ea-bc26-0cf004133b6f,この町にはたくさんの____があります。,～屋,There are many flower shops in this town.
+cdfa8a0e-9c78-44ea-bc26-0cf004133b6f,私は毎週____に行きます。,～屋,I go to the butcher shop every week.
 2334a66c-0a68-4f32-b00b-ce13401117c7,彼女は日本の____が好きです。,料理,She likes Japanese cuisine.
 2334a66c-0a68-4f32-b00b-ce13401117c7,私は毎日____をします。,料理,I cook every day.
 2334a66c-0a68-4f32-b00b-ce13401117c7,この____はとてもおいしいです。,料理,This dish is very delicious.
@@ -940,27 +941,27 @@ a16bed18-53db-4294-b5ea-7b093ba9ba4c,私は____を買いました。,飴,I bough
 dbfa04a0-869f-4e3a-ae32-060a8333640e,宿題を____。,なくてはいけない,I must do my homework.
 dbfa04a0-869f-4e3a-ae32-060a8333640e,明日、仕事に行く____。,なくてはいけない,I need to go to work tomorrow.
 dbfa04a0-869f-4e3a-ae32-060a8333640e,健康のために運動を____。,なくてはいけない,I must exercise for my health.
-0ce23bae-60b8-4e10-b7c2-97f4fba19b66,彼は英語を____。,教えます,He teaches English.
-0ce23bae-60b8-4e10-b7c2-97f4fba19b66,先生が私たちに日本語を____。,教えています,The teacher is teaching us Japanese.
-0ce23bae-60b8-4e10-b7c2-97f4fba19b66,母は私に料理を____。,教えてくれます,My mother teaches me how to cook.
-c3b48139-ebe4-49c3-b5c6-4b70cf84498d,早く寝た____いいです。,ほうが,You should go to bed early.
-c3b48139-ebe4-49c3-b5c6-4b70cf84498d,もっと勉強した____いいですよ。,ほうが,You had better study more.
-c3b48139-ebe4-49c3-b5c6-4b70cf84498d,雨が降るから、傘を持った____いいです。,ほうが,You should take an umbrella because it's going to rain.
+0ce23bae-60b8-4e10-b7c2-97f4fba19b66,彼は英語を____。,教える,He teaches English.
+0ce23bae-60b8-4e10-b7c2-97f4fba19b66,先生が私たちに日本語を____。,教える,The teacher is teaching us Japanese.
+0ce23bae-60b8-4e10-b7c2-97f4fba19b66,母は私に料理を____。,教える,My mother teaches me how to cook.
+c3b48139-ebe4-49c3-b5c6-4b70cf84498d,早く寝た____いいです。,ほうがいい,You should go to bed early.
+c3b48139-ebe4-49c3-b5c6-4b70cf84498d,もっと勉強した____いいですよ。,ほうがいい,You had better study more.
+c3b48139-ebe4-49c3-b5c6-4b70cf84498d,雨が降るから、傘を持った____いいです。,ほうがいい,You should take an umbrella because it's going to rain.
 e5c7a96f-1657-4a2f-b945-ed338d4beac8,水を____。,下さい,Please give me water.
 e5c7a96f-1657-4a2f-b945-ed338d4beac8,この本を____。,下さい,Please give me this book.
 e5c7a96f-1657-4a2f-b945-ed338d4beac8,手伝って____。,下さい,Please help me.
 3bc53523-6b06-4dba-b8c7-1183b759784e,これを____見てください。,どうぞ,Please look at this.
 3bc53523-6b06-4dba-b8c7-1183b759784e,席に座って____。,どうぞ,Please have a seat.
 3bc53523-6b06-4dba-b8c7-1183b759784e,お茶を____飲んでください。,どうぞ,Please drink the tea.
-2569c761-ea39-4c12-b62f-a689eb18edd0,この本を読んで____。,ください,Please read this book.
-2569c761-ea39-4c12-b62f-a689eb18edd0,もっと大きな声で話して____。,ください,Please speak in a louder voice.
-2569c761-ea39-4c12-b62f-a689eb18edd0,私に手伝って____。,ください,Please help me.
+2569c761-ea39-4c12-b62f-a689eb18edd0,この本を読んで____。,てください,Please read this book.
+2569c761-ea39-4c12-b62f-a689eb18edd0,もっと大きな声で話して____。,てください,Please speak in a louder voice.
+2569c761-ea39-4c12-b62f-a689eb18edd0,私に手伝って____。,てください,Please help me.
 d92d828c-1c53-4d41-b790-2386ed6a677e,本を読み____。,ましょうか,Shall I read the book?
 d92d828c-1c53-4d41-b790-2386ed6a677e,映画を見に行き____。,ましょうか,Shall I go to see the movie?
 d92d828c-1c53-4d41-b790-2386ed6a677e,あなたを駅まで送____。,ましょうか,Shall I take you to the station?
-cb498119-92f5-4442-96ea-c0e3281cfd6d,ここで走っては____。,いけない,You must not run here.
-cb498119-92f5-4442-96ea-c0e3281cfd6d,宿題を忘れては____。,いけない,You must not forget your homework.
-cb498119-92f5-4442-96ea-c0e3281cfd6d,この本を読んでは____。,いけない,You must not read this book.
+cb498119-92f5-4442-96ea-c0e3281cfd6d,ここで走っては____。,ちゃいけない・じゃいけない,You must not run here.
+cb498119-92f5-4442-96ea-c0e3281cfd6d,宿題を忘れては____。,ちゃいけない・じゃいけない,You must not forget your homework.
+cb498119-92f5-4442-96ea-c0e3281cfd6d,この本を読んでは____。,ちゃいけない・じゃいけない,You must not read this book.
 2e6c5523-bb49-472b-9345-ebf5f48934b0,友達に____ことがありますか？,頼む,Do you have something to request from a friend?
 2e6c5523-bb49-472b-9345-ebf5f48934b0,先生に宿題を____つもりです。,頼む,I plan to ask the teacher for homework.
 2e6c5523-bb49-472b-9345-ebf5f48934b0,彼に手伝いを____つもりです。,頼む,I intend to request his help.
@@ -973,15 +974,15 @@ cb498119-92f5-4442-96ea-c0e3281cfd6d,この本を読んでは____。,いけな�
 b7a2ce39-94ce-4141-b2c8-a2d937ec1ee9,私は____、友達と映画を見ました。,昨夜,"Last night, I watched a movie with my friend."
 b7a2ce39-94ce-4141-b2c8-a2d937ec1ee9,____、たくさんの星が見えました。,昨夜,"Last night, many stars were visible."
 b7a2ce39-94ce-4141-b2c8-a2d937ec1ee9,____、宿題をしました。,昨夜,"Last night, I did my homework."
-69e00c21-84ae-44bd-b595-40e76049be94,私は宿題を____。,まだしていません,I have not yet done my homework.
-69e00c21-84ae-44bd-b595-40e76049be94,彼は映画を____。,まだ見ていません,He has not yet seen the movie.
-69e00c21-84ae-44bd-b595-40e76049be94,私たちは昼ごはんを____。,まだ食べていません,We have not yet eaten lunch.
+69e00c21-84ae-44bd-b595-40e76049be94,私は宿題を____。,まだ〜ていません,I have not yet done my homework.
+69e00c21-84ae-44bd-b595-40e76049be94,彼は映画を____。,まだ〜ていません,He has not yet seen the movie.
+69e00c21-84ae-44bd-b595-40e76049be94,私たちは昼ごはんを____。,まだ〜ていません,We have not yet eaten lunch.
 79d9ea83-983b-472a-bfd4-5af0539d7d37,彼は____日本に行きました。,初めて,He went to Japan for the first time.
 79d9ea83-983b-472a-bfd4-5af0539d7d37,私は____映画を見ました。,初めて,I watched a movie for the first time.
 79d9ea83-983b-472a-bfd4-5af0539d7d37,彼女は____歌を歌いました。,初めて,She sang a song for the first time.
-9cb66291-19bf-4c79-91a9-8c240e2c2e7c,彼は日本で____。,生まれた,He was born in Japan.
+9cb66291-19bf-4c79-91a9-8c240e2c2e7c,彼は日本で____。,生まれる,He was born in Japan.
 9cb66291-19bf-4c79-91a9-8c240e2c2e7c,私の妹は来月____。,生まれる,My younger sister will be born next month.
-9cb66291-19bf-4c79-91a9-8c240e2c2e7c,犬は春に____。,生まれます,Dogs are born in spring.
+9cb66291-19bf-4c79-91a9-8c240e2c2e7c,犬は春に____。,生まれる,Dogs are born in spring.
 17c4a8f7-2d92-4b7c-9ec1-09188b08b493,彼は日本に____。,たことがある,He has been to Japan.
 17c4a8f7-2d92-4b7c-9ec1-09188b08b493,私はその映画を見____。,たことがある,I have seen that movie.
 17c4a8f7-2d92-4b7c-9ec1-09188b08b493,彼女は料理を作____。,たことがある,She has cooked before.
@@ -991,9 +992,9 @@ b7a2ce39-94ce-4141-b2c8-a2d937ec1ee9,____、宿題をしました。,昨夜,"Las
 51d9f6e4-b6a8-4ed1-a85e-bc732b5f4242,彼は日本の文化を____。,知る,He knows about Japanese culture.
 51d9f6e4-b6a8-4ed1-a85e-bc732b5f4242,私は彼女の名前を____。,知る,I know her name.
 51d9f6e4-b6a8-4ed1-a85e-bc732b5f4242,あなたはその映画を____。,知る,You know that movie.
-591589f1-3cd3-49ce-a6d1-7e92a8ceb1a2,彼は三時____来ます。,ごろ,He will come around three o'clock.
-591589f1-3cd3-49ce-a6d1-7e92a8ceb1a2,七時____朝ごはんを食べます。,ころ,I eat breakfast around seven o'clock.
-591589f1-3cd3-49ce-a6d1-7e92a8ceb1a2,彼女は十年前____日本に住んでいました。,ごろ,She lived in Japan about ten years ago.
+591589f1-3cd3-49ce-a6d1-7e92a8ceb1a2,彼は三時____来ます。,ころ; ごろ,He will come around three o'clock.
+591589f1-3cd3-49ce-a6d1-7e92a8ceb1a2,七時____朝ごはんを食べます。,ころ; ごろ,I eat breakfast around seven o'clock.
+591589f1-3cd3-49ce-a6d1-7e92a8ceb1a2,彼女は十年前____日本に住んでいました。,ころ; ごろ,She lived in Japan about ten years ago.
 e936eb40-73cc-4597-a514-58ebbd8196f8,彼は____来ましたか？,もう,Has he come already?
 e936eb40-73cc-4597-a514-58ebbd8196f8,あなたは____食べましたか？,もう,Have you eaten already?
 e936eb40-73cc-4597-a514-58ebbd8196f8,宿題は____終わりました。,もう,I already finished the homework.
@@ -1003,15 +1004,15 @@ e936eb40-73cc-4597-a514-58ebbd8196f8,宿題は____終わりました。,もう,I
 02d72574-5e12-4206-89d1-269af9ccb20d,彼は歌う____です。,のが上手,He is good at singing.
 02d72574-5e12-4206-89d1-269af9ccb20d,私は日本語を話す____。,のが上手,I am good at speaking Japanese.
 02d72574-5e12-4206-89d1-269af9ccb20d,彼女は料理をする____。,のが上手,She is good at cooking.
-9d775b5d-fee0-4ca7-bbf9-4d6af11bd0bb,この本を読んでも____。,いいです,It is okay to read this book.
-9d775b5d-fee0-4ca7-bbf9-4d6af11bd0bb,ここで写真を撮っても____。,いいです,It is okay to take pictures here.
-9d775b5d-fee0-4ca7-bbf9-4d6af11bd0bb,友達と遊んでも____。,いいです,It is okay to play with friends.
+9d775b5d-fee0-4ca7-bbf9-4d6af11bd0bb,この本を読んでも____。,てもいいです,It is okay to read this book.
+9d775b5d-fee0-4ca7-bbf9-4d6af11bd0bb,ここで写真を撮っても____。,てもいいです,It is okay to take pictures here.
+9d775b5d-fee0-4ca7-bbf9-4d6af11bd0bb,友達と遊んでも____。,てもいいです,It is okay to play with friends.
 2538a3ad-4f64-4db4-99d0-a51ed7f550f1,今日は勉強し____。,なくてもいい,You don't have to study today.
 2538a3ad-4f64-4db4-99d0-a51ed7f550f1,その本を読ま____。,なくてもいい,You don't have to read that book.
 2538a3ad-4f64-4db4-99d0-a51ed7f550f1,パーティーに行か____。,なくてもいい,You don't have to go to the party.
 328be9e3-97d8-4d65-9e9b-4210b8754102,映画を見____。,ませんか,Would you like to watch a movie?
-328be9e3-97d8-4d65-9e9b-4210b8754102,一緒に行____。,きませんか,Shall we go together?
-328be9e3-97d8-4d65-9e9b-4210b8754102,カフェでコーヒーを飲____。,みませんか,Would you like to drink coffee at the café?
+328be9e3-97d8-4d65-9e9b-4210b8754102,一緒に行____。,ませんか,Shall we go together?
+328be9e3-97d8-4d65-9e9b-4210b8754102,カフェでコーヒーを飲____。,ませんか,Would you like to drink coffee at the café?
 28a647b2-279f-4136-b618-92c62ecad993,私は____、勉強します。,今,I study now.
 28a647b2-279f-4136-b618-92c62ecad993,彼は____、テレビを見ています。,今,He is watching TV now.
 28a647b2-279f-4136-b618-92c62ecad993,私たちは____、公園に行きます。,今,We are going to the park now.
@@ -1021,9 +1022,9 @@ e936eb40-73cc-4597-a514-58ebbd8196f8,宿題は____終わりました。,もう,I
 64a3b264-98cd-4a40-8044-72b924cedd24,毎週土曜日に____へ行きます。,図書館,I go to the library every Saturday.
 64a3b264-98cd-4a40-8044-72b924cedd24,____で本を借りました。,図書館,I borrowed a book at the library.
 64a3b264-98cd-4a40-8044-72b924cedd24,私の家の近くに____があります。,図書館,There is a library near my house.
-e8c483c1-6255-40cf-919f-51b11cf288d9,彼は学生____。,です,He is a student.
-e8c483c1-6255-40cf-919f-51b11cf288d9,これは本____。,だ,This is a book.
-e8c483c1-6255-40cf-919f-51b11cf288d9,私の名前は田中____。,です,My name is Tanaka.
+e8c483c1-6255-40cf-919f-51b11cf288d9,彼は学生____。,だ・です,He is a student.
+e8c483c1-6255-40cf-919f-51b11cf288d9,これは本____。,だ・です,This is a book.
+e8c483c1-6255-40cf-919f-51b11cf288d9,私の名前は田中____。,だ・です,My name is Tanaka.
 d4595106-5abc-4006-9f27-e2d0855d8f9a,これはあなたの本ですか？____。,ええ,Is this your book? Yes.
 d4595106-5abc-4006-9f27-e2d0855d8f9a,明日、映画に行きますか？____。,ええ,Are you going to the movies tomorrow? Yes.
 d4595106-5abc-4006-9f27-e2d0855d8f9a,あなたは日本語を話せますか？____。,ええ,Can you speak Japanese? Yes.
@@ -1039,9 +1040,9 @@ b4f1539a-94f1-4149-aeeb-8fbf09deca39,彼は日本語____英語を勉強してい
 612ba6d1-d09a-46a9-8ad9-479655ee0579,私は学校で____を使います。,ノート,I use a notebook at school.
 612ba6d1-d09a-46a9-8ad9-479655ee0579,彼は毎日____に書きます。,ノート,He writes in his notebook every day.
 612ba6d1-d09a-46a9-8ad9-479655ee0579,____を買いましたか？,ノート,Did you buy a notebook?
-c8d63842-9df0-4442-be88-7d045107a271,彼は____学生です。,日本の,He is a Japanese student.
-c8d63842-9df0-4442-be88-7d045107a271,今日は____いい天気です。,とても,Today is very nice weather.
-c8d63842-9df0-4442-be88-7d045107a271,私の犬は____かわいいです。,とても,My dog is very cute.
+c8d63842-9df0-4442-be88-7d045107a271,彼は____学生です。,は,He is a Japanese student.
+c8d63842-9df0-4442-be88-7d045107a271,今日は____いい天気です。,は,Today is very nice weather.
+c8d63842-9df0-4442-be88-7d045107a271,私の犬は____かわいいです。,は,My dog is very cute.
 9656ca0d-ee79-4fb9-88d3-df58dfb816c2,公園で____が遊んでいます。,女の子,A girl is playing in the park.
 9656ca0d-ee79-4fb9-88d3-df58dfb816c2,彼は____と友達です。,女の子,He is friends with a girl.
 9656ca0d-ee79-4fb9-88d3-df58dfb816c2,____は学校に行きます。,女の子,The girl goes to school.
@@ -1150,18 +1151,18 @@ d43ca8f5-f6e7-45b8-9bcb-3c76a9ebf4cc,私は____旅行に行きます。,今年,I
 152e5789-3385-44dc-a546-5b78dff8769e,あなたは____行きませんか？,なぜ,Why don't you go?
 152e5789-3385-44dc-a546-5b78dff8769e,彼は____学校に遅れましたか？,なぜ,Why was he late to school?
 152e5789-3385-44dc-a546-5b78dff8769e,私たちは____その映画を見ないのですか？,なぜ,Why aren't we watching that movie?
-09c1bb27-b1f2-4568-9f49-038c677758e8,彼は日本____を勉強しています。,語,He is studying the Japanese language.
-09c1bb27-b1f2-4568-9f49-038c677758e8,この____は難しいですか。,語,Is this word difficult?
-09c1bb27-b1f2-4568-9f49-038c677758e8,私は英____を話せます。,語,I can speak English.
+09c1bb27-b1f2-4568-9f49-038c677758e8,彼は日本____を勉強しています。,～語,He is studying the Japanese language.
+09c1bb27-b1f2-4568-9f49-038c677758e8,この____は難しいですか。,～語,Is this word difficult?
+09c1bb27-b1f2-4568-9f49-038c677758e8,私は英____を話せます。,～語,I can speak English.
 3c2da4eb-e630-4401-8c7c-8281a5fba4ca,私は毎日____に起きます。,朝,I wake up every morning.
 3c2da4eb-e630-4401-8c7c-8281a5fba4ca,____に散歩をします。,朝,I take a walk in the morning.
 3c2da4eb-e630-4401-8c7c-8281a5fba4ca,____はとても静かです。,朝,The morning is very quiet.
 074e2fa4-5689-4e30-a1f9-0b7c8742762b,あなたは____学校に行きますか？,どうして,Why do you go to school?
 074e2fa4-5689-4e30-a1f9-0b7c8742762b,彼は____遅れましたか？,どうして,Why was he late?
 074e2fa4-5689-4e30-a1f9-0b7c8742762b,____泣いているのですか？,どうして,Why are you crying?
-460f64c7-a442-4416-a2e0-2c733773f5f9,明日、映画に行く？____、行きます。,じゃあ,"Are you going to the movies tomorrow? Well, then, I will go."
-460f64c7-a442-4416-a2e0-2c733773f5f9,この本は面白い？____、読んでみます。,じゃあ,"Is this book interesting? Well, then, I will try reading it."
-460f64c7-a442-4416-a2e0-2c733773f5f9,今、勉強している？____、手伝うよ。,じゃあ,"Are you studying now? Well, then, I will help you."
+460f64c7-a442-4416-a2e0-2c733773f5f9,明日、映画に行く？____、行きます。,じゃ; じゃあ,"Are you going to the movies tomorrow? Well, then, I will go."
+460f64c7-a442-4416-a2e0-2c733773f5f9,この本は面白い？____、読んでみます。,じゃ; じゃあ,"Is this book interesting? Well, then, I will try reading it."
+460f64c7-a442-4416-a2e0-2c733773f5f9,今、勉強している？____、手伝うよ。,じゃ; じゃあ,"Are you studying now? Well, then, I will help you."
 97a418bf-09a9-443c-be35-1b1a4d77f7f0,彼は____に行きます。,大学,He goes to university.
 97a418bf-09a9-443c-be35-1b1a4d77f7f0,私は____で勉強しています。,大学,I am studying at university.
 97a418bf-09a9-443c-be35-1b1a4d77f7f0,彼女は____を卒業しました。,大学,She graduated from university.
@@ -1186,21 +1187,21 @@ ac9b8b29-07d8-4c5f-9889-00a5050beb7a,彼は忙しい____、手伝えません。
 c032253b-b651-4276-b1a6-e22c868d03dd,彼は____がとても上手です。,方,He is very good at his way of doing things.
 c032253b-b651-4276-b1a6-e22c868d03dd,あの____はとても親切です。,方,That person is very kind.
 c032253b-b651-4276-b1a6-e22c868d03dd,この____で行くと早いです。,方,It is faster to go this way.
-ce8c3627-0a98-4288-852b-1885d7c72d4e,宿題を____学校に行きました。,しないで,I went to school without doing my homework.
-ce8c3627-0a98-4288-852b-1885d7c72d4e,朝ごはんを____出かけました。,食べないで,I went out without eating breakfast.
+ce8c3627-0a98-4288-852b-1885d7c72d4e,宿題を____学校に行きました。,ないで,I went to school without doing my homework.
+ce8c3627-0a98-4288-852b-1885d7c72d4e,朝ごはんを____出かけました。,ないで,I went out without eating breakfast.
 ce8c3627-0a98-4288-852b-1885d7c72d4e,友達と遊ば____勉強しました。,ないで,I studied without playing with my friends.
 9c7e007d-38e3-412f-b66d-4002f4f05193,あなたは____行きますか？,どうやって,How do you go?
 9c7e007d-38e3-412f-b66d-4002f4f05193,彼は____勉強しますか？,どうやって,How does he study?
 9c7e007d-38e3-412f-b66d-4002f4f05193,私たちは____この問題を解決しますか？,どうやって,How will we solve this problem?
-a5c86e22-1a88-4d2c-b6fa-186325e594db,お____は元気ですか？,母,Is your honorable mother well?
-a5c86e22-1a88-4d2c-b6fa-186325e594db,お____をください。,茶,Please give me the honorable tea.
-a5c86e22-1a88-4d2c-b6fa-186325e594db,お____に行きます。,店,I will go to the honorable store.
+a5c86e22-1a88-4d2c-b6fa-186325e594db,お____は元気ですか？,お～,Is your honorable mother well?
+a5c86e22-1a88-4d2c-b6fa-186325e594db,お____をください。,お～,Please give me the honorable tea.
+a5c86e22-1a88-4d2c-b6fa-186325e594db,お____に行きます。,お～,I will go to the honorable store.
 2129910d-163a-4b30-bfdd-eab0f970bfaf,これはとても大きい____。,よ,"This is very big, you know."
 2129910d-163a-4b30-bfdd-eab0f970bfaf,明日は雨が降る____。,よ,"It will rain tomorrow, you know."
 2129910d-163a-4b30-bfdd-eab0f970bfaf,彼は日本語が上手だ____。,よ,"He is good at Japanese, you know."
-6653aa51-f139-4d67-b79b-1ad6e476b49d,この映画は____。,どうですか,How about this movie?
-6653aa51-f139-4d67-b79b-1ad6e476b49d,その本は____。,どうですか,How is that book?
-6653aa51-f139-4d67-b79b-1ad6e476b49d,明日の天気は____。,どうですか,How is the weather tomorrow?
+6653aa51-f139-4d67-b79b-1ad6e476b49d,この映画は____。,はどうですか,How about this movie?
+6653aa51-f139-4d67-b79b-1ad6e476b49d,その本は____。,はどうですか,How is that book?
+6653aa51-f139-4d67-b79b-1ad6e476b49d,明日の天気は____。,はどうですか,How is the weather tomorrow?
 5ce96063-cb05-40fe-bbd7-4f7f7f93f653,今日は雨が降る____、家にいます。,ので,I will stay home because it will rain today.
 5ce96063-cb05-40fe-bbd7-4f7f7f93f653,お腹が空いた____、何かを食べます。,ので,I will eat something because I am hungry.
 5ce96063-cb05-40fe-bbd7-4f7f7f93f653,彼は忙しい____、手伝えません。,ので,He cannot help because he is busy.
@@ -1210,15 +1211,15 @@ f68feffd-2212-4b2b-9346-4ab42417a56d,彼女は旅行に行きたがっていま�
 d7883739-f9ca-4132-99ab-83ba3b8a5a90,今日は雨が降っています____、私は出かけます。,けれども,"It is raining today, but I will go out."
 d7883739-f9ca-4132-99ab-83ba3b8a5a90,彼は日本語が上手です____、英語が苦手です。,けれども,"He is good at Japanese, but he is not good at English."
 d7883739-f9ca-4132-99ab-83ba3b8a5a90,この本は面白い____、ちょっと難しいです。,けれども,"This book is interesting, but a little difficult."
-29ea9cba-ba0b-44ef-91e3-22bbd2a0bc01,田中____は先生です。,さん,Mr. Tanaka is a teacher.
-29ea9cba-ba0b-44ef-91e3-22bbd2a0bc01,あの女の子は佐藤____です。,さん,That girl is Ms. Sato.
-29ea9cba-ba0b-44ef-91e3-22bbd2a0bc01,山田____は日本人です。,さん,Mr. Yamada is Japanese.
-aea0d7b0-5c2a-4857-9d2d-932a5edfb9a3,彼は学生____。,なのです,He is a student.
+29ea9cba-ba0b-44ef-91e3-22bbd2a0bc01,田中____は先生です。,～さん,Mr. Tanaka is a teacher.
+29ea9cba-ba0b-44ef-91e3-22bbd2a0bc01,あの女の子は佐藤____です。,～さん,That girl is Ms. Sato.
+29ea9cba-ba0b-44ef-91e3-22bbd2a0bc01,山田____は日本人です。,～さん,Mr. Yamada is Japanese.
+aea0d7b0-5c2a-4857-9d2d-932a5edfb9a3,彼は学生____。,のです,He is a student.
 aea0d7b0-5c2a-4857-9d2d-932a5edfb9a3,今日は雨が降る____。,のです,It will rain today.
-aea0d7b0-5c2a-4857-9d2d-932a5edfb9a3,彼女は日本語が上手____。,なのです,She is good at Japanese.
-58082056-52a2-4f66-a7f5-d3dc861f73dd,この映画は面白いなあ____。,と思います,"This movie is interesting, isn't it?"
-58082056-52a2-4f66-a7f5-d3dc861f73dd,彼は優しいなあ____。,と思う,"He is kind, isn't he?"
-58082056-52a2-4f66-a7f5-d3dc861f73dd,今日は暑いなあ____。,と思った,"Today is hot, isn't it?"
+aea0d7b0-5c2a-4857-9d2d-932a5edfb9a3,彼女は日本語が上手____。,のです,She is good at Japanese.
+58082056-52a2-4f66-a7f5-d3dc861f73dd,この映画は面白いなあ____。,なあ,"This movie is interesting, isn't it?"
+58082056-52a2-4f66-a7f5-d3dc861f73dd,彼は優しいなあ____。,なあ,"He is kind, isn't he?"
+58082056-52a2-4f66-a7f5-d3dc861f73dd,今日は暑いなあ____。,なあ,"Today is hot, isn't it?"
 5a716ea9-2d2a-486b-b9a8-6a2c99c265d0,彼は日本語が上手ですが、____英語が下手です。,でも,"He is good at Japanese, but he is bad at English."
 5a716ea9-2d2a-486b-b9a8-6a2c99c265d0,今日は雨が降っています。____、私は行きます。,でも,"It is raining today, but I will go."
 5a716ea9-2d2a-486b-b9a8-6a2c99c265d0,この映画は面白いです。____、少し長いです。,でも,"This movie is interesting, but it is a bit long."
@@ -1240,12 +1241,12 @@ ff843948-f610-4a5b-bb71-f35ca6c9d225,この映画は面白い____。,でしょ�
 19da75de-de98-496c-8c2a-0e1ea4454683,今日は雨が降っています。____、外に行きません。,では,"It's raining today. So, I won't go outside."
 19da75de-de98-496c-8c2a-0e1ea4454683,宿題をしましたか？____、まだ終わっていません。,では,"Did you do your homework? Well, I haven't finished it yet."
 19da75de-de98-496c-8c2a-0e1ea4454683,明日、映画を見ます。____、楽しみにしています。,では,"I'm going to watch a movie tomorrow. Then, I'm looking forward to it."
-e1318cd0-0a3f-4e9e-9e8c-fda4600ad1a4,彼は日本人ですが、私も____です。,日本人,"He is Japanese, and I am Japanese too."
-e1318cd0-0a3f-4e9e-9e8c-fda4600ad1a4,私はサッカーが好きですが、彼女も____です。,好き,"I like soccer, and she likes it too."
-e1318cd0-0a3f-4e9e-9e8c-fda4600ad1a4,この本は面白いですが、あの本も____です。,面白い,"This book is interesting, and that book is interesting too."
-e00b982d-4ee1-497a-8f57-a8c53788afd0,彼は学生ですか？____。,そうです,"Is he a student? Yes, that's right."
-e00b982d-4ee1-497a-8f57-a8c53788afd0,明日は雨が降ると聞きました。____。,そうです,I heard it will rain tomorrow. It seems that way.
-e00b982d-4ee1-497a-8f57-a8c53788afd0,この映画は面白いですか？____。,そうです,"Is this movie interesting? Yes, that's right."
+e1318cd0-0a3f-4e9e-9e8c-fda4600ad1a4,彼は日本人ですが、私も____です。,も,"He is Japanese, and I am Japanese too."
+e1318cd0-0a3f-4e9e-9e8c-fda4600ad1a4,私はサッカーが好きですが、彼女も____です。,も,"I like soccer, and she likes it too."
+e1318cd0-0a3f-4e9e-9e8c-fda4600ad1a4,この本は面白いですが、あの本も____です。,も,"This book is interesting, and that book is interesting too."
+e00b982d-4ee1-497a-8f57-a8c53788afd0,彼は学生ですか？____。,そう; そうです,"Is he a student? Yes, that's right."
+e00b982d-4ee1-497a-8f57-a8c53788afd0,明日は雨が降ると聞きました。____。,そう; そうです,I heard it will rain tomorrow. It seems that way.
+e00b982d-4ee1-497a-8f57-a8c53788afd0,この映画は面白いですか？____。,そう; そうです,"Is this movie interesting? Yes, that's right."
 1f0e7895-4edb-44f9-a308-bf14cee2e3de,今日は晴れていますが、____雨が降るかもしれません。,しかし,"It is sunny today, but it might rain."
 1f0e7895-4edb-44f9-a308-bf14cee2e3de,彼は日本語が上手です、____英語はあまり話せません。,しかし,"He is good at Japanese, but he can't speak English very well."
 1f0e7895-4edb-44f9-a308-bf14cee2e3de,私は本が好きです、____映画はあまり見ません。,しかし,"I like books, but I don’t watch movies much."
@@ -1255,42 +1256,42 @@ e00b982d-4ee1-497a-8f57-a8c53788afd0,この映画は面白いですか？____。
 4b032c35-2e19-40c1-90e0-fb7aa2dc78d7,今日はいい天気ですね。,ね,"It's nice weather today, isn't it?"
 4b032c35-2e19-40c1-90e0-fb7aa2dc78d7,この映画は面白いですね。,ね,"This movie is interesting, right?"
 4b032c35-2e19-40c1-90e0-fb7aa2dc78d7,あなたも行きますね。,ね,"You are going too, eh?"
-b6cdf8e6-6c31-457d-878a-e90b26335638,彼は学生なんです。,学生,He is a student.
-b6cdf8e6-6c31-457d-878a-e90b26335638,明日、雨が降るんです。,雨,It will rain tomorrow.
-b6cdf8e6-6c31-457d-878a-e90b26335638,これは私の本なんです。,本,This is my book.
+b6cdf8e6-6c31-457d-878a-e90b26335638,彼は学生なんです。,んです,He is a student.
+b6cdf8e6-6c31-457d-878a-e90b26335638,明日、雨が降るんです。,んです,It will rain tomorrow.
+b6cdf8e6-6c31-457d-878a-e90b26335638,これは私の本なんです。,んです,This is my book.
 2206942f-c43a-4e18-afbd-b68696ab3269,彼は____来るでしょう。,多分,He will probably come.
 2206942f-c43a-4e18-afbd-b68696ab3269,明日は____雨が降るかもしれません。,多分,It may rain tomorrow.
 2206942f-c43a-4e18-afbd-b68696ab3269,この映画は____面白いと思います。,多分,I think this movie is probably interesting.
-f19a5e2d-4073-4a06-8010-17003590d507,私は本を読みます。____、音楽を聞きます。,そして,"I read a book. And then, I listen to music."
-f19a5e2d-4073-4a06-8010-17003590d507,彼は日本語を勉強します。____、英語も勉強します。,そうして,"He studies Japanese. And then, he studies English."
-f19a5e2d-4073-4a06-8010-17003590d507,私は朝ごはんを食べました。____、学校に行きました。,そして,"I ate breakfast. And then, I went to school."
+f19a5e2d-4073-4a06-8010-17003590d507,私は本を読みます。____、音楽を聞きます。,そうして; そして,"I read a book. And then, I listen to music."
+f19a5e2d-4073-4a06-8010-17003590d507,彼は日本語を勉強します。____、英語も勉強します。,そうして; そして,"He studies Japanese. And then, he studies English."
+f19a5e2d-4073-4a06-8010-17003590d507,私は朝ごはんを食べました。____、学校に行きました。,そうして; そして,"I ate breakfast. And then, I went to school."
 9788d7ea-6ba8-46e9-955a-af7d42f78867,私は毎日____を書きます。,作文,I write an essay every day.
 9788d7ea-6ba8-46e9-955a-af7d42f78867,先生は私の____を見てくれました。,作文,The teacher looked at my essay.
 9788d7ea-6ba8-46e9-955a-af7d42f78867,明日、学校で____を提出します。,作文,I will submit my essay at school tomorrow.
-2392cfe8-fdc0-494a-9f01-2b2535ddc843,この本はテーブルの上に____。,置いてある,This book is on the table.
-2392cfe8-fdc0-494a-9f01-2b2535ddc843,ドアは開いて____。,ある,The door is open.
-2392cfe8-fdc0-494a-9f01-2b2535ddc843,彼の部屋にはおもちゃがたくさん____。,置いてある,There are many toys in his room.
+2392cfe8-fdc0-494a-9f01-2b2535ddc843,この本はテーブルの上に____。,てある,This book is on the table.
+2392cfe8-fdc0-494a-9f01-2b2535ddc843,ドアは開いて____。,てある,The door is open.
+2392cfe8-fdc0-494a-9f01-2b2535ddc843,彼の部屋にはおもちゃがたくさん____。,てある,There are many toys in his room.
 11063a7f-71c3-45b0-9387-9334368fd541,私は昼ごはんを____。,にする,I will decide on lunch.
 11063a7f-71c3-45b0-9387-9334368fd541,彼は新しい車を____。,にする,He will choose a new car.
 11063a7f-71c3-45b0-9387-9334368fd541,私たちは旅行の場所を____。,にする,We will decide on the travel destination.
-fd696251-cc6a-4e23-929e-7c7ccaf08fc2,この仕事は____時間がかかります。,三,This job takes three hours.
-fd696251-cc6a-4e23-929e-7c7ccaf08fc2,映画を見るのに____円かかります。,千,It costs a thousand yen to watch the movie.
-fd696251-cc6a-4e23-929e-7c7ccaf08fc2,家まで____分かかります。,十分,It takes ten minutes to get home.
+fd696251-cc6a-4e23-929e-7c7ccaf08fc2,この仕事は____時間がかかります。,かかる,This job takes three hours.
+fd696251-cc6a-4e23-929e-7c7ccaf08fc2,映画を見るのに____円かかります。,かかる,It costs a thousand yen to watch the movie.
+fd696251-cc6a-4e23-929e-7c7ccaf08fc2,家まで____分かかります。,かかる,It takes ten minutes to get home.
 85c8c511-d671-4838-aa90-35aabdd39a66,この映画は____面白いです。,すぎ,This movie is too interesting.
 85c8c511-d671-4838-aa90-35aabdd39a66,彼は勉強を____しています。,すぎ,He studies too much.
 85c8c511-d671-4838-aa90-35aabdd39a66,今日は寒____です。,すぎ,Today is too cold.
-0274ce56-59c7-488d-aa79-475da89f096a,学校の後で____に行きます。,友達,I will go to my friend after school.
-0274ce56-59c7-488d-aa79-475da89f096a,晩ご飯の後に____をします。,テレビ,I will watch TV after dinner.
-0274ce56-59c7-488d-aa79-475da89f096a,仕事の後で____に行きたいです。,買い物,I want to go shopping after work.
+0274ce56-59c7-488d-aa79-475da89f096a,学校の後で____に行きます。,後,I will go to my friend after school.
+0274ce56-59c7-488d-aa79-475da89f096a,晩ご飯の後に____をします。,後,I will watch TV after dinner.
+0274ce56-59c7-488d-aa79-475da89f096a,仕事の後で____に行きたいです。,後,I want to go shopping after work.
 cf87c2e5-cd5e-4220-b38a-0305913b22ef,彼は____です。,学生,He is a student.
 cf87c2e5-cd5e-4220-b38a-0305913b22ef,私は毎日____に行きます。,学生,I go to school every day as a student.
 cf87c2e5-cd5e-4220-b38a-0305913b22ef,彼女は日本の____です。,学生,She is a student in Japan.
 1e118b81-6e1b-4b53-9f44-caf1748c8def,朝ごはんを食べました。____、学校に行きました。,それから,"I had breakfast. And then, I went to school."
 1e118b81-6e1b-4b53-9f44-caf1748c8def,本を読みました。____、友達に会いました。,それから,"I read a book. And then, I met my friend."
 1e118b81-6e1b-4b53-9f44-caf1748c8def,映画を見ました。____、家に帰りました。,それから,"I watched a movie. And then, I went home."
-abe32a3a-1853-4376-a865-06558ad19414,あなたは学生ですか____先生ですか。,か,Are you a student or a teacher?
-abe32a3a-1853-4376-a865-06558ad19414,これは本ですか____雑誌ですか。,か,Is this a book or a magazine?
-abe32a3a-1853-4376-a865-06558ad19414,彼は日本に行きますか____韓国に行きますか。,か,Is he going to Japan or to Korea?
+abe32a3a-1853-4376-a865-06558ad19414,あなたは学生ですか____先生ですか。,か〜か,Are you a student or a teacher?
+abe32a3a-1853-4376-a865-06558ad19414,これは本ですか____雑誌ですか。,か〜か,Is this a book or a magazine?
+abe32a3a-1853-4376-a865-06558ad19414,彼は日本に行きますか____韓国に行きますか。,か〜か,Is he going to Japan or to Korea?
 374d23a8-c765-4bff-a625-cb1387b85bd5,彼は先生に____。,なる,He will become a teacher.
 374d23a8-c765-4bff-a625-cb1387b85bd5,彼女は歌手に____。,なる,She will become a singer.
 374d23a8-c765-4bff-a625-cb1387b85bd5,私は大人に____。,なる,I will become an adult.
@@ -1300,9 +1301,9 @@ cff4d38c-13d8-4942-8413-dc195b4ee3ed,日本語の先生に____。,なる,I will 
 29cec996-4870-4f61-8e67-ce4d956273ba,あの____は学生です。,人,That person is a student.
 29cec996-4870-4f61-8e67-ce4d956273ba,公園にたくさんの____がいます。,人,There are many people in the park.
 29cec996-4870-4f61-8e67-ce4d956273ba,私の友達はいい____です。,人,My friend is a good person.
-19025bf5-2129-453b-83b6-471ac9223708,新しい仕事の____は難しいです。,始め,The start of a new job is difficult.
-19025bf5-2129-453b-83b6-471ac9223708,学校の____は四月です。,始め,The beginning of school is in April.
-19025bf5-2129-453b-83b6-471ac9223708,彼の____はとても大切です。,初め,His beginning is very important.
+19025bf5-2129-453b-83b6-471ac9223708,新しい仕事の____は難しいです。,初め; 始め,The start of a new job is difficult.
+19025bf5-2129-453b-83b6-471ac9223708,学校の____は四月です。,初め; 始め,The beginning of school is in April.
+19025bf5-2129-453b-83b6-471ac9223708,彼の____はとても大切です。,初め; 始め,His beginning is very important.
 2a3bdd1d-1ee2-47e6-accf-702b1c0513d7,今日は雨が降っていますが、____行きます。,しかし,"It is raining today, however, I will go."
 2a3bdd1d-1ee2-47e6-accf-702b1c0513d7,彼は日本語が上手です。____英語はあまり話せません。,しかし,"He is good at Japanese, but he cannot speak English very well."
 2a3bdd1d-1ee2-47e6-accf-702b1c0513d7,この本は面白いです。____少し難しいです。,しかし,"This book is interesting, however, it is a little difficult."
@@ -1330,8 +1331,8 @@ b6047a5a-8726-4dea-b357-4d7ecf3a17af,____を見ながら、夕ご飯を食べま
 c4c6e435-0c9a-4c17-8ab3-10fcd3e744e9,彼は面白い____をします。,話,He tells an interesting story.
 c4c6e435-0c9a-4c17-8ab3-10fcd3e744e9,友達と____をしました。,話,I had a chat with my friend.
 c4c6e435-0c9a-4c17-8ab3-10fcd3e744e9,この本には面白い____があります。,話,This book has an interesting story.
-f72f9754-264a-4585-8eb1-8c2bd3a9e275,あなたは学生____。,ですか,Are you a student?
-f72f9754-264a-4585-8eb1-8c2bd3a9e275,これは何____。,ですか,What is this?
+f72f9754-264a-4585-8eb1-8c2bd3a9e275,あなたは学生____。,か,Are you a student?
+f72f9754-264a-4585-8eb1-8c2bd3a9e275,これは何____。,か,What is this?
 f72f9754-264a-4585-8eb1-8c2bd3a9e275,明日、行きます____。,か,Are you going tomorrow?
 3f65aa26-259c-4e78-a034-ee8730d12b36,この____はとても安いです。,店,This shop is very cheap.
 3f65aa26-259c-4e78-a034-ee8730d12b36,あの____でお菓子を買いました。,店,I bought sweets at that store.
@@ -1351,9 +1352,9 @@ ee047bb2-c2ff-4cb1-825e-1987ad444f20,____、私は早く起きました。,今�
 2e95eff3-7532-4902-a7ee-edc814356c46,彼は毎日本を読みます。,本,He reads a book every day.
 2e95eff3-7532-4902-a7ee-edc814356c46,図書館で____を借りました。,本,I borrowed a book from the library.
 2e95eff3-7532-4902-a7ee-edc814356c46,私の____は面白いです。,本,My book is interesting.
-1dc034f7-375c-4046-a473-ccde281321d0,来年、私は日本に____。,行きます,"Next year, I will go to Japan."
-1dc034f7-375c-4046-a473-ccde281321d0,彼は来年____を買います。,車,He will buy a car next year.
-1dc034f7-375c-4046-a473-ccde281321d0,来年、私たちは____をします。,旅行,We will travel next year.
+1dc034f7-375c-4046-a473-ccde281321d0,来年、私は日本に____。,来年,"Next year, I will go to Japan."
+1dc034f7-375c-4046-a473-ccde281321d0,彼は来年____を買います。,来年,He will buy a car next year.
+1dc034f7-375c-4046-a473-ccde281321d0,来年、私たちは____をします。,来年,We will travel next year.
 6bda917a-af80-4013-9ae7-1862ddbe5e84,私は____にいます。,うち,I am at home.
 6bda917a-af80-4013-9ae7-1862ddbe5e84,彼は____に帰ります。,うち,He returns home.
 6bda917a-af80-4013-9ae7-1862ddbe5e84,私の____は大きいです。,うち,My house is big.
@@ -1363,7 +1364,7 @@ c67776a9-849a-47f3-8323-e230f2db7618,この問題の答えは____です。,ゼ�
 30efca38-8ad9-4774-a77e-a824562a670b,明日は新しい____があります。,授業,There is a new class tomorrow.
 30efca38-8ad9-4774-a77e-a824562a670b,彼は毎日____に行きます。,授業,He goes to class every day.
 30efca38-8ad9-4774-a77e-a824562a670b,私の好きな____は英語です。,授業,My favorite class is English.
-0349cadc-b8e3-4afa-807e-f620a316aa35,明日は____です。,日曜日,Tomorrow is Sunday.
+0349cadc-b8e3-4afa-807e-f620a316aa35,明日は____です。,明日,Tomorrow is Sunday.
 0349cadc-b8e3-4afa-807e-f620a316aa35,私は____学校に行きます。,明日,I will go to school tomorrow.
 0349cadc-b8e3-4afa-807e-f620a316aa35,____、友達に会います。,明日,I will meet my friend tomorrow.
 72bc754d-c144-4694-89b5-7aadc549ee2e,彼は____です。,生徒,He is a student.
@@ -1435,18 +1436,18 @@ cfae17d0-dbf7-4f79-9117-04a301929923,今日は____と遊びます。,あなた,I
 8aca582c-13ff-47c8-af88-b89969ae7fb9,こっちに来てください。,こっち,Please come this way.
 8aca582c-13ff-47c8-af88-b89969ae7fb9,こっちの道は安全ですか？,こっち,Is this way safe?
 8aca582c-13ff-47c8-af88-b89969ae7fb9,こっちが私の家です。,こっち,This is my house.
-1b21a6f8-b8de-41d9-be96-642693701ae4,私は友達に____。,いきます,I will go to my friend.
-1b21a6f8-b8de-41d9-be96-642693701ae4,明日、学校に____。,いきます,I will go to school tomorrow.
-1b21a6f8-b8de-41d9-be96-642693701ae4,彼は映画を見に____。,いきます,He will go to see a movie.
+1b21a6f8-b8de-41d9-be96-642693701ae4,私は友達に____。,にいく,I will go to my friend.
+1b21a6f8-b8de-41d9-be96-642693701ae4,明日、学校に____。,にいく,I will go to school tomorrow.
+1b21a6f8-b8de-41d9-be96-642693701ae4,彼は映画を見に____。,にいく,He will go to see a movie.
 c242e5ba-b7ad-4433-87cb-43d5bc72e281,公園____遊びます。,で,I play in the park.
 c242e5ba-b7ad-4433-87cb-43d5bc72e281,友達____話します。,で,I talk with my friend.
 c242e5ba-b7ad-4433-87cb-43d5bc72e281,学校____勉強します。,で,I study at school.
-9393d089-119a-4a9c-bac2-3ebbba9957b5,そちらに____がありますか？,学校,Is there a school over there?
+9393d089-119a-4a9c-bac2-3ebbba9957b5,そちらに____がありますか？,そちら,Is there a school over there?
 9393d089-119a-4a9c-bac2-3ebbba9957b5,____はとても静かですね。,そちら,"That place is very quiet, isn't it?"
 9393d089-119a-4a9c-bac2-3ebbba9957b5,____に行きたいです。,そちら,I want to go to that place.
-ffab73fc-7eb1-4138-82ed-6154e6813646,____は学生です。,私は,I am a student.
-ffab73fc-7eb1-4138-82ed-6154e6813646,____の名前は田中です。,私の,My name is Tanaka.
-ffab73fc-7eb1-4138-82ed-6154e6813646,____は日本に行きます。,私は,I will go to Japan.
+ffab73fc-7eb1-4138-82ed-6154e6813646,____は学生です。,私,I am a student.
+ffab73fc-7eb1-4138-82ed-6154e6813646,____の名前は田中です。,私,My name is Tanaka.
+ffab73fc-7eb1-4138-82ed-6154e6813646,____は日本に行きます。,私,I will go to Japan.
 6b88fd12-7ac2-4da0-ba9a-fa5d8665df46,____は私の本です。,あれ,That one over there is my book.
 6b88fd12-7ac2-4da0-ba9a-fa5d8665df46,____はとても大きいです。,あれ,That one over there is very big.
 6b88fd12-7ac2-4da0-ba9a-fa5d8665df46,____が見えますか？,あれ,Can you see that one over there?
@@ -1459,9 +1460,9 @@ ffab73fc-7eb1-4138-82ed-6154e6813646,____は日本に行きます。,私は,I wi
 07ca35b3-cfa1-4d86-8744-bc16a6099087,____は私の本です。,それ,That one is my book.
 07ca35b3-cfa1-4d86-8744-bc16a6099087,____が好きですか？,それ,Do you like that one?
 07ca35b3-cfa1-4d86-8744-bc16a6099087,私は____を見ました。,それ,I saw that one.
-68343025-23e3-4181-9105-c370322be30d,明日、友達と映画に____。,行きます,"Tomorrow, I will go to the movies with my friend."
-68343025-23e3-4181-9105-c370322be30d,毎朝、学校に____。,行きます,I go to school every morning.
-68343025-23e3-4181-9105-c370322be30d,週末に海に____。,行きます,I will go to the beach on the weekend.
+68343025-23e3-4181-9105-c370322be30d,明日、友達と映画に____。,行く,"Tomorrow, I will go to the movies with my friend."
+68343025-23e3-4181-9105-c370322be30d,毎朝、学校に____。,行く,I go to school every morning.
+68343025-23e3-4181-9105-c370322be30d,週末に海に____。,行く,I will go to the beach on the weekend.
 d077cd09-0c24-4288-b148-2c963dca06cf,____は私の本です。,これ,This one is my book.
 d077cd09-0c24-4288-b148-2c963dca06cf,____が好きですか？,これ,Do you like this one?
 d077cd09-0c24-4288-b148-2c963dca06cf,____はとても面白い映画です。,これ,This one is a very interesting movie.
@@ -1483,9 +1484,9 @@ eb61c038-c9bc-45c9-ad94-471216f9cec3,彼は毎晩仕事の後に____。,帰る,H
 a295a3b8-6f3c-45c2-b624-38f7fffac3b9,あの店は____ですか？,あちら,Is that store over there?
 a295a3b8-6f3c-45c2-b624-38f7fffac3b9,____に行きましょう。,あちら,Let's go that way.
 a295a3b8-6f3c-45c2-b624-38f7fffac3b9,____に友達がいます。,あちら,I have a friend over there.
-0d8c2e9a-99fc-46e1-8e34-cf42a0363029,あなたは____をしますか？,何のスポーツ,What kind of sports do you play?
-0d8c2e9a-99fc-46e1-8e34-cf42a0363029,彼は____が好きです。,何の音楽,He likes what kind of music?
-0d8c2e9a-99fc-46e1-8e34-cf42a0363029,私たちは____を買います。,何の本,What kind of book are we going to buy?
+0d8c2e9a-99fc-46e1-8e34-cf42a0363029,あなたは____をしますか？,何～,What kind of sports do you play?
+0d8c2e9a-99fc-46e1-8e34-cf42a0363029,彼は____が好きです。,何～,He likes what kind of music?
+0d8c2e9a-99fc-46e1-8e34-cf42a0363029,私たちは____を買います。,何～,What kind of book are we going to buy?
 a1ed2070-1f57-4c06-9e64-2cb6bc6355e6,あの人は____ですか？,どなた,Who is that person?
 a1ed2070-1f57-4c06-9e64-2cb6bc6355e6,こちらは____ですか？,どなた,Who is this?
 a1ed2070-1f57-4c06-9e64-2cb6bc6355e6,あなたの友達は____ですか？,どなた,Who is your friend?
@@ -1636,9 +1637,9 @@ c02b90d0-5b98-4bcc-b683-44f69ef1d25a,____朝ごはんを食べました。,早�
 3900e967-128c-424f-806c-ca49bbc693a6,私の友達は____な本を持っています。,色々,My friend has various books.
 3900e967-128c-424f-806c-ca49bbc693a6,この店には____な食べ物があります。,色々,This restaurant has various kinds of food.
 3900e967-128c-424f-806c-ca49bbc693a6,彼は____な趣味を持っています。,色々,He has various hobbies.
-dc82f4f7-1dac-4788-b0d9-d6d62d1ef537,このケーキは____です。,おいしい,This cake is delicious.
-dc82f4f7-1dac-4788-b0d9-d6d62d1ef537,彼の部屋は____です。,きれい,His room is clean.
-dc82f4f7-1dac-4788-b0d9-d6d62d1ef537,今日は____天気です。,いい,The weather is nice today.
+dc82f4f7-1dac-4788-b0d9-d6d62d1ef537,このケーキは____です。,い-adjectives,This cake is delicious.
+dc82f4f7-1dac-4788-b0d9-d6d62d1ef537,彼の部屋は____です。,い-adjectives,His room is clean.
+dc82f4f7-1dac-4788-b0d9-d6d62d1ef537,今日は____天気です。,い-adjectives,The weather is nice today.
 db50af25-cf1b-4984-9f75-e651ad90a821,あの選手は____です。,弱い,That athlete is weak.
 db50af25-cf1b-4984-9f75-e651ad90a821,彼は体が____です。,弱い,He has a weak body.
 db50af25-cf1b-4984-9f75-e651ad90a821,この風は____です。,弱い,This wind is weak.
@@ -1669,9 +1670,9 @@ a56884d1-3d78-4f89-be6d-3afe2b0201c8,午後に____かもしれません。,曇�
 7685e636-2ed7-41a4-8ab1-a3cab62bcf49,これは____の話ですか？,本当,Is this a true story?
 7685e636-2ed7-41a4-8ab1-a3cab62bcf49,彼の言うことは____です。,本当,What he says is true.
 7685e636-2ed7-41a4-8ab1-a3cab62bcf49,それは____ではありません。,本当,That is not true.
-b9f27a17-ac3c-44d0-8719-815f7ab0fbe5,彼の____は速いです。,足,His legs are fast.
-b9f27a17-ac3c-44d0-8719-815f7ab0fbe5,私は____が痛いです。,脚,My leg hurts.
-b9f27a17-ac3c-44d0-8719-815f7ab0fbe5,猫は____で歩きます。,足,The cat walks on its feet.
+b9f27a17-ac3c-44d0-8719-815f7ab0fbe5,彼の____は速いです。,足; 脚,His legs are fast.
+b9f27a17-ac3c-44d0-8719-815f7ab0fbe5,私は____が痛いです。,足; 脚,My leg hurts.
+b9f27a17-ac3c-44d0-8719-815f7ab0fbe5,猫は____で歩きます。,足; 脚,The cat walks on its feet.
 e6489e0d-d7fc-48ae-aa8d-06a0288c23a1,彼は____で勉強します。,机,He studies at the desk.
 e6489e0d-d7fc-48ae-aa8d-06a0288c23a1,私の____は大きいです。,机,My desk is big.
 e6489e0d-d7fc-48ae-aa8d-06a0288c23a1,____の上に本があります。,机,There is a book on the desk.
@@ -1780,9 +1781,9 @@ decea9e5-8423-4226-bd71-614db0e9363e,夜は____な時間です。,静か,The nig
 31be0a2e-02c0-4bfc-b116-2dd84c9618a0,彼女は新しい____を買いました。,スカート,She bought a new skirt.
 31be0a2e-02c0-4bfc-b116-2dd84c9618a0,今日は青い____を着ています。,スカート,I am wearing a blue skirt today.
 31be0a2e-02c0-4bfc-b116-2dd84c9618a0,夏に____を着るのが好きです。,スカート,I like to wear skirts in summer.
-b39928be-3c03-4047-85b5-3b3af5952f2f,彼は毎朝____を聞きます。,ラジオカセット,He listens to the radio cassette every morning.
-b39928be-3c03-4047-85b5-3b3af5952f2f,私の部屋には____があります。,ラジオカセット,There is a radio cassette in my room.
-b39928be-3c03-4047-85b5-3b3af5952f2f,友達と一緒に____を使います。,ラジオカセット,I use the radio cassette with my friend.
+b39928be-3c03-4047-85b5-3b3af5952f2f,彼は毎朝____を聞きます。,ラジオカセ,He listens to the radio cassette every morning.
+b39928be-3c03-4047-85b5-3b3af5952f2f,私の部屋には____があります。,ラジオカセ,There is a radio cassette in my room.
+b39928be-3c03-4047-85b5-3b3af5952f2f,友達と一緒に____を使います。,ラジオカセ,I use the radio cassette with my friend.
 6f30490e-3113-45b4-a019-0c5871b1f1de,このケーキは____です。,甘い,This cake is sweet.
 6f30490e-3113-45b4-a019-0c5871b1f1de,彼女は____お菓子が好きです。,甘い,She likes sweet snacks.
 6f30490e-3113-45b4-a019-0c5871b1f1de,果物は____味がします。,甘い,Fruits taste sweet.
@@ -1846,9 +1847,9 @@ e7a3fbd0-283c-4b79-8b12-257d2b1b496b,明日は____がありません。,仕事,I
 48c72013-020b-4730-8d95-bfec292527ec,彼は日本の大学の____です。,留学生,He is an international student at a Japanese university.
 48c72013-020b-4730-8d95-bfec292527ec,私の友達は____から来ました。,留学生,My friend came from another country as an international student.
 48c72013-020b-4730-8d95-bfec292527ec,学校で____と話しました。,留学生,I talked to an international student at school.
-c515a961-52c9-4fde-81fc-5ac2df9a651f,私の____は日本に住んでいます。,伯父,My uncle lives in Japan.
-c515a961-52c9-4fde-81fc-5ac2df9a651f,____が誕生日プレゼントをくれました。,叔父さん,My uncle gave me a birthday present.
-c515a961-52c9-4fde-81fc-5ac2df9a651f,今日は____と一緒に遊びます。,伯父,I will play with my uncle today.
+c515a961-52c9-4fde-81fc-5ac2df9a651f,私の____は日本に住んでいます。,伯父; 叔父さん,My uncle lives in Japan.
+c515a961-52c9-4fde-81fc-5ac2df9a651f,____が誕生日プレゼントをくれました。,伯父; 叔父さん,My uncle gave me a birthday present.
+c515a961-52c9-4fde-81fc-5ac2df9a651f,今日は____と一緒に遊びます。,伯父; 叔父さん,I will play with my uncle today.
 70038fe1-0895-4e29-a71a-4e5d725cbbcd,____は日本に住んでいます。,母,(My) mother lives in Japan.
 70038fe1-0895-4e29-a71a-4e5d725cbbcd,私の____は料理が上手です。,母,My mother is good at cooking.
 70038fe1-0895-4e29-a71a-4e5d725cbbcd,今日は____の誕生日です。,母,Today is my mother's birthday.
@@ -1891,18 +1892,18 @@ bd597ed2-2110-4819-ac10-b3be0b48c365,私の____はとても大切です。,家�
 57f0e935-59cd-41cc-8a82-75fb46c84cb9,私の____は学生です。,妹,My younger sister is a student.
 57f0e935-59cd-41cc-8a82-75fb46c84cb9,____は毎日遊びに行きます。,妹,My younger sister goes out to play every day.
 57f0e935-59cd-41cc-8a82-75fb46c84cb9,私の____は猫が好きです。,妹,My younger sister likes cats.
-3e05ff6a-d1ca-44d1-8017-67855baf9485,これは私の本____。,じゃない,This is not my book.
-3e05ff6a-d1ca-44d1-8017-67855baf9485,彼は学生____。,ではない,He is not a student.
-3e05ff6a-d1ca-44d1-8017-67855baf9485,それは面白い映画____。,じゃない,That is not an interesting movie.
+3e05ff6a-d1ca-44d1-8017-67855baf9485,これは私の本____。,じゃない・ではない,This is not my book.
+3e05ff6a-d1ca-44d1-8017-67855baf9485,彼は学生____。,じゃない・ではない,He is not a student.
+3e05ff6a-d1ca-44d1-8017-67855baf9485,それは面白い映画____。,じゃない・ではない,That is not an interesting movie.
 24a9c558-13ae-489a-b63c-f83a4e05f233,私の____は元気です。,おじいさん,My grandfather is healthy.
 24a9c558-13ae-489a-b63c-f83a4e05f233,____と公園に行きました。,おじいさん,I went to the park with my grandfather.
 24a9c558-13ae-489a-b63c-f83a4e05f233,____が好きなテレビ番組は何ですか？,おじいさん,What is your grandfather's favorite TV show?
 790d1d33-39d7-47d9-b90a-5956a2803512,ドアが____とき、音がします。,閉まる,"When the door closes, it makes a sound."
 790d1d33-39d7-47d9-b90a-5956a2803512,店は午後8時に____。,閉まる,The store closes at 8 PM.
 790d1d33-39d7-47d9-b90a-5956a2803512,窓が____ので、風が入ります。,閉まる,"The window is closed, so the wind comes in."
-72bf0cea-ebcc-4609-ad78-252b72cb49bb,私の____は料理が上手です。,伯母さん,My aunt is good at cooking.
-72bf0cea-ebcc-4609-ad78-252b72cb49bb,____と一緒に買い物に行きました。,叔母さん,I went shopping with my aunt.
-72bf0cea-ebcc-4609-ad78-252b72cb49bb,毎年、____が家に来ます。,伯母さん,My aunt comes to my house every year.
+72bf0cea-ebcc-4609-ad78-252b72cb49bb,私の____は料理が上手です。,伯母さん; 叔母さん,My aunt is good at cooking.
+72bf0cea-ebcc-4609-ad78-252b72cb49bb,____と一緒に買い物に行きました。,伯母さん; 叔母さん,I went shopping with my aunt.
+72bf0cea-ebcc-4609-ad78-252b72cb49bb,毎年、____が家に来ます。,伯母さん; 叔母さん,My aunt comes to my house every year.
 9b210eda-c995-4793-898c-8ea585f071bb,彼は____です。,医者,He is a doctor.
 9b210eda-c995-4793-898c-8ea585f071bb,私の友達は____になりたいです。,医者,My friend wants to become a doctor.
 9b210eda-c995-4793-898c-8ea585f071bb,____に行きます。,医者,I will go to the doctor.
@@ -1924,9 +1925,9 @@ a688b6d7-b953-4c28-9246-d7b1f5fd71fa,私の友達の父は____です。,警官,M
 2f3c1e3c-1562-4289-b11e-525820d7198d,道で____に会いました。,おまわりさん,I met a policeman on the street.
 2f3c1e3c-1562-4289-b11e-525820d7198d,____は私たちを助けてくれました。,おまわりさん,The policeman helped us.
 2f3c1e3c-1562-4289-b11e-525820d7198d,子供たちは____に質問しました。,おまわりさん,The children asked the policeman a question.
-20eb8a5a-0a43-42d1-9293-4f255cbc1d86,おととし、私は日本に行きました。____はとても楽しかったです。,旅行,The trip was very fun.
+20eb8a5a-0a43-42d1-9293-4f255cbc1d86,おととし、私は日本に行きました。____はとても楽しかったです。,おととし,The trip was very fun.
 20eb8a5a-0a43-42d1-9293-4f255cbc1d86,____、彼は新しい仕事を始めました。,おととし,"The year before last, he started a new job."
-20eb8a5a-0a43-42d1-9293-4f255cbc1d86,おととし、私の家族は____を買いました。,車,My family bought a car.
+20eb8a5a-0a43-42d1-9293-4f255cbc1d86,おととし、私の家族は____を買いました。,おととし,My family bought a car.
 e62d36b5-6b8c-4c5b-a849-78d2486e853a,彼は来月____します。,結婚,He will get married next month.
 e62d36b5-6b8c-4c5b-a849-78d2486e853a,私の友達は____しています。,結婚,My friend is married.
 e62d36b5-6b8c-4c5b-a849-78d2486e853a,彼女は____したいと言っています。,結婚,She says she wants to get married.
@@ -1945,18 +1946,18 @@ e62d36b5-6b8c-4c5b-a849-78d2486e853a,彼女は____したいと言っています
 3ddd6c0e-7044-4c47-8b8d-4a86a100df41,私には____が二人います。,兄弟,I have two siblings.
 3ddd6c0e-7044-4c47-8b8d-4a86a100df41,彼の____はとても優しいです。,兄弟,His siblings are very kind.
 3ddd6c0e-7044-4c47-8b8d-4a86a100df41,私の____と一緒に遊びます。,兄弟,I play with my siblings.
-4abcca6f-5835-43a9-9568-a1d7410ea504,彼らは____と遊びます。,友達,They play with friends.
-4abcca6f-5835-43a9-9568-a1d7410ea504,私たちは____に行きます。,学校,We go to school.
-4abcca6f-5835-43a9-9568-a1d7410ea504,猫たちが____で寝ています。,ソファ,The cats are sleeping on the sofa.
+4abcca6f-5835-43a9-9568-a1d7410ea504,彼らは____と遊びます。,～たち,They play with friends.
+4abcca6f-5835-43a9-9568-a1d7410ea504,私たちは____に行きます。,～たち,We go to school.
+4abcca6f-5835-43a9-9568-a1d7410ea504,猫たちが____で寝ています。,～たち,The cats are sleeping on the sofa.
 4c38fe14-5c02-428a-9c5d-83a145918619,毎日、学校から____を持って帰ります。,宿題,I bring home homework from school every day.
 4c38fe14-5c02-428a-9c5d-83a145918619,先生は____を忘れないように言いました。,宿題,The teacher said not to forget the homework.
 4c38fe14-5c02-428a-9c5d-83a145918619,友達と一緒に____をします。,宿題,I do homework together with my friends.
 c9e13fcc-c28a-48ab-97b3-255d1b706687,彼は____をひいています。,風邪,He has a cold.
 c9e13fcc-c28a-48ab-97b3-255d1b706687,私は____が治りました。,風邪,I recovered from my cold.
 c9e13fcc-c28a-48ab-97b3-255d1b706687,今、____の薬を飲んでいます。,風邪,I am taking medicine for a cold.
-c9f3f139-8f11-4ec8-bf08-b0238b7ee509,彼は____です。,十歳,He is ten years old.
-c9f3f139-8f11-4ec8-bf08-b0238b7ee509,私の妹は____です。,五歳,My younger sister is five years old.
-c9f3f139-8f11-4ec8-bf08-b0238b7ee509,あなたは____ですか？,二十歳,Are you twenty years old?
+c9f3f139-8f11-4ec8-bf08-b0238b7ee509,彼は____です。,～歳,He is ten years old.
+c9f3f139-8f11-4ec8-bf08-b0238b7ee509,私の妹は____です。,～歳,My younger sister is five years old.
+c9f3f139-8f11-4ec8-bf08-b0238b7ee509,あなたは____ですか？,～歳,Are you twenty years old?
 55db9ff3-ccf4-4fd6-bf45-6023f1b1e3a7,彼女は____が大きいです。,目,Her eyes are big.
 55db9ff3-ccf4-4fd6-bf45-6023f1b1e3a7,私は____が疲れました。,目,My eyes are tired.
 55db9ff3-ccf4-4fd6-bf45-6023f1b1e3a7,猫の____はとてもきれいです。,目,The cat's eyes are very beautiful.
@@ -1987,14 +1988,14 @@ d5d42f88-8b10-4db9-b91e-ae231773c391,このペンを____ことができますか
 2cc6d484-12ae-4476-b65a-81777ad08844,彼はとても____です。,若い,He is very young.
 2cc6d484-12ae-4476-b65a-81777ad08844,私の妹は____女の子です。,若い,My sister is a young girl.
 2cc6d484-12ae-4476-b65a-81777ad08844,この犬はまだ____です。,若い,This dog is still young.
-58282d15-5a55-4250-ae83-ad5a88826379,彼は教室で____ています。,立って,He is standing in the classroom.
-58282d15-5a55-4250-ae83-ad5a88826379,私は朝、早く____。,立ちます,I stand up early in the morning.
-58282d15-5a55-4250-ae83-ad5a88826379,犬が公園で____。,立っている,The dog is standing in the park.
+58282d15-5a55-4250-ae83-ad5a88826379,彼は教室で____ています。,立つ,He is standing in the classroom.
+58282d15-5a55-4250-ae83-ad5a88826379,私は朝、早く____。,立つ,I stand up early in the morning.
+58282d15-5a55-4250-ae83-ad5a88826379,犬が公園で____。,立つ,The dog is standing in the park.
 830a0aa1-ef46-4323-81b7-f19043c89e0a,ドアを____。,開く,I open the door.
 830a0aa1-ef46-4323-81b7-f19043c89e0a,本を____と、面白い話がある。,開く,"When you open the book, there is an interesting story."
 830a0aa1-ef46-4323-81b7-f19043c89e0a,窓を____と、風が入ります。,開く,"When you open the window, the wind comes in."
-be72e9ff-15f1-476f-9e79-421611dd2d86,私は電気を____。,つけます,I turn on the light.
-be72e9ff-15f1-476f-9e79-421611dd2d86,彼は名札を____。,つけました,He attached the name tag.
+be72e9ff-15f1-476f-9e79-421611dd2d86,私は電気を____。,つける,I turn on the light.
+be72e9ff-15f1-476f-9e79-421611dd2d86,彼は名札を____。,つける,He attached the name tag.
 be72e9ff-15f1-476f-9e79-421611dd2d86,彼女はテレビを____。,つける,She turns on the TV.
 e5f5b643-8ae8-4814-a5d2-d812c7c95aeb,明日は____です。,金曜日,Tomorrow is Friday.
 e5f5b643-8ae8-4814-a5d2-d812c7c95aeb,私は毎週____に友達と会います。,金曜日,I meet my friends every Friday.
@@ -2008,18 +2009,18 @@ e5f5b643-8ae8-4814-a5d2-d812c7c95aeb,____は学校が終わる日です。,金�
 79e41c9e-4345-45b1-9658-dfab0cd29012,私は____、友達と会います。,毎月,I meet my friends every month.
 79e41c9e-4345-45b1-9658-dfab0cd29012,彼は____、新しい本を買います。,毎月,He buys a new book every month.
 79e41c9e-4345-45b1-9658-dfab0cd29012,私たちは____、旅行に行きます。,毎月,We go on a trip every month.
-4b7f0dcf-1b81-4322-9a34-612bf998ac11,私は手を____。,洗います,I wash my hands.
-4b7f0dcf-1b81-4322-9a34-612bf998ac11,母は車を____。,洗います,My mother washes the car.
-4b7f0dcf-1b81-4322-9a34-612bf998ac11,彼は顔を____。,洗います,He washes his face.
+4b7f0dcf-1b81-4322-9a34-612bf998ac11,私は手を____。,洗う,I wash my hands.
+4b7f0dcf-1b81-4322-9a34-612bf998ac11,母は車を____。,洗う,My mother washes the car.
+4b7f0dcf-1b81-4322-9a34-612bf998ac11,彼は顔を____。,洗う,He washes his face.
 89283f12-2bfe-4a2d-b554-9f0a8c0876c3,毎晩、早く____。,寝る,I go to bed early every night.
 89283f12-2bfe-4a2d-b554-9f0a8c0876c3,子供は午後に____。,寝る,The child sleeps in the afternoon.
 89283f12-2bfe-4a2d-b554-9f0a8c0876c3,私の犬はいつも私のそばで____。,寝る,My dog always sleeps beside me.
 41015542-8f50-4739-bb12-80de5ee2e7fd,彼は本を____。,売る,He sells a book.
 41015542-8f50-4739-bb12-80de5ee2e7fd,この店で花を____。,売る,They sell flowers at this store.
 41015542-8f50-4739-bb12-80de5ee2e7fd,彼女は古い服を____。,売る,She sells old clothes.
-a2f79c20-2617-407a-9074-81806b3d1b1e,彼は新しいズボンを____。,はきます,He puts on new pants.
-a2f79c20-2617-407a-9074-81806b3d1b1e,私は毎日スカートを____。,はきます,I wear a skirt every day.
-a2f79c20-2617-407a-9074-81806b3d1b1e,彼女は運動靴を____。,はきます,She puts on sneakers.
+a2f79c20-2617-407a-9074-81806b3d1b1e,彼は新しいズボンを____。,はく,He puts on new pants.
+a2f79c20-2617-407a-9074-81806b3d1b1e,私は毎日スカートを____。,はく,I wear a skirt every day.
+a2f79c20-2617-407a-9074-81806b3d1b1e,彼女は運動靴を____。,はく,She puts on sneakers.
 529811fe-3a66-448c-974e-6b0f44e59c9c,明日、友達と____予定です。,出かける,I plan to go out with my friend tomorrow.
 529811fe-3a66-448c-974e-6b0f44e59c9c,週末に家族と____つもりです。,出かける,I intend to go out with my family on the weekend.
 529811fe-3a66-448c-974e-6b0f44e59c9c,今日は天気がいいので、____つもりです。,出かける,I plan to go out today because the weather is nice.
@@ -2032,9 +2033,9 @@ a8c034ae-d8a3-450a-b9a2-ad9b208600b8,犬と一緒に____のが好きです。,�
 16eb302d-f249-4e84-ab68-9d56d627f5c3,私は____日本語を勉強します。,毎日,I study Japanese every day.
 16eb302d-f249-4e84-ab68-9d56d627f5c3,彼は____ジョギングをします。,毎日,He goes jogging every day.
 16eb302d-f249-4e84-ab68-9d56d627f5c3,私たちは____学校に行きます。,毎日,We go to school every day.
-73c60a34-a0bc-40cb-b743-2876c0363a7e,私はこのペンを____。,使います,I use this pen.
-73c60a34-a0bc-40cb-b743-2876c0363a7e,彼は日本語を____。,使っています,He is using Japanese.
-73c60a34-a0bc-40cb-b743-2876c0363a7e,あなたはこのアプリを____か？,使います,Do you use this app?
+73c60a34-a0bc-40cb-b743-2876c0363a7e,私はこのペンを____。,使う,I use this pen.
+73c60a34-a0bc-40cb-b743-2876c0363a7e,彼は日本語を____。,使う,He is using Japanese.
+73c60a34-a0bc-40cb-b743-2876c0363a7e,あなたはこのアプリを____か？,使う,Do you use this app?
 7c85726b-bbb8-4f45-8921-33ab1a6d6e9d,風が____と、とても寒いです。,吹く,"When the wind blows, it is very cold."
 7c85726b-bbb8-4f45-8921-33ab1a6d6e9d,夏になると、海から風が____。,吹く,"In summer, the wind blows from the sea."
 7c85726b-bbb8-4f45-8921-33ab1a6d6e9d,木の葉が____と、音がします。,吹く,"When the wind blows, the leaves make a sound."
@@ -2044,27 +2045,27 @@ b307993b-31a8-49a4-a273-8dc256d71d9b,日曜日は遅く____。,起きる,I wake 
 698d8d03-1beb-423f-ac4f-380a23d4c473,彼は手を____。,上げる,He raises his hand.
 698d8d03-1beb-423f-ac4f-380a23d4c473,私は荷物を____。,上げる,I lift the luggage.
 698d8d03-1beb-423f-ac4f-380a23d4c473,友達にプレゼントを____。,上げる,I give a present to my friend.
-37f5e729-4e65-48e3-944d-a6a03ed953e5,彼は午後____に学校に行きます。,三時,He goes to school at 3 PM.
-37f5e729-4e65-48e3-944d-a6a03ed953e5,午後____に友達と遊びます。,五時,I play with my friends at 5 PM.
-37f5e729-4e65-48e3-944d-a6a03ed953e5,午後____は仕事が終わります。,四時,I finish work at 4 PM.
+37f5e729-4e65-48e3-944d-a6a03ed953e5,彼は午後____に学校に行きます。,午後,He goes to school at 3 PM.
+37f5e729-4e65-48e3-944d-a6a03ed953e5,午後____に友達と遊びます。,午後,I play with my friends at 5 PM.
+37f5e729-4e65-48e3-944d-a6a03ed953e5,午後____は仕事が終わります。,午後,I finish work at 4 PM.
 11453d72-452f-431b-a03c-76e39d79a638,彼は海で____が好きです。,泳ぐ,He likes to swim in the sea.
 11453d72-452f-431b-a03c-76e39d79a638,子どもたちはプールで____ことができます。,泳ぐ,The children can swim in the pool.
 11453d72-452f-431b-a03c-76e39d79a638,夏に友達と一緒に____予定です。,泳ぐ,I plan to swim with my friends in the summer.
-f908c09f-b1e7-4c4d-b76f-9460fac2e33b,私は水を____。,飲みます,I drink water.
-f908c09f-b1e7-4c4d-b76f-9460fac2e33b,彼はジュースを____。,飲みます,He drinks juice.
-f908c09f-b1e7-4c4d-b76f-9460fac2e33b,友達とお茶を____。,飲みます,I drink tea with my friend.
+f908c09f-b1e7-4c4d-b76f-9460fac2e33b,私は水を____。,飲む,I drink water.
+f908c09f-b1e7-4c4d-b76f-9460fac2e33b,彼はジュースを____。,飲む,He drinks juice.
+f908c09f-b1e7-4c4d-b76f-9460fac2e33b,友達とお茶を____。,飲む,I drink tea with my friend.
 1a05b69c-a051-42aa-8049-8cd2789c4dc8,私は____、友達と映画を見ました。,先週,I watched a movie with my friend last week.
 1a05b69c-a051-42aa-8049-8cd2789c4dc8,____、日本に行きました。,先週,I went to Japan last week.
 1a05b69c-a051-42aa-8049-8cd2789c4dc8,____、テストがありました。,先週,There was a test last week.
 3298b961-c574-41ec-a481-febac4912f9a,私はお金が____。,要る,I need money.
 3298b961-c574-41ec-a481-febac4912f9a,あなたは時間が____ですか？,要る,Do you need time?
 3298b961-c574-41ec-a481-febac4912f9a,彼は本が____と言いました。,要る,He said he needs a book.
-f6a0b472-add2-4e31-b825-1478e61eecc7,毎日、日記を____。,書きます,I write in my diary every day.
-f6a0b472-add2-4e31-b825-1478e61eecc7,先生に手紙を____。,書きました,I wrote a letter to the teacher.
-f6a0b472-add2-4e31-b825-1478e61eecc7,友達と一緒に詩を____。,書いています,I am writing a poem with my friend.
-5af0145c-d878-48c0-a0b0-51db5235f216,私は日本語のクラスを____。,取ります,I take a Japanese class.
-5af0145c-d878-48c0-a0b0-51db5235f216,彼は良い点を____。,取った,He got a good grade.
-5af0145c-d878-48c0-a0b0-51db5235f216,明日、写真を____予定です。,取ります,I plan to take a picture tomorrow.
+f6a0b472-add2-4e31-b825-1478e61eecc7,毎日、日記を____。,書く,I write in my diary every day.
+f6a0b472-add2-4e31-b825-1478e61eecc7,先生に手紙を____。,書く,I wrote a letter to the teacher.
+f6a0b472-add2-4e31-b825-1478e61eecc7,友達と一緒に詩を____。,書く,I am writing a poem with my friend.
+5af0145c-d878-48c0-a0b0-51db5235f216,私は日本語のクラスを____。,取る,I take a Japanese class.
+5af0145c-d878-48c0-a0b0-51db5235f216,彼は良い点を____。,取る,He got a good grade.
+5af0145c-d878-48c0-a0b0-51db5235f216,明日、写真を____予定です。,取る,I plan to take a picture tomorrow.
 72206aa3-b7df-4a30-956f-5185f344ead6,ボタンを____と、音がします。,押す,"When you push the button, it makes a sound."
 72206aa3-b7df-4a30-956f-5185f344ead6,ドアを____と、開きます。,押す,"If you push the door, it opens."
 72206aa3-b7df-4a30-956f-5185f344ead6,彼はスイッチを____。,押す,He pushes the switch.
@@ -2077,9 +2078,9 @@ f392b62d-760f-44c3-916c-47b28ba72f6b,今日は____を忘れました。,洗濯,I
 ea8d2bac-687d-41a7-99d3-7d5f594a4f24,私は鍵を____ことがよくあります。,無くす,I often lose my keys.
 ea8d2bac-687d-41a7-99d3-7d5f594a4f24,彼はいつも財布を____。,無くす,He always loses his wallet.
 ea8d2bac-687d-41a7-99d3-7d5f594a4f24,友達は本を____てしまいました。,無くす,My friend lost the book.
-2f0f4844-602f-4de6-a26a-873ee0966bbe,彼は本を____。,置きます,He puts down the book.
-2f0f4844-602f-4de6-a26a-873ee0966bbe,テーブルの上に花を____。,置きました,I placed the flowers on the table.
-2f0f4844-602f-4de6-a26a-873ee0966bbe,私は椅子をここに____。,置きます,I will put the chair here.
+2f0f4844-602f-4de6-a26a-873ee0966bbe,彼は本を____。,置く,He puts down the book.
+2f0f4844-602f-4de6-a26a-873ee0966bbe,テーブルの上に花を____。,置く,I placed the flowers on the table.
+2f0f4844-602f-4de6-a26a-873ee0966bbe,私は椅子をここに____。,置く,I will put the chair here.
 5bec3058-be6e-42e0-9c0a-4e2f584b925e,彼は毎朝運動を____。,やる,He exercises every morning.
 5bec3058-be6e-42e0-9c0a-4e2f584b925e,私は宿題を____つもりです。,やる,I plan to do my homework.
 5bec3058-be6e-42e0-9c0a-4e2f584b925e,彼女は犬におやつを____。,やる,She gives a snack to her dog.
@@ -2092,13 +2093,13 @@ a2a4949b-fd95-4b6d-aa12-c3c06af66788,私は紙を____ことができます。,�
 d2ce1285-d12e-46c9-a5d5-10f8118a7aef,____は学校に行きます。,月曜日,I go to school on Monday.
 d2ce1285-d12e-46c9-a5d5-10f8118a7aef,彼は____が好きです。,月曜日,He likes Monday.
 d2ce1285-d12e-46c9-a5d5-10f8118a7aef,____に友達と会います。,月曜日,I will meet my friend on Monday.
-0fe0088d-7032-4578-8f93-a400cf62590d,私はバスに____。,乗ります,I get on the bus.
-0fe0088d-7032-4578-8f93-a400cf62590d,彼は自転車に____。,乗っています,He is riding a bicycle.
-0fe0088d-7032-4578-8f93-a400cf62590d,友達と電車に____。,乗った,I got on the train with my friend.
-8e448811-281f-45df-a38c-fa73fb1170ed,彼は三時に____に行きます。,学校,He goes to school at three o'clock.
-8e448811-281f-45df-a38c-fa73fb1170ed,私の家は五時に____が始まります。,テレビ,The TV starts at five o'clock at my house.
-8e448811-281f-45df-a38c-fa73fb1170ed,明日は七時に____を起きます。,起き,I will wake up at seven o'clock tomorrow.
-648c560e-1fd1-4b1c-876a-ac4e28d4f0ba,今晩、友達と____に行きます。,映画,"Tonight, I will go to the movies with my friends."
+0fe0088d-7032-4578-8f93-a400cf62590d,私はバスに____。,乗る,I get on the bus.
+0fe0088d-7032-4578-8f93-a400cf62590d,彼は自転車に____。,乗る,He is riding a bicycle.
+0fe0088d-7032-4578-8f93-a400cf62590d,友達と電車に____。,乗る,I got on the train with my friend.
+8e448811-281f-45df-a38c-fa73fb1170ed,彼は三時に____に行きます。,～時,He goes to school at three o'clock.
+8e448811-281f-45df-a38c-fa73fb1170ed,私の家は五時に____が始まります。,～時,The TV starts at five o'clock at my house.
+8e448811-281f-45df-a38c-fa73fb1170ed,明日は七時に____を起きます。,～時,I will wake up at seven o'clock tomorrow.
+648c560e-1fd1-4b1c-876a-ac4e28d4f0ba,今晩、友達と____に行きます。,今晩,"Tonight, I will go to the movies with my friends."
 648c560e-1fd1-4b1c-876a-ac4e28d4f0ba,私は____、家で勉強します。,今晩,I will study at home tonight.
 648c560e-1fd1-4b1c-876a-ac4e28d4f0ba,____、おいしい料理を作ります。,今晩,I will make delicious food tonight.
 ba9e3527-8d10-4f29-a796-1afa302cf6d0,彼は会社で____ています。,働く,He is working at a company.
@@ -2116,36 +2117,36 @@ b45857d3-51f8-4e51-b6ac-ff3b32be4c00,彼女はアパートに____。,住む,She 
 644aea2a-3f69-4bc1-89c6-4d42a1354839,私は____、旅行に行きました。,先月,I went on a trip last month.
 644aea2a-3f69-4bc1-89c6-4d42a1354839,____は友達と映画を見ました。,先月,I watched a movie with my friend last month.
 644aea2a-3f69-4bc1-89c6-4d42a1354839,私の誕生日は____です。,先月,My birthday was last month.
-96533b80-089b-498c-bad9-2169952bf004,彼は本を____。,持っています,He has a book.
-96533b80-089b-498c-bad9-2169952bf004,私はかばんを____。,持っています,I have a bag.
-96533b80-089b-498c-bad9-2169952bf004,彼女はペンを____。,持っています,She has a pen.
+96533b80-089b-498c-bad9-2169952bf004,彼は本を____。,持つ,He has a book.
+96533b80-089b-498c-bad9-2169952bf004,私はかばんを____。,持つ,I have a bag.
+96533b80-089b-498c-bad9-2169952bf004,彼女はペンを____。,持つ,She has a pen.
 5519bb6c-49a2-4491-b33c-4a091a81f499,彼は毎朝____に起きます。,午前,He wakes up every morning at A.M.
 5519bb6c-49a2-4491-b33c-4a091a81f499,私たちは____九時に会います。,午前,We will meet at nine A.M.
 5519bb6c-49a2-4491-b33c-4a091a81f499,____の授業は楽しいです。,午前,The class in the A.M. is fun.
-6b5ab61c-b170-4e38-9fa2-925d85fcfe7f,彼は本を____。,買います,He buys a book.
-6b5ab61c-b170-4e38-9fa2-925d85fcfe7f,私は新しい靴を____。,買いたい,I want to buy new shoes.
-6b5ab61c-b170-4e38-9fa2-925d85fcfe7f,彼女は花を____。,買いました,She bought flowers.
-1cf3a425-a1ff-428c-a243-52e302c46fee,私はケーキを____。,作ります,I make a cake.
-1cf3a425-a1ff-428c-a243-52e302c46fee,彼は友達のためにプレゼントを____。,作った,He made a present for his friend.
-1cf3a425-a1ff-428c-a243-52e302c46fee,お母さんは夕ご飯を____。,作ります,My mother makes dinner.
+6b5ab61c-b170-4e38-9fa2-925d85fcfe7f,彼は本を____。,買う,He buys a book.
+6b5ab61c-b170-4e38-9fa2-925d85fcfe7f,私は新しい靴を____。,買う,I want to buy new shoes.
+6b5ab61c-b170-4e38-9fa2-925d85fcfe7f,彼女は花を____。,買う,She bought flowers.
+1cf3a425-a1ff-428c-a243-52e302c46fee,私はケーキを____。,作る,I make a cake.
+1cf3a425-a1ff-428c-a243-52e302c46fee,彼は友達のためにプレゼントを____。,作る,He made a present for his friend.
+1cf3a425-a1ff-428c-a243-52e302c46fee,お母さんは夕ご飯を____。,作る,My mother makes dinner.
 73a8ea79-58e8-401b-b9fb-3a11ce276a40,私の誕生日は____です。,火曜日,My birthday is on Tuesday.
 73a8ea79-58e8-401b-b9fb-3a11ce276a40,____に友達と会います。,火曜日,I will meet my friend on Tuesday.
 73a8ea79-58e8-401b-b9fb-3a11ce276a40,____は学校があります。,火曜日,There is school on Tuesday.
-53603086-e7b0-43ea-ae2f-9ab0b1477baa,先生はノートを____。,コピーします,The teacher makes a copy of the notebook.
-53603086-e7b0-43ea-ae2f-9ab0b1477baa,私は文を____。,コピーします,I will copy the sentence.
-53603086-e7b0-43ea-ae2f-9ab0b1477baa,彼は写真を____。,コピーしました,He copied the photo.
-66898bec-3ff5-4a68-a173-583d0d502ea7,私は黒板を____。,消します,I erase the blackboard.
-66898bec-3ff5-4a68-a173-583d0d502ea7,彼はテレビを____。,消します,He turns off the TV.
+53603086-e7b0-43ea-ae2f-9ab0b1477baa,先生はノートを____。,コピーする,The teacher makes a copy of the notebook.
+53603086-e7b0-43ea-ae2f-9ab0b1477baa,私は文を____。,コピーする,I will copy the sentence.
+53603086-e7b0-43ea-ae2f-9ab0b1477baa,彼は写真を____。,コピーする,He copied the photo.
+66898bec-3ff5-4a68-a173-583d0d502ea7,私は黒板を____。,消す,I erase the blackboard.
+66898bec-3ff5-4a68-a173-583d0d502ea7,彼はテレビを____。,消す,He turns off the TV.
 66898bec-3ff5-4a68-a173-583d0d502ea7,あなたはこの文字を____ことができますか？,消す,Can you erase this character?
-258958aa-7517-463d-b728-ed2873886077,来週、友達に____会います。,会う,I will meet my friend next week.
+258958aa-7517-463d-b728-ed2873886077,来週、友達に____会います。,来週,I will meet my friend next week.
 258958aa-7517-463d-b728-ed2873886077,____、試験があります。,来週,There is a test next week.
 258958aa-7517-463d-b728-ed2873886077,私は____旅行に行きます。,来週,I will go on a trip next week.
-7a813bf2-fd65-4747-bbf6-54974b961b2f,毎晩、私は本を____。,読みます,"Every night, I read a book."
-7a813bf2-fd65-4747-bbf6-54974b961b2f,彼は新聞を____。,読みます,He reads the newspaper.
-7a813bf2-fd65-4747-bbf6-54974b961b2f,子供たちは絵本を____。,読みます,The children read picture books.
-182830c9-9648-41b4-933b-1f9f4304fa69,私は日本語を____。,習います,I learn Japanese.
-182830c9-9648-41b4-933b-1f9f4304fa69,彼はギターを____。,習っています,He is learning the guitar.
-182830c9-9648-41b4-933b-1f9f4304fa69,子供たちはサッカーを____。,習います,The children learn soccer.
+7a813bf2-fd65-4747-bbf6-54974b961b2f,毎晩、私は本を____。,読む,"Every night, I read a book."
+7a813bf2-fd65-4747-bbf6-54974b961b2f,彼は新聞を____。,読む,He reads the newspaper.
+7a813bf2-fd65-4747-bbf6-54974b961b2f,子供たちは絵本を____。,読む,The children read picture books.
+182830c9-9648-41b4-933b-1f9f4304fa69,私は日本語を____。,習う,I learn Japanese.
+182830c9-9648-41b4-933b-1f9f4304fa69,彼はギターを____。,習う,He is learning the guitar.
+182830c9-9648-41b4-933b-1f9f4304fa69,子供たちはサッカーを____。,習う,The children learn soccer.
 efdc013b-2955-498e-8bef-550ffeffb0e8,彼は帽子を____。,かぶる,He wears a hat.
 efdc013b-2955-498e-8bef-550ffeffb0e8,私は新しいキャップを____。,かぶる,I wear a new cap.
 efdc013b-2955-498e-8bef-550ffeffb0e8,彼女は赤い帽子を____。,かぶる,She wears a red hat.
@@ -2155,8 +2156,8 @@ efdc013b-2955-498e-8bef-550ffeffb0e8,彼女は赤い帽子を____。,かぶる,S
 f608f19d-7b06-4774-b1f4-b8372a31ffe9,毎日、宿題を____。,する,I do my homework every day.
 f608f19d-7b06-4774-b1f4-b8372a31ffe9,友達とゲームを____。,する,I play games with my friends.
 f608f19d-7b06-4774-b1f4-b8372a31ffe9,彼はスポーツを____のが好きです。,する,He likes to do sports.
-9b3c1132-01c7-42c2-8f5a-b9665ecd60a9,彼は毎朝公園で____。,走ります,He runs in the park every morning.
-9b3c1132-01c7-42c2-8f5a-b9665ecd60a9,犬が私の後ろで____。,走っています,The dog is running behind me.
+9b3c1132-01c7-42c2-8f5a-b9665ecd60a9,彼は毎朝公園で____。,走る,He runs in the park every morning.
+9b3c1132-01c7-42c2-8f5a-b9665ecd60a9,犬が私の後ろで____。,走る,The dog is running behind me.
 9b3c1132-01c7-42c2-8f5a-b9665ecd60a9,友達と一緒に____のが好きです。,走る,I like to run with my friends.
 fd2e54f5-7bb5-450e-91ea-bcec624d59c1,彼は毎日運動しないと____。,死ぬ,"If he doesn't exercise every day, he will die."
 fd2e54f5-7bb5-450e-91ea-bcec624d59c1,その魚は水がないと____。,死ぬ,The fish will die without water.
@@ -2182,10 +2183,10 @@ aceb9815-3a2c-4b0d-bf1d-139ac5ceda6d,私たちはテーブルの前に____。,�
 ececd4b0-6472-4482-95d5-17a88641b3ce,毎日、学校で____します。,勉強,I study at school every day.
 ececd4b0-6472-4482-95d5-17a88641b3ce,彼は日本語を____しています。,勉強,He is studying Japanese.
 ececd4b0-6472-4482-95d5-17a88641b3ce,明日、試験のために____します。,勉強,I will study for the exam tomorrow.
-cabee6a3-d109-4ad1-ae4b-6e6d39fbd073,友達を____ています。,待って,I am waiting for my friend.
+cabee6a3-d109-4ad1-ae4b-6e6d39fbd073,友達を____ています。,待つ,I am waiting for my friend.
 cabee6a3-d109-4ad1-ae4b-6e6d39fbd073,バスを____ことが好きです。,待つ,I like to wait for the bus.
-cabee6a3-d109-4ad1-ae4b-6e6d39fbd073,彼は駅で____いる。,待って,He is waiting at the station.
-fde2791c-52da-4cf9-be4a-0234226e9d29,明後日、友達と____に行きます。,映画,I will go to the movies with my friend the day after tomorrow.
+cabee6a3-d109-4ad1-ae4b-6e6d39fbd073,彼は駅で____いる。,待つ,He is waiting at the station.
+fde2791c-52da-4cf9-be4a-0234226e9d29,明後日、友達と____に行きます。,明後日,I will go to the movies with my friend the day after tomorrow.
 fde2791c-52da-4cf9-be4a-0234226e9d29,____は学校の行事があります。,明後日,There is a school event the day after tomorrow.
 fde2791c-52da-4cf9-be4a-0234226e9d29,私は____にテストがあります。,明後日,I have a test the day after tomorrow.
 50352c42-1d47-4aa6-982c-e30b02a07f19,彼は毎日仕事の後に____。,休む,He rests after work every day.
@@ -2206,15 +2207,15 @@ f1da5e55-e56d-4f87-82f2-3ab2038f680d,私たちは____、映画を見に行きま
 93cd584f-0f4c-472f-ad9b-ffb1f12edc6f,彼は銀行に____。,勤める,He works at a bank.
 93cd584f-0f4c-472f-ad9b-ffb1f12edc6f,私は会社で____。,勤める,I work at a company.
 93cd584f-0f4c-472f-ad9b-ffb1f12edc6f,彼女は学校に____。,勤める,She works at a school.
-e5632310-b07d-4195-81eb-d40e847eff0c,彼は日本語を____。,話します,He speaks Japanese.
-e5632310-b07d-4195-81eb-d40e847eff0c,私たちは毎日電話で____。,話します,We talk on the phone every day.
-e5632310-b07d-4195-81eb-d40e847eff0c,あなたは友達と何を____か？,話します,What do you talk about with your friends?
+e5632310-b07d-4195-81eb-d40e847eff0c,彼は日本語を____。,話す,He speaks Japanese.
+e5632310-b07d-4195-81eb-d40e847eff0c,私たちは毎日電話で____。,話す,We talk on the phone every day.
+e5632310-b07d-4195-81eb-d40e847eff0c,あなたは友達と何を____か？,話す,What do you talk about with your friends?
 d8c1b23e-035f-475d-a0bf-289ef2a13a39,彼はドアを____。,閉める,He closes the door.
 d8c1b23e-035f-475d-a0bf-289ef2a13a39,先生は窓を____。,閉める,The teacher closes the window.
 d8c1b23e-035f-475d-a0bf-289ef2a13a39,私は本を____。,閉める,I close the book.
-43198dac-37d3-49e6-aaa8-1e2bce57c101,彼は私に____ました。,言いました,He said to me.
-43198dac-37d3-49e6-aaa8-1e2bce57c101,先生は学生に____。,言います,The teacher says to the students.
-43198dac-37d3-49e6-aaa8-1e2bce57c101,友達が私に何かを____。,言った,My friend said something to me.
+43198dac-37d3-49e6-aaa8-1e2bce57c101,彼は私に____ました。,言う,He said to me.
+43198dac-37d3-49e6-aaa8-1e2bce57c101,先生は学生に____。,言う,The teacher says to the students.
+43198dac-37d3-49e6-aaa8-1e2bce57c101,友達が私に何かを____。,言う,My friend said something to me.
 5f6aed0d-75f5-445a-820c-99606f3b9588,私たちは____旅行に行きます。,毎年,We go on a trip every year.
 5f6aed0d-75f5-445a-820c-99606f3b9588,彼は____新しい本を買います。,毎年,He buys a new book every year.
 5f6aed0d-75f5-445a-820c-99606f3b9588,私の家族は____お祭りに参加します。,毎年,My family participates in the festival every year.
@@ -2248,9 +2249,9 @@ c3d5d026-c7aa-461a-ac58-bdf56cf34e5d,春は____季節です。,暖かい,Spring 
 92f97da6-7a8f-47cc-9985-36d673870a4b,彼は____を使って火をつけました。,マッチ,He used a matchstick to light the fire.
 92f97da6-7a8f-47cc-9985-36d673870a4b,この箱にはたくさんの____があります。,マッチ,There are many matchsticks in this box.
 92f97da6-7a8f-47cc-9985-36d673870a4b,夜にキャンプをするとき、____が必要です。,マッチ,"When camping at night, you need a matchstick."
-6c9db455-8d6c-4682-9117-05e4a699635c,この映画は____です。,いい,This movie is good.
-6c9db455-8d6c-4682-9117-05e4a699635c,彼はとても____友達です。,よい,He is a very good friend.
-6c9db455-8d6c-4682-9117-05e4a699635c,今日は____天気ですね。,いい,The weather is good today.
+6c9db455-8d6c-4682-9117-05e4a699635c,この映画は____です。,いい; よい,This movie is good.
+6c9db455-8d6c-4682-9117-05e4a699635c,彼はとても____友達です。,いい; よい,He is a very good friend.
+6c9db455-8d6c-4682-9117-05e4a699635c,今日は____天気ですね。,いい; よい,The weather is good today.
 161c2ec6-bffb-4d96-8e67-a916fa1b9904,彼は____選手です。,強い,He is a strong player.
 161c2ec6-bffb-4d96-8e67-a916fa1b9904,この風はとても____です。,強い,This wind is very strong.
 161c2ec6-bffb-4d96-8e67-a916fa1b9904,彼女は____女性です。,強い,She is a strong woman.
