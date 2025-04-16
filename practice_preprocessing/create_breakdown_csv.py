@@ -6,7 +6,7 @@ from tqdm import tqdm
 # ──────────────────────────────────────────────────────────────────────────
 # 1) Import your helper functions
 # ──────────────────────────────────────────────────────────────────────────
-from practice_preprocessing import analyze_japanese_sentence, parse_analysis_response
+from generate_breakdown import analyze_japanese_sentence, parse_analysis_response
 # Adjust the import above if needed
 # ──────────────────────────────────────────────────────────────────────────
 
