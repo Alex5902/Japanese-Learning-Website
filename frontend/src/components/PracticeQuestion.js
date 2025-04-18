@@ -1,18 +1,52 @@
 // components/PracticeQuestion.js
 import { useState } from "react";
+import { toHiragana } from "wanakana";
 
 export default function PracticeQuestion({ item, onNext, showFuri }) {
-  const [input, setInput]       = useState("");
-  const [checked, setChecked]   = useState(false);
-  const [isCorrect, setCorrect] = useState(false);
+  const [input, setInput]         = useState("");
+  const [checked, setChecked]     = useState(false);
+  const [isCorrect, setCorrect]   = useState(false);
+  const [showEnglish, setShowEng] = useState(false);
 
-  const doCheck = async () => {
+  /* --------------------------- helpers -------------------- */
+
+  // Replace the first “____” placeholder in `sentence`
+  const fillBlank = (sentence, html) => sentence.replace("____", html);
+
+  // Build the sentence HTML that will be injected into the DOM
+  const buildSentenceHTML = () => {
+    if (!checked) {
+      // learner is still typing
+      const filled =
+        input.trim().length > 0
+          ? `<span class="underline bg-yellow-100 px-1 rounded-sm">${input}</span>`
+          : `<span class="underline px-1 text-gray-400">____</span>`;
+      return fillBlank(item.question, filled);
+    }
+
+    // after “Check” – always show the official answer
+    const answer =
+      `<span class="text-green-600 font-semibold bg-green-50 px-1 rounded-sm">${item.answer}</span>`;
+    return fillBlank(item.question, answer);
+  };
+
+  /* --------------------------- events --------------------- */
+
+  const handleInput = (e) => {
+    // convert everything to hiragana as they type
+    const hira = toHiragana(e.target.value, { IMEMode: true });
+    setInput(hira);
+  };
+
+  const handleCheck = async () => {
     if (checked) return;
+
     const correct = input.trim() === item.answer.trim();
     setCorrect(correct);
     setChecked(true);
+    setShowEng(true);         // always reveal English afterwards
 
-    // tell backend (ignore errors for guests/offline)
+    // fire‑and‑forget update to backend
     try {
       const userId = localStorage.getItem("user_id") || null;
       await fetch(`${process.env.NEXT_PUBLIC_API_URL}/practice/update`, {
@@ -28,64 +62,82 @@ export default function PracticeQuestion({ item, onNext, showFuri }) {
   };
 
   const handleKey = (e) => {
-    if (e.key === "Enter") doCheck();
+    if (e.key === "Enter") handleCheck();
   };
 
-  return (
-    <div className="w-full max-w-2xl bg-white shadow-md rounded-lg p-6">
+  /* --------------------------- render --------------------- */
 
-      {/* optional Hiragana line (appears above the Japanese sentence) */}
+  return (
+    <div className="w-full max-w-xl mx-auto bg-white rounded-2xl shadow-lg p-6 sm:p-8">
+
+      {/* reading line (if enabled) */}
       {showFuri && item.question_reading && (
-        <p className="text-base text-gray-600 text-center mb-2 tracking-wide">
+        <p className="text-center text-gray-500 mb-2 tracking-wide">
           {item.question_reading}
         </p>
       )}
 
-      {/* sentence */}
-      <div className="text-center mb-6 leading-relaxed">
-        <p className="text-xl">{item.question}</p>
-      </div>
+      {/* Japanese sentence */}
+      <p
+        className="text-center text-2xl sm:text-3xl leading-relaxed break-words"
+        dangerouslySetInnerHTML={{ __html: buildSentenceHTML() }}
+      />
 
-      {/* input */}
-      {!checked ? (
-        <input
-          autoFocus
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          onKeyDown={handleKey}
-          className="w-full border rounded px-4 py-2"
-          placeholder="Type the missing part"
-        />
-      ) : (
-        <p className={`text-center text-xl font-semibold ${isCorrect ? "text-green-600" : "text-red-600"}`}>
-          {isCorrect ? "Correct ✔︎" : `Wrong ✖︎  (answer: ${item.answer})`}
+      {/* English hint / answer */}
+      {showEnglish && (
+        <p className="mt-4 text-center text-base text-gray-700 whitespace-pre-wrap bg-gray-50 rounded-md p-3">
+          {item.english}
         </p>
       )}
 
-      {/* buttons */}
-      <div className="flex justify-center gap-4 mt-6">
+      {/* hint button (only before checking) */}
+      {!checked && (
+        <button
+          onClick={() => setShowEng((v) => !v)}
+          className="mt-4 block mx-auto text-sm text-blue-600 hover:text-blue-800"
+        >
+          {showEnglish ? "Hide English" : "Need a hint? Show English"}
+        </button>
+      )}
+
+      {/* answer input / result */}
+      <div className="mt-6">
+        {!checked ? (
+          <input
+            autoFocus
+            value={input}
+            onChange={handleInput}
+            onKeyDown={handleKey}
+            placeholder="タイプしてください…"
+            className="w-full border border-gray-300 rounded-lg px-4 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
+          />
+        ) : (
+          <p
+            className={`text-center text-xl font-semibold ${
+              isCorrect ? "text-green-600" : "text-red-600"
+            }`}
+          >
+            {isCorrect ? "Correct ✔︎" : "Wrong ✖︎"}
+          </p>
+        )}
+      </div>
+
+      {/* action buttons */}
+      <div className="flex justify-center gap-4 mt-8">
         {!checked ? (
           <button
-            onClick={doCheck}
-            className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
+            onClick={handleCheck}
+            className="px-8 py-2 rounded-lg bg-blue-500 hover:bg-blue-600 text-white text-lg shadow-md transition"
           >
             Check
           </button>
         ) : (
-          <>
-            <button
-              onClick={() => window.alert(item.english)}
-              className="px-6 py-2 bg-gray-500 text-white rounded hover:bg-gray-600"
-            >
-              Show English
-            </button>
-            <button
-              onClick={onNext}
-              className="px-6 py-2 bg-green-500 text-white rounded hover:bg-green-600"
-            >
-              Next
-            </button>
-          </>
+          <button
+            onClick={onNext}
+            className="px-8 py-2 rounded-lg bg-green-500 hover:bg-green-600 text-white text-lg shadow-md transition"
+          >
+            Next
+          </button>
         )}
       </div>
     </div>
