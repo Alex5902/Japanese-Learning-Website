@@ -1,111 +1,93 @@
 // components/PracticeQuestion.js
-import { useState, useRef, useEffect } from "react";
-import Flashcard from "./Flashcard";
-import ExampleBreakdown from "./ExampleBreakdown";
+import { useState } from "react";
 
-export default function PracticeQuestion({ item, onNext }) {
-  const [userAnswer, setUserAnswer] = useState("");
-  const [showResult, setShowResult] = useState(false);
-  const [isCorrect, setIsCorrect] = useState(false);
-  const [showDetails, setShowDetails] = useState(false);
-  const inputRef = useRef(null);
+export default function PracticeQuestion({ item, onNext, showFuri }) {
+  const [input, setInput]       = useState("");
+  const [checked, setChecked]   = useState(false);
+  const [isCorrect, setCorrect] = useState(false);
 
-  // auto‑focus on mount / when question changes
-  useEffect(() => {
-    inputRef.current?.focus();
-  }, [item]);
+  const doCheck = async () => {
+    if (checked) return;
+    const correct = input.trim() === item.answer.trim();
+    setCorrect(correct);
+    setChecked(true);
 
-  const handleSubmit = () => {
-    if (showResult) return;
-    const correct = userAnswer.trim() === item.answer.trim();
-    setIsCorrect(correct);
-    setShowResult(true);
+    // tell backend (ignore errors for guests/offline)
+    try {
+      const userId = localStorage.getItem("user_id") || null;
+      await fetch(`${process.env.NEXT_PUBLIC_API_URL}/practice/update`, {
+        method : "POST",
+        headers: { "Content-Type": "application/json" },
+        body   : JSON.stringify({
+          user_id     : userId,
+          practice_id : item.practice_id,
+          correct
+        })
+      });
+    } catch (_) {}
   };
 
-  const handleNext = () => {
-    setUserAnswer("");
-    setShowResult(false);
-    setIsCorrect(false);
-    setShowDetails(false);
-    onNext();
+  const handleKey = (e) => {
+    if (e.key === "Enter") doCheck();
   };
-
-  // allow Enter‑key submit / next
-  useEffect(() => {
-    const h = (e) => {
-      if (e.key === "Enter") {
-        if (!showResult) handleSubmit();
-        else handleNext();
-      }
-    };
-    window.addEventListener("keydown", h);
-    return () => window.removeEventListener("keydown", h);
-  });
 
   return (
-    <div className="w-full max-w-2xl bg-white rounded-lg shadow p-6">
+    <div className="w-full max-w-2xl bg-white shadow-md rounded-lg p-6">
+
+      {/* optional Hiragana line (appears above the Japanese sentence) */}
+      {showFuri && item.question_reading && (
+        <p className="text-base text-gray-600 text-center mb-2 tracking-wide">
+          {item.question_reading}
+        </p>
+      )}
+
       {/* sentence */}
-      <p className="text-xl text-center font-semibold mb-6">{item.question}</p>
+      <div className="text-center mb-6 leading-relaxed">
+        <p className="text-xl">{item.question}</p>
+      </div>
 
       {/* input */}
-      <input
-        ref={inputRef}
-        type="text"
-        value={userAnswer}
-        onChange={(e) => setUserAnswer(e.target.value)}
-        disabled={showResult}
-        placeholder="Type the missing word …"
-        className={`w-full px-4 py-2 border rounded focus:outline-none ${
-          showResult
-            ? isCorrect
-              ? "border-green-500"
-              : "border-red-500"
-            : "border-gray-300"
-        }`}
-      />
+      {!checked ? (
+        <input
+          autoFocus
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyDown={handleKey}
+          className="w-full border rounded px-4 py-2"
+          placeholder="Type the missing part"
+        />
+      ) : (
+        <p className={`text-center text-xl font-semibold ${isCorrect ? "text-green-600" : "text-red-600"}`}>
+          {isCorrect ? "Correct ✔︎" : `Wrong ✖︎  (answer: ${item.answer})`}
+        </p>
+      )}
 
       {/* buttons */}
-      {!showResult ? (
-        <button
-          onClick={handleSubmit}
-          className="mt-4 w-full py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-        >
-          Check
-        </button>
-      ) : (
-        <>
-          <div
-            className={`mt-4 text-lg font-bold text-center ${
-              isCorrect ? "text-green-600" : "text-red-600"
-            }`}
-          >
-            {isCorrect ? "Correct 🎉" : "Wrong 😢"} – answer: {item.answer}
-          </div>
-
+      <div className="flex justify-center gap-4 mt-6">
+        {!checked ? (
           <button
-            onClick={() => setShowDetails((p) => !p)}
-            className="mt-3 w-full py-2 bg-gray-600 text-white rounded hover:bg-gray-700"
+            onClick={doCheck}
+            className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600"
           >
-            {showDetails ? "Hide Flashcard" : "Show Flashcard + Breakdown"}
+            Check
           </button>
-
-          <button
-            onClick={handleNext}
-            className="mt-3 w-full py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-          >
-            Next
-          </button>
-
-          {showDetails && (
-            <div className="mt-4 space-y-4">
-              <Flashcard flashcard={item.flashcard} hideActions />
-              {item.flashcard.content?.breakdown && (
-                <ExampleBreakdown breakdown={item.flashcard.content.breakdown} />
-              )}
-            </div>
-          )}
-        </>
-      )}
+        ) : (
+          <>
+            <button
+              onClick={() => window.alert(item.english)}
+              className="px-6 py-2 bg-gray-500 text-white rounded hover:bg-gray-600"
+            >
+              Show English
+            </button>
+            <button
+              onClick={onNext}
+              className="px-6 py-2 bg-green-500 text-white rounded hover:bg-green-600"
+            >
+              Next
+            </button>
+          </>
+        )}
+      </div>
     </div>
   );
 }

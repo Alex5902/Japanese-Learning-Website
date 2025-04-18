@@ -35,10 +35,10 @@ export function getNextReviewDateAndLevel(oldLevel, correct, userTimeZone = "UTC
 
   switch (level) {
     case 1:
-      hoursToAdd = 4;
+      hoursToAdd = 0;
       break;
     case 2:
-      hoursToAdd = 8;
+      hoursToAdd = 0;
       break;
     case 3:
       daysToAdd = 1;

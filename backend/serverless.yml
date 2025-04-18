@@ -95,3 +95,17 @@ functions:
       - http:
           path: flashcards/bulkSyncGuestProgress
           method: post
+
+  fetchPractice:
+    handler: functions/practice/fetchPractice.handler
+    events:
+      - http:
+          path: practice/get         
+          method: post
+
+  updatePractice:
+    handler: functions/practice/updatePractice.handler
+    events:
+      - http:
+          path: practice/update     
+          method: post

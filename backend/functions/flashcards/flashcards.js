@@ -10,7 +10,7 @@ exports.fetchLessonFlashcards = async (event) => {
 
   try {
     if (!user_id) {
-      // 🚀 Guest user: Return first 15 flashcards of Lesson 1, no mastery check
+      // Guest user: Return first 15 flashcards of Lesson 1, no mastery check
       console.log("Guest user detected. Returning first 15 flashcards of Lesson 1.");
       const query = `
         SELECT * FROM Flashcards

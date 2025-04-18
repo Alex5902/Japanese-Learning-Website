@@ -73,6 +73,7 @@ async function createTables() {
         await client.query(`
             CREATE TABLE IF NOT EXISTS UserPractice (
                 id UUID PRIMARY KEY,
+                user_id UUID REFERENCES Users(user_id) ON DELETE CASCADE,
                 practice_id UUID REFERENCES Practice(practice_id) ON DELETE CASCADE,
                 level INTEGER DEFAULT 0,
                 correct_count INTEGER DEFAULT 0,

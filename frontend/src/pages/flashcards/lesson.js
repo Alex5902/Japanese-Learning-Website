@@ -172,7 +172,7 @@ export default function FlashcardLesson() {
     if ((outOfCards || reachedLimit) && !loading && !error) {
       // If user is guest => show immediate review, else DB-based review
       if (!userId) {
-        // 🚨 Store guest lesson completion
+        // Store guest lesson completion
         const completedLessonsStr = sessionStorage.getItem("guest_completed_lessons");
         const completedLessons = completedLessonsStr ? JSON.parse(completedLessonsStr) : [];
         if (!completedLessons.includes(lessonNum)) {
