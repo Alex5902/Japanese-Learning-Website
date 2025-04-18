@@ -64,7 +64,8 @@ async function createTables() {
                 flashcard_id UUID REFERENCES Flashcards(flashcard_id) ON DELETE CASCADE,
                 type VARCHAR(50) NOT NULL,
                 question VARCHAR(255) NOT NULL,
-                answer VARCHAR(255) NOT NULL
+                answer VARCHAR(255) NOT NULL,
+                english Vs VARCHAR(255) NOT NULL
             );
         `);
 
