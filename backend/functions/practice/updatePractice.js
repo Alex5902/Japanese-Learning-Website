@@ -1,70 +1,104 @@
-const { Client } = require('pg');
-require('dotenv').config();
+// backend/functions/practice/updatePractice.js
+const { Client }    = require("pg");
+const { v4: uuidv4 } = require("uuid");
+require("dotenv").config();
 
 /**
- * POST  /practice/update
- * ----------------------
+ * POST /practice/update
+ *
  * body = {
- *   user_id     : string | null   // guests → null   (still passed, may use later)
- *   practice_id : string          // uuid of the question
- *   correct     : boolean         // whether the answer was right
+ *   user_id     : string,   // UUID of the user
+ *   practice_id : string,   // UUID of the practice item
+ *   correct     : boolean   // true if the user was correct
  * }
  */
 exports.handler = async (event) => {
-  /* ────── basic request checks ────── */
-  if (event.httpMethod !== 'POST') {
-    return { statusCode: 405, body: JSON.stringify({ error: 'Method not allowed' }) };
+  if (event.httpMethod !== "POST") {
+    return { statusCode: 405, body: JSON.stringify({ error: "Method not allowed" }) };
   }
 
-  let body = {};
+  let body;
   try {
-    body = JSON.parse(event.body || '{}');
+    body = JSON.parse(event.body || "{}");
   } catch {
-    return { statusCode: 400, body: JSON.stringify({ error: 'Bad JSON in body' }) };
+    return { statusCode: 400, body: JSON.stringify({ error: "Bad JSON in body" }) };
   }
 
-  const { practice_id, correct } = body;
-  if (!practice_id) {
-    return { statusCode: 400, body: JSON.stringify({ error: 'practice_id required' }) };
+  const { user_id, practice_id, correct } = body;
+  if (!practice_id || !user_id || typeof correct !== "boolean") {
+    return {
+      statusCode: 400,
+      body: JSON.stringify({ error: "Missing or invalid parameters" }),
+    };
   }
 
-  /* ────── open PG connection ────── */
+  // Prepare the two increments
+  const incCorrect   = correct   ? 1 : 0;
+  const incIncorrect = correct   ? 0 : 1;
+
   const client = new Client({ connectionString: process.env.DATABASE_URL });
   await client.connect();
 
-  /* Counters to add with this submission */
-  const incCorrect   =  correct ? 1 : 0;
-  const incIncorrect = !correct ? 1 : 0;
-
   try {
-    /*  If the row already exists for this practice_id, add the new counts.
-        Otherwise create it with level = 0 and the current counts.
-        ────────────────────────────────────────────────────────────── */
     await client.query(
       `
-      INSERT INTO UserPractice
-             (id,                  practice_id, level,
-              correct_count, incorrect_count, accuracy, next_review)
-      VALUES (uuid_generate_v4(), $1,          0,
-              $2,             $3,             ROUND($2::numeric * 100 / NULLIF($2+$3,0)), NULL)
-      ON CONFLICT (practice_id) DO UPDATE
-        SET correct_count   = UserPractice.correct_count   + EXCLUDED.correct_count,
-            incorrect_count = UserPractice.incorrect_count + EXCLUDED.incorrect_count,
-            /* accuracy = correct / total (stored as integer %) */
-            accuracy        = ROUND(
-                                (UserPractice.correct_count   + EXCLUDED.correct_count)::numeric
-                                * 100 /
-                                (UserPractice.correct_count   + EXCLUDED.correct_count +
-                                 UserPractice.incorrect_count + EXCLUDED.incorrect_count)
-                              );
+      INSERT INTO UserPractice (
+        id,
+        user_id,
+        practice_id,
+        level,
+        correct_count,
+        incorrect_count,
+        accuracy,
+        next_review
+      )
+      VALUES (
+        $1::uuid,
+        $2::uuid,
+        $3::uuid,
+        0,
+        $4::int,
+        $5::int,
+        /* initial accuracy = 100% if correct, 0% if incorrect */
+        CASE WHEN $4::int + $5::int > 0
+             THEN ROUND( $4::numeric * 100 / ($4 + $5) )
+             ELSE 0
+        END,
+        NULL
+      )
+      ON CONFLICT (user_id, practice_id) DO UPDATE
+        SET
+          correct_count   = UserPractice.correct_count   + EXCLUDED.correct_count,
+          incorrect_count = UserPractice.incorrect_count + EXCLUDED.incorrect_count,
+          accuracy        = CASE
+            WHEN (UserPractice.correct_count   + EXCLUDED.correct_count
+                  + UserPractice.incorrect_count + EXCLUDED.incorrect_count
+                 ) > 0
+            THEN ROUND(
+              (UserPractice.correct_count   + EXCLUDED.correct_count)::numeric
+              * 100 /
+              (UserPractice.correct_count   + EXCLUDED.correct_count
+               + UserPractice.incorrect_count + EXCLUDED.incorrect_count)
+            )
+            ELSE 0
+          END
       `,
-      [practice_id, incCorrect, incIncorrect]
+      [
+        uuidv4(),      // new id
+        user_id,
+        practice_id,
+        incCorrect,
+        incIncorrect,
+      ]
     );
 
     return { statusCode: 200, body: JSON.stringify({ ok: true }) };
   } catch (err) {
-    console.error('[practice/update]', err);
-    return { statusCode: 500, body: JSON.stringify({ error: 'Internal server error' }) };
+    console.error("[practice/update]", err);
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ error: "Internal server error" }),
+    };
   } finally {
     await client.end();
   }

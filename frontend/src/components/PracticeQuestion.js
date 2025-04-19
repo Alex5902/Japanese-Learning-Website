@@ -1,42 +1,40 @@
-// components/PracticeQuestion.js
+// src/components/PracticeQuestion.js
 import { useState } from "react";
 import { toHiragana } from "wanakana";
+import Flashcard from "./Flashcard";
+import ExampleBreakdown from "./ExampleBreakdown";
 
 export default function PracticeQuestion({ item, onNext, showFuri }) {
-  const [input, setInput]         = useState("");
-  const [checked, setChecked]     = useState(false);
-  const [isCorrect, setCorrect]   = useState(false);
-  const [showEnglish, setShowEng] = useState(false);
+  const [input, setInput]           = useState("");
+  const [checked, setChecked]       = useState(false);
+  const [isCorrect, setCorrect]     = useState(false);
+  const [showEnglish, setShowEng]   = useState(false);
 
-  /* --------------------------- helpers -------------------- */
+  /* extra toggles --------------------------------------- */
+  const [showBreakdown, setShowBreakdown] = useState(false);
+  const [showCard,      setShowCard]      = useState(false);
 
-  // Replace the first “____” placeholder in `sentence`
+  /* helpers --------------------------------------------- */
   const fillBlank = (sentence, html) => sentence.replace("____", html);
 
-  // Build the sentence HTML that will be injected into the DOM
   const buildSentenceHTML = () => {
     if (!checked) {
-      // learner is still typing
       const filled =
-        input.trim().length > 0
+        input.trim()
           ? `<span class="underline bg-yellow-100 px-1 rounded-sm">${input}</span>`
           : `<span class="underline px-1 text-gray-400">____</span>`;
       return fillBlank(item.question, filled);
     }
 
-    // after “Check” – always show the official answer
-    const answer =
-      `<span class="text-green-600 font-semibold bg-green-50 px-1 rounded-sm">${item.answer}</span>`;
-    return fillBlank(item.question, answer);
+    return fillBlank(
+      item.question,
+      `<span class="text-green-600 font-semibold bg-green-50 px-1 rounded-sm">${item.answer}</span>`
+    );
   };
 
-  /* --------------------------- events --------------------- */
-
-  const handleInput = (e) => {
-    // convert everything to hiragana as they type
-    const hira = toHiragana(e.target.value, { IMEMode: true });
-    setInput(hira);
-  };
+  /* events ---------------------------------------------- */
+  const handleInput = (e) =>
+    setInput(toHiragana(e.target.value, { IMEMode: true }));
 
   const handleCheck = async () => {
     if (checked) return;
@@ -44,9 +42,8 @@ export default function PracticeQuestion({ item, onNext, showFuri }) {
     const correct = input.trim() === item.answer.trim();
     setCorrect(correct);
     setChecked(true);
-    setShowEng(true);         // always reveal English afterwards
+    setShowEng(true);
 
-    // fire‑and‑forget update to backend
     try {
       const userId = localStorage.getItem("user_id") || null;
       await fetch(`${process.env.NEXT_PUBLIC_API_URL}/practice/update`, {
@@ -58,26 +55,21 @@ export default function PracticeQuestion({ item, onNext, showFuri }) {
           correct
         })
       });
-    } catch (_) {}
+    } catch { /* ignore offline / guest failures */ }
   };
 
-  const handleKey = (e) => {
-    if (e.key === "Enter") handleCheck();
-  };
-
-  /* --------------------------- render --------------------- */
-
+  /* render ---------------------------------------------- */
   return (
     <div className="w-full max-w-xl mx-auto bg-white rounded-2xl shadow-lg p-6 sm:p-8">
 
-      {/* reading line (if enabled) */}
+      {/* optional reading line */}
       {showFuri && item.question_reading && (
         <p className="text-center text-gray-500 mb-2 tracking-wide">
           {item.question_reading}
         </p>
       )}
 
-      {/* Japanese sentence */}
+      {/* JP sentence */}
       <p
         className="text-center text-2xl sm:text-3xl leading-relaxed break-words"
         dangerouslySetInnerHTML={{ __html: buildSentenceHTML() }}
@@ -100,14 +92,14 @@ export default function PracticeQuestion({ item, onNext, showFuri }) {
         </button>
       )}
 
-      {/* answer input / result */}
+      {/* input / verdict */}
       <div className="mt-6">
         {!checked ? (
           <input
             autoFocus
             value={input}
             onChange={handleInput}
-            onKeyDown={handleKey}
+            onKeyDown={(e) => e.key === "Enter" && handleCheck()}
             placeholder="タイプしてください…"
             className="w-full border border-gray-300 rounded-lg px-4 py-2 text-lg focus:outline-none focus:ring-2 focus:ring-blue-400"
           />
@@ -122,7 +114,59 @@ export default function PracticeQuestion({ item, onNext, showFuri }) {
         )}
       </div>
 
-      {/* action buttons */}
+      {/* extra resources (only after checking) ------------- */}
+      {checked && (
+        <>
+          <div className="flex justify-center gap-4 mt-6">
+            {item.analysis_json && (
+              <button
+                onClick={() => {
+                  setShowBreakdown(!showBreakdown);
+                  if (!showBreakdown) setShowCard(false);
+                }}
+                className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition"
+              >
+                {showBreakdown ? "Hide Breakdown" : "Show Breakdown"}
+              </button>
+            )}
+
+            <button
+              onClick={() => {
+                setShowCard(!showCard);
+                if (!showCard) setShowBreakdown(false);
+              }}
+              className="px-4 py-2 bg-indigo-500 text-white rounded-lg shadow hover:bg-indigo-600 transition"
+            >
+              {showCard ? "Hide Flashcard" : "Show Flashcard"}
+            </button>
+          </div>
+
+          {/* panels */}
+          {showBreakdown && (
+            <ExampleBreakdown
+              breakdown={
+                typeof item.analysis_json === "string"
+                ? JSON.parse(item.analysis_json)
+                : item.analysis_json
+              }
+            />
+          )}
+
+          {showCard && (
+            <div className="mt-4">
+              <Flashcard
+                flashcard={{
+                  type:    item.type,
+                  content: item.content,
+                }}
+                hideActions
+              />
+            </div>
+          )}
+        </>
+      )}
+
+      {/* main action buttons */}
       <div className="flex justify-center gap-4 mt-8">
         {!checked ? (
           <button
