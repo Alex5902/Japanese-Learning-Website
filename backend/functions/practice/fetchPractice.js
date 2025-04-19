@@ -37,7 +37,7 @@ exports.handler = async (event) => {
         P.question,
         P.answer,
         P.english,
-        P.breakdown   AS analysis_json
+        P.breakdown
       FROM Practice       P
       JOIN Flashcards     F ON F.flashcard_id = P.flashcard_id
       JOIN UserFlashcards U ON U.flashcard_id = P.flashcard_id
@@ -68,7 +68,7 @@ exports.handler = async (event) => {
         P.question,
         P.answer,
         P.english,
-        P.breakdown   AS analysis_json
+        P.breakdown
       FROM UserPractice  UP
       JOIN Practice      P ON P.practice_id = UP.practice_id
       JOIN Flashcards    F ON F.flashcard_id = P.flashcard_id
@@ -99,8 +99,8 @@ function respond(rows) {
     english:      r.english,
     type:         r.type,
     content:      typeof r.content === 'string' ? JSON.parse(r.content) : r.content,
-    analysis_json: r.analysis_json
-      ? (typeof r.analysis_json === 'string' ? JSON.parse(r.analysis_json) : r.analysis_json)
+    breakdown: r.breakdown
+      ? (typeof r.breakdown === 'string' ? JSON.parse(r.breakdown) : r.breakdown)
       : undefined
   }));
 

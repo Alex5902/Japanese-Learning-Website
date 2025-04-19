@@ -118,7 +118,7 @@ export default function PracticeQuestion({ item, onNext, showFuri }) {
       {checked && (
         <>
           <div className="flex justify-center gap-4 mt-6">
-            {item.analysis_json && (
+            {item.breakdown && (
               <button
                 onClick={() => {
                   setShowBreakdown(!showBreakdown);
@@ -144,11 +144,7 @@ export default function PracticeQuestion({ item, onNext, showFuri }) {
           {/* panels */}
           {showBreakdown && (
             <ExampleBreakdown
-              breakdown={
-                typeof item.analysis_json === "string"
-                ? JSON.parse(item.analysis_json)
-                : item.analysis_json
-              }
+              breakdown={item.breakdown}
             />
           )}
 
@@ -156,8 +152,9 @@ export default function PracticeQuestion({ item, onNext, showFuri }) {
             <div className="mt-4">
               <Flashcard
                 flashcard={{
-                  type:    item.type,
-                  content: item.content,
+                    flashcard_id: item.flashcard_id,
+                    type: item.type,
+                    content: item.content,
                 }}
                 hideActions
               />
