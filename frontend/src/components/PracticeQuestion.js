@@ -60,6 +60,7 @@ export default function PracticeQuestion({ item, onNext, showFuri }) {
 
   /* render ---------------------------------------------- */
   return (
+    <>
     <div className="w-full max-w-xl mx-auto bg-white rounded-2xl shadow-lg p-6 sm:p-8">
 
       {/* optional reading line */}
@@ -113,7 +114,7 @@ export default function PracticeQuestion({ item, onNext, showFuri }) {
           </p>
         )}
       </div>
-
+    </div>
       {/* extra resources (only after checking) ------------- */}
       {checked && (
         <>
@@ -143,9 +144,9 @@ export default function PracticeQuestion({ item, onNext, showFuri }) {
 
           {/* panels */}
           {showBreakdown && (
-            <ExampleBreakdown
-              breakdown={item.breakdown}
-            />
+            <div className="w-full px-4 md:px-8 lg:px-16">
+              <ExampleBreakdown breakdown={item.breakdown} />
+            </div>
           )}
 
           {showCard && (
@@ -181,6 +182,7 @@ export default function PracticeQuestion({ item, onNext, showFuri }) {
           </button>
         )}
       </div>
-    </div>
+    
+    </>
   );
 }
