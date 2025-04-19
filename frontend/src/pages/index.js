@@ -119,6 +119,50 @@ export default function Home() {
   // then set newLessonCardCount, reviewCount, practiceCount.
   // ---------------------------------
 
+ // ---------------------------------
+ // New: fetch all three counts
+ // ---------------------------------
+ useEffect(() => {
+   if (!userId) return;
+
+   async function fetchAllCounts() {
+     try {
+       // 1) flashcard counts (new lesson & review)
+       const countsRes = await fetch(
+         `${process.env.NEXT_PUBLIC_API_URL}/flashcards/fetchFlashcardCounts`,
+         {
+           method: "POST",
+           headers: { "Content-Type": "application/json" },
+           body: JSON.stringify({ user_id: userId }),
+         }
+       );
+       if (countsRes.ok) {
+         const { newLessonCardCount, reviewCount } = await countsRes.json();
+         setNewLessonCardCount(newLessonCardCount);
+         setReviewCount(reviewCount);
+       }
+
+       // 2) practice count: just fetch up to 1,000 items and count them
+       const pracRes = await fetch(
+         `${process.env.NEXT_PUBLIC_API_URL}/practice/get`,
+         {
+           method: "POST",
+           headers: { "Content-Type": "application/json" },
+           body: JSON.stringify({ user_id: userId, limit: 1000 }),
+         }
+       );
+       if (pracRes.ok) {
+         const { practice } = await pracRes.json();
+         setPracticeCount(practice.length);
+       }
+     } catch (err) {
+       console.error("Error fetching counts:", err);
+     }
+   }
+
+   fetchAllCounts();
+ }, [userId]);
+
   // Existing handleLessonClick
   const handleLessonClick = () => {
     const userId = localStorage.getItem("user_id");
