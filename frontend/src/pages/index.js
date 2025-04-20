@@ -123,45 +123,50 @@ export default function Home() {
  // New: fetch all three counts
  // ---------------------------------
  useEffect(() => {
-   if (!userId) return;
+  if (!hydrated) return;        // ← don’t run until hydration is done
+  // (Optionally) if you only want to fetch for logged‑in users:
+  // if (!userId) return;
 
-   async function fetchAllCounts() {
-     try {
-       // 1) flashcard counts (new lesson & review)
-       const countsRes = await fetch(
-         `${process.env.NEXT_PUBLIC_API_URL}/flashcards/fetchFlashcardCounts`,
-         {
-           method: "POST",
-           headers: { "Content-Type": "application/json" },
-           body: JSON.stringify({ user_id: userId }),
-         }
-       );
-       if (countsRes.ok) {
-         const { newLessonCardCount, reviewCount } = await countsRes.json();
-         setNewLessonCardCount(newLessonCardCount);
-         setReviewCount(reviewCount);
-       }
+  async function fetchAllCounts() {
+    console.log("⏳ fetchAllCounts, userId=", userId);
+    try {
+      // 1) lesson & review
+      const countsRes = await fetch(
+        `${process.env.NEXT_PUBLIC_API_URL}/flashcards/fetchFlashcardCounts`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ user_id: userId || "" }),
+        }
+      );
+      const countsJson = await countsRes.json();
+      console.log("🔢 fetchFlashcardCounts →", countsJson);
+      if (countsRes.ok) {
+        setNewLessonCardCount(countsJson.newLessonCardCount);
+        setReviewCount(countsJson.reviewCount);
+      }
 
-       // 2) practice count: just fetch up to 1,000 items and count them
-       const pracRes = await fetch(
-         `${process.env.NEXT_PUBLIC_API_URL}/practice/get`,
-         {
-           method: "POST",
-           headers: { "Content-Type": "application/json" },
-           body: JSON.stringify({ user_id: userId, limit: 1000 }),
-         }
-       );
-       if (pracRes.ok) {
-         const { practice } = await pracRes.json();
-         setPracticeCount(practice.length);
-       }
-     } catch (err) {
-       console.error("Error fetching counts:", err);
-     }
-   }
+      // 2) practice
+      const pracRes = await fetch(
+        `${process.env.NEXT_PUBLIC_API_URL}/practice/get`,
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ user_id: userId || "", limit: 1000 }),
+        }
+      );
+      const pracJson = await pracRes.json();
+      console.log("✏️ practice/get → length", pracJson.practice?.length);
+      if (pracRes.ok) {
+        setPracticeCount(pracJson.practice.length);
+      }
+    } catch (err) {
+      console.error("Error fetching counts:", err);
+    }
+  }
 
-   fetchAllCounts();
- }, [userId]);
+  fetchAllCounts();
+}, [hydrated, userId]);
 
   // Existing handleLessonClick
   const handleLessonClick = () => {
@@ -206,7 +211,7 @@ export default function Home() {
           <span>Start Lesson {lessonNumber} 📖</span>
 
           {/* Bubble for newLessonCardCount */}
-          {newLessonCardCount >= 0 && (
+          {newLessonCardCount > 0 && (
             <span className="ml-2 inline-flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-xs font-bold">
               {newLessonCardCount}
             </span>
@@ -388,7 +393,7 @@ export default function Home() {
               className="relative px-8 py-4 text-lg bg-green-500 text-white font-semibold rounded-full shadow-md hover:shadow-lg hover:bg-green-600 transition"
             >
               <span>Review 🎴</span>
-              {reviewCount >= 0 && (
+              {reviewCount > 0 && (
                 <span className="ml-2 inline-flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-xs font-bold">
                   {reviewCount}
                 </span>
@@ -401,7 +406,7 @@ export default function Home() {
               className="relative px-8 py-4 text-lg bg-purple-500 text-white font-semibold rounded-full shadow-md hover:shadow-lg hover:bg-purple-600 transition"
             >
               <span>Practice 📝</span>
-              {practiceCount >= 0 && (
+              {practiceCount > 0 && (
                 <span className="ml-2 inline-flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-xs font-bold">
                   {practiceCount}
                 </span>

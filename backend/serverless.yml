@@ -57,12 +57,18 @@ functions:
           path: flashcards/mark
           method: post
 
-  # NEW function entry for updateReviewFlashcard
   updateReviewFlashcard:
     handler: functions/flashcards/flashcards.updateReviewFlashcard
     events:
       - http:
           path: flashcards/updateReviewFlashcard
+          method: post
+
+  fetchFlashcardCounts:                    
+    handler: functions/flashcards/flashcards.fetchFlashcardCounts
+    events:
+      - http:
+          path: flashcards/fetchFlashcardCounts
           method: post
 
   ############################################
