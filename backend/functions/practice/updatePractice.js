@@ -1,17 +1,9 @@
 // backend/functions/practice/updatePractice.js
-const { Client }    = require("pg");
+const { Client }     = require("pg");
 const { v4: uuidv4 } = require("uuid");
+const { getNextReviewDateAndLevel } = require("../../utils/srs");
 require("dotenv").config();
 
-/**
- * POST /practice/update
- *
- * body = {
- *   user_id     : string,   // UUID of the user
- *   practice_id : string,   // UUID of the practice item
- *   correct     : boolean   // true if the user was correct
- * }
- */
 exports.handler = async (event) => {
   if (event.httpMethod !== "POST") {
     return { statusCode: 405, body: JSON.stringify({ error: "Method not allowed" }) };
@@ -26,20 +18,33 @@ exports.handler = async (event) => {
 
   const { user_id, practice_id, correct } = body;
   if (!practice_id || !user_id || typeof correct !== "boolean") {
-    return {
-      statusCode: 400,
-      body: JSON.stringify({ error: "Missing or invalid parameters" }),
-    };
+    return { statusCode: 400, body: JSON.stringify({ error: "Missing or invalid parameters" }) };
   }
 
-  // Prepare the two increments
-  const incCorrect   = correct   ? 1 : 0;
-  const incIncorrect = correct   ? 0 : 1;
-
+  // 1) Connect
   const client = new Client({ connectionString: process.env.DATABASE_URL });
   await client.connect();
 
   try {
+    // 2) Look up the current level (if any)
+    const priorRes = await client.query(
+      `SELECT level FROM UserPractice WHERE user_id = $1 AND practice_id = $2`,
+      [user_id, practice_id]
+    );
+    const currentLevel = priorRes.rows.length ? priorRes.rows[0].level : 0;
+
+    // 3) Compute new SRS level + next review timestamp
+    const { newLevel, nextReview } = getNextReviewDateAndLevel(
+      currentLevel,
+      correct,
+      "UTC"
+    );
+
+    // 4) Increment correct/incorrect counts
+    const incCorrect   = correct ? 1 : 0;
+    const incIncorrect = correct ? 0 : 1;
+
+    // 5) Upsert with updated level & next_review
     await client.query(
       `
       INSERT INTO UserPractice (
@@ -53,24 +58,23 @@ exports.handler = async (event) => {
         next_review
       )
       VALUES (
-        $1::uuid,
-        $2::uuid,
-        $3::uuid,
-        0,
+        $1::uuid, $2::uuid, $3::uuid,
         $4::int,
-        $5::int,
-        /* initial accuracy = 100% if correct, 0% if incorrect */
-        CASE WHEN $4::int + $5::int > 0
-             THEN ROUND( $4::numeric * 100 / ($4 + $5) )
+        $5::int, $6::int,
+        -- accuracy over the new single attempt
+        CASE WHEN ($5 + $6) > 0
+             THEN ROUND($5::numeric * 100 / ($5 + $6))
              ELSE 0
         END,
-        NULL
+        $7::timestamptz
       )
       ON CONFLICT (user_id, practice_id) DO UPDATE
         SET
           correct_count   = UserPractice.correct_count   + EXCLUDED.correct_count,
           incorrect_count = UserPractice.incorrect_count + EXCLUDED.incorrect_count,
-          accuracy        = CASE
+          level           = EXCLUDED.level,
+          next_review     = EXCLUDED.next_review,
+          accuracy = CASE
             WHEN (UserPractice.correct_count   + EXCLUDED.correct_count
                   + UserPractice.incorrect_count + EXCLUDED.incorrect_count
                  ) > 0
@@ -84,21 +88,20 @@ exports.handler = async (event) => {
           END
       `,
       [
-        uuidv4(),      // new id
+        uuidv4(),
         user_id,
         practice_id,
+        newLevel,     // ← bump’d by your SRS logic
         incCorrect,
         incIncorrect,
+        nextReview    // ← timestamp from your SRS file
       ]
     );
 
     return { statusCode: 200, body: JSON.stringify({ ok: true }) };
   } catch (err) {
     console.error("[practice/update]", err);
-    return {
-      statusCode: 500,
-      body: JSON.stringify({ error: "Internal server error" }),
-    };
+    return { statusCode: 500, body: JSON.stringify({ error: "Internal server error" }) };
   } finally {
     await client.end();
   }
