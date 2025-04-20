@@ -11,11 +11,20 @@ export default function PracticePage() {
   const [error, setError]   = useState(null);
   const [showFuri, setShowFuri] = useState(false);
 
+  const STORAGE_KEY = "practice_questions";
+
   /* -----------------------------------------------------------
      Fetch a batch once when the page mounts.
   ----------------------------------------------------------- */
   useEffect(() => {
     (async () => {
+      // 1) if we've already picked a set this session, reuse it
+      const saved = sessionStorage.getItem(STORAGE_KEY);
+      if (saved) {
+        setItems(JSON.parse(saved));
+        setLoad(false);
+        return;
+      }
       try {
         const userId = localStorage.getItem("user_id") || null; // guest => null
         const body = { user_id: userId, mode: "all", limit: 10 };
@@ -31,8 +40,23 @@ export default function PracticePage() {
 
         if (!res.ok) throw new Error("Failed to fetch practice questions.");
 
-        const data = await res.json();
-        setItems(data.practice || []);
+        const { practice: allQs } = await res.json();
+
+        // Group by flashcard_id
+        const byFlashcard = allQs.reduce((map, q) => {
+          if (!map.has(q.flashcard_id)) map.set(q.flashcard_id, []);
+          map.get(q.flashcard_id).push(q);
+          return map;
+        }, new Map());
+
+        // Pick one random question per flashcard
+        const onePerFlashcard = Array.from(byFlashcard.values()).map(
+          questions => questions[Math.floor(Math.random() * questions.length)]
+        );
+
+        // store it so refreshing won’t re‑pick
+        sessionStorage.setItem(STORAGE_KEY, JSON.stringify(onePerFlashcard));
+        setItems(onePerFlashcard);
       } catch (err) {
         console.error(err);
         setError("Cannot fetch practice questions.");
@@ -46,8 +70,13 @@ export default function PracticePage() {
      After each question moves on, advance the index.
   ----------------------------------------------------------- */
   const handleNext = () => {
-    if (idx + 1 < items.length) setIdx(i => i + 1);
-    else window.location.href = "/"; // finished – take them home for now
+    if (idx + 1 < items.length) {
+      setIdx(i => i + 1);
+    } else {
+      // cleanup our sessionStorage so next time we get fresh picks
+      sessionStorage.removeItem(STORAGE_KEY);
+      window.location.href = "/";
+    }
   };
 
   return (

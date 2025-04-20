@@ -158,7 +158,10 @@ export default function Home() {
       const pracJson = await pracRes.json();
       console.log("✏️ practice/get → length", pracJson.practice?.length);
       if (pracRes.ok) {
-        setPracticeCount(pracJson.practice.length);
+        // only count ONE question per flashcard:
+        const flashcardIds = pracJson.practice.map((q) => q.flashcard_id);
+        const uniqueCount = new Set(flashcardIds).size;
+        setPracticeCount(uniqueCount);
       }
     } catch (err) {
       console.error("Error fetching counts:", err);
@@ -211,11 +214,17 @@ export default function Home() {
           <span>Start Lesson {lessonNumber} 📖</span>
 
           {/* Bubble for newLessonCardCount */}
-          {newLessonCardCount > 0 && (
-            <span className="ml-2 inline-flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-xs font-bold">
-              {newLessonCardCount}
-            </span>
-          )}
+          <span
+            className={`
+              ml-2 inline-flex items-center justify-center
+              w-6 h-6 rounded-full text-xs font-bold
+              bg-red-600 text-white
+              ${newLessonCardCount > 0 ? "opacity-100" : "opacity-0"}
+              transition-opacity duration-200
+            `}
+          >
+            {newLessonCardCount}
+          </span>
         </button>
       );
     }
@@ -393,11 +402,17 @@ export default function Home() {
               className="relative px-8 py-4 text-lg bg-green-500 text-white font-semibold rounded-full shadow-md hover:shadow-lg hover:bg-green-600 transition"
             >
               <span>Review 🎴</span>
-              {reviewCount > 0 && (
-                <span className="ml-2 inline-flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-xs font-bold">
-                  {reviewCount}
-                </span>
-              )}
+              <span
+                className={`
+                  ml-2 inline-flex items-center justify-center
+                  w-6 h-6 rounded-full text-xs font-bold
+                  bg-red-600 text-white
+                  ${reviewCount > 0 ? "opacity-100" : "opacity-0"}
+                  transition-opacity duration-200
+                `}
+              >
+                {reviewCount}
+              </span>
             </button>
 
             {/* PRACTICE LINK with bubble */}
@@ -406,11 +421,17 @@ export default function Home() {
               className="relative px-8 py-4 text-lg bg-purple-500 text-white font-semibold rounded-full shadow-md hover:shadow-lg hover:bg-purple-600 transition"
             >
               <span>Practice 📝</span>
-              {practiceCount > 0 && (
-                <span className="ml-2 inline-flex items-center justify-center w-6 h-6 rounded-full bg-red-600 text-white text-xs font-bold">
-                  {practiceCount}
-                </span>
-              )}
+              <span
+                className={`
+                  ml-2 inline-flex items-center justify-center
+                  w-6 h-6 rounded-full text-xs font-bold
+                  bg-red-600 text-white
+                  ${practiceCount > 0 ? "opacity-100" : "opacity-0"}
+                  transition-opacity duration-200
+                `}
+              >
+                {practiceCount}
+              </span>
             </Link>
           </div>
         </div>
