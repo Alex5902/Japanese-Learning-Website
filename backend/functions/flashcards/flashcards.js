@@ -490,135 +490,79 @@ exports.fetchNextLesson = async (event) => {
       };
     }
 
-    // 1) Check if user has ANY flashcards in userflashcards table
+    // 1) brand‑new user?
     const anyRow = await db.query(
-      `SELECT 1 
-       FROM UserFlashcards
-       WHERE user_id=$1
-       LIMIT 1`,
+      `SELECT 1 FROM UserFlashcards WHERE user_id = $1 LIMIT 1`,
       [user_id]
     );
-
-    // If none => brand new user => nextLesson=1
     if (anyRow.rowCount === 0) {
       return {
         statusCode: 200,
-        body: JSON.stringify({
-          nextLesson: 1,  // user can start from lesson 1
-          locked: false,
-        }),
+        body: JSON.stringify({ nextLesson: 1, locked: false }),
       };
     }
 
-    // 2) Find highest lesson the user has touched
+    // 2) find highest lesson they've touched
     const hlRes = await db.query(
-      `
-      SELECT MAX(f.lesson) AS highest_lesson
-      FROM UserFlashcards uf
-      JOIN Flashcards f ON uf.flashcard_id = f.flashcard_id
-      WHERE uf.user_id = $1
-    `,
+      `SELECT MAX(f.lesson) AS highest_lesson
+         FROM UserFlashcards uf
+         JOIN Flashcards f ON uf.flashcard_id = f.flashcard_id
+        WHERE uf.user_id = $1`,
       [user_id]
     );
+    const highest_lesson = hlRes.rows[0].highest_lesson || 1;
 
-    const highest_lesson = hlRes.rows[0].highest_lesson;
-    if (!highest_lesson) {
-      // fallback if something strange happened => nextLesson=1
-      return {
-        statusCode: 200,
-        body: JSON.stringify({
-          nextLesson: 1,
-          locked: false,
-        }),
-      };
-    }
-
-    // 3) Count how many flashcards exist in highest_lesson
-    const totalHLRes = await db.query(
-      `
-      SELECT COUNT(*) AS total
-      FROM Flashcards
-      WHERE lesson = $1
-    `,
+    // 3) grab the first 15 cards of that lesson
+    const first15 = await db.query(
+      `SELECT flashcard_id
+         FROM Flashcards
+        WHERE lesson = $1
+        ORDER BY sequence ASC
+        LIMIT 15`,
       [highest_lesson]
     );
-    const totalHL = parseInt(totalHLRes.rows[0].total, 10);
+    const ids = first15.rows.map(r => r.flashcard_id);
 
-    // 4) Count how many of that lesson's flashcards the user has in userflashcards
-    const learnedHLRes = await db.query(
-      `
-      SELECT COUNT(*) AS learned
-      FROM UserFlashcards uf
-      JOIN Flashcards f ON uf.flashcard_id = f.flashcard_id
-      WHERE uf.user_id = $1
-        AND f.lesson = $2
-    `,
-      [user_id, highest_lesson]
+    // if no cards at all, just move on
+    if (ids.length === 0) {
+      return {
+        statusCode: 200,
+        body: JSON.stringify({ nextLesson: highest_lesson + 1, locked: false }),
+      };
+    }
+
+    // 4) count how many of those 15 are mastered
+    const masteredRes = await db.query(
+      `SELECT COUNT(*) AS mastered
+         FROM UserFlashcards
+        WHERE user_id = $1
+          AND flashcard_id = ANY($2)
+          AND level >= 3`,
+      [user_id, ids]
     );
-    const learnedHL = parseInt(learnedHLRes.rows[0].learned, 10);
+    const masteredCount = parseInt(masteredRes.rows[0].mastered, 10);
+    const masteryPercent = masteredCount / ids.length;
+    const locked = masteryPercent < 0.9;
 
-    // 5) If learnedHL < totalHL => user hasn't learned all => nextLesson=highest_lesson => unlocked
-    if (learnedHL < totalHL) {
-      return {
-        statusCode: 200,
-        body: JSON.stringify({
-          nextLesson: highest_lesson,
-          locked: false, // can keep learning
-        }),
-      };
+    // 5) decide nextLesson
+    let nextLesson = highest_lesson;
+    if (!locked) {
+      const nextCheck = await db.query(
+        `SELECT 1 FROM Flashcards WHERE lesson = $1 LIMIT 1`,
+        [highest_lesson + 1]
+      );
+      nextLesson = nextCheck.rowCount > 0 ? highest_lesson + 1 : null;
     }
 
-    // 6) Otherwise, user has "learned" all flashcards in highest_lesson
-    const isMastered = await checkLessonMastery(user_id, highest_lesson);
-    if (!isMastered) {
-      // locked from going further
-      return {
-        statusCode: 200,
-        body: JSON.stringify({
-          nextLesson: highest_lesson,
-          locked: true,
-        }),
-      };
-    }
-
-    // 7) mastery>=90 => see if there's a next lesson
-    const nextL = highest_lesson + 1;
-    const nextCheck = await db.query(
-      `
-      SELECT 1 FROM Flashcards
-      WHERE lesson = $1
-      LIMIT 1
-    `,
-      [nextL]
-    );
-
-    if (nextCheck.rowCount === 0) {
-      // No more lessons
-      return {
-        statusCode: 200,
-        body: JSON.stringify({
-          nextLesson: null,
-          message: "All lessons mastered! Congratulations!",
-        }),
-      };
-    }
-
-    // 8) next lesson exists => unlocked
     return {
       statusCode: 200,
-      body: JSON.stringify({
-        nextLesson: nextL,
-        locked: false,
-      }),
+      body: JSON.stringify({ nextLesson, locked }),
     };
   } catch (error) {
     console.error("Error in fetchNextLesson:", error);
     return {
       statusCode: 500,
-      body: JSON.stringify({
-        error: "Internal server error",
-        details: error.message,
-      }),
+      body: JSON.stringify({ error: "Internal server error", details: error.message }),
     };
   }
 };
@@ -626,38 +570,38 @@ exports.fetchNextLesson = async (event) => {
 /**
  * Check if a user has >=90% mastery of the given lessonNumber
  */
-async function checkLessonMastery(user_id, lessonNumber) {
-  // 1) Count total cards in that lesson
-  const totalRes = await db.query(
-    `
-    SELECT COUNT(*) AS total
-    FROM Flashcards
-    WHERE lesson=$1
-  `,
-    [lessonNumber]
-  );
-  const total = parseInt(totalRes.rows[0].total, 10);
-  if (total === 0) {
-    return false;
-  }
+// async function checkLessonMastery(user_id, lessonNumber) {
+//   // 1) Count total cards in that lesson
+//   const totalRes = await db.query(
+//     `
+//     SELECT COUNT(*) AS total
+//     FROM Flashcards
+//     WHERE lesson=$1
+//   `,
+//     [lessonNumber]
+//   );
+//   const total = parseInt(totalRes.rows[0].total, 10);
+//   if (total === 0) {
+//     return false;
+//   }
 
-  // 2) Count how many are level>=3
-  const masteredRes = await db.query(
-    `
-    SELECT COUNT(*) AS mastered
-    FROM UserFlashcards uf
-    JOIN Flashcards f ON uf.flashcard_id = f.flashcard_id
-    WHERE f.lesson=$1
-      AND uf.user_id=$2
-      AND uf.level>=3
-  `,
-    [lessonNumber, user_id]
-  );
-  const masteredCount = parseInt(masteredRes.rows[0].mastered, 10);
+//   // 2) Count how many are level>=3
+//   const masteredRes = await db.query(
+//     `
+//     SELECT COUNT(*) AS mastered
+//     FROM UserFlashcards uf
+//     JOIN Flashcards f ON uf.flashcard_id = f.flashcard_id
+//     WHERE f.lesson=$1
+//       AND uf.user_id=$2
+//       AND uf.level>=3
+//   `,
+//     [lessonNumber, user_id]
+//   );
+//   const masteredCount = parseInt(masteredRes.rows[0].mastered, 10);
 
-  const masteryPercent = (masteredCount / total) * 100;
-  return masteryPercent >= 90;
-}
+//   const masteryPercent = (masteredCount / total) * 100;
+//   return masteryPercent >= 90;
+// }
 
 /**
  * ============================================
