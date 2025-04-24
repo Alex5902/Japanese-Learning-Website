@@ -1,61 +1,56 @@
-/* scripts/seedPractice.js  –  CommonJS */
+/* scripts/seedPractice.js  –  CommonJS-ish with ES module loader */
 import { fileURLToPath } from "url";
-import { dirname }       from "path";
+import { dirname, join } from "path";
 import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+const __dirname = dirname(fileURLToPath(import.meta.url));
 
-// ────────────────────────────────────────────────────────────────
-// re‑create CommonJS helpers
-// ────────────────────────────────────────────────────────────────
-const require   = createRequire(import.meta.url);
-const __filename = fileURLToPath(import.meta.url);
-const __dirname  = dirname(__filename);
-
-const fs  = require("fs");
-const path = require("path");
-const { parse } = require("csv-parse/sync");
+const fs         = require("fs");
+const { parse }  = require("csv-parse/sync");
 const { v4: uuidv4 } = require("uuid");
 const { Client } = require("pg");
 require("dotenv").config();
 
-/* 1) CSV location ------------------------------------------------------- */
-const csvPath = path.join(
-  __dirname, "..", "practice_preprocessing", "fill_gap_breakdown.csv"
-);
-if (!fs.existsSync(csvPath)) {
-  console.error(`❌  CSV not found at: ${csvPath}`);
-  process.exit(1);
-}
-
-/* 2) Parse CSV ---------------------------------------------------------- */
-const rows = parse(fs.readFileSync(csvPath, "utf8"), {
-  columns: true,
-  skip_empty_lines: true,
-});
-
-/* 3) Connect to Postgres ----------------------------------------------- */
-const client = new Client({ connectionString: process.env.DATABASE_URL });
-await client.connect().catch((err) => {
-  console.error("❌  DB connection failed:", err);
-  process.exit(1);
-});
-
-/* 4) Seed --------------------------------------------------------------- */
 (async () => {
-  try {
-    for (const r of rows) {
-      const practice_id = r.practice_id || uuidv4();
+  // 1) Load CSV
+  const csvPath = join(__dirname, "..", "practice_preprocessing", "fill_gap_breakdown.csv");
+  if (!fs.existsSync(csvPath)) {
+    console.error(`❌ CSV not found at ${csvPath}`);
+    process.exit(1);
+  }
+  const rows = parse(fs.readFileSync(csvPath, "utf8"), {
+    columns: true,
+    skip_empty_lines: true,
+  });
 
+  // 2) Connect
+  const client = new Client({ connectionString: process.env.DATABASE_URL });
+  await client.connect();
+
+  let count = 0;
+  for (const r of rows) {
+    const raw = (r.analysis_json || "").trim();
+    if (!raw) continue;              // nothing to seed
+    count++;
+
+    // 3a) Try updating an existing row
+    const upd = await client.query(
+      `UPDATE Practice
+         SET breakdown = $1
+       WHERE flashcard_id = $2
+         AND question     = $3
+         AND (breakdown IS NULL OR breakdown = '{}'::jsonb)
+      `,
+      [raw, r.flashcard_id, r.question]
+    );
+
+    if (upd.rowCount === 0) {
+      // 3b) No existing row updated → insert a fresh one
+      const practice_id = uuidv4();
       await client.query(
-        `INSERT INTO Practice (
-            practice_id, flashcard_id, type,
-            question, answer, english, breakdown
-         ) VALUES ($1,$2,$3,$4,$5,$6,$7)
-         ON CONFLICT (practice_id) DO UPDATE
-           SET flashcard_id  = EXCLUDED.flashcard_id,
-               question      = EXCLUDED.question,
-               answer        = EXCLUDED.answer,
-               english       = EXCLUDED.english,
-               breakdown = EXCLUDED.breakdown`,
+        `INSERT INTO Practice
+           (practice_id, flashcard_id, type, question, answer, english, breakdown)
+         VALUES ($1,$2,$3,$4,$5,$6,$7)`,
         [
           practice_id,
           r.flashcard_id,
@@ -63,15 +58,12 @@ await client.connect().catch((err) => {
           r.question,
           r.answer,
           r.english,
-          r.analysis_json || "{}",        // fallback if column empty
+          raw,
         ]
       );
     }
-
-    console.log(`✅  Processed ${rows.length} practice rows`);
-  } catch (err) {
-    console.error("❌  Seeding failed:", err);
-  } finally {
-    await client.end();
   }
+
+  console.log(`✅ Seeded ${count} breakdowns`);
+  await client.end();
 })();

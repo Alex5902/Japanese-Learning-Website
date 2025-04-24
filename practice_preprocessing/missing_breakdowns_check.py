@@ -11,9 +11,19 @@ def is_empty_breakdown(raw_json: str) -> bool:
     if not raw:
         return True
     try:
-        json.loads(raw)
+        data = json.loads(raw)
     except json.JSONDecodeError:
         return True
+        # also treat an empty object as “no breakdown”
+    if data == {}:
+        return True
+
+    # if you want to be extra sure, you could also require
+    # that at least one of the main keys is present:
+    required_keys = {"vocabulary", "grammar", "tips"}
+    if not required_keys & data.keys():
+        return True
+
     return False
 
 def main():
