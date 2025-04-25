@@ -1,10 +1,11 @@
-import { useState, useEffect, useRef, useCallback } from "react";
+import { useState, useEffect, useRef, useCallback, useMemo } from "react";
 import { useRouter } from "next/router";
 import Header from "../../components/Header";
 import Flashcard from "../../components/Flashcard";
 import { toHiragana } from "wanakana";
 import damerauLevenshtein from "damerau-levenshtein";
 import { getNextReviewDateAndLevel } from "../../../../backend/utils/srs";
+import ExampleBreakdown from "../../components/ExampleBreakdown";
 
 // Helper: choose color styles based on flashcard type
 function getTypeStyles(type) {
@@ -121,6 +122,9 @@ export default function ReviewPage() {
   const meaningInputRef = useRef(null);
   const readingInputRef = useRef(null);
 
+  // Breakdown toggle for full-width panel
+  const [showBreakdown, setShowBreakdown] = useState(false);
+
   // On mount: fetch userId
   useEffect(() => {
     const storedUserId = localStorage.getItem("user_id");
@@ -193,6 +197,17 @@ export default function ReviewPage() {
   }, [router.isReady, currentMode, userId, router]);
 
   const currentFlashcard = flashcards[currentIndex];
+
+  // parse breakdown JSON into a real object (or null)
+  const parsedBreakdown = useMemo(() => {
+    const bd = currentFlashcard?.content?.breakdown;
+    if (!bd) return null;
+    try {
+      return typeof bd === "string" ? JSON.parse(bd) : bd;
+    } catch {
+      return null;
+    }
+  }, [currentFlashcard]);
 
   // Input handlers
   const handleMeaningChange = (e) => setUserMeaning(e.target.value);
@@ -534,13 +549,32 @@ export default function ReviewPage() {
                     <Flashcard flashcard={currentFlashcard} hideActions={true}/>
                   </div>
                 )}
+                {/* Breakdown toggle */}
+                {showFullFlashcard && parsedBreakdown && (
+                  <div className="flex justify-center mt-4">
+                    <button
+                      onClick={() => setShowBreakdown(v => !v)}
+                      className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition"
+                    >
+                      {showBreakdown ? "Hide Breakdown" : "Show Breakdown"}
+                    </button>
+                  </div>
+                )}
+
+                {/* Full-width breakdown panel */}
+                {showFullFlashcard && showBreakdown && parsedBreakdown && (
+                <div className="w-screen relative left-1/2 -translate-x-1/2 max-w-6xl mx-auto
+                  px-4 md:px-8 lg:px-16 mt-4 mb-6">
+                    <ExampleBreakdown breakdown={parsedBreakdown} />
+                  </div>
+                )}
               </div>
-            )}
+              )}
           </div>
-        ) : (
-          <p className="text-center mt-6">No flashcard found.</p>
-        )}
-      </div>
+           ) : (
+            <p className="text-center mt-6">No flashcard found.</p>
+          )}  
+          </div> 
     </>
   );
 }

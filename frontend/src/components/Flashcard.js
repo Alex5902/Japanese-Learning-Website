@@ -1,7 +1,7 @@
 // File: /components/Flashcard.js
 
 import { useState, useEffect } from "react";
-import ExampleBreakdown from "./ExampleBreakdown";
+// import ExampleBreakdown from "./ExampleBreakdown";
 import OverlayHint from "./OverlayHint";
 
 // Helper function to check if a string contains Kanji
@@ -44,7 +44,7 @@ export default function Flashcard({
   onNeedToLearn,
   highlightDirection,
 }) {
-  const [showBreakdown, setShowBreakdown] = useState(false);
+  // const [showBreakdown, setShowBreakdown] = useState(false);
 
   // 1) Big overlay - only once per session
   const [showOverlayHint, setShowOverlayHint] = useState(false);
@@ -289,20 +289,24 @@ export default function Flashcard({
             </button>
           </div>
         )}
-
-        {/* Breakdown */}
-        {breakdown && (
-          <div className="w-full bg-gray-100 py-3 mt-4 flex justify-center">
-            <button
-              onClick={() => setShowBreakdown(!showBreakdown)}
-              className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition"
-            >
-              {showBreakdown ? "Hide Breakdown" : "Show Breakdown"}
-            </button>
-          </div>
-        )}
-        {showBreakdown && breakdown && <ExampleBreakdown breakdown={breakdown} />}
       </div>
+      {/* Breakdown */}
+      {/* {breakdown && (
+        <div className="w-full bg-gray-100 py-3 mt-4 flex justify-center">
+          <button
+            onClick={() => setShowBreakdown(!showBreakdown)}
+            className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition"
+          >
+            {showBreakdown ? "Hide Breakdown" : "Show Breakdown"}
+          </button>
+        </div>
+      )}
+      {showBreakdown && breakdown && (
+        <div className="w-full mx-auto px-4 md:px-8 lg:px-16 mt-6">
+          <ExampleBreakdown breakdown={breakdown} />
+        </div>
+      )} */}
+      {/* </div> */}
     </>
   );
 }
