@@ -1,4 +1,4 @@
-/* scripts/seedPractice.js  –  CommonJS-ish with ES module loader */
+/* scripts/seedPractice.js – fully reset & reseed `practice` table  */
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
 import { createRequire } from "module";
@@ -13,10 +13,13 @@ const { Client }   = require("pg");
 require("dotenv").config();
 
 /* ────────────────────────────────────────────────────────────── */
-/* 1) Load CSV                                                    */
+/* 1) Load CSV                                                   */
 /* ────────────────────────────────────────────────────────────── */
 const CSV_PATH = join(
-  __dirname, "..", "practice_preprocessing", "fill_gap_with_readings.csv"
+  __dirname,
+  "..",
+  "practice_preprocessing",
+  "fill_gap_with_readings.csv"
 );
 if (!fs.existsSync(CSV_PATH)) {
   console.error(`❌  CSV not found at ${CSV_PATH}`);
@@ -29,71 +32,65 @@ const rows = parse(fs.readFileSync(CSV_PATH, "utf8"), {
 });
 
 /* ────────────────────────────────────────────────────────────── */
-/* 2) Connect to Postgres                                         */
+/* 2) Connect to Postgres                                        */
 /* ────────────────────────────────────────────────────────────── */
 const client = new Client({ connectionString: process.env.DATABASE_URL });
 await client.connect();
 
 /* ────────────────────────────────────────────────────────────── */
-/* 3) Seed                                                        */
+/* 3) Nuke & reseed                                              */
 /* ────────────────────────────────────────────────────────────── */
-let processed = 0;
-
-for (const r of rows) {
-  // normalise JSON → '{}' when empty
-  const breakdown = r.analysis_json?.trim() || "{}";
-
-  /* ---------- try UPDATE first -------------------------------- */
-  const updateRes = await client.query(
-    `
-    UPDATE "practice"
-       SET breakdown        = CASE
-                                WHEN (breakdown IS NULL OR breakdown = '{}'::jsonb)
-                                  AND $1::jsonb <> '{}'::jsonb
-                                THEN $1::jsonb
-                                ELSE breakdown
-                              END,
-           question_reading = COALESCE(question_reading, $2),
-           answer_reading   = COALESCE(answer_reading  , $3)
-     WHERE flashcard_id = $4
-       AND question     = $5
-    `,
-    [
-      breakdown,              // $1
-      r.question_reading,     // $2
-      r.answer_reading,       // $3
-      r.flashcard_id,         // $4
-      r.question              // $5
-    ]
+try {
+  console.warn("⚠️  TRUNCATING userpractice & practice …");
+  await client.query("BEGIN");
+  await client.query(
+    `TRUNCATE TABLE userpractice, practice RESTART IDENTITY CASCADE;`
   );
 
-  /* ---------- if no row updated → INSERT ---------------------- */
-  if (updateRes.rowCount === 0) {
+  let inserted = 0;
+
+  for (const r of rows) {
     await client.query(
       `
-      INSERT INTO "practice"
-        (practice_id, flashcard_id, type,
-         question, answer, english,
-         question_reading, answer_reading, breakdown)
-      VALUES ($1,$2,'fill_gap',
-              $3,$4,$5,
-              $6,$7,$8::jsonb)
+      INSERT INTO practice (
+        practice_id,
+        flashcard_id,
+        type,
+        question,
+        answer,
+        english,
+        question_reading,
+        answer_reading,
+        breakdown
+      ) VALUES (
+        $1,                     -- practice_id
+        $2,                     -- flashcard_id
+        'fill_gap',             -- type
+        $3, $4, $5,             -- question / answer / english
+        $6, $7,                 -- question_reading / answer_reading
+        $8::jsonb               -- breakdown
+      );
       `,
       [
-        uuidv4(),               // $1
-        r.flashcard_id,         // $2
-        r.question,             // $3
-        r.answer,               // $4
-        r.english,              // $5
-        r.question_reading,     // $6
-        r.answer_reading,       // $7
-        breakdown               // $8
+        uuidv4(),                             // $1
+        r.flashcard_id.trim(),                // $2
+        r.question.trim(),                    // $3
+        r.answer.trim(),                      // $4
+        r.english.trim(),                     // $5
+        r.question_reading?.trim() || null,   // $6
+        r.answer_reading?.trim()   || null,   // $7
+        (r.analysis_json?.trim() || "{}"),    // $8
       ]
     );
+    inserted++;
   }
 
-  processed++;
+  await client.query("COMMIT");
+  console.log(`✅  Inserted ${inserted} practice rows`);
+} catch (err) {
+  console.error("❌  Seeding failed – rolled back.", err);
+  await client.query("ROLLBACK");
+  process.exit(1);
+} finally {
+  await client.end();
 }
-
-console.log(`✅  Seeded / updated ${processed} practice rows`);
-await client.end();

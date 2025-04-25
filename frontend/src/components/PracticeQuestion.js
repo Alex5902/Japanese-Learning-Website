@@ -133,11 +133,22 @@ export default function PracticeQuestion({ item, showFuri, onAnswer }) {
             </button>
           </div>
 
-          {showBreakdown && (
-            <div className="w-full px-4 md:px-8 lg:px-16">
-              <ExampleBreakdown breakdown={item.breakdown} />
-            </div>
-          )}
+          {showBreakdown && (() => {
+            try {
+                console.log("🔍 Breakdown:", JSON.stringify(item.breakdown, null, 2));
+                const parsed = typeof item.breakdown === "string"
+                ? JSON.parse(item.breakdown)
+                : item.breakdown;
+
+                return <div className="w-full px-4 md:px-8 lg:px-16">
+                <ExampleBreakdown breakdown={parsed} />
+                </div>;
+            } catch (e) {
+                console.error("❌ Breakdown parse error:", e, item.breakdown);
+                return <p className="text-center text-red-600 mt-4">Could not load breakdown 😢</p>;
+            }
+            })()}
+
           {showCard && (
             <div className="mt-4">
               <Flashcard
