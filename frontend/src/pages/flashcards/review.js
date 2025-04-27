@@ -116,7 +116,13 @@ export default function ReviewPage() {
 
   // Full flashcard toggle
   const [showFullFlashcard, setShowFullFlashcard] = useState(false);
-  const toggleFullFlashcard = () => setShowFullFlashcard((prev) => !prev);
+  const toggleFullFlashcard = () => {
+    // always close the breakdown panel when hiding the card
+    if (showFullFlashcard) {
+      setShowBreakdown(false)
+    }
+    setShowFullFlashcard(prev => !prev)
+  }
 
   // Refs for auto-focus
   const meaningInputRef = useRef(null);
@@ -422,7 +428,7 @@ export default function ReviewPage() {
   }
 
   return (
-    <>
+    <div className="bg-gray-100">
       <Header />
       <div className="w-full min-h-screen bg-gray-100 text-gray-900" tabIndex={0}>
         <div className="flex flex-col items-center pt-4">
@@ -564,21 +570,29 @@ export default function ReviewPage() {
                   </div>
                 )}
 
-                {/* Full-width breakdown panel */}
-                {showFullFlashcard && showBreakdown && parsedBreakdown && (
-                <div className="w-screen relative left-1/2 -translate-x-1/2 max-w-6xl mx-auto
-                  px-4 md:px-8 lg:px-16 mt-4 mb-6">
-                    <ExampleBreakdown breakdown={parsedBreakdown} />
-                  </div>
-                )}
-              </div>
+            </div>
               )}
           </div>
            ) : (
             <p className="text-center mt-6">No flashcard found.</p>
           )}  
           </div> 
-    </>
+
+                {/* Full-width breakdown panel */}
+                {showFullFlashcard && showBreakdown && parsedBreakdown && (
+                <div className="w-screen max-w-6xl mx-auto
+                  px-4 md:px-8 lg:px-16 mt-4 mb-6">
+                    <ExampleBreakdown breakdown={parsedBreakdown} />
+                  </div>
+                )}
+              {/* </div>
+              )}
+          </div>
+           ) : (
+            <p className="text-center mt-6">No flashcard found.</p>
+          )}  
+          </div>  */}
+    </div>
   );
 }
 
