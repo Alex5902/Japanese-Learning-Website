@@ -11,7 +11,8 @@ export default function PracticeQuestion({ item, showFuri, onAnswer }) {
 
   /* extra toggles */
   const [showBreakdown, setShowBreakdown] = useState(false);
-  const [showCard, setShowCard]           = useState(false);
+  const [showCardBreakdown, setShowCardBreakdown] = useState(false);
+  const [showCard, setShowCard] = useState(false);
 
   const fillBlank = (sentence, html) =>
     sentence.replace("____", html);
@@ -126,6 +127,7 @@ export default function PracticeQuestion({ item, showFuri, onAnswer }) {
               onClick={() => {
                 setShowCard(v => !v);
                 if (!showCard) setShowBreakdown(false);
+                if (!showCard) setShowCardBreakdown(false);
               }}
               className="px-4 py-2 bg-indigo-500 text-white rounded-lg shadow hover:bg-indigo-600 transition"
             >
@@ -150,7 +152,7 @@ export default function PracticeQuestion({ item, showFuri, onAnswer }) {
             })()}
 
           {showCard && (
-            <div className="mt-4">
+            <div className="mt-4 w-full max-w-xl mx-auto">
               <Flashcard
                 flashcard={{
                   flashcard_id: item.flashcard_id,
@@ -158,9 +160,34 @@ export default function PracticeQuestion({ item, showFuri, onAnswer }) {
                   content: item.content,
                 }}
                 hideActions
+                enableInternalBreakdown={false}
               />
             </div>
           )}
+          
+          {showCard && item.content?.breakdown && (
+            <div className="w-full bg-gray-100 py-3 mt-4 flex justify-center">
+            <button
+                onClick={() => setShowCardBreakdown(b => !b)}
+                className="px-4 py-2 bg-blue-500 text-white rounded-lg shadow hover:bg-blue-600 transition"
+            >
+                {showCardBreakdown ? "Hide Breakdown" : "Show Breakdown"}
+            </button>
+            </div>
+          )}
+          {showCard && showCardBreakdown && item.content?.breakdown && (
+            <div className="w-screen relative left-1/2 -translate-x-1/2 bg-gray-100 py-6">
+                <div className="mx-auto max-w-6xl px-4 md:px-8 lg:px-16">
+                <ExampleBreakdown
+                    breakdown={
+                    typeof item.content?.breakdown === "string"
+                        ? JSON.parse(item.content?.breakdown)
+                        : item.content.breakdown
+                    }
+                />
+                </div>
+            </div>
+            )}
         </>
       )}
 

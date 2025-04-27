@@ -544,6 +544,9 @@ export default function ReviewPage() {
                     : "Next Card"}
                 </button>
 
+
+                
+
                 {showFullFlashcard && (
                   <div className="mt-4">
                     <Flashcard flashcard={currentFlashcard} hideActions={true}/>

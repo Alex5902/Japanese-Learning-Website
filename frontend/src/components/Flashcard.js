@@ -1,7 +1,7 @@
 // File: /components/Flashcard.js
 
 import { useState, useEffect } from "react";
-// import ExampleBreakdown from "./ExampleBreakdown";
+import ExampleBreakdown from "./ExampleBreakdown";
 import OverlayHint from "./OverlayHint";
 
 // Helper function to check if a string contains Kanji
@@ -40,11 +40,12 @@ async function getAudioUrl(cardType, fileName, gender, audioType) {
 export default function Flashcard({
   flashcard,
   hideActions = false,
+  enableInternalBreakdown = false,
   onNextFlashcard,
   onNeedToLearn,
   highlightDirection,
 }) {
-  // const [showBreakdown, setShowBreakdown] = useState(false);
+  const [showBreakdown, setShowBreakdown] = useState(false);
 
   // 1) Big overlay - only once per session
   const [showOverlayHint, setShowOverlayHint] = useState(false);
@@ -290,8 +291,9 @@ export default function Flashcard({
           </div>
         )}
       </div>
+      <div>
       {/* Breakdown */}
-      {/* {breakdown && (
+      {enableInternalBreakdown && breakdown && (
         <div className="w-full bg-gray-100 py-3 mt-4 flex justify-center">
           <button
             onClick={() => setShowBreakdown(!showBreakdown)}
@@ -301,12 +303,12 @@ export default function Flashcard({
           </button>
         </div>
       )}
-      {showBreakdown && breakdown && (
+      {enableInternalBreakdown && showBreakdown && breakdown && (
         <div className="w-full mx-auto px-4 md:px-8 lg:px-16 mt-6">
           <ExampleBreakdown breakdown={breakdown} />
         </div>
-      )} */}
-      {/* </div> */}
+      )}
+      </div>
     </>
   );
-}
+}   
