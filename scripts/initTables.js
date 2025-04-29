@@ -65,7 +65,10 @@ async function createTables() {
                 type VARCHAR(50) NOT NULL,
                 question VARCHAR(255) NOT NULL,
                 answer VARCHAR(255) NOT NULL,
-                english Vs VARCHAR(255) NOT NULL
+                english VARCHAR(255) NOT NULL,
+                breakdown JSONB,
+                question_reading VARCHAR(255),
+                answer_reading VARCHAR(255),
             );
         `);
 

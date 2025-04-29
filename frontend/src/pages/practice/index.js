@@ -40,7 +40,7 @@ export default function PracticePage() {
         const onePerFlashcard = Array.from(byFlashcard.values()).map(
           qs => qs[Math.floor(Math.random() * qs.length)]
         );
-
+        console.log("Fetched Practice Items:", onePerFlashcard);
         sessionStorage.setItem(STORAGE_KEY, JSON.stringify(onePerFlashcard));
         setItems(onePerFlashcard);
       } catch (err) {

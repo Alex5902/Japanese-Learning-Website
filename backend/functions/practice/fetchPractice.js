@@ -1,102 +1,177 @@
 // backend/functions/practice/fetchPractice.js
 const { Client } = require("pg");
+const kuromoji = require("kuromoji");
+const wanakana = require("wanakana"); // To convert Katakana readings to Hiragana
 require("dotenv").config();
 
+// --- Kuromoji Builder ---
+// Initialize the builder once - builds the dictionary.
+// This might take a few seconds the first time a Lambda instance starts.
+let tokenizer = null;
+const kuromojiBuilder = kuromoji.builder({
+    // Adjust path based on where node_modules/kuromoji/dict is relative to this file
+    // This path might need tweaking depending on your deployment structure.
+    dicPath: "node_modules/kuromoji/dict"
+});
+
+// Function to ensure tokenizer is ready
+function getTokenizer() {
+    return new Promise((resolve, reject) => {
+        if (tokenizer) {
+            return resolve(tokenizer);
+        }
+        kuromojiBuilder.build((err, builtTokenizer) => {
+            if (err) {
+                console.error("Kuromoji Build Error:", err);
+                return reject(err);
+            }
+            tokenizer = builtTokenizer;
+            console.log("Kuromoji tokenizer built successfully.");
+            resolve(tokenizer);
+        });
+    });
+}
+
+// --- Helper to generate structured reading ---
+async function generateStructuredReading(questionText) {
+    if (!questionText) return "";
+    try {
+        const tokenizerInstance = await getTokenizer();
+        const tokens = tokenizerInstance.tokenize(questionText);
+        let structuredReading = "";
+
+        for (const token of tokens) {
+            // Check if the token is Kanji and has a reading
+            const isKanji = /[\u4E00-\u9FFF々]/.test(token.surface_form);
+            const hasReading = token.reading && token.reading !== '*'; // Kuromoji uses '*' for unknown readings
+
+            if (isKanji && hasReading) {
+                // Convert Katakana reading to Hiragana
+                const hiraganaReading = wanakana.toHiragana(token.reading);
+                // Append in Base[Reading] format only if reading differs from surface form
+                if (token.surface_form !== hiraganaReading) {
+                    structuredReading += `${token.surface_form}[${hiraganaReading}]`;
+                } else {
+                     structuredReading += token.surface_form; // Append Kanji if reading is the same (rare)
+                }
+            } else {
+                // Append non-Kanji tokens directly
+                structuredReading += token.surface_form;
+            }
+        }
+        return structuredReading;
+    } catch (error) {
+        console.error("Error generating structured reading:", error);
+        return questionText; // Fallback to original text on error
+    }
+}
+
+
+// --- Lambda Handler ---
 exports.handler = async (event) => {
-  if (event.httpMethod !== "POST") {
-    return { statusCode: 405, body: JSON.stringify({ error: "Method not allowed" }) };
-  }
+    if (event.httpMethod !== "POST") {
+        return { statusCode: 405, body: JSON.stringify({ error: "Method not allowed" }) };
+    }
 
-  let body;
-  try {
-    body = JSON.parse(event.body || "{}");
-  } catch {
-    return { statusCode: 400, body: JSON.stringify({ error: "Bad JSON" }) };
-  }
+    let body;
+    try {
+        body = JSON.parse(event.body || "{}");
+    } catch {
+        return { statusCode: 400, body: JSON.stringify({ error: "Bad JSON" }) };
+    }
 
-  const { user_id = null } = body;
-  const client = new Client({ connectionString: process.env.DATABASE_URL });
-  await client.connect();
+    const { user_id = null } = body;
+    const client = new Client({
+        connectionString: process.env.DATABASE_URL,
+        // ssl: { rejectUnauthorized: false } // Uncomment if needed for Render/etc.
+    });
 
-  try {
-    const { rows } = await client.query(
-      `
-      WITH due AS (
-        SELECT f.flashcard_id
-        FROM UserFlashcards f
-        WHERE f.user_id = $1
-          AND f.next_review <= NOW()
-      ),
-      unanswered AS (
-        SELECT DISTINCT p.flashcard_id
-        FROM Practice p
-        WHERE NOT EXISTS (
-          SELECT 1
-          FROM UserPractice up
-          WHERE up.user_id = $1
-            AND up.practice_id = p.practice_id
-        )
-      ),
-      todo AS (
-        SELECT flashcard_id
-        FROM due
-        INTERSECT
-        SELECT flashcard_id
-        FROM unanswered
-      )
-      SELECT
-        P.practice_id,
-        P.flashcard_id,
-        F.type,
-        F.content,
-        P.question,
-        P.answer,
-        P.english,
-        P.breakdown
-      FROM todo t
-      CROSS JOIN LATERAL (
-        SELECT *
-        FROM Practice
-        WHERE flashcard_id = t.flashcard_id
-          AND NOT EXISTS (
-            SELECT 1
-            FROM UserPractice up
-            WHERE up.user_id     = $1
-              AND up.practice_id = Practice.practice_id
+    try {
+        await client.connect();
+
+        // --- DB Query (Keep your existing query) ---
+        const query = `
+          WITH due_flashcards AS (
+            SELECT uf.flashcard_id
+            FROM UserFlashcards uf
+            WHERE uf.user_id = $1 AND uf.next_review <= NOW()
+          ),
+          unanswered_practice_flashcards AS (
+            SELECT DISTINCT p.flashcard_id
+            FROM Practice p
+            WHERE NOT EXISTS (
+              SELECT 1 FROM UserPractice up
+              WHERE up.user_id = $1 AND up.practice_id = p.practice_id
+            )
+          ),
+          flashcards_to_practice AS (
+            SELECT flashcard_id FROM due_flashcards
+            INTERSECT
+            SELECT flashcard_id FROM unanswered_practice_flashcards
           )
-        ORDER BY RANDOM()
-        LIMIT 1
-      ) AS P
-      JOIN Flashcards F ON F.flashcard_id = P.flashcard_id
-      `,
-      [user_id]
-    );
+          SELECT
+            P.practice_id, P.flashcard_id, F.type AS flashcard_type,
+            F.content AS flashcard_content, P.question, P.answer,
+            P.english, P.breakdown,
+            P.question_reading, P.answer_reading -- Keep original readings if needed elsewhere
+          FROM flashcards_to_practice ftp
+          CROSS JOIN LATERAL (
+            SELECT * FROM Practice pr
+            WHERE pr.flashcard_id = ftp.flashcard_id AND NOT EXISTS (
+              SELECT 1 FROM UserPractice up_check
+              WHERE up_check.user_id = $1 AND up_check.practice_id = pr.practice_id
+            )
+            ORDER BY RANDOM() LIMIT 1
+          ) AS P
+          JOIN Flashcards F ON F.flashcard_id = P.flashcard_id
+        `; // Removed LIMIT 10 for testing, add back if needed
 
-    // parse JSON columns and return
-    const practice = rows.map(r => ({
-      practice_id:  r.practice_id,
-      flashcard_id: r.flashcard_id,
-      question:     r.question,
-      answer:       r.answer,
-      english:      r.english,
-      type:         r.type,
-      content:      typeof r.content === 'string' ? JSON.parse(r.content) : r.content,
-      breakdown:    r.breakdown
-        ? (typeof r.breakdown === 'string'
-             ? JSON.parse(r.breakdown)
-             : r.breakdown)
-        : undefined
-    }));
+        const { rows } = await client.query(query, [user_id]);
 
-    return {
-      statusCode: 200,
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ practice }),
-    };
-  } catch (err) {
-    console.error("[practice/get]", err);
-    return { statusCode: 500, body: JSON.stringify({ error: "Internal server error" }) };
-  } finally {
-    await client.end();
-  }
+        // --- Response Mapping with Structured Reading ---
+        const practicePromises = rows.map(async (r) => { // Make map async
+            const safeParseJson = (jsonStringOrObject) => { /* ... same as before ... */
+                if (!jsonStringOrObject) return null;
+                if (typeof jsonStringOrObject === 'object') return jsonStringOrObject;
+                try { return JSON.parse(jsonStringOrObject); }
+                catch (e) { console.error("Backend JSON Parse Error:", e); return null; }
+            };
+
+            // Generate the structured reading string using Kuromoji
+            const structuredReading = await generateStructuredReading(r.question); // Await the helper
+
+            return {
+                practice_id: r.practice_id,
+                flashcard_id: r.flashcard_id,
+                question: r.question,
+                answer: r.answer,
+                english: r.english,
+                // Send the NEW structured reading for furigana rendering
+                question_reading_structured: structuredReading,
+                // Keep original flat reading if needed for other purposes (optional)
+                // question_reading_flat: r.question_reading,
+                answer_reading: r.answer_reading, // Keep this as is for now
+                type: r.flashcard_type,
+                content: safeParseJson(r.flashcard_content),
+                breakdown: safeParseJson(r.breakdown)
+            };
+        });
+
+        // Wait for all structured readings to be generated
+        const practice = await Promise.all(practicePromises);
+
+        return {
+            statusCode: 200,
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ practice }),
+        };
+    } catch (err) {
+        console.error("[practice/get] Error:", err);
+        return {
+            statusCode: 500,
+            body: JSON.stringify({ error: "Internal server error", details: err.message }),
+        };
+    } finally {
+        await client.end();
+    }
 };

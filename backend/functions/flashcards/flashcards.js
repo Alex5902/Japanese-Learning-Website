@@ -567,67 +567,6 @@ exports.fetchNextLesson = async (event) => {
   }
 };
 
-/**
- * Check if a user has >=90% mastery of the given lessonNumber
- */
-// async function checkLessonMastery(user_id, lessonNumber) {
-//   // 1) Count total cards in that lesson
-//   const totalRes = await db.query(
-//     `
-//     SELECT COUNT(*) AS total
-//     FROM Flashcards
-//     WHERE lesson=$1
-//   `,
-//     [lessonNumber]
-//   );
-//   const total = parseInt(totalRes.rows[0].total, 10);
-//   if (total === 0) {
-//     return false;
-//   }
-
-//   // 2) Count how many are level>=3
-//   const masteredRes = await db.query(
-//     `
-//     SELECT COUNT(*) AS mastered
-//     FROM UserFlashcards uf
-//     JOIN Flashcards f ON uf.flashcard_id = f.flashcard_id
-//     WHERE f.lesson=$1
-//       AND uf.user_id=$2
-//       AND uf.level>=3
-//   `,
-//     [lessonNumber, user_id]
-//   );
-//   const masteredCount = parseInt(masteredRes.rows[0].mastered, 10);
-
-//   const masteryPercent = (masteredCount / total) * 100;
-//   return masteryPercent >= 90;
-// }
-
-/**
- * ============================================
- *       New: bulkSyncGuestProgress
- * ============================================
- *
- * Accepts an array of flashcard objects with full SRS data
- * (level, correct_count, incorrect_count, next_review, reached_level_3, etc.)
- * and does an UPSERT for each record under the user's ID.
- *
- * Example incoming payload:
- * {
- *   "user_id": 123,
- *   "progress": [
- *     {
- *       "flashcard_id": 1001,
- *       "level": 3,
- *       "correct_count": 2,
- *       "incorrect_count": 1,
- *       "next_review": "2025-03-12T10:00:00Z",
- *       "reached_level_3": "2025-03-10T09:30:00Z"
- *     },
- *     ...
- *   ]
- * }
- */
 exports.bulkSyncGuestProgress = async (event) => {
   try {
     const { user_id, progress } = JSON.parse(event.body) || {};
