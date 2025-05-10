@@ -6,51 +6,70 @@ import ExampleBreakdown from "./ExampleBreakdown"; // Assuming path is correct
 // --- Furigana Parser for Base[Reading] format ---
 // Parses strings like "漢字[かんじ] or 学校[がっこう]" into React elements
 function renderFuriganaStructured(textWithReadings) {
-    // Return early if input is empty or not a string
     if (!textWithReadings || typeof textWithReadings !== 'string') {
-        return <>{textWithReadings || ''}</>; // Return empty fragment or original if not string
+        return <>{textWithReadings || ''}</>;
     }
 
     const elements = [];
-    // Regex: Matches Kanji[Reading], Kana, lone Kanji, or other characters
-    const regex = /([\u4E00-\u9FFF々]+)\[(.+?)\]|([\u3040-\u309F\u30A0-\u30FF]+)|([\u4E00-\u9FFF々]+)|([^\[\]\u4E00-\u9FFF々\u3040-\u309F\u30A0-\u30FF]+)/g;
+    // PRIORITIZE FULL Base[Reading] match FIRST
+    // Group 1: Base (one or more chars, not '[' or ']')
+    // Group 2: Reading (one or more chars, non-greedy)
+    const regex = /([^\[\]]+)\[(.+?)\]|([\u3040-\u309F\u30A0-\u30FFぁ-んァ-ヶｦ-ﾟー]+)|([\u4E00-\u9FFF々]+)|([^\[\]\u4E00-\u9FFF々\u3040-\u309F\u30A0-\u30FFぁ-んァ-ヶｦ-ﾟー]+)/g;
+    // Added common full-width kana characters to kana and otherChars groups for completeness.
+
     let match;
     let lastIndex = 0;
 
     while ((match = regex.exec(textWithReadings)) !== null) {
-        // Capture any plain text between matches (should be rare with this regex)
+        console.log("Furigana Parser Match:", {
+            full: match[0],
+            base: match[1],
+            reading: match[2],
+            kana: match[3],
+            loneKanji: match[4],
+            other: match[5]
+        });
         if (match.index > lastIndex) {
             elements.push(<span key={`pre-${lastIndex}`}>{textWithReadings.substring(lastIndex, match.index)}</span>);
         }
 
-        const [fullMatch, kanjiGroup, reading, kanaGroup, loneKanjiGroup, otherChars] = match;
+        // Regex groups:
+        // match[1]: baseFromKanjiReading (e.g., "優しい" from "優しい[やさしい]")
+        // match[2]: readingFromKanjiReading (e.g., "やさしい" from "優しい[やさしい]")
+        // match[3]: kanaGroup
+        // match[4]: loneKanjiGroup
+        // match[5]: otherChars
+        const base = match[1];
+        const reading = match[2];
+        const kana = match[3];
+        const loneKanji = match[4];
+        const other = match[5];
 
-        if (kanjiGroup && reading) {
-            // Case 1: Kanji with reading (e.g., 学校[がっこう])
-            elements.push(
-                <ruby key={`ruby-${match.index}`} className="inline-block leading-relaxed"> {/* Style for layout */}
-                    <rb>{kanjiGroup}</rb>
-                    {/* Style for smaller furigana text */}
-                    <rt style={{ fontSize: '0.6em', fontSmooth: 'auto', WebkitFontSmoothing: 'auto', MozOsxFontSmoothing: 'auto', userSelect: 'none', MozUserSelect: 'none', WebkitUserSelect: 'none' }}>{reading}</rt>
-                </ruby>
-            );
-        } else if (kanaGroup) {
-            // Case 2: Hiragana/Katakana group
-            elements.push(<span key={`kana-${match.index}`}>{kanaGroup}</span>);
-        } else if (loneKanjiGroup) {
-            // Case 3: Kanji without explicit reading (e.g., if backend missed it)
-            elements.push(<span key={`lonekanji-${match.index}`}>{loneKanjiGroup}</span>);
-        } else if (otherChars) {
-            // Case 4: Punctuation, spaces, etc.
-            elements.push(<span key={`other-${match.index}`}>{otherChars}</span>);
+        if (base && reading) {
+            // Check if base actually contains Kanji to avoid misinterpreting something like "abc[def]" as furigana
+            if (/[\u4E00-\u9FFF々]/.test(base)) {
+                 elements.push(
+                    <ruby key={`ruby-${match.index}`} className="inline-block leading-relaxed">
+                        <rb>{base}</rb>
+                        <rt style={{ fontSize: '0.6em', fontSmooth: 'auto', WebkitFontSmoothing: 'auto', MozOsxFontSmoothing: 'auto', userSelect: 'none', MozUserSelect: 'none', WebkitUserSelect: 'none' }}>{reading}</rt>
+                    </ruby>
+                );
+            } else {
+                // It matched Base[Reading] but Base had no Kanji. Treat as literal.
+                elements.push(<span key={`literal-${match.index}`}>{match[0]}</span>);
+            }
+        } else if (kana) {
+            elements.push(<span key={`kana-${match.index}`}>{kana}</span>);
+        } else if (loneKanji) {
+            elements.push(<span key={`lonekanji-${match.index}`}>{loneKanji}</span>);
+        } else if (other) {
+            elements.push(<span key={`other-${match.index}`}>{other}</span>);
         }
         lastIndex = regex.lastIndex;
     }
-    // Capture any remaining text after the last match
     if (lastIndex < textWithReadings.length) {
         elements.push(<span key={`post-${lastIndex}`}>{textWithReadings.substring(lastIndex)}</span>);
     }
-    // Wrap in a span that allows normal whitespace handling
     return <span className="whitespace-pre-wrap">{elements}</span>;
 }
 
@@ -104,11 +123,11 @@ export default function PracticeQuestion({ item, showFuri, onAnswer }) {
     /* ------------------------------------------------------------------ */
     const sentenceDisplay = useMemo(() => {
         const questionText = item.question || "";
-        // *** Use the NEW structured reading prop from the backend ***
         const structuredReadingText = item.question_reading_structured || "";
-        // console.log("useMemo Check - showFuri:", showFuri, "Has structuredReading:", !!structuredReadingText); // Debug log
+        console.log("DEBUG: item.question:", questionText);
+        console.log("DEBUG: item.question_reading_structured:", structuredReadingText);
+        console.log("DEBUG: showFuri:", showFuri);
 
-        // Determine the HTML content for the blank based on state
         let blankContentHtml;
         if (!checked) {
             blankContentHtml = input.trim()
@@ -118,28 +137,41 @@ export default function PracticeQuestion({ item, showFuri, onAnswer }) {
             blankContentHtml = `<span class="text-green-600 font-semibold bg-green-50 px-1 rounded-sm">${item.answer}</span>`;
         }
 
-        // Find where the blank placeholder is in the original question
-        const blankIndex = questionText.indexOf("____");
-
-        // Decide whether to render with furigana based on toggle and data availability
         const renderWithFuri = showFuri && structuredReadingText;
+        console.log("DEBUG: renderWithFuri:", renderWithFuri);
+
+        // Determine the source string for finding the blank and for splitting parts
+        const sourceTextForSplitting = renderWithFuri ? structuredReadingText : questionText;
+        const blankIndex = sourceTextForSplitting.indexOf("____");
+        console.log("DEBUG: sourceTextForSplitting:", sourceTextForSplitting);
+        console.log("DEBUG: blankIndex:", blankIndex);
 
         if (blankIndex === -1) {
-            // No blank found in the question
+            // No blank found in the relevant source text.
+            // Render the appropriate full text.
             return renderWithFuri
-                ? renderFuriganaStructured(structuredReadingText) // Render structured reading directly
-                : <>{questionText}</>; // Render plain question text
+                ? renderFuriganaStructured(structuredReadingText)
+                : <>{questionText}</>;
         }
 
-        // Question has a blank, split the original question text
-        const part1 = questionText.substring(0, blankIndex);
-        const part2 = questionText.substring(blankIndex + 4); // Length of "____"
+        let part1Rendered, part2Rendered;
 
-        // Render the parts: apply furigana parser if toggled, otherwise use plain text
-        const part1Rendered = renderWithFuri ? renderFuriganaStructured(part1) : part1;
-        const part2Rendered = renderWithFuri ? renderFuriganaStructured(part2) : part2;
+        if (renderWithFuri) {
+            // blankIndex is now correctly relative to structuredReadingText
+            const part1Str = structuredReadingText.substring(0, blankIndex);
+            const part2Str = structuredReadingText.substring(blankIndex + 4); // +4 for "____"
+            console.log("DEBUG: structuredPart1:", part1Str);
+            console.log("DEBUG: structuredPart2:", part2Str);
+            part1Rendered = renderFuriganaStructured(part1Str);
+            part2Rendered = renderFuriganaStructured(part2Str);
+        } else {
+            // blankIndex is correctly relative to questionText
+            const part1Str = questionText.substring(0, blankIndex);
+            const part2Str = questionText.substring(blankIndex + 4);
+            part1Rendered = <>{part1Str}</>;
+            part2Rendered = <>{part2Str}</>;
+        }
 
-        // Combine the rendered parts with the interactive blank
         return (
             <>
                 {part1Rendered}
@@ -148,7 +180,7 @@ export default function PracticeQuestion({ item, showFuri, onAnswer }) {
             </>
         );
 
-    }, [item.question, item.question_reading_structured, item.answer, checked, input, showFuri]); // Depend on the new structured prop
+    }, [item.question, item.question_reading_structured, item.answer, checked, input, showFuri]);
 
 
     /* ------------------------------------------------------------------ */

@@ -3,6 +3,7 @@ const { Client } = require("pg");
 const kuromoji = require("kuromoji");
 const wanakana = require("wanakana"); // To convert Katakana readings to Hiragana
 require("dotenv").config();
+const path = require("path");
 
 // --- Kuromoji Builder ---
 // Initialize the builder once - builds the dictionary.
@@ -11,19 +12,21 @@ let tokenizer = null;
 const kuromojiBuilder = kuromoji.builder({
     // Adjust path based on where node_modules/kuromoji/dict is relative to this file
     // This path might need tweaking depending on your deployment structure.
-    dicPath: "node_modules/kuromoji/dict"
+    dicPath: path.join(__dirname, "..", "..", "..", "node_modules", "kuromoji", "dict")
 });
 
 // Function to ensure tokenizer is ready
 function getTokenizer() {
     return new Promise((resolve, reject) => {
         if (tokenizer) {
+            console.log("Kuromoji: Using existing tokenizer."); // Add log
             return resolve(tokenizer);
         }
+        console.log("Kuromoji: Building tokenizer..."); // Add log
         kuromojiBuilder.build((err, builtTokenizer) => {
             if (err) {
-                console.error("Kuromoji Build Error:", err);
-                return reject(err);
+                console.error("Kuromoji Build Error:", err); // Critical log
+                return reject(err); // This reject is important
             }
             tokenizer = builtTokenizer;
             console.log("Kuromoji tokenizer built successfully.");
@@ -34,10 +37,16 @@ function getTokenizer() {
 
 // --- Helper to generate structured reading ---
 async function generateStructuredReading(questionText) {
+    console.log("generateStructuredReading called for:", questionText);
     if (!questionText) return "";
     try {
         const tokenizerInstance = await getTokenizer();
+        if (!tokenizerInstance) { // Add this check
+            console.error("generateStructuredReading: Tokenizer instance is null/undefined. Falling back.");
+            return questionText;
+        }
         const tokens = tokenizerInstance.tokenize(questionText);
+        console.log(`Tokens for "${questionText}":`, JSON.stringify(tokens, null, 2));
         let structuredReading = "";
 
         for (const token of tokens) {
@@ -61,7 +70,7 @@ async function generateStructuredReading(questionText) {
         }
         return structuredReading;
     } catch (error) {
-        console.error("Error generating structured reading:", error);
+        console.error(`Error generating structured reading for "${questionText}":`, error);
         return questionText; // Fallback to original text on error
     }
 }
