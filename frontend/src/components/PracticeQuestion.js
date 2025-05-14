@@ -14,7 +14,7 @@ function renderFuriganaStructured(textWithReadings) {
     // PRIORITIZE FULL Base[Reading] match FIRST
     // Group 1: Base (one or more chars, not '[' or ']')
     // Group 2: Reading (one or more chars, non-greedy)
-    const regex = /([^\[\]]+)\[(.+?)\]|([\u3040-\u309F\u30A0-\u30FFぁ-んァ-ヶｦ-ﾟー]+)|([\u4E00-\u9FFF々]+)|([^\[\]\u4E00-\u9FFF々\u3040-\u309F\u30A0-\u30FFぁ-んァ-ヶｦ-ﾟー]+)/g;
+    const regex = /([^\[\]]+?)\[(.+?)\]|([\u3040-\u309F\u30A0-\u30FFぁ-んァ-ヶｦ-ﾟー]+)|([\u4E00-\u9FFF々]+)|([^\[\]\u4E00-\u9FFF々\u3040-\u309F\u30A0-\u30FFぁ-んァ-ヶｦ-ﾟー]+)/g;
     // Added common full-width kana characters to kana and otherChars groups for completeness.
 
     let match;
@@ -48,10 +48,32 @@ function renderFuriganaStructured(textWithReadings) {
         if (base && reading) {
             // Check if base actually contains Kanji to avoid misinterpreting something like "abc[def]" as furigana
             if (/[\u4E00-\u9FFF々]/.test(base)) {
-                 elements.push(
-                    <ruby key={`ruby-${match.index}`} className="inline-block leading-relaxed">
+                elements.push(
+                    <ruby 
+                        key={`ruby-${match.index}`} 
+                        style={{ display: 'inline-ruby',  position: 'relative' }} // Use inline-ruby for more natural flow
+                    >
                         <rb>{base}</rb>
-                        <rt style={{ fontSize: '0.6em', fontSmooth: 'auto', WebkitFontSmoothing: 'auto', MozOsxFontSmoothing: 'auto', userSelect: 'none', MozUserSelect: 'none', WebkitUserSelect: 'none' }}>{reading}</rt>
+                        <rt style={{ 
+                            fontSize: '0.5em', 
+                            fontSmooth: 'auto', 
+                            WebkitFontSmoothing: 'auto', 
+                            MozOsxFontSmoothing: 'auto', 
+                            userSelect: 'none', 
+                            MozUserSelect: 'none', 
+                            WebkitUserSelect: 'none',
+                            letterSpacing: '-0.1em',
+                            // No specific line-height needed here generally, browser default is fine
+                            textAlign: 'center',        // Try centering the ruby text over the base
+                            display: 'block',           // Make rt a block to control its alignment better
+                            position: 'absolute',       // Take it out of normal flow to position it precisely
+                            left: '50%',                // Center horizontally
+                            transform: 'translateX(-50%)', // Fine-tune horizontal centering
+                            width: '100%',
+                            top: '-1.2em' 
+                        }}>
+                            {reading}
+                        </rt>
                     </ruby>
                 );
             } else {
